@@ -1,0 +1,149 @@
+
+##### xFFF00 #####
+C095B7
+C0AC60
+CA0000
+CA0018
+CA0308
+CA0345
+CA0380
+CA03A8
+CA03EF
+CA1569
+CA15C1
+CA1836
+CA18BE
+CA1DFD		x4000	Title screen - Sprites
+CA5707
+CA5720		x800	Title screen - background 1 tile map
+CA5A3A		x800	Title screen - background 2 tile map
+CA5D03
+CA5DDA
+CA5ECC
+
+
+########################################
+
+MEMORY
+
+xA5A3A		$CA:5A3A
+xFFF30		3A 5A CA
+
+COMPRESSED DATA
+
+				length
+A1DFD-A56F6		x4000	Title screen - Sprites
+A5720-A5A27		x800	Title screen - background 1 tile map
+A5A3A-A5CF6		x800	Title screen - background 2 tile map
+				x800	Title screen - background 3 tile map
+
+
+AAA78-AE4C3		(D-Length x4000)
+Loading save screen - background sprites
+AE4C4-AEA40
+Loading save screen - background tile map
+
+
+
+xB0000-B05C8	(Length x800)
+Ship sprites
+
+xB05CB-B0615	(Length x40)
+
+xB0616-
+
+xB173E	(Length x400)
+Sprites for 0-9 A-F characters
+
+##### ISSUE END OF COMPRESSION #####
+A5A3A-A5CF6
+xA5CF8
+46 C8 02 C0 DD 03 DE 03 DF 03
+
+
+####################################
+
+Loading the pointer to compressed data
+
+$C0/0177 08          PHP                     A:0000 X:0057 Y:2800 P:envMxdizc
+$C0/0178 C2 20       REP #$20                A:0000 X:0057 Y:2800 P:envMxdizc
+$C0/017A BF 00 FF CF LDA $CFFF00,x[$CF:FF57] A:0000 X:0057 Y:2800 P:envmxdizc
+$C0/017E 8F 30 1C 00 STA $001C30[$00:1C30]   A:AA78 X:0057 Y:2800 P:eNvmxdizc
+$C0/0182 BF 01 FF CF LDA $CFFF01,x[$CF:FF58] A:AA78 X:0057 Y:2800 P:eNvmxdizc
+$C0/0186 8F 31 1C 00 STA $001C31[$00:1C31]   A:CAAA X:0057 Y:2800 P:eNvmxdizc
+$C0/018A 22 05 62 C0 JSL $C06205[$C0:6205]   A:CAAA X:0057 Y:2800 P:eNvmxdizc
+
+Jumping to the decompression subroutine
+
+$C0/6205 8B          PHB                     A:CAAA X:0057 Y:2800 P:eNvmxdizc
+$C0/6206 0B          PHD                     A:CAAA X:0057 Y:2800 P:eNvmxdizc
+$C0/6207 08          PHP                     A:CAAA X:0057 Y:2800 P:eNvmxdizc
+$C0/6208 C2 30       REP #$30                A:CAAA X:0057 Y:2800 P:eNvmxdizc
+
+####################################
+
+10				00010000
+38 08 6C 24 
+02 50			01010000 00000010 
+38 08 00
+
+50 00 08 08 24 01 60 08 10 00 18 70 08 38 08 18 02 60 20 10 02 90 00 02 00 40 30 18 08 30 10 60 20 04 7C 04 40 50
+
+
+$C0/5BAD B7 5C       LDA [$5C],y[$10:8BD8]   A:0000 X:0020 Y:0008 P:envmxdizC
+$C0/5BAF 85 F0       STA $F0    [$00:1CF0]   A:0012 X:0020 Y:0008 P:envmxdizC
+
+00:0000		00
+00:8000		8000
+01:0000		10000
+01:8000		18000
+02			20000
+08			80000
+09			90000
+0a			a0000
+
+
+LETTER A
+
+09 04 09 04 10 08 1f 0f 10 08 20 10 20 10 00 00
+
+12 09 12 09 21 11 3f 1f 21 11 40 20 40 20 00 00
+
+24 12 24 12 42 22 7e 3e 42 22 81 41 81 41 00 00
+
+
+48 24 48 24 84 42 fc 7e 84 42 02 81 02 81 00 00
+
+90 48
+
+(1px + 8px)
+00 00 00 00 00 00 00 00 00 00 01 00 01 00 00 00
+48 24 48 24 84 42 fc 7e 84 42 02 81 02 81 00 00
+
+(6px + 3px)
+09 04 09 04 10 08 1f 0f 10 08 20 10 20 10 00 00
+00 80 00 80 80 40 80 c0 80 40 40 20 40 20 00 00
+
+(3px + 6px)
+01 00 01 00 02 01 03 01 02 01 04 02 04 02 00 00
+20 90 20 90 10 08 f0 f8 10 08 08 04 08 04 00 00
+
+LETTER B
+(2px + 6px)
+
+02010201030102010201020103010000
+08041008e0f0100808041008e0f00000
+
+LETTER S (narrow) (width 6)
+
+3 leading pixels
+10 08 10 08 0e 07 01 00 01 00 11 08 0e 07 00 00
+
+2 leading pixels
+20 10 20 10 1c 0e 02 01 02 01 22 11 1c 0e 00 00
+
+1 leading pixel
+40 20 40 20 38 1c 04 02 04 02 44 22 38 1c 00 00
+
+0 leading pixel
+80 40 80 40 70 38 08 04 08 04 88 44 70 38 00 00
