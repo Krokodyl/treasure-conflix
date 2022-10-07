@@ -19,6 +19,11 @@ public class LzDecompressor {
     
     int end = 0;
     boolean verbose = false;
+
+    public void decompressData(byte[] input, int start, boolean verbose) {
+        this.verbose = verbose;
+        decompressData(input, start);
+    }
     
     public void decompressData(byte[] input, int start) {
         decompressedData = new ByteArrayOutputStream();
@@ -28,8 +33,8 @@ public class LzDecompressor {
             byte[] bytes = decompressedData.toByteArray();
             byte[] first = Arrays.copyOfRange(bytes, 0, 20*16);
             DataWriter.saveData("src/main/resources/gen/"+h(start)+".data", bytes);
-            //System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t"+bytesToHex(bytes));
-            System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t");
+            System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t"+bytesToHex(bytes));
+            //System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t");
         } catch (IOException e) {
             e.printStackTrace();
         }

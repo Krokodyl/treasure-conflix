@@ -1,37 +1,109 @@
 package services;
 
+import entities.Sprite;
 import services.lz.LzDecompressor;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static services.Utils.h;
-import static services.Utils.x;
+import static services.Utils.*;
 
 public class Conflix {
-    
+
+
+    static byte[] dataBios;
     static byte[] data;
     
     public static void main(String[] args) {
-        String rom = "D:\\git\\treasure-conflix\\roms\\BS Treasure Conflix - copie.sfc";
+        String rom = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (J) extended.smc";
+        String bios = "D:\\git\\treasure-conflix\\tools\\BS-X BIOS (English) [No DRM] [2016 v1.3].sfc";
         try {
             data = Files.readAllBytes(new File(rom).toPath());
+            dataBios = Files.readAllBytes(new File(bios).toPath());
         } catch (IOException ex) {
             Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
         }
         //analyzeBytePairs();
-        LzDecompressor lzDecompressor = new LzDecompressor();
-        //lzDecompressor.decompressData(data, x("70100"));
+        //LzDecompressor lzDecompressor = new LzDecompressor();
+        //lzDecompressor.decompressData(data, x("95B7"), true);
 
-        analyzeAll();
+        //analyzeAll();
         //listPointers();
 
+        generateSatellaviewCharacterSprites(x("78000"));
+        
+        SpriteReader.mergeImages("src/main/resources/gen/78000", 16, "src/main/resources/gen/merged-78000.png");
+
+        /*byte a = b("84");
+        byte b = b("40");
+        int length = 20*16;
+        int count = 0;
+        while (count<length) {
+            if ((b & 0x0F) == 0x0) System.out.println();
+            String s = ShiftJIS.convertBytesToJapanese(new byte[]{a, b});
+            if (s.length()<2) System.out.print(s);
+            else System.out.print("■");
+            if (b==b("FF")) {
+                b=0;
+                a++;
+            } else {
+                b++;
+            }
+            count++;
+        }
+        String s = ShiftJIS.convertBytesToJapanese(new byte[]{b("82"), b("4F")});
+        System.out.println(s);*/
+
+        //readTxt("intro.txt");
+        
+        /*int offset = x("48990");
+        Sprite sprite = SpriteReader.readSatellaviewCharacter(dataBios, offset);
+        String file = "src/main/resources/gen/0B.png";
+        SpriteReader.saveSatellaviewCharacterSprite(sprite, file);
+        offset = x("4B120");
+        sprite = SpriteReader.readSatellaviewCharacter(dataBios, offset);
+        file = "src/main/resources/gen/0001.png";
+        SpriteReader.saveSatellaviewCharacterSprite(sprite, file);*/
+        
+
+    }
+    
+    public static void readTxt(String file) {
+        try {
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(
+                            Objects.requireNonNull(Conflix.class.getClassLoader().getResourceAsStream(file)), StandardCharsets.UTF_8));
+            String line = br.readLine();
+            while (line!=null) {
+                for (String s : line.split("(?<=\\G.{4})")) {
+                    System.out.println(s);
+                }
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void generateSatellaviewCharacterSprites(int offset) {
+        int start = offset;
+        int end = start + x("8000");
+        while (offset<end) {
+            Sprite sprite = SpriteReader.readSatellaviewCharacter(dataBios, offset);
+            String file = "src/main/resources/gen/"+h(start)+"/" + h(offset) + ".png";
+            SpriteReader.saveSatellaviewCharacterSprite(sprite, file);
+            offset += x("18");
+        }
     }
     
     public static void listPointers() {

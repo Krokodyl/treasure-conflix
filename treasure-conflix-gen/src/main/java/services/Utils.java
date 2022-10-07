@@ -14,6 +14,10 @@ public class Utils {
         return Integer.parseInt(s,16);
     }
 
+    public static byte b(String s) {
+        return (byte) Integer.parseInt(s,16);
+    }
+
     public static String h(int i) {
         return padLeft(Integer.toHexString(i).toUpperCase(), '0',5);
     }

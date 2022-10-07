@@ -29,6 +29,20 @@ Offset | Content | Comment
 68B23-6A6B4<br/>Room 1 | ![68B23](sprites/memory-mapping/68B23.png) | Compressed<br/>Tiles
 6E770-6EC14<br/>Room 2 | ![6E770](sprites/memory-mapping/6E770.png) | Compressed<br/>Tile map<br/>for tiles 54608
 70100-76878<br/>Character sprites  | ![70100](sprites/memory-mapping/70100.png) | Compressed<br/>Tiles
+76A00-7A569<br/>Sprites  | ![76A00](sprites/memory-mapping/76A00.png) | Compressed<br/>Tiles
+7A600-7B0FD<br/>Texts  | ![7A600](sprites/memory-mapping/7A600.png) | Compressed<br/>Tiles<br/>4bpp (Width: 8)
+7B200-7B796 | ? | ? 
+7B797-7B80A | ? | ?
+7B80B-7B894 | ? | ?
+7B895-7C030 | ? | ?
+7C8F5-7CCB7 | ? | Compressed<br/>Tile map
+7CCB8-7CF63 | ? | Compressed<br/>Tile map
+7CF64-7D25A | ? | Compressed<br/>Tile map
+7D25B-7D30B | ? | Compressed<br/>Tile map ?
+7D30C-7D657 | ? | Compressed<br/>Tile map ?
+7D658-7DA86 | ? | Compressed<br/>Tile map ?
+7DA87-7DB1E | ? | Compressed<br/>Tile map ?
+7E200-7FFFF | ? | ?
 A03A8-A03EE<br/> | ![A03A8](sprites/memory-mapping/A03A8.png) | Compressed<br/>
 A1DFD-A5706<br/>Title screen | ![A1DFD](sprites/memory-mapping/A1DFD.png) | Compressed<br/>Tiles
 A5720-A5A39<br/>Title screen | ![A5720](sprites/memory-mapping/A5720.png) | Compressed<br/>Tile map<br/>for tiles A1DFD
@@ -43,3 +57,24 @@ B6ED8-B7151<br/>Intro screen | ![B6ED8](sprites/memory-mapping/B6ED8.png) | Comp
 B7150-B74A7<br/>Intro screen | ![B7150](sprites/memory-mapping/B7150.png) | Compressed<br/>Tile map<br/>for tiles B19C7
 F6644-F82B7<br/>Intro screen | ![F6644](sprites/memory-mapping/F6644.png) | Compressed<br/>Tiles
 F82B8-F86A5<br/>Intro screen | ![F82B8](sprites/memory-mapping/F82B8.png) | Compressed<br/>Tile map<br/>for tiles F6644
+
+# Font Mapping
+
+The game uses the font provided in the BS-X bios.<br/>
+This font is mostly mapped on the Shift-JIS standard where every character is coded by two bytes.<br/>
+Not part of the SJIS:
+* 8-pixel wide latin characters.
+* 8-pixel wide katakanas (commonly known as [half-width kanas](https://en.wikipedia.org/wiki/Half-width_kana)).
+
+[Shift-JIS Complete Table](http://www.rikai.com/library/kanjitables/kanji_codes.sjis.shtml)
+
+
+Offset | Content | Comment
+--- | --- | ---
+48000-50000 | ![48000](sprites/bios-mapping/01.png) | Kanjis:<br/>88 9F<br/>89 40<br/>8A 40<br/>8B 40 - 8B 5B
+50000-58000 | ![50000](sprites/bios-mapping/02.png) | Kanjis:<br/>8B 5C - 8B xx<br/>8C 40<br/>8D 40<br/>8E 40<br/>8F 40<br/>90 40 - 90 B0<br/>
+58000-60000 | ![58000](sprites/bios-mapping/03.png) | Kanjis:<br/>90 B1 - 90 xx<br/>91 40<br/>92 40<br/>93 40<br/>94 40<br/>95 40
+60000-68000 | ![60000](sprites/bios-mapping/04.png) | Kanjis:<br/>96 40<br/>97 40<br/>98 40<br/>99 40<br/>9A 40<br/>9B 40
+68000-70000 | ![68000](sprites/bios-mapping/05.png) | Kanjis:<br/>9C 40<br/>9D 40<br/>9E 40<br/>9F 40<br/>E0 40
+70000-78000 | ![70000](sprites/bios-mapping/06.png) | Kanjis:<br/>E1 40<br/>E2 40<br/>E3 40<br/>E4 40<br/>E5 40<br/>E6 40
+78000-80000 | ![78000](sprites/bios-mapping/07.png) | Kanjis:<br/>E7 40<br/>E8 40<br/>E9 40<br/>EA 40
