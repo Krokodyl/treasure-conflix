@@ -1,0 +1,46 @@
+{TAB}{NL}　　　　　銀河の辺境には
+{TAB}{NL}　     滅び去った古代文明の
+{TAB}{NL}  　     足跡が残っている
+{TAB}{NL}
+{TAB}{NL}　　　　ここウォルデンでも
+{TAB}{NL}　　いくつかの遺跡が発見された
+{TAB}{NL}
+{TAB}{NL}　　　　　　　しかし
+{TAB}{NL}　　　　 まだ多くの遺宝が
+{TAB}{NL}　　　人の目に触れることなく
+{TAB}{NL}　　　　　　眠っている
+{TAB}{NL}
+{TAB}{NL}　　　　そうした古代文明の
+{TAB}{NL}　　　ロマンにひかれた人々が
+{TAB}{NL}　　開拓者にまぎれるようにして
+{TAB}{NL}　　　この星に集まってくる
+{TAB}{NL}
+
+
+
+
+{TAB}{NL}　　　　　　その中に
+{TAB}{NL}
+{TAB}{NL}　 隠された遺宝を探し出すことを
+{TAB}{NL}　　 無上の喜びとする者がいる
+{TAB}{NL}
+{TAB}{NL}
+{TAB}{NL}　　 飛空艇を操って大空を駆け
+{TAB}{NL}　 時として危険な目に遭いながら
+{TAB}{NL}　　　 伝説の宝を追い求める
+{TAB}{NL}
+{TAB}{NL}
+{TAB}{NL}　　　　　 彼らは自らを
+{TAB}{NL}　　トレジャー・ハンタ
+トレジャー・ハンターと呼ぶ{TAB}{NL}{TAB}{NL}　　　　……宝を狩る者、と
+
+The frontiers of the galaxy bear the traces of ancient, extinct civilizations.
+Some ruins were found here in Walden as well.
+However, many relics are still sleeping yet to be seen by humans.
+People drawn to the tales of such ancient civilizations gather on this planet, hiding among the settlers.
+
+Some of them take supreme pleasure in finding hidden treasures.
+Some fly through the skies on airships, facing danger while pursuing the legendary treasures.
+
+They call themselves...
+...treasure hunters.
