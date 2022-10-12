@@ -11,7 +11,7 @@ public class DataWriter {
     public static void saveData(String romOutput, byte[] data) {
         FileOutputStream stream = null;
         try {
-            stream = new FileOutputStream(new File(romOutput));
+            stream = new FileOutputStream(romOutput);
             stream.write(data);
             stream.close();
         } catch (IOException ex) {

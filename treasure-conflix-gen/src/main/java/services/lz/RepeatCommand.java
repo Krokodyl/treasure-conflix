@@ -6,16 +6,19 @@ public class RepeatCommand extends services.lz.Command {
     
     int shift;
     int length;
+    
+    REPEAT_ALGORITHM algorithm;
 
-    public RepeatCommand(int shift, int length) {
+    public RepeatCommand(int shift, int length, REPEAT_ALGORITHM algorithm) {
         this.shift = shift;
         this.length = length;
+        this.algorithm = algorithm;
     }
 
     public byte[] getBytes() {
         byte[] bytes = new byte[2];
-        byte a = (byte) ((shift >>> 8) & 0x07);
-        a = (byte) (a | ((length-3 & 0xFF) * 0x08));
+        byte a = (byte) ((shift >>> 8) & algorithm.getMask());
+        a = (byte) (a | ((length-3 & 0xFF) * algorithm.getMultiplier()));
         byte b = (byte) (shift & 0xFF);
         bytes[0] = b;
         bytes[1] = a;

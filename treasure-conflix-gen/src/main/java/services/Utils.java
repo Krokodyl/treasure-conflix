@@ -221,4 +221,30 @@ public class Utils {
         System.out.println("test="+h(test));
         return sum;
     }
+
+    public static int lastIndexOf(byte[] array, byte[] target) {
+        if (target.length == 0) {
+            return array.length - 1;
+        } else if (target.length > array.length) {
+            return -1;
+        }
+
+        int lastIndexOf = -1;
+        boolean differentValue;
+
+        for (int i = 0; i <= array.length - target.length; i++) {
+            differentValue = false;
+            for (int j = 0; j < target.length; j++) {
+                if (array[i + j] != target[j]) {
+                    differentValue = true;
+                    break;
+                }
+            }
+            if (!differentValue) {
+                lastIndexOf = i;
+            }
+        }
+
+        return lastIndexOf;
+    }
 }

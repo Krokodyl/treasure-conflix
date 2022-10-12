@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static services.Utils.*;
+import static services.lz.REPEAT_ALGORITHM.buildRepeatCommand;
 
 public class LzDecompressor {
 
@@ -19,21 +20,33 @@ public class LzDecompressor {
     
     int end = 0;
     boolean verbose = false;
+    boolean writeData = true;
 
-    public void decompressData(byte[] input, int start, boolean verbose) {
+    public void decompressData(byte[] input, int start, String output, boolean verbose) {
         this.verbose = verbose;
-        decompressData(input, start);
+        decompressData(input, start, output);
+    }
+
+    public void decompressData(byte[] input, int start) {
+        decompressData(input, start, "src/main/resources/gen/mem/80000/" + h(start) + ".data");
     }
     
-    public void decompressData(byte[] input, int start) {
+    public void decompressData(byte[] input, int start, String output) {
         decompressedData = new ByteArrayOutputStream();
         List<Command> commands = buildCommands(input, start);
+        System.out.print("Compressed bytes:\t\t");
+        for (Command command : commands) {
+            System.out.print(bytesToHex(command.getBytes()));
+        }
+        System.out.println();
         try {
             processCommands(commands);
             byte[] bytes = decompressedData.toByteArray();
             byte[] first = Arrays.copyOfRange(bytes, 0, 20*16);
-            DataWriter.saveData("src/main/resources/gen/"+h(start)+".data", bytes);
-            System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t"+bytesToHex(bytes));
+            if (writeData) {
+                DataWriter.saveData(output, bytes);
+            }
+            System.out.println(h(start) + "-" + h(end) + "\t\t" + h(bytes.length) + "\t" + bytesToHex(bytes));
             //System.out.println(h(start)+"-"+h(end)+"\t\t"+h(bytes.length)+"\t");
         } catch (IOException e) {
             e.printStackTrace();
@@ -41,21 +54,28 @@ public class LzDecompressor {
     }
 
     public List<Command> buildCommands(byte[] input, int start) {
-        return buildCommands(input, start, start, 10, 0);
+        return buildCommands(input, start, start, 10, null);
     }
     
-    public List<Command> buildCommands(byte[] input, int start, int offset, int commandCount, int algorithm) {
+    public List<Command> buildCommands(byte[] input, int start, int offset, int commandCount, REPEAT_ALGORITHM algorithm) {
         List<Command> commands = new ArrayList<>();
         //int offset = start;
         HeaderCommand headerCommand = new HeaderCommand(input[offset++],input[offset++]);
+        commands.add(headerCommand);
         int offsetEnd = start+headerCommand.getLength();
         this.end = offsetEnd+2;
         //System.out.println("input[offsetEnd+2] = "+h(input[offsetEnd+2]));
-        if (algorithm==0) algorithm =  ((input[offsetEnd+2] & 0xC0) == 0) ? 4 : 3;
+        if (algorithm==null) {
+            int a =  ((input[offsetEnd+2] & 0xC0) == 0) ? 4 : 3;
+            if (a == 4) algorithm = REPEAT_ALGORITHM.REPEAT_ALGORITHM_SIZE_4BITS;
+            else algorithm = REPEAT_ALGORITHM.REPEAT_ALGORITHM_SIZE_3BITS;
+            System.out.println("Algorithm: "+algorithm);
+        }
         boolean end = false;
         int count = 0;
         while (!end) {
             FlagCommand flagCommand = new FlagCommand(input[offset++]);
+            commands.add(flagCommand);
             if (verbose) System.out.println(flagCommand);
             count = 0;
             while (count<8 && count<commandCount) {
@@ -66,7 +86,7 @@ public class LzDecompressor {
                     commands.add(writeCommand);
                 }
                 else {
-                    RepeatCommand repeatCommand = buildRepeatCommand(algorithm, input[offset++], input[offset++]);
+                    RepeatCommand repeatCommand = buildRepeatCommand(input[offset++], input[offset++], algorithm);
                     if (verbose) System.out.println(repeatCommand);
                     commands.add(repeatCommand);
                 }
@@ -113,11 +133,8 @@ public class LzDecompressor {
         }
     }
 
-    public RepeatCommand buildRepeatCommand(int algorithm, byte a,byte b) {
-        if (algorithm==3) return buildRepeatCommand3(a, b);
-        else return buildRepeatCommand4(a, b);
-    }
-
+    
+/*
     public RepeatCommand buildRepeatCommand4(byte a,byte b) {
         int length = ((b & 0xFF) >>> 4) + 3;
         int shift = ((b & 0x0F) * x("100")) + (a & 0xFF);
@@ -130,7 +147,7 @@ public class LzDecompressor {
         int shift = ((b & 0x07) * x("100")) + (a & 0xFF);
         RepeatCommand repeatCommand = new RepeatCommand(shift, length);
         return repeatCommand;
-    }
+    }*/
 
     public byte[] getDecompressedData() {
         return decompressedData.toByteArray();

@@ -19,6 +19,7 @@ public class FooterCommand extends services.lz.HeaderCommand {
         byte[] b = super.getBytes();
         byte[] a = new byte[1];
         a[0] = (byte) (commandCount & 0xFF);
+        //return b;
         return Bytes.concat(a, b);
     }
 
