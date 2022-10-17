@@ -1,0 +1,13 @@
+{NL2}　　Manual: Airship Mods
+{NL2}
+{NL2}　You can modify your airship
+{NL2}　　at Merck's Hangar in Razzle Town.
+{NL2}　Choose what you want to modify and
+{NL2}　　the logo for that product will appear.
+{NL2}　Select a product and press A to see
+{NL2}　　the description and the price.
+{NL2}　If the selected item is not currently
+{NL2}　　equipped, a confirmation will appear.
+{NL2}　If you select "YES", the product will be
+{NL2}　　equipped.
+{NL2}{00}

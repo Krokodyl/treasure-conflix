@@ -1,0 +1,9 @@
+    Razzle Town{00}
+    Landos Base{00}
+    Kazusa Base{00}
+    Fort Fatras{00}
+Peppermint Junktown{00}
+    Elder Village{00}
+     Cloud Temple{00}
+     Salvage Ship{00}
+       Log Off{00}

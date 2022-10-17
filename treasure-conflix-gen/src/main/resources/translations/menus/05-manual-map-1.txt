@@ -1,0 +1,13 @@
+{NL2}　　Manual: Flight
+{NL2}
+{NL2}　　A Scanner　　　X Bridge
+{NL2}　　B Go down　　　Y Go up
+{NL2}　　L Turn Left　　R Turn Right
+{NL2}
+{NL2}　　D-pad:
+{NL2}　　{↑} Forward　　　{↓} Backward
+{NL2}　　{←} Left 　　　　{→} Right
+{NL2}
+{NL2}　　Start:  Navigation map
+{NL2}　　Select: Navigation map
+{NL2}{00}

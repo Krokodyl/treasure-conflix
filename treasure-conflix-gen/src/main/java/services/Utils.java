@@ -1,5 +1,7 @@
 package services;
 
+import enums.ByteType;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -246,5 +248,10 @@ public class Utils {
         }
 
         return lastIndexOf;
+    }
+    
+    public static byte getPointerByte(int offset, ByteType type) {
+        if (type==ByteType.LEFT) return (byte) (((offset) % 256) & 0xFF);
+        return (byte) ((offset) / 256);
     }
 }

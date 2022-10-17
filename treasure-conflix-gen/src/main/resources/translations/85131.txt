@@ -51,12 +51,12 @@ ENG=I almost forgot!{EL}
 POINTER=80100;107;00252
 DATA=85131;00251;A2 D7 B3 14 02 B6 D7 93 60 8C BE 06 B1 AF C0 0F A1 04 00 03 D7 DD 14 BD 18 B0 BD 02 C6 97 88 C3 97 7E BC B2 BF B3 10 A1 04 00 C5 DD 13 D3 8B F3 91 AF C6 91 44 A6 97 8E C4 BB DA C0 D7 BC B2 A1 7C 
 JPN=「ラウドから伝言があったぞ。{NL4}{00}ランドスベースに来て欲しいそうだ。{NL4}{00}なんでも空賊に船を落とされたらしい。{EL}
-ENG=I got a message from Loud.{NL4}They want you to go to Lands Base.{NL4}{7B}{20}{01}It seems that the ship was stolen{NL4}by sky pirates.{EL}
+ENG=I got a message from Loud.{NL4}They want you to go to Landos Base.{NL4}{7B}{20}{01}It seems that the ship was stolen{NL4}by sky pirates.{EL}
 
 POINTER=80100;10A;00293
 DATA=85131;00292;00 D7 DD 14 BD 18 B0 BD 02 C9 8F EA 8F 8A 3F 05 00 96 59 DA C0 C9 B6 3F 00 BC AF B6 D8 BC DB D6 21 04 00 BA BA C9 90 5E 96 6B 0C AC C5 B2 B6 A3 7C 
 JPN={00}ランドスベースの場所?{WP}{00}忘れたのか?{00}しっかりしろよ!{NL4}{00}ここの真北じゃないか」{EL}
-ENG=Lands Base location?{WP}Did you forget?{NL4}It's north from here. Take it easy.{EL}
+ENG=Landos Base location?{WP}Did you forget?{NL4}It's north from here. Take it easy.{EL}
 
 POINTER=80100;;002C4
 DATA=85131;002C3;A2 02 CE D7 A4 91 81 B8 03 CA DD 06 B0 02 CD 8D 73 AF C3 D0 C5 A3 7C 

@@ -20,7 +20,7 @@ public class LzDecompressor {
     
     int end = 0;
     boolean verbose = false;
-    boolean writeData = true;
+    boolean writeData = false;
 
     public void decompressData(byte[] input, int start, String output, boolean verbose) {
         this.verbose = verbose;
@@ -43,7 +43,7 @@ public class LzDecompressor {
             processCommands(commands);
             byte[] bytes = decompressedData.toByteArray();
             byte[] first = Arrays.copyOfRange(bytes, 0, 20*16);
-            if (writeData) {
+            if (writeData && output!=null) {
                 DataWriter.saveData(output, bytes);
             }
             System.out.println(h(start) + "-" + h(end) + "\t\t" + h(bytes.length) + "\t" + bytesToHex(bytes));

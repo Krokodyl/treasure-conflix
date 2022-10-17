@@ -1,0 +1,13 @@
+{NL2}
+{NL2}　　　　Save
+{NL2}　　　　Load
+{NL2}
+{NL2}　　　　Equipment
+{NL2}　　　　Manual: Flight
+{NL2}　　　　Manual: Combat
+{NL2}　　　　Manual: Town
+{NL2}　　　　Music
+{NL2}
+{NL2}　　　　Back
+{NL2}
+{NL2}{00}

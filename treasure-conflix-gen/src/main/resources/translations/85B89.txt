@@ -1,0 +1,75 @@
+POINTER=80470;;00001
+DATA=85B89;00000;00 DA B2 0D D9 C0 B3 DD 7C 
+JPN={00}レイズルタウン{EL}
+ENG=Razzle Town{EL}
+
+POINTER=80470;182;0000A
+DATA=85B89;00009;0C D9 15 A2 02 B2 B2 DC C8 A1 BD 08 C6 8E 64 8E 96 06 13 B7 C3 A1 04 00 DC C0 BC C5 DD B6 A4 8F 43 97 9D 06 8F 49 DC D9 C9 A6 04 00 32 8F 54 8A D4 D3 91 D2 AF C3 D9 C9 D6 A3 7C 
+JPN=ジルバ「いいわね。すぐに仕事ができて。{NL4}{00}わたしなんか、修理が終わるのを{NL4}{00}2週間も待ってるのよ」{EL}
+ENG=Jitterbug: Alright, I'll get ready{NL4}right away.{NL4}I've been waiting two weeks{01}for the repairs to be completed.{EL}
+
+POINTER=80470;15B;00045
+DATA=85B89;00044;B1 DB DD 0F A2 8D C5 8B DF A4 02 C0 C1 C9 88 AB B2 8B F3 91 AF 06 A4 04 00 BA BA C4 03 D7 DD 14 BD 18 B0 BD 02 C9 95 D3 D8 A6 A4 04 00 8D 72 D7 BC C3 B2 D9 D7 BC B2 C5 A1 01 00 03 B5 DA 02 C0 C1 97 41 91 97 8B C6 8E D2 C6 D3 94 ED 8A 51 C6 B1 AF C0 04 00 03 D4 C2 02 CA B2 D9 B9 14 A4 93 C1 C6 03 CA DD C0 B0 02 C9 91 44 06 04 00 94 ED 8A 51 C6 B1 AF C3 B2 D9 D0 C0 B2 10 A1 01 00 B1 DD C0 D3 8B 43 A6 C2 B9 C5 D6 A3 7C 
+JPN=アロンゾ「最近、たちの悪い空賊が、{NL4}{00}こことランドスベースの辺りを、{NL4}{00}荒らしているらしいな。{01}{00}オレたち輸送業者にも被害にあった{NL4}{00}ヤツはいるけど、特にハンターの船が{NL4}{00}被害にあっているみたいだ。{01}{00}あんたも気をつけなよ」{EL}
+ENG=Alonso: Recently, nasty air pirates{NL4}have been ravaging this area and{NL4}the Landos Base area.{01}Some of us transporters have{NL4}suffered damage, but it seems that{NL4}hunters have suffered the most.{01}Be careful.{EL}
+
+POINTER=80470;;000D1
+DATA=85B89;000D0;B1 DB DD 0F A2 8D C5 8B DF A4 8B F3 91 AF 02 06 13 C5 B8 C5 AF C0 C5 A1 04 00 C5 DD 13 D3 A4 03 CA DD C0 B0 02 C6 95 D4 D8 93 A2 C1 C6 B1 AF 04 00 C0 C4 B6 40 40 01 00 13 D3 A4 8B F3 91 AF C9 03 D8 B0 10 B0 02 10 AF C0 92 6A CA 8E A9 95 AA 04 00 06 95 89 B9 C0 91 8A 8E E8 C6 95 9C 8F 51 A6 8A E9 DD 13 D9 D7 BC B2 04 00 C5 A1 95 A8 91 9B C5 98 62 10 A3 7C 
+JPN=アロンゾ「最近、空賊がでなくなったな。{NL4}{00}なんでも、ハンターに返り討ちにあっ{NL4}{00}たとか……{01}{00}でも、空賊のリーダーだった男は自分{NL4}{00}が負けた相手に復讐を企んでるらしい{NL4}{00}な。物騒な話だ」{EL}
+ENG=
+
+POINTER=80470;1C6;00148
+DATA=85B89;00147;C0 DD 0A A2 02 C5 B1 A4 03 B5 DA 02 C9 98 62 A6 04 00 95 B7 B2 C3 B8 DA D9 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=タンゴ「なあ、オレの話を{NL4}{00}聞いてくれるかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Tango: Hey, will you listen to me?{NL4}{NL4}{00}{00}{00}{00}Yes{00}{00}{00}{00}{00}{00}{00}No{EL}
+
+POINTER=80470;1DA;00175
+DATA=85B89;00174;C0 DD 0A A2 02 B2 D4 B1 A4 8B C1 B2 C0 D6 A1 04 00 BA BA C9 96 6B C9 95 BD 8C B4 13 8B F3 91 AF C6 D0 C2 B6 AF C3 04 00 91 53 91 AC 97 CD 13 93 A6 09 C0 DD 10 A1 01 00 8E A9 95 AA C9 91 44 C9 03 BD 1B B0 14 02 C6 CA 8E A9 90 4D 06 04 00 B1 AF C0 B6 D7 A4 92 C7 B2 C2 B6 DA D9 BA C4 CA C5 B2 04 00 C4 8E 76 AF C3 C0 DD 10 A1 01 00 C4 BA DB 06 03 B5 DA 02 C9 91 44 C9 89 A1 A6 90 D4 B2 94 F2 8B F3 92 F8 06 04 00 BD 0A B2 90 A8 B2 13 92 C7 B2 94 B2 B2 C3 B2 B7 D4 06 AF C0 A1 01 00 B1 B2 C2 06 8B F3 91 AF C9 03 D8 B0 10 B0 02 C9 03 DA AF 14 A5 04 00 BD 1D B2 14 02 AF C3 96 EC 98 59 C5 DD 10 DB B3 C5 A1 01 00 B1 DD C0 D3 B1 C9 90 D4 B2 91 44 C9 8B F3 91 AF B6 D7 04 00 93 A6 09 D6 B3 C5 DD C3 8E 76 DC C5 B2 95 FB 06 B2 B2 0E A3 7C 
+JPN=タンゴ「いやあ、驚いたよ。{NL4}{00}ここの北の平原で空賊にみつかって{NL4}{00}全速力で逃げたんだ。{01}{00}自分の船のスピードには自信が{NL4}{00}あったから、追いつかれることはない{NL4}{00}と思ってたんだ。{01}{00}ところがオレの船の横を赤い飛空艇が{NL4}{00}すごい勢いで追い抜いていきやがった。{01}{00}あいつが空賊のリーダーのレッド・{NL4}{00}スペイドって野郎なんだろうな。{01}{00}あんたもあの赤い船の空賊から{NL4}{00}逃げようなんて思わない方がいいぜ」{EL}
+ENG=Tango: Oh, I'm surprised.{01}I was spotted by air pirates on the{NL4}plains north of here and fled at{NL4}full speed.{01}I was so confident in my ship's{NL4}speed that I thought they would{NL4}never catch up.{01}However, a red airship overtook my{NL4}ship with tremendous force.{01}This must be Red Spade,{NL4}the leader of the sky pirates.{01}Don't think you can run away from{NL4}the pirates on that red ship.{EL}
+
+POINTER=80470;1CF;00269
+DATA=85B89;00268;C0 DD 0A A2 02 BF B3 B6 40 40 04 00 BF DA C5 D7 A4 B2 B2 D6 A3 7C 
+JPN=タンゴ「そうか……{NL4}{00}それなら、いいよ」{EL}
+ENG=Tango: I see...{NL4}Alright.{EL}
+
+POINTER=80470;133;0027F
+DATA=85B89;0027E;B8 D7 DD B8 A2 92 6D 02 AF C3 CF BD B6 3F 7B 20 00 8D A1 A4 98 62 91 E8 C9 04 00 8B F3 91 AF 13 BD B9 14 A4 B1 DA CA 03 CA DD C3 A8 DD 08 04 00 89 EF 8E D0 02 C6 8C D9 DC DA C0 98 41 92 86 D7 BC B2 13 BD D6 A1 01 00 B5 BF D7 B8 03 CA DD C3 A8 DD 08 8B C6 02 C9 93 C6 90 E8 A6 BD 04 00 D9 88 D7 C6 A4 8F A4 94 84 93 47 C9 91 BC C9 03 CA DD C0 B0 02 C9 91 44 04 00 A6 8F 50 AF C3 B2 D9 DD 13 BC AE B3 C8 A3 7C 
+JPN=クランク「知ってますか?{7B}{20}{00}今、話題の{NL4}{00}空賊ですけど、あれはハンティング{NL4}{00}会社に雇われた連中らしいですよ。{01}{00}おそらくハンティング業の独占をす{NL4}{00}る為に、商売敵の他のハンターの船{NL4}{00}を襲っているんでしょうね」{EL}
+ENG=Crank: Have you heard?{NL4}{7B}{20}Air pirates are a hot topic now.{01}They seem to be hired{NL4}by a hunting company.{01}Perhaps they are attacking the{NL4}ships of rival hunters in order to{NL4}monopolize the hunting industry.{EL}
+
+POINTER=80470;;00307
+DATA=85B89;00306;09 09 B8 D7 DD B8 A2 92 6D 02 AF C3 CF BD B6 3F 7B 20 00 BA C9 95 D3 D8 A6 04 00 8D 72 D7 BC C3 B2 C0 8B F3 91 AF A4 94 DE D7 A6 8C D9 AF C3 B2 C0 04 00 03 CA DD C3 A8 DD 08 89 EF 8E D0 02 06 92 D7 BB DA C0 DD 13 BD D6 A1 01 00 BF DA 13 A4 B1 C9 98 41 92 86 CA 97 62 95 BA D4 97 70 90 53 96 5F C9 D6 04 00 B3 C5 8E 64 8E 96 A6 BC C3 B2 D9 BF B3 13 BD D6 A1 04 00 8B E0 BB B4 D3 D7 B4 15 89 BD 13 D3 D4 D9 BF B3 13 BD A1 01 00 BC B6 BC 8B E0 A6 D3 D7 AF C3 91 44 A6 8F 50 B3 DD 10 AF C0 04 00 D7 A4 88 C8 91 4F C4 95 CF DC D7 C5 B2 13 BD D6 C8 A1 B2 D4 A4 04 00 03 CA DD C0 B0 02 C9 91 44 88 C8 8A 4F D3 91 5F B3 10 B9 88 AB 8E BF 13 BD A3 7C 
+JPN=ゲゲクランク「知ってますか?{7B}{20}{00}この辺りを{NL4}{00}荒らしていた空賊、彼らを雇っていた{NL4}{00}ハンティング会社が潰されたんですよ。{01}{00}それで、あの連中は傭兵や用心棒のよ{NL4}{00}うな仕事をしているそうですよ。{NL4}{00}金さえもらえば何でもやるそうです。{01}{00}しかし金をもらって船を襲うんだった{NL4}{00}ら、以前と変わらないですよね。いや、{NL4}{00}ハンターの船以外も狙うだけ悪質です」{EL}
+ENG=
+
+POINTER=80470;;003DD
+DATA=85B89;003DC;07 D9 D3 B1 A2 02 14 B3 D3 A4 0C AF C4 91 D2 AF C3 B2 D9 10 04 00 B9 C4 B2 B3 C9 CA 90 AB C6 8D 87 DC C5 B2 C9 13 C8 A1 04 00 01 00 88 EA 8F 8F C6 81 79 89 5F C9 94 E0 81 7A 92 54 BC C6 C2 B2 C3 B2 B8 BA 04 00 C4 C6 BC C0 D6 A1 8F AD BC 13 D3 91 81 B8 8E E8 C6 BC C0 B2 04 00 C4 B2 B3 8B 43 8E 9D D3 B1 D9 BC C8 A3 7C 
+JPN=ギルモア「どうも、じっと待っているだ{NL4}{00}けというのは性に合わないのでね。{NL4}{00}{01}{00}一緒に【雲の扉】探しについていくこ{NL4}{00}とにしたよ。少しでも早く手にしたい{NL4}{00}という気持もあるしね」{EL}
+ENG=
+
+POINTER=80470;;00447
+DATA=85B89;00446;07 D9 D3 B1 A2 02 BB B1 A4 91 81 B8 81 79 89 5F C9 94 E0 81 7A 92 54 BC C6 04 00 8D 73 BA B3 0C AC C5 B2 B6 A3 7C 
+JPN=ギルモア「さあ、早く【雲の扉】探しに{NL4}{00}行こうじゃないか」{EL}
+ENG=
+
+POINTER=80470;;0046D
+DATA=85B89;0046C;C0 DD 0A A2 02 B1 DD C0 A4 B1 C9 94 77 C9 8D 82 B2 92 6A C9 04 00 8E 64 8E 96 A6 BC C3 D9 DD 10 DB 3F 00 8E C0 CA BA C9 8A D4 04 00 03 B6 0D BB 18 B0 BD 02 13 B1 B2 C2 A6 8C A9 C0 DD 10 D6 A1 01 00 C5 DD 10 B6 D4 15 BF B3 C5 93 7A C4 98 62 A6 BC C3 C0 0E A1 04 00 03 B5 DA 02 C9 8A A8 0C AC A4 B1 B2 C2 CA 03 B6 C0 07 02 0C AC 04 00 C5 B2 0E A1 B1 DD C0 A4 8B 43 A6 C2 B9 C5 D6 A3 7C 
+JPN=タンゴ「あんた、あの背の高い男の{NL4}{00}仕事をしてるんだろ?{00}実はこの間{NL4}{00}カズサベースであいつを見たんだよ。{01}{00}なんだかやばそうな奴と話をしてたぜ。{NL4}{00}オレの勘じゃ、あいつはカタギじゃ{NL4}{00}ないぜ。あんた、気をつけなよ」{EL}
+ENG=
+
+POINTER=80470;;004ED
+DATA=85B89;004EC;C0 DD 0A A2 02 BA BA C9 93 8C 93 EC C6 8E 97 C0 D6 B3 C5 8C 60 A6 BC 04 00 C0 A4 91 E5 92 86 8F AC A4 8E 4F C2 C9 93 87 06 B1 D9 10 DB A1 01 00 B1 DA CA 8D 87 DC BE C3 8E 4F 91 E3 93 87 AF C3 8C C4 15 DA C3 D9 04 00 DD 10 0E A1 04 00 03 B5 DA 02 AF C3 DC D8 C4 95 A8 92 6D D8 10 DB A3 7C 
+JPN=タンゴ「ここの東南に似たような形をし{NL4}{00}た、大中小、三つの島があるだろ。{01}{00}あれは合わせて三代島って呼ばれてる{NL4}{00}んだぜ。{NL4}{00}オレってわりと物知りだろ」{EL}
+ENG=
+
+POINTER=80470;;0054D
+DATA=85B89;0054C;A2 C5 C6 AF 21 00 02 BF BA C6 95 F3 95 A8 06 B1 AF C0 21 3F 04 00 40 40 C5 DD B6 A4 B8 D4 BC B2 0E A3 7C 
+JPN=「ナニッ!{00}そこに宝物があった!?{NL4}{00}……なんか、くやしいぜ」{EL}
+ENG=
+
+POINTER=80470;;00570
+DATA=85B89;0056F;C0 DD 0A A2 8E C0 02 CA 03 B5 DA 02 D3 A4 03 C4 DA 0C AC B0 A5 CA DD 04 00 C0 B0 02 C6 C5 DB B3 B6 AF C3 8D 6C B4 C3 D9 DD 10 A1 04 00 94 F2 8B F3 92 F8 C9 91 80 8F 63 C6 CA 8E A9 90 4D B1 D9 DD 10 0E A3 7C 
+JPN=タンゴ「実はオレも、トレジャー・ハン{NL4}{00}ターになろうかって考えてるんだ。{NL4}{00}飛空艇の操縦には自信あるんだぜ」{EL}
+ENG=
+

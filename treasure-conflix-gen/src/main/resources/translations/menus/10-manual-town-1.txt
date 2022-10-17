@@ -1,0 +1,13 @@
+{NL2}　　Manual: Town
+{NL2}
+{NL2}　　A Talk, Choose, Send message
+{NL2}　　B Cancel
+{NL2}　　L Look left　　R Look right
+{NL2}
+{NL2}　　D-pad:
+{NL2}　　{↑} Select, Talk, Go out
+{NL2}　　{↓} Select
+{NL2}　　{←} Select, Go left
+{NL2}　　{→} Select, Go right
+{NL2}
+{NL2}{00}

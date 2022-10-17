@@ -1,0 +1,13 @@
+{NL2}　Radar:
+{NL2}　　It is in the bottom right corner.
+{NL2}　　The white dot is your ship.
+{NL2}　　The red dots are your enemies.
+{NL2}
+{NL2}　Endurance:
+{NL2}　　The bar is in the top left corner.
+{NL2}　　If it goes to zero, the game is over.
+{NL2}
+{NL2} Remaining time:
+{NL2}　　The timer is in the center.
+{NL2}　　If it goes to zero, the game is over.
+{NL2}{00}

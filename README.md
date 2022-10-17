@@ -6,6 +6,7 @@ English Patch for Treasure Conflix
 
 Offset | Content | Comment
 --- | --- | ---
+095B7-0AC5F | Texts for:<br/>- introduction<br/>-continue screen<br/>- save screen<br/>- ship or item names?  | Decompressed to 7E4800<br/>Encoded in SJIS
 14DB0-14E6F<br/>Dialog box | ![14DB0](sprites/memory-mapping/14DB0.png) | Tiles
 14E70-14F6F<br/>Info box | ![14E70](sprites/memory-mapping/14E70.png) | Tiles
 18000-1802F<br/> | 19000	19EBA	1AD1D	1B832	1C6A8	1D5D9	1B832	1C6A8	1DFF9	1DFF9	1DFF9	1DFF9	1DFF9	1DFF9	1DFF9	19EBA	 | 16 Pointers
@@ -51,6 +52,8 @@ A5D03-A5DD9<br/>Title screen | ![A5D03](sprites/memory-mapping/A5D03.png) | Comp
 AAA78-AE4C3<br/>Continue screen | ![AAA78](sprites/memory-mapping/AAA78.png) | Compressed<br/>Tiles
 AE4C4-AEA4F<br/>Continue screen | ![AE4C4](sprites/memory-mapping/AE4C4.png) | Compressed<br/>Tile map<br/>for tiles AAA78
 B0000-B05CA<br/>Ship Sprite | ![B0000](sprites/memory-mapping/B0000.png) | Compressed<br/>Tiles
+B06AB-B0FCF<br/>Mode 7 texts sprite | ![B06AB](sprites/memory-mapping/B06AB.png) | Compressed<br/>Tiles
+B173E-B18C4<br/>Text sprites | ![B173E](sprites/memory-mapping/B173E.png) | Compressed<br/>Tiles
 B19C7-B6C44<br/>Intro screen | ![B19C7](sprites/memory-mapping/B19C7.png) | Compressed<br/>Tiles
 B6C45-B6ED9<br/>Intro screen | ![B6C45](sprites/memory-mapping/B6C45.png) | Compressed<br/>Tile map<br/>for tiles B19C7
 B6ED8-B7151<br/>Intro screen | ![B6ED8](sprites/memory-mapping/B6ED8.png) | Compressed<br/>Tile map<br/>for tiles B19C7

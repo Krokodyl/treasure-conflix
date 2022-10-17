@@ -19,10 +19,26 @@ public class ShiftJIS {
         SPECIAL_CODES = new HashMap<>();
         SPECIAL_CODES.put("00", new byte[]{(byte)0x00});
         SPECIAL_CODES.put("NL", new byte[]{(byte)0x2F});
+        SPECIAL_CODES.put("NL2", new byte[]{(byte)0x2F});
         SPECIAL_CODES.put("NL4", new byte[]{(byte)0x04});
+        SPECIAL_CODES.put("TAB", new byte[]{(byte)0x2A});
         SPECIAL_CODES.put("7B", new byte[]{(byte)0x7B});
         SPECIAL_CODES.put("EL", new byte[]{(byte)0x7C});
         SPECIAL_CODES.put("WP", new byte[]{(byte)0x05});
+        SPECIAL_CODES.put("20", new byte[]{(byte)0x20});
+        SPECIAL_CODES.put("30", new byte[]{(byte)0x30});
+        SPECIAL_CODES.put("31", new byte[]{(byte)0x31});
+        SPECIAL_CODES.put("32", new byte[]{(byte)0x32});
+        SPECIAL_CODES.put("33", new byte[]{(byte)0x33});
+        SPECIAL_CODES.put("34", new byte[]{(byte)0x34});
+        SPECIAL_CODES.put("35", new byte[]{(byte)0x35});
+        SPECIAL_CODES.put("39", new byte[]{(byte)0x39});
+        SPECIAL_CODES.put("3A", new byte[]{(byte)0x3A});
+        SPECIAL_CODES.put("→", new byte[]{(byte)0x81, (byte)0xA8});
+        SPECIAL_CODES.put("←", new byte[]{(byte)0x81, (byte)0xA9});
+        SPECIAL_CODES.put("↑", new byte[]{(byte)0x81, (byte)0xAA});
+        SPECIAL_CODES.put("↓", new byte[]{(byte)0x81, (byte)0xAB});
+        //81 a8 a9 aa ab → ← ↑ ↓
         SPECIAL_CODES.put("SP-10", new byte[]{
                 (byte) 0x81, (byte) 0x40,
                 (byte) 0x81, (byte) 0x40,
@@ -42,6 +58,54 @@ public class ShiftJIS {
                 (byte) 0x81, (byte) 0x40,
                 (byte) 0x81, (byte) 0x40
         });
+        SPECIAL_CODES.put("20-4", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        SPECIAL_CODES.put("20-7", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        SPECIAL_CODES.put("20-30", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+        });
+        SPECIAL_CODES.put("20-25", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+        });
+        SPECIAL_CODES.put("20-22", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20
+        });
+        SPECIAL_CODES.put("20-36", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        SPECIAL_CODES.put("20-38", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        
         
         
     }
@@ -61,8 +125,10 @@ public class ShiftJIS {
         SINGLE_CODES.put(0x05, "{WP}");
         SINGLE_CODES.put(0x7C, "{EL}");
         SINGLE_CODES.put(0x21, "!");
+        SINGLE_CODES.put(0x22, "\"");
         SINGLE_CODES.put(0x28, "(");
         SINGLE_CODES.put(0x29, ")");
+        SINGLE_CODES.put(0x3A, ":");
         SINGLE_CODES.put(0x3F, "?");
     }
     
@@ -87,6 +153,7 @@ public class ShiftJIS {
         boolean hiragana = false;
         for (int i = 0; i < bytes.length; i++) {
             byte a = bytes[i];
+            //|| (a & 0xFF) == 0x04
             if ((a & 0xFF) == 0x7C) {
                 hiragana = false;
             }
@@ -104,7 +171,10 @@ public class ShiftJIS {
             else if ((a & 0xFF) >= 0x80 && (a & 0xFF)< 0xA0) {
                 i++;
                 byte b = bytes[i];
-                String read = new String(new byte[]{a, b}, Charset.forName("SHIFT-JIS"));
+                String read = "";
+                if ((a & 0xFF) == 0x85) {
+                    read = latin.charAt(b-0x3F)+"";
+                } else read = new String(new byte[]{a, b}, Charset.forName("SHIFT-JIS"));
                 if (hiragana) read = hiragana(read);
                 result += read;
             } else {
@@ -201,6 +271,7 @@ public class ShiftJIS {
             }
             else {
                 byte[] code = getCode(c);
+                if (c=='　') code = new byte[]{(byte) 0x81, 0x40};
                 result = ArrayUtils.addAll(result, code);
             }
         }
