@@ -1,4 +1,35 @@
 {TAB}{NL2}
-{TAB}{NL2}　　Introduction
+{TAB}{NL2}　The frontiers of the galaxy
+{TAB}{NL2}　 bear the traces of ancient
+{TAB}{NL2}　　 extinct civilizations.
 {TAB}{NL2}
+{TAB}{NL2}　 Some ruins were found here
+{TAB}{NL2}　　　　in Walden as well.
+{TAB}{NL2}
+{TAB}{NL2}　　　However, many relics
+{TAB}{NL2}　　　　are still dormant
+{TAB}{NL2}　　yet to be seen by humans.
+{TAB}{NL2}
+{TAB}{NL2}
+{TAB}{NL2}　　People drawn to the tales
+{TAB}{NL2}　of such ancient civilizations
+{TAB}{NL2}　　　gather on this planet,
+{TAB}{NL2}　　hiding among the settlers.
+{TAB}{NL2}
+{TAB}{NL2}Some of them take great pleasure
+{TAB}{NL2}　in finding hidden treasures.
+{TAB}{NL2}
+{TAB}{NL2}Some roam the skies on airships
+{TAB}{NL2}　　　in the face of danger
+{TAB}{NL2}　　　　　while pursuing
+{TAB}{NL2}　　the legendary treasures.
+{TAB}{NL2}
+{TAB}{NL2}
+{TAB}{NL2}
+{TAB}{NL2}　　　They call themselves...
+{TAB}{NL2}
+{TAB}{NL2}
+{TAB}{NL2}　　　...treasure hunters.
+{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}
+{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}{TAB}{NL2}
 {00}

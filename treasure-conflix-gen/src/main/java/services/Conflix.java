@@ -1,12 +1,14 @@
 package services;
 
 import entities.Sprite;
+import enums.ByteType;
 import enums.PointerTableType;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.lang.StringUtils;
 import services.lz.LzCompressor;
 import services.lz.LzDecompressor;
 import services.lz.REPEAT_ALGORITHM;
+import services.menu.WideName;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -156,7 +158,7 @@ public class Conflix {
         String english = "{SP-20}Voice{NL}{NL}A young but skilled treasure hunter{NL}His goal: the legendary treasures{EL}";
         System.out.println(english);
         System.out.println(bytesToHex(ShiftJIS.convertEnglishToBytes(english)));
-        english = "Hunters Office";
+        english = "Razzle Town";
         System.out.println(english);
         System.out.println(bytesToHex(ShiftJIS.convertEnglishToBytes(english)));
 
@@ -199,7 +201,7 @@ public class Conflix {
         writeEnglishFiles(data, tableData1);
         writeEnglishFiles(data, tablePointer1);
 
-        s = "2F 81 40 81 40 83 8D 81 5B 83 68 83 81 83 6A 83 85 81 5B 2F 2F 81 40 81 40 81 40 81 40 83 74 83 40 83 43 83 8B 82 50 81 40 30 30 3A 30 30 3A 30 30 2F 81 40 81 40 81 40 81 40 83 74 83 40 83 43 83 8B 82 51 81 40 30 30 3A 30 30 3A 30 30 2F 81 40 81 40 81 40 81 40 83 74 83 40 83 43 83 8B 82 52 81 40 30 30 3A 30 30 3A 30 30 2F 81 40 81 40 81 40 81 40 83 74 83 40 83 43 83 8B 82 53 81 40 30 30 3A 30 30 3A 30 30 2F 2F 2F 81 40 81 40 81 40 81 40 83 8D 81 5B 83 68 82 B7 82 E9 83 66 81 5B 83 5E 82 F0 91 49 82 F1 82 C5 89 BA 82 B3 82 A2 2F 81 40 81 40 81 40 81 40 82 60 20 CE DE C0 DD 82 C5 83 8D 81 5B 83 68 2F 81 40 81 40 81 40 81 40 82 61 20 CE DE C0 DD 82 C5 B7 AC DD BE D9 82 B5 82 DC 82 B7 2F 2F 00";
+        s = "81 40 81 40 81 40 81 40 81 40 81 40 83 74 83 48 81 5B 83 67 81 45 83 74 83 40 83 67 83 89 83 58";
         System.out.println("s="+ShiftJIS.convertBytesToJapanese(hexStringToByteArray(s.split(" "))));
 
         MenuReader menuReader = new MenuReader();
@@ -207,8 +209,93 @@ public class Conflix {
         menuReader.compressMenu();
         menuReader.writeMenu(data);
         menuReader.writeMenuPointers(data);
+
+        String a[] = new String[] {
+                "81 40 81 40 81 40 81 40 81 40 83 57 83 83 83 93 83 4E 83 5E 83 45 83 93 81 40 83 79 83 70 83 7E 83 93 83 67",
+                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 8C C3 91 E3 96 AF 82 CC 89 42 82 EA 97 A2",
+                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 89 5F 82 CC 90 5F 93 61",
+                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 54 83 8B 83 78 81 5B 83 57 91 44"
+        };
+        for (String b:a) {
+            System.out.println(
+                    ShiftJIS.convertBytesToJapanese(hexStringToByteArray(b.split(" "))));
+        }
+
+        writeTownNames(data);
+        
+        /*String[] wideTownNames = new String[] {
+            "　　　　　　Ｒａｚｚｌｅ　Ｔｏｗｎ",
+            "　　　　　　Ｌａｎｄｏｓ　Ｂａｓｅ",
+            "　　　　　　Ｋａｚｕｓａ　Ｂａｓｅ",
+            "　　　　　　Ｆｏｒｔ　Ｆａｔｒａｓ",
+            "　　Ｐｅｐｐｅｒｍｉｎｔ　Ｊｕｎｋｔｏｗｎ",
+            "　　　　　Ｅｌｄｅｒ　Ｖｉｌｌａｇｅ",
+            "　　　　　　Ｃｌｏｕｄ　Ｔｅｍｐｌｅ",
+            "　　　　　　Ｓａｌｖａｇｅ　Ｓｈｉｐ"
+        };
+        for (String town:wideTownNames) {
+            System.out.println(String.format("ShiftJIS(%s): %s",
+                    town,
+                    bytesToHex(ShiftJIS.convertJapaneseToBytes(town))
+                    ));
+        }*/
+        
         
         DataWriter.saveData("D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - SNES - extended.sfc", data);
+    }
+    
+    public static void writeTownNames(byte[] data) {
+        List<WideName> wideNames = new ArrayList<>();
+        int offsetDataStart = x("D000");
+        int offsetCodeStart = x("357E");
+        wideNames.add(new WideName("　　　　　　Ｒａｚｚｌｅ　Ｔｏｗｎ", x("D000"), x("357E"), new byte[]{1,0,0x24}));
+        wideNames.add(new WideName("　　　　　　Ｌａｎｄｏｓ　Ｂａｓｅ", x("D000"), x("357E"), new byte[]{4,0,0x25}));
+        wideNames.add(new WideName("　　　　　　Ｋａｚｕｓａ　Ｂａｓｅ", x("D000"), x("357E"), new byte[]{6,0,0x26}));
+        wideNames.add(new WideName("　　　　　　Ｆｏｒｔ　Ｆａｔｒａｓ", x("D000"), x("357E"), new byte[]{8,0,0x27}));
+        wideNames.add(new WideName("　　Ｐｅｐｐｅｒｍｉｎｔ　Ｊｕｎｋｔｏｗｎ", x("D000"), x("357E"), new byte[]{0xA,0,0x28}));
+        wideNames.add(new WideName("　　　　　Ｅｌｄｅｒ　Ｖｉｌｌａｇｅ", x("D000"), x("357E"), new byte[]{0xC,0,0x29}));
+        wideNames.add(new WideName("　　　　　　Ｃｌｏｕｄ　Ｔｅｍｐｌｅ", x("D000"), x("357E"), new byte[]{0x10,0,0x2B}));
+        wideNames.add(new WideName("　　　　　　Ｓａｌｖａｇｅ　Ｓｈｉｐ", x("D000"), x("357E"), new byte[]{0x0E,0,0x2A}));
+        int offsetData = offsetDataStart;
+        int offsetCode = offsetCodeStart;
+        for (WideName wideName : wideNames) {
+            wideName.setOffsetData(offsetData);
+            wideName.setOffsetCode(offsetCode);
+            offsetData += wideName.getName().length()*2+5;// header(3) + terminal(2)
+            offsetCode += x("10");
+        }
+        for (WideName wideName : wideNames) {
+            byte[] header = wideName.getHeader();
+            byte[] bytes = ShiftJIS.convertJapaneseToBytes(wideName.getName());
+            offsetData = wideName.getOffsetData();
+            for (byte b:header) data[offsetData++] = b;
+            for (byte b:bytes) data[offsetData++] = b;
+            data[offsetData++] = 0x2A;
+            data[offsetData] = 0x00;
+            data[wideName.getOffsetCode()] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+            data[wideName.getOffsetCode()+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+            data[wideName.getOffsetCode()+4] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+            data[wideName.getOffsetCode()+5] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+            data[wideName.getOffsetCode()+8] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+            data[wideName.getOffsetCode()+9] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+            data[wideName.getOffsetCode()+12] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+            data[wideName.getOffsetCode()+13] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+            if (wideName.getOffsetCode()==x("35DE")) {
+                data[x("35FE")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("35FE")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+                data[x("3602")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("3602")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+                data[x("3606")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("3606")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+                data[x("360A")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("360A")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+                data[x("360E")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("360E")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+                data[x("3612")] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.LEFT);
+                data[x("3612")+1] = Utils.getPointerByte(wideName.getOffsetData(), ByteType.RIGHT);
+            }
+        }
+
     }
 
     private static void writeEnglishFiles(byte[] data, PointerTable table) {

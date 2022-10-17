@@ -192,30 +192,72 @@ public class MenuReader {
 
         System.out.println(id++);
         menu = new Menu(offsetData, readMenuFile("translations/menus/17-locations.txt"));
-        String names = "";
-        menu.addPointer(x("8068")+14, offsetData);
-        names += "    Razzle Town ";
-        menu.addPointer(x("8068")+6, offsetData+names.length());
-        names += "    Landos Base ";
-        menu.addPointer(x("8068")+4, offsetData+names.length());
-        names += "    Kazusa Base ";
-        menu.addPointer(x("8068")+12, offsetData+names.length());
-        names += "    Fort Fatras ";
-        menu.addPointer(x("8068"), offsetData+names.length());
-        names += "Peppermint Junktown ";
-        menu.addPointer(x("8068")+10, offsetData+names.length());
-        names += "    Elder Village ";
-        menu.addPointer(x("8068")+8, offsetData+names.length());
-        names += "     Cloud Temple ";
-        menu.addPointer(x("8068")+2, offsetData+names.length());
-        names += "     Salvage Ship ";
-        menu.addPointer(x("8068")+16, offsetData+names.length());
+        String name = "";
+        int nameLength = 0;
+        int nameLength2 = 21;
+        // 8067 because there is no op-code preceding 8068
+        menu.addPointer(x("8067")+14, offsetData);
+        name = "    Razzle Town";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+6, offsetData+nameLength);
+        name = "    Landos Base";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+4, offsetData+nameLength);
+        name = "    Kazusa Base";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+12, offsetData+nameLength);
+        name = "    Fort Fatras";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067"), offsetData+nameLength);
+        name = "  Peppermint Junktown";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+10, offsetData+nameLength);
+        name = "    Elder Village";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+8, offsetData+nameLength);
+        name = "    Cloud Temple";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+2, offsetData+nameLength);
+        name = "    Salvage Ship";
+        nameLength += name.length()*2+1;
+        menu.addPointer(x("8067")+16, offsetData+nameLength);
         offsetData += menu.getData().length;
         menus.add(menu);
+        menu.printPointers();
 
+
+        byte[] codePointers = new byte[] {
+                    (byte) 0xB3, 0x6C, 0x66,
+                    (byte) 0xB4, (byte) 0xFE, 0x66,
+                    (byte) 0xB5, (byte) 0x90, 0x67,
+                    (byte) 0xB6, 0x22, 0x68,
+                    (byte) 0xB7, (byte) 0xB4, 0x68,
+                    (byte) 0xA3, 0x46, 0x69,
+                    (byte) 0xA8, (byte) 0x88, 0x69,
+                    0, 0, 0};
+
+        codePointers[1]=Utils.getPointerByte(RAM_START+offsetData+x("18"), ByteType.LEFT);
+        codePointers[2]=Utils.getPointerByte(RAM_START+offsetData+x("18"), ByteType.RIGHT);
+        codePointers[4]=Utils.getPointerByte(RAM_START+offsetData+x("AA"), ByteType.LEFT);
+        codePointers[5]=Utils.getPointerByte(RAM_START+offsetData+x("AA"), ByteType.RIGHT);
+        codePointers[7]=Utils.getPointerByte(RAM_START+offsetData+x("13C"), ByteType.LEFT);
+        codePointers[8]=Utils.getPointerByte(RAM_START+offsetData+x("13C"), ByteType.RIGHT);
+        codePointers[10]=Utils.getPointerByte(RAM_START+offsetData+x("1CE"), ByteType.LEFT);
+        codePointers[11]=Utils.getPointerByte(RAM_START+offsetData+x("1CE"), ByteType.RIGHT);
+        codePointers[13]=Utils.getPointerByte(RAM_START+offsetData+x("260"), ByteType.LEFT);
+        codePointers[14]=Utils.getPointerByte(RAM_START+offsetData+x("260"), ByteType.RIGHT);
+        codePointers[16]=Utils.getPointerByte(RAM_START+offsetData+x("2F2"), ByteType.LEFT);
+        codePointers[17]=Utils.getPointerByte(RAM_START+offsetData+x("2F2"), ByteType.RIGHT);
+        codePointers[19]=Utils.getPointerByte(RAM_START+offsetData+x("334"), ByteType.LEFT);
+        codePointers[20]=Utils.getPointerByte(RAM_START+offsetData+x("334"), ByteType.RIGHT);
+        
+        menu = new Menu(offsetData, codePointers);
+        menu.addPointer(x("7FB2"), offsetData);
+        offsetData += codePointers.length;
+        menus.add(menu);
+        
         System.out.println(id++);
         menu = new Menu(offsetData, readMenuFileData("src/main/resources/translations/menus/99-code.data"));
-        menu.addPointer(x("7FC0"), offsetData);
         offsetData += menu.getData().length;
         menus.add(menu);
 

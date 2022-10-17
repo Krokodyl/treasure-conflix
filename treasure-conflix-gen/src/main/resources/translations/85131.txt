@@ -58,7 +58,7 @@ DATA=85131;00292;00 D7 DD 14 BD 18 B0 BD 02 C9 8F EA 8F 8A 3F 05 00 96 59 DA C0 
 JPN={00}ランドスベースの場所?{WP}{00}忘れたのか?{00}しっかりしろよ!{NL4}{00}ここの真北じゃないか」{EL}
 ENG=Landos Base location?{WP}Did you forget?{NL4}It's north from here. Take it easy.{EL}
 
-POINTER=80100;;002C4
+POINTER=80100;121;002C4
 DATA=85131;002C3;A2 02 CE D7 A4 91 81 B8 03 CA DD 06 B0 02 CD 8D 73 AF C3 D0 C5 A3 7C 
 JPN=「ほら、早くハンガーへ行ってみな」{EL}
 ENG=Come on, hurry up to the hangar.{EL}

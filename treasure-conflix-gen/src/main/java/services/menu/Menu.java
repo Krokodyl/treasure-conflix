@@ -42,4 +42,11 @@ public class Menu {
     public Map<Integer, Integer> getPointers() {
         return pointers;
     }
+    
+    public void printPointers() {
+        for (Map.Entry<Integer, Integer> e : pointers.entrySet()) {
+            System.out.println(h(e.getKey())+":"+h(e.getValue()));
+        }
+
+    }
 }

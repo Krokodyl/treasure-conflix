@@ -34,13 +34,33 @@
 {TAB}{NL}　　トレジャー・ハンタ
 トレジャー・ハンターと呼ぶ{TAB}{NL}{TAB}{NL}　　　　……宝を狩る者、と
 
-The frontiers of the galaxy bear the traces of ancient, extinct civilizations.
-Some ruins were found here in Walden as well.
-However, many relics are still sleeping yet to be seen by humans.
-People drawn to the tales of such ancient civilizations gather on this planet, hiding among the settlers.
+The frontiers of the galaxy
+bear the traces of ancient
+extinct civilizations.
 
-Some of them take supreme pleasure in finding hidden treasures.
-Some fly through the skies on airships, facing danger while pursuing the legendary treasures.
+Some ruins were found here
+in Walden as well.
+
+However, many relics
+are still dormant
+yet to be seen by humans.
+
+
+People drawn to the tales
+of such ancient civilizations
+gather on this planet,
+hiding among the settlers.
+
+
+Some of them take great pleasure
+in finding hidden treasures.
+
+Some roam the skies on airships
+in the face of danger
+while pursuing
+the legendary treasures.
 
 They call themselves...
+
+
 ...treasure hunters.
