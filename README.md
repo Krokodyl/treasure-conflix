@@ -41,9 +41,9 @@ Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 
 # Treasure map
 
-![32](/screenshots/treasure-maps/minimap.png)
-![32](/screenshots/treasure-maps/gps-01.png)
-![32](/screenshots/treasure-maps/gps-02.png)
+<img src="/screenshots/treasure-maps/minimap.png" alt="map" width="200%"/><br/>
+<img src="/screenshots/treasure-maps/gps-01.png" alt="map" width="200%"/><br/>
+<img src="/screenshots/treasure-maps/gps-02.png" alt="map" width="200%"/>
 
 # Credits
 
