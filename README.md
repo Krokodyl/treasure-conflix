@@ -1,6 +1,80 @@
 # treasure-conflix
 English Patch for Treasure Conflix
 
+
+# Treasure list
+
+Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
+--- | --- | --- | --- | --- | --- | ---
+01 | ![01](/screenshots/treasure-icons/01.png) | 不老不死の仙薬		| Stage 2 | Elixir of Life | Map in Landos Base
+02 | ![02](/screenshots/treasure-icons/02.png) | 神文玉爾			| Stage 2 | Imperial Seal | Map in Raizeltown
+03 | ![02](/screenshots/treasure-icons/03.png) | ドラゴンシールド	| Stage 2 | Dragon Shield | Map in Kazusa Base
+04 | ![02](/screenshots/treasure-icons/04.png) | 大地神の鎧			| Stage 2 | Dojin Armor | Map in Peppermint
+05 | ![02](/screenshots/treasure-icons/05.png) | サファイアの冠		| Stage 3 | Sapphire Crown | Map in Landos Base
+06 | ![02](/screenshots/treasure-icons/06.png) | 呪縛の魔鏡			| Stage 2 | Cursed Mirror | Map in Fort Fatras
+07 | ![02](/screenshots/treasure-icons/07.png) | 太陽の指輪			| Stage 2 | Sun Ring | Map in Peppermint
+08 | ![02](/screenshots/treasure-icons/08.png) | 金の聖杯			| Stage 3 | Golden Chalice | Map in Peppermint
+09 | ![02](/screenshots/treasure-icons/09.png) | 女神の像			| Stage 2 | Goddess Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
+10 | ![02](/screenshots/treasure-icons/10.png) | 金塊				| Stage 2 | Gold Bars | From Keane in Peppermint | "There's a mountain range outside of Landos Base.  Gold is hidden in one of the valleys."
+11 | ![02](/screenshots/treasure-icons/11.png) | Ａ゛キャッツアイ	| Stage 2 | Cat's Eye | Kazusa Office | "The Doom Triangle... the magical sea that swallowed up many lives...  A wandering soul has lost its way in a large secluded forest and continues to drift.  In the depths of the forest, where no one approaches, lies a shining cat's eye."
+12 | ![02](/screenshots/treasure-icons/12.png) | 白金の飾り灯篭		| Stage 2 | Platinum Lantern | From Fish in Fort Fatras | "A platinum lantern is buried in one of its four legs."
+13 | ![02](/screenshots/treasure-icons/13.png) | 邪神の彫像			| Stage 2 | Evil God Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
+14 | ![02](/screenshots/treasure-icons/14.png) | アメジストの腕輪	| Stage 2 | Amethyst Bracelet | Kazusa Base Office | "The bracelet is torn in the valley of the mountains."
+15 | ![02](/screenshots/treasure-icons/15.png) | ルビーの指輪		| Stage 2 | Ruby Ring | From Silva in Peppermint | "The ruby ring is a gift to the parents island, not the grandparents or grandchildren."
+16 | ![02](/screenshots/treasure-icons/16.png) | エメラルドの指輪	| Stage 2 | Emerald Ring | Fort Fatras Office | "Where the trees cross, the emerald shines."
+17 | ![02](/screenshots/treasure-icons/17.png) | 月光に光る石		| Stage 2 | Moonlight Stone | Landos Base Office | "On a barren island, stones shine in the moonlight."
+18 | ![02](/screenshots/treasure-icons/18.png) | 銀の祭器			| Stage 1 | Silver Vessel | Kazusa Base Office | "There is a large mountain northwest of Kazusa Base.  In a clearing in the nearby woods, an ancient festival was held.  The silver ceremonial vessel that was used is still lost in that forest."
+19 | ![02](/screenshots/treasure-icons/19.png) | 天使の弓矢			| Stage 2 | Angel's Bow | Fort Fatras Office | "An angel shoots an arrow at the spring that heals the burning pain of the throat.  The traveler falls asleep in the tree shade.”
+20 | ![02](/screenshots/treasure-icons/20.png) | 魅惑の指輪			| Stage 2 | Enchanted Ring | Kazusa Base | "On the road to sneak up on the angry sea god, the ring shines on a cape."
+21 | ![02](/screenshots/treasure-icons/21.png) | 銀の燭台			| Stage 2 | Silver Candelabra | Raizeltown Office | "When the sea haze clears, stand at the tip of the cape and look in the distance,  there is a large island nearby and a small island beyond.  Straight ahead is another island where I hid the treasure."  
+22 | ![02](/screenshots/treasure-icons/22.png) | 古代宗教経典		| Stage 2 | Ancient Scriptures | Fort Fatras Office | "...that was lost in the northern canyon."
+23 | ![02](/screenshots/treasure-icons/23.png) | 三つ目人のどくろ	| Stage 2 | Three-Eyed Skull | Peppermint | "Three-Eyed Skulls on Triplets Island."
+24 | ![02](/screenshots/treasure-icons/24.png) | 金の髪飾り			| Stage 2 | Golden Barrette | Raizeltown Office | "The Golden Barrette is located at the base of the twisted arm."
+25 | ![02](/screenshots/treasure-icons/25.png) | 真珠の首飾り		| Stage 1 | Pearl Necklace | Peppermint Office |
+26 | ![02](/screenshots/treasure-icons/26.png) | 正史戦記			| Stage 1 | War Chronicle | Landos Base Office
+27 | ![02](/screenshots/treasure-icons/27.png) | 黒珊瑚の首飾り		| Stage 1 | Black Coral Hairpin | Raizeltown Office | "There's a forest on the east coast. The Black Coral Hairpin is hidden somewhere there."
+28 | ![02](/screenshots/treasure-icons/28.png) | 古代の通貨			| Stage 2 | Ancient Coin | Landos Base | "In a forest, between twin mountains surrounded by green..."
+29 | ![02](/screenshots/treasure-icons/29.png) | 古代王朝の宝冠		| Stage 2 | Royal Crown | Underwater in the Doom Triangle
+30 | ![02](/screenshots/treasure-icons/30.png) | 白鳳のつるぎ		| Stage 2 | Divine Sword | Underwater in the Doom Triangle
+31 | ![02](/screenshots/treasure-icons/31.png) | ダイヤの指輪		| Stage 2 | Diamond Ring | Underwater in the Doom Triangle
+32 | ![32](/screenshots/treasure-icons/32.png) | 金の腕輪			| Stage 2 | Gold Bracelet | Underwater in the Doom Triangle
+
+# Credits
+
+Role | Name
+--- | --- 
+Concept Design | 岡庭 真一郎
+Story | 江藤 桂大
+Main Program | 杉本 浩二
+Main Graphics | 本根 康之
+Music Composer | 仲野 順也
+Visual Design | 直良 有祐
+Enemy Sequence | 鈴木 敏章
+Enemy Graphics | 浜坂 真一郎
+Event Program | 遠藤 利男
+Character Graphics | 林 真佐秋
+Worldmap Graphics | 春木 あかね
+Parameters | 岡崎 礼貴
+Auction Program | 松本 岳美
+Sound Effect | 中村 栄治
+Sound Program | 赤尾 実
+Publicity | 山下 弘二 <br/> 飯田 克信
+Special Thanks | 花田 憲昌 <br/> 佐々木 洋勝
+
+# Unused data
+
+When you're idle on the title screen, you get a demo reel presenting all the characters.<br/>
+In the data, there is an extra character called Bayu, absent from the game:
+
+Japanese | English
+--- | --- 
+バユウ | Bayuu
+ショップのジジィ。 | Old man in a shop
+どこにでもいるオッサン | Ordinary middle-aged man
+７２歳　男性　未婚 | 72, male, single
+
+Offset: 78EF-7946
+
 # Memory Mapping
 
 
@@ -32,10 +106,13 @@ Offset | Content | Comment
 70100-76878<br/>Character sprites  | ![70100](sprites/memory-mapping/70100.png) | Compressed<br/>Tiles
 76A00-7A569<br/>Sprites  | ![76A00](sprites/memory-mapping/76A00.png) | Compressed<br/>Tiles
 7A600-7B0FD<br/>Texts  | ![7A600](sprites/memory-mapping/7A600.png) | Compressed<br/>Tiles<br/>4bpp (Width: 8)
+7B100-7B119 | ? | Pointers
 7B200-7B796 | ? | ? 
 7B797-7B80A | ? | ?
 7B80B-7B894 | ? | ?
 7B895-7C030 | ? | ?
+7C031-xxxxx | ? | ?
+7C302-xxxxx | ? | ?
 7C8F5-7CCB7 | ? | Compressed<br/>Tile map
 7CCB8-7CF63 | ? | Compressed<br/>Tile map
 7CF64-7D25A | ? | Compressed<br/>Tile map
@@ -44,6 +121,7 @@ Offset | Content | Comment
 7D658-7DA86 | ? | Compressed<br/>Tile map ?
 7DA87-7DB1E | ? | Compressed<br/>Tile map ?
 7E200-7FFFF | ? | ?
+A0380-A03A7
 A03A8-A03EE<br/> | ![A03A8](sprites/memory-mapping/A03A8.png) | Compressed<br/>
 A1DFD-A5706<br/>Title screen | ![A1DFD](sprites/memory-mapping/A1DFD.png) | Compressed<br/>Tiles
 A5720-A5A39<br/>Title screen | ![A5720](sprites/memory-mapping/A5720.png) | Compressed<br/>Tile map<br/>for tiles A1DFD
@@ -52,12 +130,16 @@ A5D03-A5DD9<br/>Title screen | ![A5D03](sprites/memory-mapping/A5D03.png) | Comp
 AAA78-AE4C3<br/>Continue screen | ![AAA78](sprites/memory-mapping/AAA78.png) | Compressed<br/>Tiles
 AE4C4-AEA4F<br/>Continue screen | ![AE4C4](sprites/memory-mapping/AE4C4.png) | Compressed<br/>Tile map<br/>for tiles AAA78
 B0000-B05CA<br/>Ship Sprite | ![B0000](sprites/memory-mapping/B0000.png) | Compressed<br/>Tiles
+B0616-B06AA
 B06AB-B0FCF<br/>Mode 7 texts sprite | ![B06AB](sprites/memory-mapping/B06AB.png) | Compressed<br/>Tiles
+B0FD0-B173D<br/>Mode 7 texts sprite | ![B0FD0](sprites/memory-mapping/B0FD0.png) | Compressed<br/>Tiles
 B173E-B18C4<br/>Text sprites | ![B173E](sprites/memory-mapping/B173E.png) | Compressed<br/>Tiles
 B19C7-B6C44<br/>Intro screen | ![B19C7](sprites/memory-mapping/B19C7.png) | Compressed<br/>Tiles
 B6C45-B6ED9<br/>Intro screen | ![B6C45](sprites/memory-mapping/B6C45.png) | Compressed<br/>Tile map<br/>for tiles B19C7
 B6ED8-B7151<br/>Intro screen | ![B6ED8](sprites/memory-mapping/B6ED8.png) | Compressed<br/>Tile map<br/>for tiles B19C7
 B7150-B74A7<br/>Intro screen | ![B7150](sprites/memory-mapping/B7150.png) | Compressed<br/>Tile map<br/>for tiles B19C7
+B7657-B9DF3<br/>Intro screen | ![B7657](sprites/memory-mapping/B7657.png) | Compressed<br/>Tiles
+B9DF4-BA14C<br/>Intro screen | ![B9DF4](sprites/memory-mapping/B9DF4.png) | Compressed<br/>Tile map<br/>for tiles B7657
 F6644-F82B7<br/>Intro screen | ![F6644](sprites/memory-mapping/F6644.png) | Compressed<br/>Tiles
 F82B8-F86A5<br/>Intro screen | ![F82B8](sprites/memory-mapping/F82B8.png) | Compressed<br/>Tile map<br/>for tiles F6644
 
