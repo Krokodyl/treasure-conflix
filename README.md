@@ -39,6 +39,12 @@ Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 31 | ![02](/screenshots/treasure-icons/31.png) | ダイヤの指輪		| Stage 2 | Diamond Ring | Underwater in the Doom Triangle
 32 | ![32](/screenshots/treasure-icons/32.png) | 金の腕輪			| Stage 2 | Gold Bracelet | Underwater in the Doom Triangle
 
+# Treasure map
+
+![32](/screenshots/treasure-maps/minimap.png)
+![32](/screenshots/treasure-maps/gps-01.png)
+![32](/screenshots/treasure-maps/gps-02.png)
+
 # Credits
 
 Role | Name
