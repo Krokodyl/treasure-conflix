@@ -10,7 +10,7 @@
 Places
 ウォルデン				Waruden				Walden
 ランドスベース			Randosubēsu			Landos Base
-レイズルタウン			Reizurutaun			Razzle Town
+レイズルタウン			Reizurutaun			Raizeltown
 
 Locations
 　　　レイズルタウン{00}			Reizurutaun 
@@ -18,23 +18,64 @@ Locations
 　　　 カズサベース{00}			kazusabēsu 
 　　フォート・ファトラス{00}		fōto fatorasu					Fort Fatras
 　ジャンクタウン　ペパミント{00}	jankutaun pepaminto				Peppermint Junktown
-　　　古代の民の隠れ里{00}		kodai no min no kakurezato		Elder Village
+　　　古代の民の隠れ里{00}		kodai no min no kakurezato		Hidden Village
  　　　　 雲の神殿{00}			kumo no shinden					Cloud Temple
  　　　  サルベージ船{00}		sarubēji-sen 					Salvage Ship
  　　ナビゲーション　オフ{00}	nabigēshon ofu					
+古代民の隠れ里
+古代の民の隠れ里
+グランシェラ山脈				guranshera sanmyaku				Grand Sierra Mountain Range
+ドゥームトライアングル			do~ūmutoraianguru				Doom Triangle
 
 People
-ヴォイス					Vu~oisu				Voice
-メルク					Meruku				Merck
+ヴォイス				Vu~oisu				Voice
+メルク					Meruku				Melk
 フィッシュ				Fisshu				Fish
 ラウド					Raudo				Loud
-ジルバ					Jiruba				Jitterbug
-アロンゾ					Aronzo				Alonso
+ジルバ					Jiruba				Silva
+アロンゾ				Aronzo				Alonso
 タンゴ					Tango				Tango
-レッド・スペイド			Reddo Supeido		Red Spade
-クランク					Kuranku				Crank
+レッド・スペイド		Reddo Supeido		Red Spade
+クランク				Kuranku				Crank
 アレフ					Arefu				Aleph
+カーツ					Katsu				Kurtz
+ミュート				Myūto 				Mute
+ギルモアさん			girumoa-san			Mr.Gilmore
+セルジュ				Seruju				Serge
+キーン					Kin					Keane
+レオン					Reon				Leon
+トート					Toto				Toto
+ヨハン					Yohan				Johan
+リサ					Risa				Lisa
+ノヴァ					Novua				Nova
+ポルカ					Poruka				Polka
+ナスカ					Nasuka				Nasca
+チェット				Chetto				Chet
+クイック				Kuikku				Quick
+ユッスー				Yussū 				Yusuf
+ナジャ					Naja				Nadja
+ラグ					Ragu				Rag
+
+Treasures
+【雲の扉】									Cloud Gate
+
+
+Auction Clients
+ケイヤー様				keiyā-sama       	Mr. Kayer
+セフマン様				sefuman-sama		Mr. Sefman
+ロゼルグ様				rozerugu-sama		Mr. Rozergue
+オライオス様			oraiosu-sama		    Mr. Orios
+ビアンヌ様				bian'nu-sama		Ms. Viane
+ジェシュア様			jeshua-sama			    Mr. Jeshua
+ボーンズ様				bōnzu-sama			Mr. Bones
+バビール様				babīru-sama			Mr. Babil
+
+Cayer
 
 Bones, Cayer, Orios, Seffman,
 Jeshua, Roserg, Vianne, and Babil
 Gilmore
+
+Vocab for references
+Fake		フェイク (feiku)
+
