@@ -1,0 +1,71 @@
+POINTER=818E7;;00001
+DATA=890E7;00000;BE D9 0C AD 02 C9 03 CA DD 06 B0 7C 
+JPN=セルジュのハンガー{EL}
+ENG= Serge's Workshop{EL}
+
+POINTER=818E7;76;0000D
+DATA=890E7;0000C;C4 B0 C4 A2 02 B1 DD C0 03 CA DD C0 B0 02 10 C8 A1 04 00 10 AF C0 D7 A4 03 DA B2 0D D9 C0 B3 DD 02 C9 03 CA DD 06 B0 04 00 02 13 D4 AF C3 D3 D7 B2 C5 A1 01 00 B3 C1 C9 03 B1 C8 B7 02 06 D4 AF C3 D9 CA 0D 10 D6 A1 04 00 88 AB B2 B9 14 BA BA CA A4 B2 C2 D3 97 5C 96 F1 13 88 EA 94 74 04 00 C5 DD 10 D6 A3 7C 
+JPN=トート「あんたハンターだね。{NL4}{00}だったら、レイズルタウンのハンガー{NL4}{00}でやってもらいな。{01}{00}うちのアネキがやってるはずだよ。{NL4}{00}悪いけどここは、いつも予約で一杯{NL4}{00}なんだよ」{EL}
+ENG=Toto: You're a hunter.{NL4}You should go to the workshop in{NL4}Raizeltown.{01}My older sister works there.{NL4}We're fully booked here.{EL}
+
+POINTER=818E7;7F;00073
+DATA=890E7;00072;C4 B0 C4 A2 02 CF C0 A4 B1 DD C0 B6 B2 A1 04 00 88 AB B2 B9 14 B3 C1 C9 90 65 95 FB 06 03 CA DD C0 B0 8C 99 02 B2 13 04 00 C8 A1 03 CA DD C0 B0 02 C9 92 8D 95 B6 CA 8C E3 89 F1 BC C5 DD 10 A3 7C 
+JPN=トート「また、あんたかい。{NL4}{00}悪いけどうちの親方がハンター嫌いで{NL4}{00}ね。ハンターの注文は後回しなんだ」{EL}
+ENG=Toto: My boss hates hunters that's{NL4}why the hunters' orders get put on{NL4}the backburner. Sorry.{EL}
+
+POINTER=818E7;8B;000B4
+DATA=890E7;000B3;C4 B0 C4 A2 02 D4 B1 A4 B3 C1 C9 03 B1 C8 B7 02 CA 8C B3 8B 43 13 04 00 D4 AF C3 D9 B6 B2 3F 00 B5 8C DD B2 96 5A BC B8 C3 BC 15 04 00 D7 B8 89 EF AF C3 C5 B2 DD 10 D6 01 00 C4 BA DB 13 A4 8D A1 B5 D3 BC DB B2 03 1A B0 C2 02 A6 90 BB 8D EC 04 00 92 86 C5 DD 10 D6 A1 8A AE 90 AC BC C0 D7 A4 B1 DD C0 C6 8E 8E 04 00 BB BE C3 B1 09 D9 D6 A3 7C 
+JPN=トート「やあ、うちのアネキは元気で{NL4}{00}やってるかい?{00}お互い忙しくてしば{NL4}{00}らく会ってないんだよ{01}{00}ところで、今おもしろいパーツを製作{NL4}{00}中なんだよ。完成したら、あんたに試{NL4}{00}させてあげるよ」{EL}
+ENG=Toto: Hi, how's my sister doing?{NL4}We haven't seen each other in{NL4}a while because we're both busy.{01}By the way, I'm working on a{NL4}special equipment right now.{NL4}You can try it when it's ready.{EL}
+
+POINTER=818E7;98;00126
+DATA=890E7;00125;C4 B0 C4 A2 02 B2 B2 D3 C9 06 8A AE 90 AC BC C0 D6 A1 04 00 93 47 C9 92 65 06 8C A9 B4 D9 03 DA B0 10 B0 02 C4 04 00 89 7E A6 95 60 B7 C5 06 D7 94 F2 17 92 65 C5 DD 10 D6 A1 7C 
+JPN=トート「いいものが完成したよ。{NL4}{00}敵の弾が見えるレーダーと{NL4}{00}円を描きながら飛ぶ弾なんだよ。{EL}
+ENG=Toto: I've made new equipment.{NL4}A radar that detects enemy bullets{NL4}and a bullet that flies in circles.{EL}
+
+POINTER=818E7;9B;00161
+DATA=890E7;00160;00 02 14 C1 D7 B6 88 EA C2 A6 91 95 94 F5 BB BE C3 B1 09 D9 D6 A1 04 00 8D A1 A4 91 95 94 F5 BD D9 B6 B2 3F 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN={00}どちらか一つを装備させてあげるよ。{NL4}{00}今、装備するかい?{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want one of the two?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=818E7;BF;00195
+DATA=890E7;00194;00 DA B0 10 B0 02 C6 BD D9 B6 B2 3F 04 00 92 65 C6 BD D9 B6 B2 3F A3 04 00 00 00 00 03 DA B0 10 B0 00 00 00 00 92 65 7C 
+JPN={00}レーダーにするかい?{NL4}{00}弾にするかい?」{NL4}{00}{00}{00}{00}レーダー{00}{00}{00}{00}弾{EL}
+ENG=Do you want the radar?{NL4}Or do you want the bullet?{NL4}       Radar          Bullet{EL}
+
+POINTER=818E7;B6;001BD
+DATA=890E7;001BC;C4 B0 C4 A2 02 0C AC A4 8E 8E BC C3 D0 D9 8B 43 C6 C5 AF C0 D7 04 00 CF C0 97 88 C5 D6 A1 03 B1 C8 B7 02 C6 D6 DB BC B8 A3 7C 
+JPN=トート「じゃ、試してみる気になったら{NL4}{00}また来なよ。アネキによろしく」{EL}
+ENG=Toto: Come back if you change your{NL4}mind. Say hi to my sister!{EL}
+
+POINTER=818E7;100;001E7
+DATA=890E7;001E6;C4 B0 C4 A2 02 B1 DA C9 92 B2 8E 71 CA 14 B3 10 B2 A1 04 00 90 ED 93 AC 06 8A 79 C6 C5 AF C0 10 DB A1 A3 7C 
+JPN=トート「あれの調子はどうだい。{NL4}{00}戦闘が楽になっただろ。」{EL}
+ENG=Toto: How do you like it?{NL4}Combat should be easier.{EL}
+
+POINTER=818E7;AB;0020B
+DATA=890E7;0020A;C4 B0 C4 A2 91 95 94 F5 02 BD D9 8B 43 C6 C5 AF C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=トート「装備する気になったかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Toto: Interested in new equipment?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=818E7;CA;00231
+POINTER=818E7;E0;00231
+DATA=890E7;00230;C4 B0 C4 A2 B5 AF B9 B0 21 04 00 02 BF DA 0C AC A4 CF B6 BE C4 B2 C3 D6 A3 7C 
+JPN=トート「オッケー!{NL4}{00}それじゃ、まかせといてよ」{EL}
+ENG=Toto: Alright!{NL4}I'm on it.{EL}
+
+POINTER=818E7;D8;0024B
+DATA=890E7;0024A;C4 B0 C4 A2 02 BA DA 13 93 47 C9 92 65 06 03 DA B0 10 B0 02 C6 89 66 D9 04 00 D6 B3 C6 C5 AF C0 D6 A1 D3 B3 A4 8C E3 DB B6 D7 91 5F DC 04 00 DA C3 D3 91 E5 8F E4 95 76 10 C8 A3 7C 
+JPN=トート「これで敵の弾がレーダーに映る{NL4}{00}ようになったよ。もう、後ろから狙わ{NL4}{00}れても大丈夫だね」{EL}
+ENG=Toto: Now the enemies' bullets are{NL4}visible on the radar. Useful if{NL4}you're targeted from behind.{EL}
+
+POINTER=818E7;EE;00287
+DATA=890E7;00286;C4 B0 C4 A2 02 BA C9 92 65 CA 41 13 94 AD 8E CB BD D9 DD 10 D6 A1 04 00 8A B5 DA D9 CF 13 CA 8E 67 B2 12 D7 B2 C4 8E 76 B3 B9 14 A4 04 00 93 47 CA 03 16 AF B8 D8 02 BD D9 10 DB B3 C8 A3 7C 
+JPN=トート「この弾はＡで発射するんだよ。{NL4}{00}慣れるまでは使いづらいと思うけど、{NL4}{00}敵はビックリするだろうね」{EL}
+ENG=Toto: Shoot this bullet with A.{NL4}It's hard to use but it will take{NL4}your enemies by surprise.{EL}
+
+POINTER=818E7;FA;002C6
+DATA=890E7;002C5;C4 B0 C4 A2 02 B2 B2 B6 D7 A4 8E 8E BC C3 D0 C5 D6 A3 7C 
+JPN=トート「いいから、試してみなよ」{EL}
+ENG=Toto: Okay, try it.{EL}
+

@@ -1,7 +1,7 @@
 {NL2}
 {NL2}To talk to someone, use the treasure chest,
 {NL2}or the recording device on the bridge,
-{NL2}press the A or {↑} in front of it/them.
+{NL2}press the A or {↑} in front of it or them.
 {NL2}
 {NL2}
 {NL2}To exit the lobby and move to the flight 

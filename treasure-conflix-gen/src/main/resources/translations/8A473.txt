@@ -1,0 +1,50 @@
+POINTER=823C4;;00001
+DATA=8A473;00000;00 00 94 65 8E D2 02 C9 8D D5 92 64 7C 
+JPN={00}{00}覇者の祭壇{EL}
+ENG=Conqueror's Altar{EL}
+
+POINTER=823C4;3A;0000E
+DATA=8A473;0000D;D7 B3 14 A2 07 D9 D3 B1 21 A3 7C 
+JPN=ラウド「ギルモア!」{EL}
+ENG=Loud: Gilmore!{EL}
+
+POINTER=823C4;DF;00019
+DATA=8A473;00018;D7 B3 14 A2 40 40 02 B2 AF C0 B2 89 BD 06 8B 4E BA AF C0 DD 10 3F 04 00 40 40 03 07 D9 D3 B1 02 CA 14 BA C6 3F A3 7C 
+JPN=ラウド「……いったい何が起こったんだ?{NL4}{00}……ギルモアはどこに?」{EL}
+ENG=Loud: What the hell just happened?{NL4}Where's Gilmore?{EL}
+
+POINTER=823C4;101;00040
+DATA=8A473;0003F;D7 B3 14 A2 1F AB B2 BD 40 40 95 B7 02 BA B4 C0 B6 3F 05 00 8A 4F C6 89 BD B6 B2 D9 D0 C0 B2 10 0E A1 04 00 C4 D8 B1 B4 0D 94 F2 8B F3 92 F8 C6 96 DF DB B3 21 A3 7C 
+JPN=ラウド「ヴォイス……聞こえたか?{WP}{00}外に何かいるみたいだぜ。{NL4}{00}とりあえず飛空艇に戻ろう!」{EL}
+ENG=Loud: Voice...did you hear that?{WP}It sounds like there's something{NL4}outside. Let's go back to the ship!{EL}
+
+POINTER=823C4;49;00077
+DATA=8A473;00076;00 40 40 02 C6 BC C3 8A AE 91 53 C5 D9 94 65 8E D2 C9 97 CD A6 A4 04 00 BF C9 8E F4 94 9B A6 89 F0 B7 BC 89 E4 C6 8E F6 B9 C0 CF B4 21 A3 7C 
+JPN={00}……にして完全なる覇者の力を、{NL4}{00}その呪縛を解きし我に授けたまえ!」{EL}
+ENG=Release the curse and give me the power of the perfect conqueror!
+
+POINTER=823C4;66;000A6
+DATA=8A473;000A5;07 D9 D3 B1 A2 DC CA CA CA CA AF 21 04 00 92 78 02 B6 AF C0 0C AC C5 B2 B6 C8 A1 7B 20 04 00 C0 AF C0 8D A1 A4 95 95 88 F3 CA 89 F0 B6 DA C0 C9 10 D6 21 7C 
+JPN=ギルモア「ワハハハハッ!{NL4}{00}遅かったじゃないかね。{7B}{20}{NL4}{00}たった今、封印は解かれたのだよ!{EL}
+ENG=Gilmore: Mwahahaha!{NL4}You are too late.{7B}{20}{NL4}The seal has just been broken!{EL}
+
+POINTER=823C4;6B;000DA
+DATA=8A473;000D9;00 02 B5 B5 A4 97 CD A6 8A B4 0C D9 21 7B 20 04 00 8C C3 91 E3 95 B6 96 BE A6 90 6B 9D 9E BB BE C0 97 CD A6 40 40 7B 20 04 00 91 53 C3 A6 8E 78 94 7A BD D9 97 CD A6 40 40 7C 
+JPN={00}おお、力を感じる!{7B}{20}{NL4}{00}古代文明を震撼させた力を……{7B}{20}{NL4}{00}全てを支配する力を……{EL}
+ENG=Oh, I feel the power!{7B}{20}{NL4}The power that shook the ancient{NL4}civilization...{7B}{20}{01}The power to rule the world...{EL}
+
+POINTER=823C4;74;00114
+DATA=8A473;00113;00 40 40 21 3F 40 40 7C 
+JPN={00}……!?……{EL}
+ENG=...!?...{EL}
+
+POINTER=823C4;88;0011C
+DATA=8A473;0011B;00 B8 AF 21 40 40 02 BA DA CA 40 40 B2 AF C0 B2 40 40 7C 
+JPN={00}クッ!……これは……いったい……{EL}
+ENG=What...What the heck...is this...{EL}
+
+POINTER=823C4;91;0012F
+DATA=8A473;0012E;00 40 40 40 40 08 B1 B1 B1 B1 AF 21 A3 7C 
+JPN={00}…………グアアアアッ!」{EL}
+ENG={*}gasp{*}{EL}
+

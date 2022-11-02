@@ -1,6 +1,6 @@
 {NL2}　　Manual: Flight
 {NL2}
-{NL2}　　A Scanner　　　X Bridge
+{NL2}　　A Sensor 　　　X Bridge
 {NL2}　　B Go down　　　Y Go up
 {NL2}　　L Turn Left　　R Turn Right
 {NL2}

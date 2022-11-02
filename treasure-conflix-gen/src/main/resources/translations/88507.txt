@@ -1,0 +1,172 @@
+POINTER=81458;;00001
+DATA=88507;00000;CA DD C0 B0 A5 B5 CC A8 BD 7C 
+JPN=ハンター・オフィス-Peppermint{EL}
+ENG=  Hunters Office{EL}
+
+POINTER=81458;8A;0000B
+DATA=88507;0000A;D0 AD B0 C4 A2 02 CF AF C0 B8 A4 C2 B2 C3 C5 B2 D6 A1 04 00 95 F3 A6 92 54 BC C3 89 BA 15 B6 D8 8C A9 C3 C0 D7 A4 89 DD 95 A8 91 44 04 00 C4 90 DA 90 47 BC C1 CF AF C3 BB A1 01 00 97 4C D8 8B E0 CA C0 B2 C3 91 8A 8E E8 C9 91 44 A6 95 D9 8F 9E BC C0 C9 04 00 C6 A4 8E A9 95 AA C9 91 44 CA 89 F3 DA C0 CF CF 10 D6 A1 94 F2 17 04 00 C6 CA 94 F2 18 D9 B9 14 A4 95 73 88 C0 92 E8 C5 DD 10 D6 C5 B1 A3 7C 
+JPN=ミュート「まったく、ついてないよ。{NL4}{00}宝を探して下ばかり見てたら、貨物船{NL4}{00}と接触しちまってさ。{01}{00}有り金はたいて相手の船を弁償したの{NL4}{00}に、自分の船は壊れたままだよ。飛ぶ{NL4}{00}には飛べるけど、不安定なんだよなあ」{EL}
+ENG=Mute: I'm totally out of luck.{NL4}When I was looking for treasure,{NL4}I accidentally hit a cargo ship.{01}All my money went to compensate{NL4}the other ship and my own ship is{NL4}ruined.{01}It can fly, but it's unstable.{EL}
+
+POINTER=81458;1B7;00090
+DATA=88507;0008F;0C D9 15 A2 91 44 02 06 92 BC D9 CF 13 A4 BA BA 13 8F EE 95 F1 89 AE A6 04 00 D4 D9 BA C4 C6 BC C0 C9 A1 8D C5 8F 89 10 B9 A4 C0 10 13 04 00 B2 B2 BA C4 8B B3 B4 C3 B1 09 D9 DC D6 A1 7C 
+JPN=ジルバ「船が直るまで、ここで情報屋を{NL4}{00}やることにしたの。最初だけ、ただで{NL4}{00}いいこと教えてあげるわよ。{EL}
+ENG=Silva: I decided to work as an{NL4}informant here until my ship{NL4}is repaired.{01}Just for the first time,{NL4}I'll give you a tip for free.{EL}
+
+POINTER=81458;1BA;000CE
+DATA=88507;000CD;00 95 B7 02 B7 C0 B2 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN={00}聞きたい?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want to hear it?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;1C3;000E7
+DATA=88507;000E6;0C D9 15 A2 94 6E 8E AD 02 C8 A1 B1 C5 C0 C6 92 BC 90 DA 8A D6 8C 57 C9 04 00 B1 D9 BA C4 C5 C9 C6 40 40 04 00 D3 B3 A4 C0 10 0C AC 8B B3 B4 C3 B1 09 C5 B2 DC 21 A3 7C 
+JPN=ジルバ「馬鹿ね。あなたに直接関係の{NL4}{00}あることなのに……{NL4}{00}もう、ただじゃ教えてあげないわ!」{EL}
+ENG=Silva: You're an idiot.{NL4}It concerned you but...{NL4}I won't tell you anything at all!{EL}
+
+POINTER=81458;1C8;0011F
+DATA=88507;0011E;0C D9 15 A2 02 BA C9 8A D4 A4 03 DA AF 14 A5 BD 1D B2 14 02 06 04 00 03 B6 0D BB 18 B0 BD 02 C6 8C BB DA C0 C9 A1 94 DE A4 14 04 00 B3 D4 D7 B1 C5 C0 A6 91 5F AF C3 D9 D7 BC B2 DC C8 A1 01 00 81 77 BA DA 13 B1 C9 03 CA DD C0 B0 96 EC 98 59 02 C6 95 9C 8F 51 06 04 00 13 B7 D9 81 78 AF C3 8C BE AF C3 C0 D3 C9 A1 04 00 8B 43 A6 C2 B9 C5 BB B2 D6 A3 7C 
+JPN=ジルバ「この間、レッド・スペイドが{NL4}{00}カズサベースに現れたの。彼、ど{NL4}{00}うやらあなたを狙ってるらしいわね。{01}{00}『これであのハンター野郎に復讐が{NL4}{00}できる』って言ってたもの。{NL4}{00}気をつけなさいよ」{EL}
+ENG=Silva: The other day, Red Spade{NL4}showed up in Kazusa Base.{NL4}It seems he was after you.{01}He said: "Now I can take revenge{NL4}on that goddamn hunter."{NL4}Be careful.{EL}
+
+POINTER=81458;1DF;00194
+DATA=88507;00193;0C D9 15 A2 02 BF B3 A4 BF DA B6 D7 BF C9 8E 9E C6 88 EA 8F 8F C6 04 00 B2 C0 C9 06 94 77 C9 8D 82 B2 A4 D6 BF 8E D2 10 AF C0 DC A1 04 00 BF C9 92 6A B6 D7 B5 8B E0 A6 D3 D7 AF C3 C0 DC D6 A1 01 00 B1 C5 C0 10 DA B6 C6 8D A6 D0 A6 94 83 AF C3 D9 DD 0C AC 04 00 C5 B2 C9 3F A3 7C 
+JPN=ジルバ「そう、それからその時に一緒に{NL4}{00}いたのが背の高い、よそ者だったわ。{NL4}{00}その男からお金をもらってたわよ。{01}{00}あなただれかに恨みを買ってるんじゃ{NL4}{00}ないの?」{EL}
+ENG=Silva: Yeah and the other man was{NL4}a tall stranger.{NL4}They exchanged money.{01}Didn't you provoke the ire{NL4}of someone else?{EL}
+
+POINTER=81458;1E4;001F1
+DATA=88507;001F0;0C D9 15 A2 95 B7 02 B7 C0 B9 DA 15 04 00 31 30 30 30 D3 D7 B3 DC D6 A1 B2 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=ジルバ「聞きたければ{NL4}{00}1000もらうわよ。いい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Silva: I will tell you for 1000.{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;1FA;0021D
+DATA=88507;0021C;0C D9 15 A2 8F EE 95 F1 02 C6 CA B5 8B E0 06 B6 B6 D9 BA C4 04 00 B8 D7 B2 92 6D AF C3 D9 13 BC AE A3 7C 
+JPN=ジルバ「情報にはお金がかかること{NL4}{00}くらい知ってるでしょ」{EL}
+ENG=Silva: You know that intel{NL4}is not free, right?{EL}
+
+POINTER=81458;204;00240
+DATA=88507;0023F;0C D9 15 A2 95 F3 95 A8 02 C9 8F EE 95 F1 06 B1 D9 C9 A1 04 00 7F 35 30 30 02 13 94 84 D9 DC D6 A1 97 7E BC B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=ジルバ「宝物の情報があるの。{NL4}{00}{7F}500で売るわよ。欲しい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Silva: Do you want some intel{NL4}for 500?{NL4}       YES            NO{EL}
+
+POINTER=81458;25E;00277
+DATA=88507;00276;0C D9 15 A2 02 0A D2 DD C5 BB B2 A1 8D A1 CA B1 04 00 C5 C0 C9 97 7E BC 06 D9 D6 B3 C5 8F EE 95 F1 CA 04 00 96 B3 B2 DC A3 7C 
+JPN=ジルバ「ごめんなさい。今はあ{NL4}{00}なたの欲しがるような情報は{NL4}{00}無いわ」{EL}
+ENG=Silva: I don't have anything{NL4}for you right now.{EL}
+
+POINTER=81458;21C;002A1
+DATA=88507;002A0;0C D9 15 A2 8C E3 02 13 95 B7 B7 C6 97 88 C3 D3 8B B3 B4 C5 B2 B6 D7 04 00 D6 B8 95 B7 B2 C3 C8 A1 04 00 8C 8B 8D 5C A4 93 EF BC B2 C4 8E 76 B3 DC D6 A1 01 00 B2 B2 3F 00 81 77 03 D9 16 B0 02 C9 8E 77 97 D6 CA A4 90 65 13 D3 04 00 91 B7 13 D3 C5 B8 8E 71 8B 9F C9 93 87 CD C9 91 A1 D8 95 A8 C4 BC C3 81 78 04 00 DC B6 AF C0 3F 01 00 8E 4F C2 C9 93 87 06 B1 D9 8F EA 8F 8A AF C3 14 BA B6 BC D7 3F 04 00 94 F2 8B F3 92 F8 06 B1 DA 15 8E A9 95 AA 13 92 54 BD DD 10 B9 14 A3 7C 
+JPN=ジルバ「後で聞きに来ても教えないから{NL4}{00}よく聞いてね。{NL4}{00}結構、難しいと思うわよ。{01}{00}いい?{00}『ルビーの指輪は、親でも{NL4}{00}孫でもなく子供の島への贈り物として』{NL4}{00}わかった?{01}{00}三つの島がある場所ってどこかしら?{NL4}{00}飛空艇があれば自分で探すんだけど」{EL}
+ENG=Silva: I won't repeat even{NL4}if you ask so listen up.{NL4}I think it's quite challenging.{01}It goes: "The ruby ring is a gift{NL4}to the parents island, not the{NL4}grandparents or grandchildren."{01}Where are there three islands?{NL4}If I had an airship,{NL4}I'd look for it myself.{EL}
+
+POINTER=81458;223;0033F
+DATA=88507;0033E;00 02 D3 B3 88 EA 93 78 8C 4A D8 95 D4 BD 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN={00}もう一度繰り返す?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Should I repeat?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;23B;00360
+DATA=88507;0035F;0C D9 15 A2 81 79 8B E0 02 C9 90 B9 94 74 81 7A C9 B1 D8 B6 A6 8E A6 BC C3 04 00 B2 D9 AF C3 B2 B3 92 6E 90 7D A6 8E E8 C6 93 FC DA C0 B9 14 A4 04 00 C5 DD 10 B6 D6 B8 DC B6 D7 C5 B2 C9 A1 7C 
+JPN=ジルバ「【金の聖杯】のありかを示して{NL4}{00}いるっていう地図を手に入れたけど、{NL4}{00}なんだかよくわからないの。{EL}
+ENG=Silva: I got a map to the location{NL4}of the [Golden Chalice] but I don't{NL4}know what that is.{EL}
+
+POINTER=81458;23E;003A0
+DATA=88507;0039F;00 02 BF DD C5 C9 8E 9D AF C3 B2 C3 D3 8E 64 95 FB C5 B2 B6 D7 04 00 7F 35 30 30 02 13 8F F7 AF C3 B1 09 D9 B9 14 A4 97 7E BC B2 3F 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN={00}そんなの持っていても仕方ないから{NL4}{00}{7F}500で譲ってあげるけど、欲しい?{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=I hand it to you for 500.{NL4}What do you say?{NL4}       YES            NO{EL}
+
+POINTER=81458;231;003DC
+DATA=88507;003DB;0C D9 15 A2 02 B2 B8 D7 C5 DD 13 D3 A4 03 C0 10 02 AF C3 DC B9 04 00 C6 CA B2 B6 C5 B2 DC A3 7C 
+JPN=ジルバ「いくらなんでも、タダってわけ{NL4}{00}にはいかないわ」{EL}
+ENG=Silva: No matter what, it's{NL4}not free.{EL}
+
+POINTER=81458;22C;003FC
+POINTER=81458;259;003FC
+DATA=88507;003FB;0C D9 15 A2 02 BF DA 0C AC A4 04 00 8A E6 92 A3 AF C3 92 54 BC C3 D0 C3 C8 A3 7C 
+JPN=ジルバ「それじゃ、{NL4}{00}頑張って探してみてね」{EL}
+ENG=Silva: Well, best luck to you.{EL}
+
+POINTER=81458;97;00417
+DATA=88507;00416;A2 95 F3 02 A6 94 84 D8 C0 B2 C9 B6 B2 3F 04 00 8F EE 95 F1 06 97 7E BC B2 C9 B6 B2 3F A3 04 00 00 00 00 95 F3 00 00 00 00 00 00 00 8F EE 95 F1 7C 
+JPN=「宝を売りたいのかい?{NL4}{00}情報が欲しいのかい?」{NL4}{00}{00}{00}{00}宝{00}{00}{00}{00}{00}{00}{00}情報{EL}
+ENG=Do you want to sell treasures?{NL4}Do you need intel?{NL4}       Treasures      Intel{EL}
+
+POINTER=81458;18E;00448
+DATA=88507;00447;A2 95 F3 02 A6 D0 C2 B9 C0 D7 04 00 00 00 CF C0 BA BA C6 8E 9D AF C3 BA B2 D6 A3 7C 
+JPN=「宝をみつけたら{NL4}{00}{00}{00}またここに持ってこいよ」{EL}
+ENG=If you find a treasure,{NL4}bring it back here.{EL}
+
+POINTER=81458;186;00464
+DATA=88507;00463;A2 40 40 7B 20 8E 63 94 4F 02 10 06 04 00 03 B5 CF B4 02 BB DD 06 8B 81 D2 C3 D9 D6 B3 C5 8F EE 95 F1 CA 04 00 96 B3 B2 C5 A3 7C 
+JPN=「……{7B}{20}残念だが{NL4}{00}オマエさんが求めてるような情報は{NL4}{00}無いな」{EL}
+ENG=Unfortunately, I don't have any{NL4}intel for you right now.{EL}
+
+POINTER=81458;17C;0048F
+DATA=88507;0048E;A2 02 B5 8B E0 06 C0 D8 C5 B2 D6 A3 7C 
+JPN=「お金がたりないよ」{EL}
+ENG=You don't have enough money.{EL}
+
+POINTER=81458;135;0049C
+POINTER=81458;171;0049C
+DATA=88507;0049B;A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「憶えたかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Did you get all of that?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;;004B7
+DATA=88507;004B6;A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「前に一度、教えたのにまた聞きたいの{NL4}{00}か?{00}金は取らないが……」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=
+
+POINTER=81458;181;004F0
+DATA=88507;004EF;A2 02 BF DA 0C AC A4 06 DD 15 AF C3 92 54 BC C3 D0 C5 A1 04 00 8C A9 C2 B9 C0 D7 BA BA C6 8E 9D AF C3 97 88 C3 B8 DA D6 A3 7C 
+JPN=「それじゃ、がんばって探してみな。{NL4}{00}見つけたらここに持って来てくれよ」{EL}
+ENG=Do your best to find it.{NL4}Bring it here when you do.{EL}
+
+POINTER=81458;14B;0051A
+DATA=88507;00519;A2 90 5E 8E EC 90 BB 02 C9 89 BD B6 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「真珠製の何かの情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want intel about the{NL4}[Pearl Necklace]?{NL4}       YES            NO{EL}
+
+POINTER=81458;10F;0054B
+DATA=88507;0054A;A2 02 C5 DD 10 B6 95 73 8B 43 96 A1 C5 95 A8 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「なんだか不気味な物の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=I have some strange intel.{NL4}Do you want it?{NL4}       YES            NO{EL}
+
+POINTER=81458;156;0057F
+DATA=88507;0057E;A2 92 6C 92 69 7F 33 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}300だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 300. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;11A;005A3
+DATA=88507;005A2;A2 92 6C 92 69 7F 37 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}700だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 700. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=81458;E2;005C7
+DATA=88507;005C6;A2 81 79 91 E5 92 6E 90 5F 02 C9 8A 5A 81 7A C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 31 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「【大地神の鎧】の地図があるぞ。{NL4}{00}値段{7F}1000でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=A map to the [Dojin Armor].{NL4}Price: 1000. Do you take it?{NL4}       YES            NO{EL}
+
+POINTER=81458;B0;00603
+DATA=88507;00602;A2 81 79 91 BE 97 7A 02 C9 8E 77 97 D6 81 7A 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 31 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「【太陽の指輪】地図があるぞ。{NL4}{00}値段{7F}1000でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=A map to the [Sun Ring].{NL4}Price: 1000. Do you take it?{NL4}       YES            NO{EL}
+
+POINTER=81458;16C;0063E
+DATA=88507;0063D;A2 8C C3 95 B6 8F 91 02 C6 CA BA B3 B1 D9 A1 04 00 93 EF BC B2 B6 D7 D6 B8 95 B7 B9 D6 A1 01 00 81 77 C1 07 DA BC 8E F1 8F FC D8 CA 8E B5 C2 A6 8E 63 BC C3 8A 43 C6 04 00 92 BE DD 10 A1 8E 63 D8 BC 8E B5 C2 A6 8E 6C CF 13 90 94 B4 C0 8F 8A 04 00 C6 90 5E 8E EC 90 46 C9 8E 71 8B 9F 06 89 42 DA C3 B2 D9 81 78 01 00 B7 AF C4 A4 89 BD B6 06 8E B5 C2 B1 D9 DD 10 C5 A1 04 00 BF DA C9 8E 6C C2 96 DA C6 95 F3 06 89 42 BB DA C3 B2 D9 AF C3 04 00 BA C4 10 DB B3 A3 7C 
+JPN=「古文書にはこうある。{NL4}{00}難しいからよく聞けよ。{01}{00}『ちぎれし首飾りは七つを残して海に{NL4}{00}沈んだ。残りし七つを四まで数えた所{NL4}{00}に真珠色の子供が隠れている』{01}{00}きっと、何かが七つあるんだな。{NL4}{00}それの四つ目に宝が隠されているって{NL4}{00}ことだろう」{EL}
+ENG=It's not easy so listen carefully.{NL4}This is what the old manuscript{NL4}says:{01}"Seven pieces of the necklace fell{NL4}and sank into the ocean.{01}From seven, count down to four,{NL4}there is hidden{NL4}the pearly offspring."{01}There must be seven things.{NL4}It says there's a treasure hidden{NL4}in the fourth one.{EL}
+
+POINTER=81458;130;006D8
+DATA=88507;006D7;A2 02 B1 D9 88 E2 90 D5 C9 95 C7 C6 8F 91 B6 DA C3 B2 C0 8C BE 97 74 10 A1 04 00 81 77 8E 4F 03 C2 96 DA 02 C9 14 B8 DB CA 8E 4F C2 8E 71 C9 93 87 C6 81 78 04 00 C4 D8 B1 B4 0D 8E 4F C2 8E 71 C9 93 87 A6 D0 C2 B9 D9 8E 96 10 A3 7C 
+JPN=「ある遺跡の壁に書かれていた言葉だ。{NL4}{00}『三ツ目のどくろは三つ子の島に』{NL4}{00}とりあえず三つ子の島をみつける事だ」{EL}
+ENG=These words were written in some{NL4}ruins:{01}"Three-Eyed Skulls on Triplets{NL4}Island."{NL4}Find the island of the triplets.{EL}
+
+POINTER=81458;F8;00725
+DATA=88507;00724;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
+JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
+ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+
+POINTER=81458;C6;00753
+DATA=88507;00752;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
+JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
+ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+

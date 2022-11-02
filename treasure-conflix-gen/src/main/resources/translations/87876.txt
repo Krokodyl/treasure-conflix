@@ -1,0 +1,55 @@
+POINTER=80EFD;;00001
+DATA=87876;00000;00 00 B6 0D BB 18 B0 BD 7C 
+JPN={00}{00}カズサベース{EL}
+ENG=   Kazusa Base{EL}
+
+POINTER=80EFD;1A4;0000A
+DATA=87876;00009;D8 BB A2 02 B1 C5 C0 81 79 89 5F C9 94 E0 81 7A A6 92 54 BC C3 DD C9 3F 05 00 BF DA AF C3 8C C3 91 E3 96 AF C9 95 F3 D6 C8 A1 04 00 03 CC DD A4 02 BA B3 8C A9 B4 C3 D3 A4 95 D7 8B AD 89 C6 C5 DD 10 D6 A1 01 00 BF B3 B2 B4 15 A4 14 BA B6 C9 8A 58 13 88 E2 95 F3 8F 57 D2 C9 04 00 8D 44 B7 C5 0C B2 BB CF 06 BF DA C6 C2 B2 C3 98 62 BC C3 04 00 B2 C0 C9 A6 95 B7 B2 C0 8B 43 06 BD D9 D6 A3 7C 
+JPN=リサ「あなた【雲の扉】を探してんの?{WP}{00}それって古代民の宝よね。{NL4}{00}フン、こう見えても、勉強家なんだよ。{01}{00}そういえば、どこかの街で遺宝集めの{NL4}{00}好きなじいさまがそれについて話して{NL4}{00}いたのを聞いた気がするよ」{EL}
+ENG=Lisa: Are you looking for the{NL4}Cloud Gate?{WP}I know it's an ancient treasure.{01}Even though I look like this,{NL4}I'm a well-informed person.{01}Come to think of it,{NL4}I think I heard an old collector{NL4}talk about it in some town.{EL}
+
+POINTER=80EFD;1B6;0008C
+DATA=87876;0008B;D8 BB A2 8C A9 02 C2 B6 AF C0 B6 B2 3F 00 81 79 89 5F C9 94 E0 81 7A CA A1 05 00 40 40 CF B1 A4 BF B3 8A C8 92 50 C6 CA 8C A9 C2 B6 D7 C5 B2 04 00 D6 C8 A1 01 00 13 D3 BF DA 06 95 F3 92 54 BC C9 91 E7 8C ED 96 A1 0C AC C5 B2 3F 04 00 D4 AF 1A D8 A4 8B EA 98 4A BC C3 8C A9 C2 B9 C0 8E 9E CE 14 04 00 B3 DA BC B2 D3 C9 D6 C8 A1 01 00 BF DA 06 A4 93 60 90 E0 C6 8C EA D7 DA C3 D9 95 F3 10 AF C0 D7 04 00 C5 B5 BB D7 40 40 7B 20 BF B3 0C AC C5 B2 3F A3 7C 
+JPN=リサ「見つかったかい?{00}【雲の扉】は。{WP}{00}……まあ、そう簡単には見つからない{NL4}{00}よね。{01}{00}でもそれが宝探しの醍醐味じゃない?{NL4}{00}やっぱり、苦労して見つけた時ほど{NL4}{00}うれしいものよね。{01}{00}それが、伝説に語られてる宝だったら{NL4}{00}なおさら……{7B}{20}そうじゃない?」{EL}
+ENG=Lisa: Did you find the Cloud Gate?{WP}...It's not that easy to find.{01}But isn't that the real thrill of{NL4}treasure hunting?{NL4}After all, it's a pleasure to find{01}something after all the hard work.{NL4}Even more so if it's a legendary{NL4}treasure...{EL}
+
+POINTER=80EFD;1C0;00123
+DATA=87876;00122;D8 BB A2 B4 AF 21 3F 05 00 02 BE AF B6 B8 8C A9 C2 B9 C0 81 79 89 5F C9 94 E0 81 7A A6 93 90 D7 DA 04 00 C0 AF C3 21 3F 01 00 C5 C6 D4 AF C3 DD C9 D6 A1 BC AF B6 D8 BC C5 BB B2 21 04 00 93 90 D7 DA C0 D7 8E E6 D8 95 D4 BD 21 00 BF DA 06 8E 84 C0 C1 04 00 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 C9 9D 7C 13 BC AE 21 A3 7C 
+JPN=リサ「エッ!?{WP}{00}せっかく見つけた【雲の扉】を盗られ{NL4}{00}たって!?{01}{00}なにやってんのよ。しっかりしなさい!{NL4}{00}盗られたら取り返す!{00}それが私たち{NL4}{00}トレジャー・ハンターの掟でしょ!」{EL}
+ENG=Lisa: Eh!? The Cloud Gate you{NL4}found was stolen!?{NL4}What are you doing?{01}Get it together!{NL4}If they steal it, take it back!{01}That's the code of the treasure{NL4}hunters!{EL}
+
+POINTER=80EFD;1C5;0018D
+DATA=87876;0018C;D8 BB A2 91 81 02 B8 81 79 89 5F C9 94 E0 81 7A A6 8E E6 D8 95 D4 BC C6 8D 73 B7 04 00 C5 BB B2 21 00 C5 D2 D7 DA AF 1A C5 BC 13 A4 8D CF CF 04 00 BD DD 0C AC C5 B2 D6 21 A3 7C 
+JPN=リサ「早く【雲の扉】を取り返しに行き{NL4}{00}なさい!{00}なめられっぱなしで、済ま{NL4}{00}すんじゃないよ!」{EL}
+ENG=Lisa: Hurry up! Go get the{NL4}Cloud Gate back!{NL4}Don't let them get away with that!{EL}
+
+POINTER=80EFD;12F;001C8
+DATA=87876;001C7;D6 CA DD A2 8D A1 02 B6 D7 03 1D 1A D0 DD C4 02 CF 13 8B 9B A6 89 5E 17 04 00 DD 10 D6 A1 BA BA C9 8B 9B CA B3 CF B2 B6 D7 C5 A1 04 00 13 D3 91 44 06 8B 9B 8F 4C B8 C5 D9 C9 06 C5 B1 40 40 A3 7C 
+JPN=ヨハン「今からペパミントまで魚を運ぶ{NL4}{00}んだよ。ここの魚はうまいからな。{NL4}{00}でも船が魚臭くなるのがなあ……」{EL}
+ENG=Johan: I'm transporting fish to{NL4}Peppermint.{01}The fish here are delicious but{NL4}then the ship smells fishy...{EL}
+
+POINTER=80EFD;161;00209
+DATA=87876;00208;C9 1F A7 A2 8D C5 8B DF A4 8B F3 91 AF 02 C9 94 ED 8A 51 06 91 BD B2 DD 13 A4 04 00 95 DB 8C AF C9 8A 7C B9 8B E0 06 8F E3 06 AF C1 CF AF C0 D6 A1 04 00 40 40 AF C0 B8 D6 B5 A1 01 00 10 AF C0 D7 A4 8A EB 8C AF 8E E8 93 96 C3 D3 8F E3 09 DB AF C3 DD 04 00 10 A1 BA DD C5 BA C4 0C AC 03 1A B2 DB AF C4 02 C5 DD C3 04 00 D4 AF C3 D7 DA C8 B4 D6 A3 7C 
+JPN=ノヴァ「最近、空賊の被害が多いんで、{NL4}{00}保険の掛け金が上がっちまったよ。{NL4}{00}……ったくよお。{01}{00}だったら、危険手当ても上げろってん{NL4}{00}だ。こんなことじゃパイロットなんて{NL4}{00}やってられねえよ」{EL}
+ENG=Nova: Recently there's been a lot{NL4}of damage from air pirates,{NL4}so insurance premiums have gone up.{01}Good grief, they should raise the{NL4}hazard pay as well.{NL4}Tough times to be a pilot.{EL}
+
+POINTER=80EFD;16C;0027D
+DATA=87876;0027C;C9 1F A7 A2 02 D6 B3 D4 B8 A4 8A EB 8C AF 8E E8 93 96 C3 C9 8A 7A 06 04 00 8F E3 06 AF C0 D6 A1 13 D3 A4 8B F3 91 AF C6 97 8E C4 BB DA C1 04 00 CF AF C0 D7 8C B3 D3 8E 71 D3 96 B3 B2 D6 C5 A3 7C 
+JPN=ノヴァ「ようやく、危険手当ての額が{NL4}{00}上がったよ。でも、空賊に落とされち{NL4}{00}まったら元も子も無いよな」{EL}
+ENG=Nova: They finally raised the{NL4}hazard pay but that'd be worthless{NL4}if you get shot down by pirates.{EL}
+
+POINTER=80EFD;171;002BE
+DATA=87876;002BD;C9 1F A7 A2 1A B2 DB AF C4 02 CA 8A EB C5 B2 8E 64 8E 96 10 B9 14 04 00 90 85 8F E3 91 44 13 03 14 A9 B0 D1 A5 C4 D7 B2 B1 DD 08 D9 02 A6 04 00 93 6E D9 C9 C6 B8 D7 18 DA 15 03 CF BC 02 10 D6 C5 A1 01 00 CE D7 A4 BA BA B6 D7 0D AF C4 96 6B C6 8D 73 AF C0 96 A6 C9 04 00 8C FC BA B3 CA 8A 43 C9 90 46 06 88 E1 B3 10 DB A1 04 00 B1 DA 06 03 14 A9 B0 D1 A5 C4 D7 B2 B1 DD 08 D9 02 10 D6 A1 01 00 B1 BF BA 13 8E 80 C7 B8 D7 B2 C5 D7 A4 8B F3 91 AF C6 97 8E C4 04 00 BB DA C0 95 FB 06 CF BC AF C3 D3 DD 10 A1 04 00 03 B1 DD C0 02 D3 BF B3 8E 76 B3 10 DB A3 7C 
+JPN=ノヴァ「パイロットは危ない仕事だけど{NL4}{00}水上船でドゥーム・トライアングルを{NL4}{00}渡るのにくらべればマシだよな。{01}{00}ほら、ここからずっと北に行った岬の{NL4}{00}向こうは海の色が違うだろ。{NL4}{00}あれがドゥーム・トライアングルだよ。{01}{00}あそこで死ぬくらいなら、空賊に落と{NL4}{00}された方がましってもんだ。{NL4}{00}アンタもそう思うだろ」{EL}
+ENG=Nova: Piloting is a dangerous job{NL4}but it's better than crossing the{NL4}Doom Triangle in a watercraft.{01}You see, the color of the sea is{NL4}different beyond the cape that{NL4}goes all the way north from here.{01}That's the Doom Triangle.{NL4}I'd rather be killed by the sky{NL4}pirates than die over there.{EL}
+
+POINTER=80EFD;199;00377
+DATA=87876;00376;D8 BB A2 8D A1 02 CF 13 BA BA C6 B2 C0 A4 8F F1 C9 92 6A 40 40 04 00 B1 DA A4 03 DA AF 14 A5 BD 1D B2 14 02 D6 C8 3F 01 00 92 6D D7 C5 B2 C9 3F 00 03 BD 1D B2 14 02 CA 8E 71 8B 9F C9 8D A0 C9 04 00 8E 96 8C CC 13 8B 72 06 95 73 8E A9 97 52 C5 C9 D6 A1 94 F2 8B F3 92 F8 C9 91 AC 04 00 BB C6 BA 10 DC D9 C9 D3 BF C9 BE B2 D7 BC B2 D6 A1 01 00 13 D3 A4 D3 B3 88 EA 90 6C C9 92 6A CA 92 4E C5 DD 10 DB B3 C8 A1 04 00 D4 AF 1A D8 A4 88 EA 95 C8 B1 D8 BF B3 C5 95 B5 88 CD 8B 43 10 AF 04 00 C0 B9 14 40 40 A3 7C 
+JPN=リサ「今までここにいた、杖の男……{NL4}{00}あれ、レッド・スペイドよね?{01}{00}知らないの?{00}スペイドは子供の頃の{NL4}{00}事故で脚が不自由なのよ。飛空艇の速{NL4}{00}さにこだわるのもそのせいらしいよ。{01}{00}でも、もう一人の男は誰なんだろうね。{NL4}{00}やっぱり、一癖ありそうな雰囲気だっ{NL4}{00}たけど……」{EL}
+ENG=Lisa: There was a man with a cane{NL4}here...was it Red Spade?{NL4}Don't you know?{01}He's been limping since a childhood{NL4}accident. That's why he's obsessed{NL4}with airship speed.{01}Who was the other man?{NL4}He gave off a weird vibe...{EL}
+
+POINTER=80EFD;156;00420
+DATA=87876;0041F;C9 1F A7 A2 DA B2 0D D9 C0 B3 DD 02 B6 D7 A4 BA BA CF 13 04 00 8B 71 A6 89 5E DD 13 B7 C0 DD 10 B9 14 D6 B5 A4 04 00 14 B3 D3 B3 BB DD B8 BB B2 96 EC 98 59 10 AF C0 C5 A1 01 00 CF A4 8B E0 CA D3 D7 AF C0 B6 D7 B2 B2 B9 14 C5 A3 7C 
+JPN=ノヴァ「レイズルタウンから、ここまで{NL4}{00}客を運んできたんだけどよお、{NL4}{00}どうもうさんくさい野郎だったな。{01}{00}ま、金はもらったからいいけどな」{EL}
+ENG=Nova: I dropped a visitor from{NL4}Raizeltown that was looking{NL4}very suspicious.{01}I did get paid though.{EL}
+

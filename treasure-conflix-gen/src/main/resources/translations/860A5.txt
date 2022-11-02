@@ -1,12 +1,12 @@
 POINTER=8066B;;00001
 DATA=860A5;00000;00 D2 D9 B8 02 C9 03 CA DD 06 B0 7C 
 JPN={00}メルクのハンガー{EL}
-ENG=Merck's Hangar{EL}
+ENG=Melk's Workshop{EL}
 
 POINTER=8066B;EC;0000D
 DATA=860A5;0000C;D2 D9 B8 A2 02 B1 A4 03 1F AB B2 BD 21 05 00 91 D2 02 AF C3 C0 DD 10 D6 21 7C 
 JPN=メルク「あ、ヴォイス!{WP}{00}待ってたんだよ!{EL}
-ENG=Merck: Ah Voice!{WP}I've been waiting for you!{EL}
+ENG=Melk: Ah Voice!{WP}I've been waiting for you!{EL}
 
 POINTER=8066B;F3;00027
 DATA=860A5;00026;00 97 8A 02 CF DA C3 C0 94 F2 8B F3 92 F8 C9 8F 43 97 9D A4 04 00 03 15 AF C1 D8 8F 49 02 DC AF C3 B2 D9 D6 21 04 00 89 E4 C5 06 D7 C5 B6 C5 B6 C9 8E 64 8F E3 06 D8 B6 C5 40 01 00 CF B1 8E 84 C9 8E E8 C6 B6 B6 DA 15 04 00 0B AF C4 BA DD C5 D3 DD C8 21 40 40 05 00 C4 A4 7B 20 8C BE B2 C0 B2 C4 BA DB 10 B9 14 40 01 00 8E C0 8D DB 97 5C 8E 5A 06 97 5C 8E 5A 10 B6 D7 C8 81 60 A1 D3 AF C4 04 00 91 AC B8 C3 8B AD B2 91 44 C6 BC C0 B2 DD 10 AF C0 D7 A4 04 00 CF C0 8B E0 A6 B6 BE B2 13 8E 9D AF C3 B7 C5 D6 A1 01 00 8E 84 10 AF C3 96 7B 93 96 CA 8D C5 8D 82 C9 94 F2 8B F3 92 F8 A6 04 00 8D EC D8 C0 B8 C3 03 B3 0D B3 0D 02 BC C3 D9 DD 10 B6 D7 21 7C 
@@ -16,92 +16,92 @@ ENG=We've finished the repairs on your{NL4}airship perfectly!{01}The result is e
 POINTER=8066B;133;000FF
 DATA=860A5;000FE;D2 D9 B8 A2 02 D4 B1 A4 03 1F AB B2 BD A1 92 B2 8E 71 02 CA 14 B3 3F 04 00 BF C9 97 6C 8E 71 10 C4 A4 BF DB BF DB B5 8B E0 D3 04 00 C0 CF AF C3 B7 C0 D0 C0 B2 C8 A1 7C 
 JPN=メルク「やあ、ヴォイス。調子はどう?{NL4}{00}その様子だと、そろそろお金も{NL4}{00}たまってきたみたいね。{EL}
-ENG=Merck: Hi Voice. How are you?{NL4}It looks like you've started saving{NL4}up some money.{EL}
+ENG=Melk: Hi Voice. How are you?{NL4}It looks like you've started saving{NL4}up some money.{EL}
 
-POINTER=8066B;;00137
+POINTER=8066B;13E;00137
 DATA=860A5;00136;D2 D9 B8 A2 02 B1 AF A4 03 1F AB B2 BD 02 C8 A1 04 00 03 D7 B3 14 02 B6 D7 98 62 CA 95 B7 B2 C0 DC A1 01 00 C5 C6 D4 D7 40 91 E5 95 CF C5 8E 64 8E 96 A6 90 BF B9 95 89 AF C3 04 00 B2 D9 D0 C0 B2 0C AC C5 B2 A1 01 00 03 B1 DA CC 02 C9 D4 C2 D3 8F 6F C3 B2 AF C1 AC AF C3 04 00 8E 84 88 EA 90 6C C6 C5 AF C1 AC AF C0 B9 14 A4 01 00 8D A1 8C E3 D3 B1 DD C0 C9 94 F2 8B F3 92 F8 C9 89 FC 91 A2 CA 04 00 8E 84 C6 94 43 BE C3 B5 B2 C3 C8 21 7C 
 JPN=メルク「あっ、ヴォイスね。{NL4}{00}ラウドから話は聞いたわ。{01}{00}なにやら…大変な仕事を請け負って{NL4}{00}いるみたいじゃない。{01}{00}アレフのやつも出ていっちゃって{NL4}{00}私一人になっちゃったけど、{01}{00}今後もあんたの飛空艇の改造は{NL4}{00}私に任せておいてね!{EL}
-ENG=
+ENG=Melk: Hi Voice.{NL4}Loud told me about you.{01}It sounds like you've undertaken{NL4}a serious task.{01}Alpeh left, it's just me now.{NL4}I will be remodeling your airship{NL4}on my own.{EL}
 
-POINTER=8066B;;001C9
+POINTER=8066B;144;001C9
 DATA=860A5;001C8;D2 D9 B8 A2 1F AB B2 BD 21 04 00 02 B2 C2 97 88 D9 B6 C4 91 D2 AF C3 C0 DD 10 D6 21 7C 
 JPN=メルク「ヴォイス!{NL4}{00}いつ来るかと待ってたんだよ!{EL}
-ENG=
+ENG=Melk: Voice!{NL4}I've been waiting for you!{EL}
 
 POINTER=8066B;14A;001E6
 DATA=860A5;001E5;00 94 F2 8B F3 92 F8 02 C9 89 FC 91 A2 C6 97 88 C0 C9 C8 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}飛空艇の改造に来たのね?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Are you here to mod your airship?{NL4}{NL4}{00}{00}{00}{00}Yes{00}{00}{00}{00}{00}{00}{00}No{EL}
+ENG=Are you here to mod your airship?{NL4}{NL4}       YES            NO{EL}
 
-POINTER=8066B;;0020C
+POINTER=8066B;171;0020C
 DATA=860A5;0020B;00 02 BF B3 A1 B5 8B E0 06 C0 CF AF C0 D7 04 00 CF C0 97 88 C3 C8 21 7C 
 JPN={00}そう。お金がたまったら{NL4}{00}また来てね!{EL}
-ENG=
+ENG=Right.{NL4}Come back when you have enough{NL4}money!{EL}
 
-POINTER=8066B;;00224
+POINTER=8066B;1AA;00224
 DATA=860A5;00223;00 02 DC B6 AF C0 DC A1 04 00 CF C0 C0 B0 DD C4 B6 BE B2 13 97 88 C5 D6 21 04 00 8E 84 D3 8A 79 BC D0 C6 BC C3 B2 D9 B6 D7 C8 21 7C 
 JPN={00}わかったわ。{NL4}{00}またた゜んとかせいで来なよ!{NL4}{00}私も楽しみにしているからね!{EL}
-ENG=
+ENG=I get it.{NL4}Come again soon!{NL4}I'm looking forward to it!{EL}
 
 POINTER=8066B;15B;00250
 DATA=860A5;0024F;00 02 C5 B1 C6 A4 B5 8B E0 C5 B2 C9 3F 04 00 D3 B0 A4 03 1F AB B2 BD 02 AF C0 D7 81 60 21 01 00 8E 84 D3 03 B1 DA CC 02 D3 B5 93 BE 88 D3 97 6C C9 8E 64 8E 96 13 04 00 96 5A BC B2 DD 10 B6 D7 A4 BA DD C5 8F 8A 13 96 FB 94 84 AF C3 04 00 B2 C5 B2 13 93 AD B7 C6 8F 6F C0 D7 3F 7C 
 JPN={00}なあに、お金ないの?{NL4}{00}も゜、ヴォイスったら〜!{01}{00}私もアレフもお得意様の仕事で{NL4}{00}忙しいんだから、こんな所で油売って{NL4}{00}いないで働きに出たら?{EL}
-ENG=What? Do you have no money?{NL4}*annoyed*{NL4}Voice!{01}Aleph and I are both busy.{NL4}Why don't you let us work instead{NL4}of making small talk?{EL}
+ENG=What? Do you have no money?{NL4}{*}annoyed{*}{NL4}Voice!{01}Aleph and I are both busy.{NL4}Why don't you let us work instead{NL4}of making small talk?{EL}
 
-POINTER=8066B;;002AD
+POINTER=8066B;161;002AD
 DATA=860A5;002AC;00 02 BF B3 A4 8A E7 A6 8C A9 BE C6 B7 C3 B8 DA C0 10 B9 04 00 C5 C9 C8 A1 8E 84 CA 88 EA 90 6C 13 D3 8A E6 92 A3 AF C3 04 00 B2 D9 B6 D7 03 1F AB B2 BD 02 D3 8A E6 92 A3 AF C3 C8 21 01 00 BD 0A B2 91 95 94 F5 A6 8E E6 D8 95 74 B9 BB BE C3 04 00 D3 D7 B4 D9 C9 A6 8A 79 BC D0 C6 BC C3 04 00 B2 D9 DD 10 B6 D7 21 7C 
 JPN={00}そう、顔を見せにきてくれただけ{NL4}{00}なのね。私は一人でも頑張って{NL4}{00}いるからヴォイスも頑張ってね!{01}{00}すごい装備を取り付けさせて{NL4}{00}もらえるのを楽しみにして{NL4}{00}いるんだから!{EL}
-ENG=
+ENG=Ah, you're just dropping by.{NL4}I'm doing my best by myself,{NL4}so you can do it too!{01}I'm looking forward to getting to{NL4}install some awesome equipment!{EL}
 
-POINTER=8066B;;00316
+POINTER=8066B;1BC;00316
 DATA=860A5;00315;00 40 40 7B 20 00 8B 43 02 A6 C2 B9 C3 C8 21 7C 
 JPN={00}……{7B}{20}{00}気をつけてね!{EL}
-ENG=
+ENG=...{7B}{20}Take care!{EL}
 
-POINTER=8066B;;00326
+POINTER=8066B;11D;00326
 DATA=860A5;00325;D2 D9 B8 A2 02 B5 8B E0 06 C0 CF AF C0 D7 CF C0 97 88 C5 D6 A1 04 00 BB D7 C6 94 F2 8B F3 92 F8 A6 03 1A DC B0 B1 AF 1C 02 BB BE C3 04 00 B1 09 D9 B6 D7 21 7C 
 JPN=メルク「お金がたまったらまた来なよ。{NL4}{00}さらに飛空艇をパワーアップさせて{NL4}{00}あげるから!{EL}
-ENG=
+ENG=Melk: Come back when you've{NL4}saved up more money. I'll power up{NL4}your airship even more!{EL}
 
 POINTER=8066B;10C;0035B
 DATA=860A5;0035A;B1 DA CC A2 8F 43 97 9D 02 13 03 17 D8 AF 0C 02 D3 95 CF DC AF C0 C5 A1 04 00 88 C4 93 E0 BD D9 B6 D7 A4 C2 B2 C3 B8 D9 C9 06 B2 B2 C5 A3 7C 
 JPN=アレフ「修理でブリッジも変わったな。{NL4}{00}案内するから、ついてくるのがいいな」{EL}
 ENG=Aleph: We changed the bridge as{NL4}part of the repairs.{NL4}I'll show you around, follow me.{EL}
 
-POINTER=8066B;;0038A
+POINTER=8066B;182;0038A
 DATA=860A5;00389;00 02 CC B3 A4 91 E5 8E 64 8E 96 10 AF C0 DC 21 04 00 BA DD C5 C6 B5 8B E0 A6 B6 B9 D7 DA D9 C5 DD C3 A4 04 00 03 1F AB B2 BD 02 D3 90 8F 95 AA C4 D4 D9 D6 B3 C6 C5 AF C0 C8 A1 01 00 BA DD C5 91 95 94 F5 A6 B2 0C D9 BA C4 06 13 B7 C3 04 00 8E 84 D3 96 CA 94 92 B6 AF C0 D6 21 01 00 40 40 C4 B2 B3 BA C4 13 8E 84 B6 D7 C9 93 C1 95 CA 04 00 03 1C DA 0E DD C4 21 00 90 56 02 BC B2 8B 40 91 CC A6 8E 8E BE D9 04 00 96 CA 94 92 B2 03 CF BC DD 02 06 93 FC AF C0 DD 10 B9 14 40 40 01 00 BF B3 A4 BF C9 96 BC D3 05 00 00 00 00 A2 03 15 B0 C1 AC D9 06 B0 D9 A3 21 01 00 02 C5 A4 7B 20 C5 DD C4 8B C1 B8 18 B7 BA C4 C6 04 00 03 B6 D7 B0 02 C5 C9 D6 21 00 BD 0A B2 13 BC AE 21 7C 
 JPN={00}ふう、大仕事だったわ!{NL4}{00}こんなにお金をかけられるなんて、{NL4}{00}ヴォイスも随分とやるようになったね。{01}{00}こんな装備をいじることができて{NL4}{00}私も面白かったよ!{01}{00}……ということで私からの特別{NL4}{00}プレゼント!{00}新しい機体を試せる{NL4}{00}面白いマシンが入ったんだけど……{01}{00}そう、その名も{WP}{00}{00}{00}{00}「バーチャルガール」!{01}{00}な、{7B}{20}なんと驚くべきことに{NL4}{00}カラーなのよ!{00}すごいでしょ!{EL}
-ENG=
+ENG=Whew, that was a tough job!{NL4}You've spent a lot of money today.{01}It was fun to tinker with equipment{NL4}like this!{01}Here's a special gift from me!{01}I got a brand new console you can{NL4}try out...{01}It's called...{WP}"Virtual Girl"!{01}Wow,{7B}{20} it's in color!{NL4}Isn't that amazing?{EL}
 
-POINTER=8066B;;00469
+POINTER=8066B;185;00469
 DATA=860A5;00468;00 02 14 B3 3F 00 03 C1 AC DA DD 0C 02 BC C3 D0 C5 B2 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}どう?{00}チャレンジしてみない?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=
+ENG=Do you want to try it?{NL4}{NL4}       YES            NO{EL}
 
-POINTER=8066B;;0048D
+POINTER=8066B;18B;0048D
 DATA=860A5;0048C;00 02 BF B3 BA C5 B8 AF C1 AC 21 04 00 8F 6F BC C0 93 BE 93 5F C9 95 AA BB AF B7 C9 89 FC 91 A2 C9 04 00 92 6C 92 69 A6 8A 84 D8 88 F8 B2 C3 B1 09 D9 D6 21 01 00 0C AC B1 BA C9 03 BA DD C4 DB B0 D7 B0 02 A6 88 AC AF C3 21 04 00 8F 80 94 F5 CA B2 B2 3F 01 00 03 D9 B0 D9 02 CA 8A C8 92 50 A4 89 A9 90 46 C9 03 C0 B0 09 AF C4 02 A6 04 00 8F 87 94 D4 C6 8E E6 AF C3 B2 B8 10 B9 D6 A1 04 00 06 DD 15 AF C3 8D 82 B2 03 C0 B2 D1 02 A6 92 40 B7 8F 6F BC C3 C8 A1 01 00 BF DA 13 CA A2 03 15 B0 C1 AC D9 06 B0 D9 A3 A4 04 00 00 00 00 7B 20 09 B0 D1 04 00 00 00 00 00 00 00 00 7B 20 BD C0 B0 C4 21 21 A3 7C 
 JPN={00}そうこなくっちゃ!{NL4}{00}出した得点の分さっきの改造の{NL4}{00}値段を割り引いてあげるよ!{01}{00}じゃあこのコントローラーを握って!{NL4}{00}準備はいい?{01}{00}ルールは簡単、黄色のターゲットを{NL4}{00}順番に取っていくだけよ。{NL4}{00}がんばって高いタイムを叩き出してね。{01}{00}それでは「バーチャルガール」、{NL4}{00}{00}{00}{00}{7B}{20}ゲーム{NL4}{00}{00}{00}{00}{00}{00}{00}{00}{7B}{20}スタート!!」{EL}
-ENG=
+ENG=That's the spirit!{NL4}I'll give you a discount on your{NL4}previous bill based on your score!{01}Grab this controller!{NL4}Are you ready?{01}The rule is simple: take the yellow{NL4}targets in order.{NL4}Do your best to hit a high time.{01}"Virtual Girl"{NL4}              ...Game...{NL4}			            ...Start!{EL}
 
-POINTER=8066B;;00554
+POINTER=8066B;1A7;00554
 DATA=860A5;00553;00 02 C5 B1 DD 10 A4 C2 CF DD C5 B2 C9 A1 05 00 40 40 03 1F AB B2 BD 02 D3 96 5A BC B2 C9 C8 A1 7C 
 JPN={00}なあんだ、つまんないの。{WP}{00}……ヴォイスも忙しいのね。{EL}
-ENG=
+ENG=Boring!{WP}...I guess you're busy.{EL}
 
-POINTER=8066B;;00575
+POINTER=8066B;197;00575
 DATA=860A5;00574;D2 D9 B8 A2 02 B5 8C A9 8E 96 21 04 00 0C AC B1 93 5F 90 94 C9 95 AA 10 B9 B5 8B E0 A6 8A 84 D8 88 F8 B2 C3 04 00 B1 09 D9 D6 21 01 00 90 56 BC B2 94 F2 8B F3 92 F8 C9 8F E6 D8 90 53 92 6E D3 C5 B6 C5 B6 04 00 97 C7 B6 AF C0 13 BC AE 3F 01 00 CF C0 BA C9 94 F2 8B F3 92 F8 13 8E 76 B2 AF B7 D8 B6 BE B2 13 A4 04 00 D3 AF C4 BD 0A B2 89 FC 91 A2 A6 BC C6 B7 C3 C8 21 A3 7C 
 JPN=メルク「お見事!{NL4}{00}じゃあ点数の分だけお金を割り引いて{NL4}{00}あげるよ!{01}{00}新しい飛空艇の乗り心地もなかなか{NL4}{00}良かったでしょ?{01}{00}またこの飛空艇で思いっきりかせいで、{NL4}{00}もっとすごい改造をしにきてね!」{EL}
-ENG=
+ENG=Melk: Well done!{NL4}I gave you a discount based on your{NL4}score!{01}How nice was the ride in the new{NL4}airship?{01}With these changes you can make{NL4}more money and come get more{NL4}modifications.{EL}
 
-POINTER=8066B;;005F1
+POINTER=8066B;128;005F1
 DATA=860A5;005F0;D2 D9 B8 A2 02 B1 AF A4 0A D2 DD C5 BB B2 03 1F AB B2 BD A1 04 00 8D A1 02 C1 AE AF C4 96 5A BC B2 B6 D7 88 AB B2 B9 14 04 00 CF C0 8D A1 93 78 C6 BC C3 B8 DA C5 B2 3F A3 7C 
 JPN=メルク「あっ、ごめんなさいヴォイス。{NL4}{00}今ちょっと忙しいから悪いけど{NL4}{00}また今度にしてくれない?」{EL}
-ENG=
+ENG=Melk: Ah, I'm sorry Voice.{NL4}I'm a little busy right now.{NL4}Could we do it maybe next time?{EL}
 
-POINTER=8066B;;0062B
+POINTER=8066B;19F;0062B
 DATA=860A5;0062A;D2 D9 B8 A2 02 B1 B0 AF A4 8E 63 94 4F 21 04 00 88 AB B2 B9 14 8A 84 88 F8 C9 98 62 CA 96 B3 BC C8 A1 01 00 13 D3 A4 94 F2 8B F3 92 F8 C9 8F E6 D8 90 53 92 6E CA 8F 5C 95 AA C6 04 00 96 A1 DC B4 C0 D6 C8 A1 CF C0 BB D7 C6 8B AD B2 04 00 94 F2 8B F3 92 F8 C6 89 FC 91 A2 BC C6 97 88 C3 C8 21 A3 7C 
 JPN=メルク「あ゜っ、残念!{NL4}{00}悪いけど割引の話は無しね。{01}{00}でも、飛空艇の乗り心地は十分に{NL4}{00}味わえたよね。またさらに強い{NL4}{00}飛空艇に改造しに来てね!」{EL}
-ENG=
+ENG=Melk: Ah, too bad!{NL4}I can't give you a discount.{NL4}Enjoy the ride though.{01}Come and I'll remodel it into{NL4}an even stronger airship.{EL}
 
 POINTER=8066B;9B;0068E
 DATA=860A5;0068D;B1 DA CC A2 DD 81 60 05 00 02 C5 DD C3 D5 B3 B6 C5 40 40 05 00 03 B3 DD A4 02 B2 BF 06 BC B2 DD 10 C5 A3 7C 

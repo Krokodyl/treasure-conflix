@@ -1,0 +1,265 @@
+POINTER=99999;98306;00001;GLOBAL
+DATA=84100;00000;81 79 95 73 98 56 95 73 8E 80 02 C9 90 E5 96 F2 81 7A 04 B6 C5 D8 8C C3 B2 95 A8 10 A1 95 73 98 56 95 73 8E 80 C4 B1 D9 06 A4 04 96 7B 93 96 C6 8C F8 B8 B6 14 B3 B6 CA 95 AA B6 D7 C5 B2 A1 7C 
+JPN=【不老不死の仙薬】{NL4}かなり古い物だ。不老不死とあるが、{NL4}本当に効くかどうかは分からない。{EL}
+ENG=[Elixir of Life]{NL4}It's aged a lot. The bottle says{NL4}immortality. Not sure if it works.{EL}
+
+POINTER=99999;98310;00041;GLOBAL
+DATA=84100;00040;81 79 90 5F 95 B6 8B CA 8E A2 81 7A 04 8C C3 97 88 8D 91 89 C6 93 49 90 BE 96 F1 02 C6 97 70 B2 D7 DA C0 C4 B2 DC DA D9 04 97 A7 94 68 C5 89 A9 8B E0 C9 8C E4 88 F3 A1 7C 
+JPN=【神文玉爾】{NL4}古来国家的誓約に用いられたといわれる{NL4}立派な黄金の御印。{EL}
+ENG=[Imperial Seal]{NL4}A golden seal used for national{NL4}pledges since ancient times.{EL}
+
+POINTER=99999;9831A;0007A;GLOBAL
+DATA=84100;00079;81 79 14 D7 0A DD BC B0 D9 14 81 7A 04 96 BC 8F A0 02 C9 8D B0 C9 88 E2 8D EC 13 A4 8E 9D C1 8E E5 C9 90 53 C6 8B A4 96 C2 BC 04 8E D7 88 AB C5 97 CD A6 CA 0C B8 94 5C 97 CD 06 B1 D9 C4 B2 B3 A1 7C 
+JPN=【ドラゴンシールド】{NL4}名匠の魂の遺作で、持ち主の心に共鳴し{NL4}邪悪な力をはじく能力があるという。{EL}
+ENG=[Dragon Shield]{NL4}Can resonate with the owner's heart{NL4}and repel evil powers.{EL}
+
+POINTER=99999;98324;000BC;GLOBAL
+DATA=84100;000BB;81 79 91 E5 92 6E 90 5F 02 C9 8A 5A 81 7A 04 91 E5 92 6E C9 97 CD A6 8E F3 B9 C3 A4 90 67 C6 C2 B9 D9 8E D2 A6 04 8A 4F 93 47 B6 D7 8E E7 D9 C4 B2 B3 8A 5A A1 7C 
+JPN=【大地神の鎧】{NL4}大地の力を受けて、身につける者を{NL4}外敵から守るという鎧。{EL}
+ENG=[Dojin Armor]{NL4}Armor imbued with the power of the{NL4}Earth that protects from enemies.{EL}
+
+POINTER=99999;9832E;000F2;GLOBAL
+DATA=84100;000F1;81 79 BB CC A7 B2 B1 02 C9 8A A5 81 7A 04 03 BB CC A7 B2 B1 02 06 8E 8A D9 8F 8A C6 C1 D8 15 D2 D7 DA C0 A4 04 B7 D7 16 D4 B6 C5 8A A5 A1 7C 
+JPN=【サファイアの冠】{NL4}サファイアが至る所にちりばめられた、{NL4}きらびやかな冠。{EL}
+ENG=[Sapphire Crown]{NL4}A dazzling crown with sapphires{NL4}mounted all around.{EL}
+
+POINTER=99999;98338;00121;GLOBAL
+DATA=84100;00120;81 79 8E F4 94 9B 02 C9 96 82 8B BE 81 7A 04 8F 70 8E D2 C9 90 B8 90 5F C4 88 F8 B7 B6 B4 C6 88 AB 96 82 A6 8C C4 16 8F 6F BD 04 8E F4 C9 8B BE 10 C4 B6 40 3F 7C 
+JPN=【呪縛の魔鏡】{NL4}術者の精神と引きかえに悪魔を呼び出す{NL4}呪の鏡だとか…?{EL}
+ENG=[Cursed Mirror]{NL4}Summons demons in exchange for{NL4}the caster's soul...?{EL}
+
+POINTER=99999;98342;00157;GLOBAL
+DATA=84100;00156;81 79 91 BE 97 7A 02 C9 8E 77 97 D6 81 7A 04 96 C8 96 A7 C5 92 A4 8D 8F C4 90 94 81 58 C9 95 F3 90 CE 06 04 88 D3 96 A1 B1 D8 09 C6 8E 7B BB DA C0 8E 77 97 D6 A1 7C 
+JPN=【太陽の指輪】{NL4}綿密な彫刻と数々の宝石が{NL4}意味ありげに施された指輪。{EL}
+ENG=[Sun Ring]{NL4}A ring with elaborate carvings and{NL4}numerous precious stones.{EL}
+
+POINTER=99999;9834C;0018E;GLOBAL
+DATA=84100;0018D;81 79 8B E0 02 C9 90 B9 94 74 81 7A 04 8B E0 A6 CC DD 10 DD C6 97 70 B2 C0 91 E5 B7 C5 BB B6 0D B7 A1 04 8F 40 8B B3 93 49 C5 8B 56 8E AE C6 97 70 B2 D7 DA D9 A1 7C 
+JPN=【金の聖杯】{NL4}金をふんだんに用いた大きなさかずき。{NL4}宗教的な儀式に用いられる。{EL}
+ENG=[Golden Chalice]{NL4}A large sakazuki made of gold.{NL4}Used in religious ceremonies.{EL}
+
+POINTER=99999;98356;001C5;GLOBAL
+DATA=84100;001C4;81 79 8F 97 90 5F 02 C9 91 9C 81 7A 04 91 E5 97 9D 90 CE C6 89 C2 97 F7 C5 8F 97 90 5F C9 91 53 90 67 06 04 92 A4 D8 8D 9E CF DA C3 B2 D9 A1 7C 
+JPN=【女神の像】{NL4}大理石に可憐な女神の全身が{NL4}彫り込まれている。{EL}
+ENG=[Goddess Statue]{NL4}The whole body of a pretty goddess{NL4}is carved into the marble.{EL}
+
+POINTER=99999;98360;001F5;GLOBAL
+DATA=84100;001F4;81 79 8B E0 89 F2 81 7A 04 8B E0 02 C9 B6 C0 CF D8 A1 B6 C5 D8 C9 97 CA 10 A1 7C 
+JPN=【金塊】{NL4}金のかたまり。かなりの量だ。{EL}
+ENG=[Gold Bars]{NL4}A pile of gold.{NL4}Quite a large amount.{EL}
+
+POINTER=99999;9836A;00210;GLOBAL
+DATA=84100;0020F;81 79 41 A5 B7 AC AF C2 B1 B2 81 7A 04 88 EA 8F F0 02 C9 8B 50 90 FC 06 94 4C C9 96 DA A6 8E 76 DC BE D9 04 95 73 8E 76 8B 63 C5 94 EA 90 46 C9 95 F3 90 CE A1 7C 
+JPN=【Ａ・キャッツアイ】{NL4}一条の輝線が猫の目を思わせる{NL4}不思議な緋色の宝石。{EL}
+ENG=[Cat's Eye]{NL4}A mysterious scarlet jewel with{NL4}a line reminiscent of a cat's eyes.{EL}
+
+POINTER=99999;98374;00246;GLOBAL
+DATA=84100;00245;81 79 94 92 8B E0 02 C9 8F FC D8 93 94 98 55 81 7A 04 8D 8B 89 D8 C5 91 95 8F FC C9 C5 BB DA C0 93 94 98 55 A1 7C 
+JPN=【白金の飾り灯篭】{NL4}豪華な装飾のなされた灯篭。{EL}
+ENG=[Platinum Lantern]{NL4}Ornately decorated lantern.{EL}
+
+POINTER=99999;9837E;0026C;GLOBAL
+DATA=84100;0026B;81 79 8E D7 90 5F 02 C9 92 A4 91 9C 81 7A 04 8D A1 13 D3 96 A7 B6 C6 90 92 94 71 BD D9 90 6C 81 58 D3 B2 D9 C4 B2 B3 A4 04 88 AB 96 82 C9 90 5F C9 91 9C A1 7C 
+JPN=【邪神の彫像】{NL4}今でも密かに崇拝する人々もいるという、{NL4}悪魔の神の像。{EL}
+ENG=[Evil God Statue]{NL4}A statue of a devil god that some{NL4}people still secretly worship.{EL}
+
+POINTER=99999;98388;002A1;GLOBAL
+DATA=84100;002A0;81 79 B1 D2 0C BD C4 02 C9 98 72 97 D6 81 7A 04 8D 8B 89 D8 C5 98 72 97 D6 A1 04 90 5F 94 E9 93 49 C5 8E 87 90 46 A6 95 FA AF C3 B2 D9 40 7C 
+JPN=【アメジストの腕輪】{NL4}豪華な腕輪。{NL4}神秘的な紫色を放っている…{EL}
+ENG=[Amethyst Bracelet]{NL4}Luxury bracelet that emits{NL4}a mysterious purple hue.{EL}
+
+POINTER=99999;98392;002D0;GLOBAL
+DATA=84100;002CF;81 79 D9 16 B0 02 C9 8E 77 97 D6 81 7A 04 90 5B B8 93 A7 B7 92 CA D9 D6 B3 C5 90 D4 B2 90 46 13 8B 50 B8 04 03 D9 16 B0 02 C9 8E 77 97 D6 A1 7C 
+JPN=【ルビーの指輪】{NL4}深く透き通るような赤い色で輝く{NL4}ルビーの指輪。{EL}
+ENG=[Ruby Ring]{NL4}This ruby ring glows with a deep{NL4}translucent scarlet shade.{EL}
+
+POINTER=99999;9839C;00300;GLOBAL
+DATA=84100;002FF;81 79 B4 D2 D7 D9 14 02 C9 8E 77 97 D6 81 7A 04 91 4E D4 B6 C5 97 CE 90 46 A6 92 E6 BD D9 03 B4 D2 D7 D9 14 02 06 04 94 FC BC B8 89 66 B4 D9 8E 77 97 D6 A1 7C 
+JPN=【エメラルドの指輪】{NL4}鮮やかな緑色を呈するエメラルドが{NL4}美しく映える指輪。{EL}
+ENG=[Emerald ring]{NL4}A ring with a bright green emerald{NL4}that shines beautifully.{EL}
+
+POINTER=99999;983A6;00335;GLOBAL
+DATA=84100;00334;81 79 8C 8E 8C F5 02 C6 8C F5 D9 90 CE 81 7A 04 8C 8E 96 BE D8 C6 8B A4 96 C2 BC 95 73 8B 43 96 A1 C6 90 C2 94 92 B8 8C F5 D9 04 93 E4 C9 90 CE A1 7C 
+JPN=【月光に光る石】{NL4}月明りに共鳴し不気味に青白く光る{NL4}謎の石。{EL}
+ENG=[Moonlight Stone]{NL4}A mysterious stone, eerily pale,{NL4}that resonates with the moonlight.{EL}
+
+POINTER=99999;983B0;00367;GLOBAL
+DATA=84100;00366;81 79 8B E2 02 C9 8D D5 8A ED 81 7A 04 B2 C6 BC B4 C9 8D D5 97 E7 C6 97 70 B2 D7 DA C0 04 8B E2 90 BB C9 8A ED A1 7C 
+JPN=【銀の祭器】{NL4}いにしえの祭礼に用いられた{NL4}銀製の器。{EL}
+ENG=[Silver Vessel]{NL4}A silver recipient used in ancient{NL4}rituals.{EL}
+
+POINTER=99999;983BA;0038E;GLOBAL
+DATA=84100;0038D;81 79 93 56 8E 67 02 C9 8B 7C 96 EE 81 7A 04 93 56 8E 67 C9 C0 0D BB B4 D9 8B 7C 96 EE C4 BC C3 90 5F 98 62 C6 04 8B 4C 8F 71 BB DA C0 8A 4F 8A CF C4 90 A1 95 AA C0 06 DC C5 B2 A1 7C 
+JPN=【天使の弓矢】{NL4}天使のたずさえる弓矢として神話に{NL4}記述された外観と寸分たがわない。{EL}
+ENG=[Angel's Bow]{NL4}An angel's bow and arrow as{NL4}described in the myths.{EL}
+
+POINTER=99999;983C4;003CB;GLOBAL
+DATA=84100;003CA;81 79 96 A3 98 66 02 C9 8E 77 97 D6 81 7A 04 8C A9 D9 8E D2 A6 97 55 98 66 BC 8E 9D C2 8E D2 A6 97 F6 90 53 C6 8A D7 DA D9 A1 04 90 6C A6 8B B6 DC BE D9 A4 94 FC BC B8 D3 8B B0 DB BC B2 8E 77 97 D6 A1 7C 
+JPN=【魅惑の指輪】{NL4}見る者を誘惑し持つ者を恋心に陥れる。{NL4}人を狂わせる、美しくも恐ろしい指輪。{EL}
+ENG=[Enchanted Ring]{NL4}Its wearer seduces everyone.{NL4}A beautiful yet terrifying ring.{EL}
+
+POINTER=99999;983CE;0040F;GLOBAL
+DATA=84100;0040E;81 79 8B E2 02 C9 90 43 91 E4 81 7A 04 8D 8B 89 D8 C5 96 CD 97 6C C9 8D 8F D0 8D 9E CF DA C0 8B E2 90 BB C9 90 43 91 E4 A1 04 90 CC C9 8B 4D 91 B0 06 97 70 B2 C3 B2 C0 95 A8 10 A1 7C 
+JPN=【銀の燭台】{NL4}豪華な模様の刻み込まれた銀製の燭台。{NL4}昔の貴族が用いていた物だ。{EL}
+ENG=[Silver Candelabra]{NL4}A silver candlestick etched with{NL4}a lavish pattern. A noble item.{EL}
+
+POINTER=99999;983D8;0044C;GLOBAL
+DATA=84100;0044B;81 79 8C C3 91 E3 8F 40 8B B3 8C 6F 93 54 81 7A 04 8C BB 91 B6 02 BC C5 B2 C4 B2 DC DA C3 B2 C0 04 8C B4 8E 6E 8F 40 8B B3 C9 8C 6F 93 54 A1 7C 
+JPN=【古代宗教経典】{NL4}現存しないといわれていた{NL4}原始宗教の経典。{EL}
+ENG=[Ancient Scriptures]{NL4}Sacred texts of a primitive{NL4}religion that died out.{EL}
+
+POINTER=99999;983E2;0047C;GLOBAL
+DATA=84100;0047B;81 79 8E 4F 02 C2 96 DA 90 6C C9 14 B8 DB 81 7A 04 93 60 90 E0 C9 8E 4F C2 96 DA 90 6C C9 93 AA 8D 9C 40 04 C5 C9 10 DB B3 B6 3F 7C 
+JPN=【三つ目人のどくろ】{NL4}伝説の三つ目人の頭骨…{NL4}なのだろうか?{EL}
+ENG=[Three-Eyed Skull]{NL4}Could it be the legendary{NL4}three-eyed skull?{EL}
+
+POINTER=99999;983EC;004A8;GLOBAL
+DATA=84100;004A7;81 79 8B E0 02 C9 94 AF 8F FC D8 81 7A 04 8F 97 90 AB C9 94 AF A6 89 D8 D4 B6 C6 8D CA D9 8B E0 90 46 C9 94 AF 8F FC D8 A1 04 90 B8 8D 49 C5 8D D7 8D 48 06 8E 7B BB DA C3 B2 D9 A1 7C 
+JPN=【金の髪飾り】{NL4}女性の髪を華やかに彩る金色の髪飾り。{NL4}精巧な細工が施されている。{EL}
+ENG=[Golden Barrette]{NL4}Elaborately crafted hairclip made{NL4}from gold.{EL}
+
+POINTER=99999;983F6;004E5;GLOBAL
+DATA=84100;004E4;81 79 90 5E 8E EC 02 C9 8E F1 8F FC D8 81 7A 04 91 E5 97 B1 C9 90 5E 8E EC 06 91 B5 B4 D7 DA C0 04 0E B2 C0 B8 C5 91 A2 D8 C9 8E F1 8F FC D8 A1 7C 
+JPN=【真珠の首飾り】{NL4}大粒の真珠が揃えられた{NL4}ぜいたくな造りの首飾り。{EL}
+ENG=[Pearl Necklace]{NL4}A luxurious necklace with{NL4}large pearls.{EL}
+
+POINTER=99999;98400;00516;GLOBAL
+DATA=84100;00515;81 79 90 B3 8E 6A 90 ED 8B 4C 81 7A 04 8C C3 91 E3 8D 91 89 C6 02 C6 D6 D8 95 D2 8E 5B BB DA C0 97 F0 8E 6A 8F 91 C9 A4 04 8C B4 96 7B 13 B1 D9 C4 8E 76 DC DA D9 A1 7C 
+JPN=【正史戦記】{NL4}古代国家により編纂された歴史書の、{NL4}原本であると思われる。{EL}
+ENG=[War Chronicle]{NL4}It seems to be an original history{NL4}book compiled by an ancient nation.{EL}
+
+POINTER=99999;9840A;0054E;GLOBAL
+DATA=84100;0054D;81 79 8D 95 8E 58 8C E8 02 C9 94 AF 8F FC D8 81 7A 04 94 FC BC B2 8D 95 8E 87 90 46 C4 8B C8 90 FC A6 D3 C2 04 93 AA 94 AF C6 8D B7 BC C3 8E 67 B3 91 95 8F FC 95 69 A1 7C 
+JPN=【黒珊瑚の髪飾り】{NL4}美しい黒紫色と曲線をもつ{NL4}頭髪に差して使う装飾品。{EL}
+ENG=[Black Coral Hairpin]{NL4}A hair accessory with beautiful{NL4}black purple and curvy lines.{EL}
+
+POINTER=99999;98414;00587;GLOBAL
+DATA=84100;00586;81 79 8C C3 91 E3 02 C9 92 CA 89 DD 81 7A 04 90 C2 93 BA 90 BB A1 8C C3 19 B9 C3 B2 C3 89 98 B2 A1 04 BF C9 8B D8 C9 90 6C 8A D4 C5 D7 8A EC 17 95 69 C5 C9 10 DB B3 B6 3F 7C 
+JPN=【古代の通貨】{NL4}青銅製。古ぼけていて汚い。{NL4}その筋の人間なら喜ぶ品なのだろうか?{EL}
+ENG=[Ancient Coin]{NL4}Made of bronze. Old and dirty.{NL4}Just like some coin collectors.{EL}
+
+POINTER=99999;9841E;005C1;GLOBAL
+DATA=84100;005C0;81 79 8C C3 91 E3 89 A4 92 A9 02 C9 95 F3 8A A5 81 7A 04 91 BE 8C C3 91 D5 8A A5 C9 8B 56 8E AE C6 97 70 B2 D7 DA C0 A4 04 89 A4 88 CA C9 8F DB 92 A5 C9 8A A5 A1 7C 
+JPN=【古代王朝の宝冠】{NL4}太古戴冠の儀式に用いられた、{NL4}王位の象徴の冠。{EL}
+ENG=[Royal Crown]{NL4}Traditional headgear used in{NL4}ancient coronation ceremonies.{EL}
+
+POINTER=99999;98428;005F8;GLOBAL
+DATA=84100;005F7;81 79 94 92 96 50 02 C9 C2 D9 07 81 7A 04 8C 9A 8D 91 C9 89 70 97 59 06 90 5F 91 F5 A6 8E F3 B9 D9 8D DB C6 93 56 D6 D8 04 8E F6 B6 AF C0 95 A8 13 B1 D9 C4 B2 B3 93 60 8F B3 06 B1 D9 A1 7C 
+JPN=【白鳳のつるぎ】{NL4}建国の英雄が神託を受ける際に天より{NL4}授かった物であるという伝承がある。{EL}
+ENG=[Divine Sword]{NL4}Heavenly gift to the founding hero{NL4}of the White Phoenix period.{EL}
+
+POINTER=99999;98432;00637;GLOBAL
+DATA=84100;00636;81 79 10 B2 D4 02 C9 8E 77 97 D6 81 7A 04 91 40 8D D7 C5 8C F5 A6 95 FA C2 A4 91 E5 97 B1 C9 03 10 B2 D4 D3 DD 14 02 C9 04 8E 77 97 D6 A1 7C 
+JPN=【ダイヤの指輪】{NL4}繊細な光を放つ、大粒のダイヤモンドの{NL4}指輪。{EL}
+ENG=[Diamond Ring]{NL4}A large diamond ring that emits{NL4}a delicate light.{EL}
+
+POINTER=99999;9843C;00666;GLOBAL
+DATA=84100;00665;81 79 8B E0 02 C9 98 72 97 D6 81 7A 04 91 4E D4 B6 C5 92 A4 8D 8F 06 8E 7B BB DA C0 89 A9 8B E0 90 46 C9 98 72 97 D6 A1 7C 
+JPN=【金の腕輪】{NL4}鮮やかな彫刻が施された黄金色の腕輪。{EL}
+ENG=[Gold Bracelet]{NL4}A golden bracelet with ornate{NL4}carvings.{EL}
+
+POINTER=99999;98446;0068F;GLOBAL
+DATA=84100;0068E;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 81 79 95 73 98 56 95 73 8E 80 C9 90 E5 96 F2 81 7A C9 8F EA 8F 8A A6 8E A6 BD 97 6C 10 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}【不老不死の仙薬】の場所を示す様だ。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Elixir of Life]{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;98450;006D2;GLOBAL
+DATA=84100;006D1;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 81 79 90 5F 95 B6 8B CA 8E A2 81 7A C9 89 42 BC 8F EA 8F 8A 06 8B 4C BB DA C3 B2 D9 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}【神文玉爾】の隠し場所が記されている。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Imperial Seal]{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;9845A;00714;GLOBAL
+DATA=84100;00713;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 81 79 03 14 D7 0A DD BC B0 D9 14 81 7A 02 C9 B1 D8 B6 C9 97 6C 10 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}【ドラゴンシールド】のありかの様だ。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Dragon Shield]{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;98464;00750;GLOBAL
+DATA=84100;0074F;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 8B 4D 8F 64 C5 95 F3 95 A8 C9 B1 D8 B6 A6 8E A6 BC C3 B2 D9 D7 BC B2 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}貴重な宝物のありかを示しているらしい。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Dojin Armor]{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;9846E;0078D;GLOBAL
+DATA=84100;0078C;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 81 79 03 BB CC A7 B2 B1 02 C9 8A A5 81 7A C9 8F EA 8F 8A A6 8E A6 BD D7 BC B2 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}【サファイアの冠】の場所を示すらしい。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Sapphire Crown]{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;98478;007CD;GLOBAL
+DATA=84100;007CC;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 C1 AE AF C4 95 AA B6 D8 C6 B8 B2 92 6E 90 7D 10 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}ちょっと分かりにくい地図だ。{NL4}(コックピットで広げて見られます。){EL}
+ENG=A strange map{NL4}Surely worth its value.{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;98482;00803;GLOBAL
+DATA=84100;00802;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 95 CF C5 92 6E 90 7D 10 06 A4 89 BF 92 6C 06 B1 D8 BF B3 10 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}変な地図だが、価値がありそうだ。{NL4}(コックピットで広げて見られます。){EL}
+ENG=A confusing map{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;9848C;0083D;GLOBAL
+DATA=84100;0083C;81 73 95 F3 02 C9 92 6E 90 7D 81 74 04 90 B9 94 74 C9 B1 D8 B6 D7 BC B2 06 A4 96 AD C5 92 6E 90 7D 10 A1 04 28 03 BA AF B8 1B AF C4 02 13 8D 4C 09 C3 8C A9 D7 DA CF BD A1 29 7C 
+JPN=《宝の地図》{NL4}聖杯のありからしいが、妙な地図だ。{NL4}(コックピットで広げて見られます。){EL}
+ENG=Map to the [Golden Chalice]{NL4}Quite strange.{NL4}Press A to unfold it.{EL}
+
+POINTER=99999;142FC;00878;GLOBAL
+DATA=84100;00877;A2 7F 23 30 30 02 13 94 83 B2 8E E6 DB B3 A1 04 00 B2 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「{7F}{23}00で買い取ろう。{NL4}{00}いいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=I'll take it for {23}00.{NL4}Are you sure?{NL4}       YES            NO{EL}
+
+POINTER=99999;1430F;0089F;GLOBAL
+DATA=84100;0089E;A2 02 D6 AF BC AC A4 8E E6 88 F8 90 AC 97 A7 10 A3 7C 
+JPN=「よっしゃ、取引成立だ」{EL}
+ENG=Okay. Done deal.{EL}
+
+POINTER=99999;1434D;008B1;GLOBAL
+DATA=84100;008B0;A2 8D A1 93 FA 02 CA A4 94 84 D9 C9 A6 D4 D2 C3 B5 B8 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「今日は、売るのをやめておくかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Are you done selling treasures?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=99999;142E9;008D8;GLOBAL
+DATA=84100;008D7;A2 02 B3 B0 DD A4 BF DA CA B3 C1 13 CA 94 83 B2 8E E6 AF C3 D3 04 00 8E 64 95 FB 06 C5 B2 C5 A1 A3 7C 
+JPN=「う゜ん、それはうちでは買い取っても{NL4}{00}仕方がないな。」{EL}
+ENG=I can't help but buy it.{EL}
+
+POINTER=99999;143FF;008FA;GLOBAL
+DATA=84100;008F9;19 B0 DD 0D A2 02 BF DD C5 D3 C9 C6 8B BB 96 A1 CA C5 B2 C8 A1 04 00 DC C0 BC 06 8B 81 D2 C3 B2 D9 C9 CA 88 E2 95 F3 89 BF 92 6C C9 8D 82 04 00 B2 95 F3 C5 DD 10 D6 A3 7C 
+JPN=ボーンズ「そんなものに興味はないね。{NL4}{00}わたしが求めているのは遺宝価値の高{NL4}{00}い宝なんだよ」{EL}
+ENG=Bones: I'm not interested{NL4}in that.{NL4}I'm looking for high value relics.{EL}
+
+POINTER=99999;14413;00933;GLOBAL
+DATA=84100;00932;19 B0 DD 0D A2 91 BC 02 C6 DC C0 BC C9 8B 81 D2 C3 B2 D9 D6 B3 04 00 C5 95 A8 CA 8E 9D AF C3 C5 B2 C9 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=ボーンズ「他にわたしの求めているよう{NL4}{00}な物は持ってないのかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Bones: Do you have anything else{NL4}that I'm looking for?{NL4}       YES            NO{EL}
+
+POINTER=99999;14433;00969;GLOBAL
+DATA=84100;00968;19 B0 DD 0D A2 8A 6D 02 B6 C6 88 E2 95 F3 C4 BC C3 C9 89 BF 92 6C CA B1 04 00 D9 06 A4 BA C9 B8 D7 B2 C9 95 A8 0C AC 89 42 DA 97 A2 C9 8F EE 04 00 95 F1 CA 8B B3 B4 D7 DA C5 B2 C8 A3 7C 
+JPN=ボーンズ「確かに遺宝としての価値はあ{NL4}{00}るが、このくらいの物じゃ隠れ里の情{NL4}{00}報は教えられないね」{EL}
+ENG=Bones: That's certainly a valuable{NL4}relic but not worth the location of{NL4}the hidden village.{EL}
+
+POINTER=99999;14390;009A7;GLOBAL
+DATA=84100;009A6;19 B0 DD 0D A2 02 D6 BC A4 7F 23 30 30 02 13 94 83 B2 8E E6 DB B3 A1 04 00 B2 B2 B6 C8 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=ボーンズ「よし、{7F}{23}00で買い取ろう。{NL4}{00}いいかね?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Bones: I'll buy it for {23}00.{NL4}Is that okay?{NL4}       YES            NO{EL}
+
+POINTER=99999;14476;009D6;GLOBAL
+DATA=84100;009D5;19 B0 DD 0D A2 02 D6 BC A4 8E E6 88 F8 90 AC 97 A7 10 A3 7C 
+JPN=ボーンズ「よし、取引成立だ」{EL}
+ENG=Bones: Okay, done deal.{EL}
+
+POINTER=99999;144E8;009EA;GLOBAL
+DATA=84100;009E9;A2 02 BA C1 D7 A6 8F 6F 95 69 C5 BB B2 CF BD B6 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「こちらを出品なさいますか?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want to put it up for sale?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=99999;14519;00A0D;GLOBAL
+DATA=84100;00A0C;A2 8D A1 93 FA 02 CA 8F 6F 95 69 A6 8E E6 D8 D4 D2 CF BD B6 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「今日は出品を取りやめますか?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Are you done with the auction?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=99999;14511;00A34;GLOBAL
+DATA=84100;00A33;A2 8A 6D 02 B6 C6 B3 B9 C0 CF DC D8 CF BC C0 A1 04 00 BF DA 13 CA 8F 80 94 F5 06 C4 C4 C9 B2 CF BD CF 13 04 00 8F AD 81 58 B5 91 D2 C1 B8 10 BB B2 40 40 7C 
+JPN=「確かにうけたまわりました。{NL4}{00}それでは準備がととのいますまで{NL4}{00}少々お待ちください……{EL}
+ENG=A very good piece.{NL4}Please wait until the preparations{NL4}are complete...{EL}
+
+POINTER=99999;110E7;00A68;GLOBAL
+DATA=84100;00A67;8D 95 95 9E A2 02 BA C9 95 69 CA B5 95 D4 BC BC CF BD A1 04 00 8D A1 93 78 CA B5 8B 71 97 6C C9 96 DA A6 88 F8 B8 D6 B3 C5 95 69 A6 04 00 B5 8E 9D C1 C6 C5 AF C3 B2 D7 BC C3 89 BA BB B2 40 40 A3 7C 
+JPN=黒服「この品はお返しします。{NL4}{00}今度はお客様の目を引くような品を{NL4}{00}お持ちになっていらして下さい……」{EL}
+ENG=Assistant: I return this item.{NL4}Next time, please bring something{NL4}that can catch our clients' eyes...{EL}
+

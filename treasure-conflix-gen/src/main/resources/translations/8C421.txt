@@ -1,0 +1,55 @@
+POINTER=828DB;;00001
+DATA=8C421;00000;00 00 17 D8 AF 0C 7C 
+JPN={00}{00}ブリッジ{EL}
+ENG=      Bridge{EL}
+
+POINTER=828DB;68;00008
+DATA=8C421;00007;04 00 00 00 00 00 B4 DD 0C DD 8F 6F 97 CD 92 E1 89 BA 21 7C 
+JPN={NL4}{00}{00}{00}{00}{00}エンジン出力低下!{EL}
+ENG=     Engine Power Decreasing!{EL}
+
+POINTER=828DB;6F;0001C
+DATA=8C421;0001B;04 00 00 00 00 00 00 8E 63 02 D8 94 52 97 BF 30 21 7C 
+JPN={NL4}{00}{00}{00}{00}{00}{00}残り燃料0!{EL}
+ENG=         Fuel Tank Empty!{EL}
+
+POINTER=828DB;;0002E
+DATA=8C421;0002D;04 00 00 00 00 00 00 90 A7 8C E4 95 73 94 5C 21 7C 
+JPN={NL4}{00}{00}{00}{00}{00}{00}制御不能!{EL}
+ENG=
+
+POINTER=828DB;3A;0003F
+DATA=8C421;0003E;D7 B3 14 A2 40 40 CC A9 40 40 7B 30 04 00 02 C5 DD C4 B6 A4 93 7C BC C0 D0 C0 B2 10 C5 A1 7B 50 04 00 BC B6 BC 40 40 7B 20 03 B5 CF B4 02 D3 90 AC 92 B7 BC C0 D6 C5 A1 7C 
+JPN=ラウド「……フゥ……{7B}{30}{NL4}{00}なんとか、倒したみたいだな。{7B}{50}{NL4}{00}しかし……{7B}{20}オマエも成長したよな。{EL}
+ENG=Loud: ...*phew*...{7B}{30}{NL4}It looks like you beat him somehow.{NL4}And you've grown up too.{EL}
+
+POINTER=828DB;3F;00078
+DATA=8C421;00077;00 40 40 7B 30 02 C5 B1 A4 03 1F AB B2 BD 40 40 7B 40 04 00 40 40 02 CF C0 90 CC D0 C0 B2 C6 93 F1 90 6C 13 91 67 DD 13 04 00 88 EA 8F 8F C6 95 F3 92 54 BC A6 D4 D7 C5 B2 B6 3F 7B 50 7C 
+JPN={00}……{7B}{30}なあ、ヴォイス……{7B}{40}{NL4}{00}……また昔みたいに二人で組んで{NL4}{00}一緒に宝探しをやらないか?{7B}{50}{EL}
+ENG=...{7B}{30}Hey, Voice...{7B}{40}{01}Would you like to team up again{NL4}like the old days and{NL4}go on a treasure hunt together?{7B}{50}{EL}
+
+POINTER=828DB;44;000B6
+DATA=8C421;000B5;00 8D A1 89 F1 02 CA 8D 9C 90 DC D8 91 B9 10 AF C0 B9 14 7B 30 04 00 BA C9 90 A2 8A 45 C6 CA 8C A9 C2 B9 8F 6F BB DA C3 C5 B2 95 F3 06 04 00 CF 10 A4 B2 AF 1A B2 8E 63 AF C3 D9 0E A1 7B 60 7C 
+JPN={00}今回は骨折り損だったけど{7B}{30}{NL4}{00}この世界には見つけ出されてない宝が{NL4}{00}まだ、いっぱい残ってるぜ。{7B}{60}{EL}
+ENG=This time I failed but{NL4}there are still many undiscovered{NL4}treasures left in this world.{EL}
+
+POINTER=828DB;49;000F6
+DATA=8C421;000F5;00 B5 DA 02 C0 C1 13 90 A2 8A 45 92 86 C9 95 F3 A6 91 53 95 94 04 00 8C A9 C2 B9 C3 D4 DB B3 0C AC C5 B2 B6 21 7B 60 7C 
+JPN={00}オレたちで世界中の宝を全部{NL4}{00}見つけてやろうじゃないか!{7B}{60}{EL}
+ENG=Let's find all the treasures{NL4}in the world together!{7B}{60}{EL}
+
+POINTER=828DB;4E;0011E
+DATA=8C421;0011D;00 02 BA C9 91 44 A6 8D C5 8D 82 C6 8E 64 8F E3 09 C3 40 40 7C 
+JPN={00}この船を最高に仕上げて……{EL}
+ENG=Make this ship the best...{EL}
+
+POINTER=828DB;7A;00133
+DATA=8C421;00132;A2 06 BD 8C 87 02 B6 D6 40 40 7B 20 04 00 8F 89 90 53 8E D2 C9 D6 B3 C5 03 D0 BD 02 A6 BC D4 06 AF C3 40 40 7B 10 7C 
+JPN=「ガス欠かよ……{7B}{20}{NL4}{00}初心者のようなミスをしやがって……{7B}{10}{EL}
+ENG=Out of gas...{7B}{20}{NL4}Such a beginner's mistake...{7B}{10}{EL}
+
+POINTER=828DB;84;0015A
+DATA=8C421;00159;00 1F AB B2 BD 40 40 7B 20 B5 CF B4 40 40 7B 30 04 00 02 C1 AF C4 D3 90 AC 92 B7 BC C3 C5 B2 C5 40 40 7C 
+JPN={00}ヴォイス……{7B}{20}オマエ……{7B}{30}{NL4}{00}ちっとも成長してないな……{EL}
+ENG=Voice...{7B}{20}You...{7B}{30}{NL4}You haven't grown at all...{EL}
+

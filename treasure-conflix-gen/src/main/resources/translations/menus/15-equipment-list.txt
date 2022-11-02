@@ -1,31 +1,31 @@
-EquipmentA
-EquipmentB
-EquipmentC
-EquipmentD
-EquipmentE
-EquipmentF
-EquipmentG
-EquipmentH
-EquipmentI
-EquipmentJ
-EquipmentK
-EquipmentL
-EquipmentM
-EquipmentN
-EquipmentO
-EquipmentP
-EquipmentQ
-EquipmentR
-EquipmentS
-EquipmentT
-EquipmentU
-EquipmentV
-EquipmentW
-EquipmentX
-EquipmentY
-EquipmentZ
-Equipment1
-Equipment2
-Equipment3
-Equipment4
-Equipment5
+Sky Life 7001      
+EquipmentB123456789
+EquipmentC123456789
+EquipmentD123456789
+EquipmentE123456789
+EquipmentF123456789
+EquipmentG123456789
+EquipmentH123456789
+Sky Life R30       
+EquipmentJ123456789
+EquipmentK123456789
+EquipmentL123456789
+Sky Life Mute 2000 
+EquipmentN123456789
+EquipmentO123456789
+EquipmentP123456789
+EquipmentQ123456789
+EquipmentR123456789
+EquipmentS123456789
+EquipmentT123456789
+Midair SP          
+EquipmentV123456789
+EquipmentW123456789
+EquipmentX123456789
+EquipmentY123456789
+EquipmentZ123456789
+Bomb (Red)         
+Equipment2123456789
+Equipment3123456789
+Equipment4123456789
+Equipment5123456789

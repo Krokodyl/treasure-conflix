@@ -2,7 +2,7 @@
 {NL2}　　Select a destination on the map,
 {NL2}　　{↓} will point to the direction
 {NL2}　　on the flight screen.
-{NL2}　Scanner:
+{NL2}　Sensor:  
 {NL2}　　Search below the ship.
 {NL2}　　At the known location of a treasure,
 {NL2}　　"CHECK" is displayed.

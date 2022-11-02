@@ -1,0 +1,40 @@
+POINTER=821C9;;00001
+DATA=8987B;00000;00 D7 08 02 C9 03 CA DD 06 B0 7C 
+JPN={00}ラグのハンガー{EL}
+ENG=  Rag's Workshop{EL}
+
+POINTER=821C9;6C;0000C
+DATA=8987B;0000B;B1 DA CC A2 8A 43 02 C6 90 F6 D8 C0 B2 C9 C5 3F 04 00 03 B5 AF B9 B0 A4 B5 B2 D7 02 C6 94 43 BE D9 C9 06 B2 B2 C5 A3 7C 
+JPN=アレフ「海に潜りたいのな?{NL4}{00}オッケー、オイラに任せるのがいいな」{EL}
+ENG=Aleph: You want to dive in the sea?{NL4}Okay, leave it to me.{EL}
+
+POINTER=821C9;6F;00034
+DATA=8987B;00033;00 40 40 02 B5 8B E0 7F 31 35 30 30 30 02 40 40 04 00 B6 B6 D9 B9 14 A4 7B 20 B2 B2 C5 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN={00}……お金{7F}15000……{NL4}{00}かかるけど、{7B}{20}いいな?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The cost is...15000.{NL4}Is that okay?{NL4}       YES            NO{EL}
+
+POINTER=821C9;87;00063
+DATA=8987B;00062;B1 DA CC A2 02 0C AC B1 40 40 7B 20 04 00 8F 49 DC D9 CF 13 03 BE DD C1 AE 02 C9 C4 BA DB 13 91 D2 C2 04 00 C9 06 B2 B2 C5 A3 7C 
+JPN=アレフ「じゃあ……{7B}{20}{NL4}{00}終わるまでセンチョのところで待つ{NL4}{00}のがいいな」{EL}
+ENG=Aleph: You should wait outside{NL4}until I'm done.{EL}
+
+POINTER=821C9;C3;0008E
+DATA=8987B;0008D;B1 DA CC A2 10 D2 21 04 00 02 B5 8B E0 06 96 B3 B2 C4 03 10 D2 02 C5 DD 10 C5 A3 7C 
+JPN=アレフ「ダメ!{NL4}{00}お金が無いとダメなんだな」{EL}
+ENG=Aleph: You're broke?{NL4}Tough luck.{EL}
+
+POINTER=821C9;A5;000AA
+DATA=8987B;000A9;B1 DA CC A2 40 40 02 13 B7 C0 DD 10 C5 05 00 BA DA 13 8A 43 C6 D3 08 DA D9 DD 10 C5 A1 95 F3 92 54 BC 04 00 BD D9 C0 D2 C6 A4 03 BF C5 B0 02 D3 C2 B9 C0 DD 10 C5 A1 01 00 89 45 B6 D7 C9 89 B9 06 91 E5 B7 B9 DA 15 A4 89 45 C6 B1 D9 BC 04 00 8D B6 B6 D7 C9 89 B9 06 91 E5 B7 B9 DA 15 8D B6 C6 B1 D9 C5 A1 04 00 40 40 CC 81 60 40 40 40 40 BF DA B6 D7 C5 40 40 01 00 03 DA B0 10 B0 02 C5 DD B6 CA 94 BD 89 9E BC 89 DF 07 C0 D8 A4 04 00 91 53 91 52 94 BD 89 9E BC C5 B6 AF C0 D8 13 A4 B1 C3 C6 C5 D7 04 00 C5 B2 DD 10 C5 01 00 06 DD 15 AF C3 92 54 BC C3 B5 8B E0 03 06 AF 1E D8 21 04 00 02 C5 DD 10 C5 A3 7C 
+JPN=アレフ「……できたんだな{WP}{00}これで海にもぐれるんだな。宝探し{NL4}{00}するために、ソナーもつけたんだな。{01}{00}右からの音が大きければ、右にあるし{NL4}{00}左からの音が大きければ左にあるな。{NL4}{00}……ふ〜…………それからな……{01}{00}レーダーなんかは反応し過ぎたり、{NL4}{00}全然反応しなかったりで、あてになら{NL4}{00}ないんだな{01}{00}がんばって探してお金ガッポリ!{NL4}{00}なんだな」{EL}
+ENG=Aleph: ...It's done.{WP}You can go underwater now.{NL4}I also tuned the treasure sensor.{01}The sound will come from your{NL4}left or right based on the item{NL4}location.{01}At times the sensor reacts too much{NL4}or not at all, so don't rely{NL4}too much on it.{01}Keep searching and make fortune!{EL}
+
+POINTER=821C9;BE;00173
+DATA=8987B;00172;B1 DA CC A2 02 B5 8B E0 92 99 D2 C3 40 40 04 00 B2 C2 B6 03 B5 B2 D7 02 D3 8E A9 95 AA C9 03 CA DD 06 B0 02 A6 04 00 8E 9D C2 DD 10 C5 A3 7C 
+JPN=アレフ「お金貯めて……{NL4}{00}いつかオイラも自分のハンガーを{NL4}{00}持つんだな」{EL}
+ENG=Aleph: I'm saving money...{NL4}Someday I hope to have my own{NL4}workshop.{EL}
+
+POINTER=821C9;92;001A2
+DATA=8987B;001A1;B1 DA CC A2 40 40 40 40 7B 20 04 00 40 40 40 40 40 40 40 02 DD 81 60 40 40 40 7B 20 04 00 40 40 B2 BF 06 BC B2 DD 10 C5 A3 7C 
+JPN=アレフ「…………{7B}{20}{NL4}{00}…………………ん〜………{7B}{20}{NL4}{00}……いそがしいんだな」{EL}
+ENG=Aleph:...{7B}{20}{NL4}Hmm...{7B}{20}{NL4}I'm busy...{EL}
+

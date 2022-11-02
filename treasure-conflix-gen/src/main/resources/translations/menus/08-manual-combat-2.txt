@@ -3,7 +3,7 @@
 {NL2}　Items are shown in the top right corner.
 {NL2}　Select with Y and use with X.
 {NL2}
-{NL2}　Items can be bought in Merck's Hangar.
+{NL2}　Items can be bought in Melk's Workshop.
 {NL2}　Up to 5 items can be kept in the hold.
 {NL2}
 {NL2}

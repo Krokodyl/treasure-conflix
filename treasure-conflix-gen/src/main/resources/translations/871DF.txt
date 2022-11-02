@@ -1,0 +1,153 @@
+POINTER=80CCC;;00001
+DATA=871DF;00000;CA DD C0 B0 A5 B5 CC A8 BD 7C 
+JPN=ハンター・オフィス-Kazusa{EL}
+ENG=Hunters Office{EL}
+
+POINTER=80CCC;11E;0000B
+DATA=871DF;0000A;CC A8 AF BC AD A2 02 D6 B5 A4 03 1F AB B2 BD A1 92 B2 8E 71 02 CA 14 04 00 B3 10 A1 03 B5 DA 02 CA 95 F3 C9 8F EE 95 F1 A6 8E E8 C6 93 FC DA C3 A4 04 00 BF DA A6 92 54 BC C3 B2 D9 C4 BA DB 10 A1 01 00 13 D3 A4 C5 B6 C5 B6 8C A9 93 96 06 C2 B6 C5 B8 C3 C5 A1 04 00 8B EA 98 4A BC C3 D9 D6 A3 7C 
+JPN=フィッシュ「よお、ヴォイス。調子はど{NL4}{00}うだ。オレは宝の情報を手に入れて、{NL4}{00}それを探しているところだ。{01}{00}でも、なかなか見当がつかなくてな。{NL4}{00}苦労してるよ」{EL}
+ENG=Fish: Hey Voice, how are you?{NL4}I just got intel on a treasure{NL4}and I'm looking for the spot.{01}But I've having a hard time{NL4}figuring it out.{EL}
+
+POINTER=80CCC;A2;0006D
+DATA=871DF;0006C;D0 AD B0 C4 A2 02 B2 D4 B1 A4 8D 4B 89 5E CA 14 BA C6 93 5D 06 AF 04 00 C3 D9 B6 DC B6 D7 C5 B2 D3 C9 10 C5 B1 A1 04 00 C2 B2 C6 8B F4 91 52 95 F3 A6 8C A9 C2 B9 C0 D6 A1 01 00 BA C9 8A D4 A4 94 F2 8B F3 92 F8 C9 92 B2 8E 71 06 B1 DD CF D8 88 AB B2 04 00 DD 13 A4 92 B2 90 AE C9 C0 D2 C6 95 73 8E 9E 92 85 BC C0 DD 10 A1 04 00 BF BC C0 D7 A4 BF C9 8B DF B8 C6 93 B4 8C 41 06 B1 AF C3 BB A1 01 00 92 86 C6 93 FC AF C3 8D 73 B8 C4 A4 CF 10 92 4E C6 D3 8D 72 D7 BB 04 00 DA C3 C5 B2 88 E2 90 D5 10 AF C0 DD 10 A1 B5 95 F3 D3 B2 B8 04 00 C2 B6 8C A9 C2 B6 AF C0 D6 A1 01 00 94 F2 8B F3 92 F8 A6 8A AE 91 53 C6 8F 43 97 9D BC C3 D3 CF 10 A4 97 5D 97 54 04 00 B1 D9 B8 D7 B2 C9 8B E0 C6 C5 AF C0 D6 A1 04 00 BA DA 13 A4 BC 15 D7 B8 97 56 DD 13 B8 D7 BE D9 C5 B1 A3 7C 
+JPN=ミュート「いやあ、幸運はどこに転がっ{NL4}{00}てるかわからないものだなあ。{NL4}{00}ついに偶然宝を見つけたよ。{01}{00}この間、飛空艇の調子があんまり悪い{NL4}{00}んで、調整のために不時着したんだ。{NL4}{00}そしたら、その近くに洞窟があってさ。{01}{00}中に入って行くと、まだ誰にも荒らさ{NL4}{00}れてない遺跡だったんだ。お宝もいく{NL4}{00}つか見つかったよ。{01}{00}飛空艇を完全に修理してもまだ、余裕{NL4}{00}あるくらいの金になったよ。{NL4}{00}これで、しばらく遊んでくらせるなあ」{EL}
+ENG=Mute: Well, you never know where{NL4}your luck lies. I finally found{NL4}the treasure by accident.{01}The state of my airship was so bad{NL4}that I had to make an emergency{NL4}landing for repairs.{01}There was a cave nearby so I went{NL4}inside. It was unexplored ruins{NL4}with some treasures.{01}Even with the airship completely{NL4}repaired, I still have enough{NL4}money to spare.{01}With this, I can laze about{NL4}for a while.{EL}
+
+POINTER=80CCC;CA;0016B
+DATA=871DF;0016A;1E D9 B6 A2 02 B1 DD C0 03 CA DD C0 B0 02 B6 B2 3F 04 04 00 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=ポルカ「あんたハンターかい?{NL4}{NL4}{00}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Polka: Are you a hunter?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;E4;0018E
+DATA=871DF;0018D;1E D9 B6 A2 02 B2 B2 8F A4 94 84 10 0E B4 A1 04 00 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 CA A1 01 00 BA C9 8A D4 D3 8C C3 91 E3 96 AF C9 88 E2 90 D5 13 89 98 B2 92 A4 91 9C A6 8C A9 04 00 C2 B9 10 BC C3 D6 B5 A4 BF DA 06 03 B5 B0 B8 BC AE DD 04 00 02 13 7F 31 30 30 30 30 02 C6 D3 C5 AF C0 DD 10 0E A3 7C 
+JPN=ポルカ「いい商売だぜえ。{NL4}{00}トレジャー・ハンターは。{01}{00}この間も古代民の遺跡で汚い彫像を見{NL4}{00}つけだしてよお、それがオークション{NL4}{00}で{7F}10000にもなったんだぜ」{EL}
+ENG=Polka: Treasure hunter is a good{NL4}business. I found a dirty statue in{NL4}some ancient ruins the other day,{01}and it sold for 10,000 at the{NL4}auction.{EL}
+
+POINTER=80CCC;D6;001F3
+DATA=871DF;001F2;1E D9 B6 A2 8D C5 8B DF A4 95 F3 02 C9 8F EE 95 F1 06 96 B3 B2 D6 C5 A1 04 00 03 B5 DA 02 C5 DD B6 A4 8E 64 95 FB 06 C5 B2 B6 D7 A4 BA BA C9 04 00 8B 99 8B C6 91 67 8D 87 C9 8E 64 8E 96 A6 90 BF B9 95 89 AF C3 D9 D6 A1 01 00 94 F2 8B F3 92 F8 13 8B F3 B6 D7 8B 9B C9 8C 51 DA A6 92 54 BC C3 D6 AB 04 00 96 D4 C9 95 FB C6 92 C7 B2 8D 9E D1 DD 10 0E A1 04 00 CF AF C0 B8 40 40 8F EE B9 C5 B2 D6 A3 7C 
+JPN=ポルカ「最近、宝の情報が無いよな。{NL4}{00}オレなんか、仕方がないから、ここの{NL4}{00}漁業組合の仕事を請け負ってるよ。{01}{00}飛空艇で空から魚の群れを探してよぉ{NL4}{00}網の方に追い込むんだぜ。{NL4}{00}まったく……情けないよ」{EL}
+ENG=Polka: There's been no treasure{NL4}intel recently.{NL4}Nothing I can do about it.{01}So I'm undertaking work for the{NL4}Fisheries Cooperative here.{01}Search for schools of fish from{NL4}the sky with an airship and drive{NL4}them into the net.{01}That's...pathetic.{EL}
+
+POINTER=80CCC;EC;00278
+DATA=871DF;00277;1E D9 B6 A2 02 CF A4 B5 8C DD B2 C6 06 DD 15 DB B3 D4 A3 7C 
+JPN=ポルカ「ま、お互いにがんばろうや」{EL}
+ENG=Polka: Well, everyone is doing{NL4}their best.{EL}
+
+POINTER=80CCC;F9;0028C
+DATA=871DF;0028B;1E D9 B6 A2 02 B2 B2 8F A4 94 84 10 0E B4 A1 04 00 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 CA A1 01 00 94 F2 8B F3 92 F8 13 8B F3 B6 D7 92 BE 96 76 91 44 A6 8C A9 C2 B9 C3 D6 B5 A1 04 00 B1 C4 13 BF BA C6 90 F6 AF C3 8C A9 C0 DD 10 A1 BF BC C0 04 00 D7 8C A9 C2 B9 C0 C8 A4 8C C3 91 E3 C9 B5 95 F3 A6 A1 01 00 CF A4 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 C4 BC C3 C9 8A A8 04 00 06 93 AD B2 C0 DD 10 C5 A1 B1 C9 92 BE 96 76 91 44 C6 CA 89 BD B6 04 00 B1 D9 AF C3 C5 A3 7C 
+JPN=ポルカ「いい商売だぜえ。{NL4}{00}トレジャー・ハンターは。{01}{00}飛空艇で空から沈没船を見つけてよお。{NL4}{00}あとでそこに潜って見たんだ。そした{NL4}{00}ら見つけたね、古代のお宝を。{01}{00}ま、トレジャー・ハンターとしての勘{NL4}{00}が働いたんだな。あの沈没船には何か{NL4}{00}あるってな」{EL}
+ENG=Polka: Treasure hunting.{NL4}That's a good business.{01}I saw a sunken ship{NL4}from my airship in the sky.{01}I dove there later and found{NL4}an ancient treasure.{01}My treasure hunter intuition was{NL4}right. There was something in that{NL4}sunken ship.{EL}
+
+POINTER=80CCC;F1;00327
+DATA=871DF;00326;1E D9 B6 A2 02 CE DD C4 A4 95 F3 CA 14 BA 13 8C A9 C2 B6 D9 B6 04 00 DC B6 D7 C5 B2 C5 A1 BF B3 10 DB A1 BA BA C9 8B 99 8B C6 04 00 91 67 8D 87 C9 8E 64 8E 96 A6 90 BF B9 95 89 AF C3 C0 DD 10 B9 14 C5 A4 01 00 94 F2 8B F3 92 F8 13 8B F3 B6 D7 92 BE 96 76 91 44 A6 8C A9 C2 B9 C3 D6 B5 A1 04 00 B1 C4 13 BF BA C6 90 F6 AF C3 D0 C0 DD 10 A1 BF BC C0 04 00 D7 8C A9 C2 B9 C0 C8 A4 8C C3 91 E3 C9 B5 95 F3 A6 A1 01 00 CF A4 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 C4 BC C3 C9 8A A8 04 00 06 93 AD B2 C0 DD 10 C5 A1 B1 C9 92 BE 96 76 91 44 C6 CA 89 BD B6 04 00 B1 D9 AF C3 C5 A3 7C 
+JPN=ポルカ「ほんと、宝はどこで見つかるか{NL4}{00}わからないな。そうだろ。ここの漁業{NL4}{00}組合の仕事を請け負ってたんだけどな、{01}{00}飛空艇で空から沈没船を見つけてよお。{NL4}{00}あとでそこに潜ってみたんだ。そした{NL4}{00}ら見つけたね、古代のお宝を。{01}{00}ま、トレジャー・ハンターとしての勘{NL4}{00}が働いたんだな。あの沈没船には何か{NL4}{00}あるってな」{EL}
+ENG=Polka: Treasure hunting.{NL4}That's a good business.{01}I saw a sunken ship{NL4}from my airship in the sky.{01}I dove there later and found{NL4}an ancient treasure.{01}My treasure hunter intuition was{NL4}right. There was something in that{NL4}sunken ship.{EL}
+
+POINTER=80CCC;12B;003E6
+DATA=871DF;003E5;A2 95 F3 02 A6 94 84 D8 C0 B2 C9 B6 B2 3F 04 00 8F EE 95 F1 06 97 7E BC B2 C9 B6 B2 3F A3 04 00 00 00 00 95 F3 00 00 00 00 00 00 00 8F EE 95 F1 7C 
+JPN=「宝を売りたいのかい?{NL4}{00}情報が欲しいのかい?」{NL4}{00}{00}{00}{00}宝{00}{00}{00}{00}{00}{00}{00}情報{EL}
+ENG=Do you want to sell treasures?{NL4}Do you need intel?{NL4}       Treasures      Intel{EL}
+
+POINTER=80CCC;268;00417
+DATA=871DF;00416;A2 95 F3 02 A6 D0 C2 B9 C0 D7 04 00 00 00 CF C0 BA BA C6 8E 9D AF C3 BA B2 D6 A3 7C 
+JPN=「宝をみつけたら{NL4}{00}{00}{00}またここに持ってこいよ」{EL}
+ENG=If you find a treasure,{NL4}bring it back here.{EL}
+
+POINTER=80CCC;260;00433
+DATA=871DF;00432;A2 40 40 7B 20 8E 63 94 4F 02 10 06 04 00 03 B5 CF B4 02 BB DD 06 8B 81 D2 C3 D9 D6 B3 C5 8F EE 95 F1 CA 04 00 96 B3 B2 C5 A3 7C 
+JPN=「……{7B}{20}残念だが{NL4}{00}オマエさんが求めてるような情報は{NL4}{00}無いな」{EL}
+ENG=Unfortunately, I don't have any{NL4}intel for you right now.{EL}
+
+POINTER=80CCC;256;0045E
+DATA=871DF;0045D;A2 02 B5 8B E0 06 C0 D8 C5 B2 D6 A3 7C 
+JPN=「お金がたりないよ」{EL}
+ENG=You don't have enough money.{EL}
+
+POINTER=80CCC;165;0046B
+POINTER=80CCC;1D3;0046B
+POINTER=80CCC;20F;0046B
+POINTER=80CCC;24B;0046B
+DATA=871DF;0046A;A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「憶えたかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Will you remember that?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;;00486
+DATA=871DF;00485;A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「前に一度、教えたのにまた聞きたいの{NL4}{00}か?{00}金は取らないが……」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=
+
+POINTER=80CCC;25B;004BF
+DATA=871DF;004BE;A2 02 BF DA 0C AC A4 06 DD 15 AF C3 92 54 BC C3 D0 C5 A1 04 00 8C A9 C2 B9 C0 D7 BA BA C6 8E 9D AF C3 97 88 C3 B8 DA D6 A3 7C 
+JPN=「それじゃ、がんばって探してみな。{NL4}{00}見つけたらここに持って来てくれよ」{EL}
+ENG=Try your best to find it.{NL4}Bring it here when you do.{EL}
+
+POINTER=80CCC;225;004E9
+DATA=871DF;004E8;A2 81 79 8B E2 02 C9 8D D5 8A ED 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「【銀の祭器】の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want intel about the{NL4}[Silver Vessel]?{NL4}       YES            NO{EL}
+
+POINTER=80CCC;1E9;0051B
+DATA=871DF;0051A;A2 89 BD 02 B6 95 AA B6 D7 C5 B2 06 98 72 97 D6 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「何か分からないが腕輪の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want intel about a bracelet?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;1AD;00550
+DATA=871DF;0054F;A2 8B E0 02 C6 C5 D8 BF B3 C5 8E 77 97 D6 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「金になりそうな指輪の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want intel about the{NL4}[Enchanted Ring]?{NL4}       YES            NO{EL}
+
+POINTER=80CCC;180;00583
+DATA=871DF;00582;A2 81 79 14 D7 0A DD BC B0 D9 14 81 7A 02 C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 31 32 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「【ドラゴンシールド】の地図があるぞ。{NL4}{00}値段{7F}1200でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=I have the [Dragon Shield] map.{NL4}Do you want to buy it for 1200?{NL4}       YES            NO{EL}
+
+POINTER=80CCC;13F;005BE
+DATA=871DF;005BD;A2 02 C5 C6 B6 C9 95 F3 90 CE C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「なにかの宝石の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=Do you want intel about some gems?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;230;005ED
+DATA=871DF;005EC;A2 92 6C 92 69 7F 38 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}800だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 800. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;1F4;00611
+DATA=871DF;00610;A2 92 6C 92 69 7F 38 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}800だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 800. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;1B8;00635
+DATA=871DF;00634;A2 92 6C 92 69 7F 35 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}500だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 500. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;14A;00659
+DATA=871DF;00658;A2 92 6C 92 69 7F 31 35 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
+JPN=「値段{7F}1500だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+ENG=The price is 1500. Is that okay?{NL4}{NL4}       YES            NO{EL}
+
+POINTER=80CCC;246;0067E
+DATA=871DF;0067D;A2 B6 0D BB 18 B0 BD 02 C9 96 6B 90 BC C6 91 E5 B7 C5 8E 52 06 B1 D9 04 00 10 DB B3 A1 BF C9 98 5B C9 90 58 C9 92 86 C9 8B F3 B7 92 6E 13 A4 04 00 8C C3 91 E3 C9 8D D5 97 E7 06 8D 73 DC DA C3 B2 C0 D7 BC B2 A1 01 00 BF C9 8E 9E C6 8E 67 AF C3 B2 C0 8B E2 90 BB C9 8D D5 8A ED 06 8D A1 D3 04 00 BF C9 90 58 C6 96 B0 AF C3 B2 D9 BF B3 10 A3 7C 
+JPN=「カズサベースの北西に大きな山がある{NL4}{00}だろう。その麓の森の中の空き地で、{NL4}{00}古代の祭礼が行われていたらしい。{01}{00}その時に使っていた銀製の祭器が今も{NL4}{00}その森に眠っているそうだ」{EL}
+ENG="There is a large mountain{NL4}northwest of Kazusa Base.{01}In a clearing in the nearby woods,{NL4}an ancient festival was held.{01}The silver ceremonial vessel that{NL4}was used is still lost in that{NL4}forest."{EL}
+
+POINTER=80CCC;20A;006F0
+DATA=871DF;006EF;A2 81 77 40 40 02 BF C9 98 72 97 D6 CA 88 F8 B7 97 F4 B6 DA C0 8E 52 C9 92 4A 04 00 8A D4 C6 81 78 8C C3 95 B6 8F 91 C9 BA C9 95 94 95 AA 10 B9 8C A9 C2 B6 AF 04 00 C0 DD 10 06 40 40 CF A4 92 54 BC C3 D0 C5 A3 7C 
+JPN=「『……その腕輪は引き裂かれた山の谷{NL4}{00}間に』古文書のこの部分だけ見つかっ{NL4}{00}たんだが……ま、探してみな」{EL}
+ENG="The bracelet is torn in the{NL4}valley of the mountains."{01}I only found this page of the{NL4}manuscript.{NL4}Go look for it.{EL}
+
+POINTER=80CCC;1CE;00737
+DATA=871DF;00736;A2 02 C1 AE AF C4 93 EF BC B2 B6 D3 BC DA C5 B2 0F A1 04 81 77 93 7B D8 BC 8A 43 C9 90 5F C6 8C E3 DB B6 D7 94 45 16 8A F1 D9 88 D7 C9 04 00 8A 43 C9 93 B9 A4 8D C7 06 DD C4 BD D9 98 72 C6 8E 77 97 D6 06 8C F5 D9 81 78 01 00 8A E6 92 A3 AF C3 A4 88 D3 96 A1 A6 8C A9 C2 B9 D9 DD 10 C5 A3 7C 
+JPN=「ちょっと難しいかもしれないぞ。{NL4}『怒りし海の神に後ろから忍び寄る為の{NL4}{00}海の道、塞がんとする腕に指輪が光る』{01}{00}頑張って、意味を見つけるんだな」{EL}
+ENG=It might be a little difficult.{01}"On the road to sneak up on the{NL4}angry sea god, the ring shines{NL4}on a cape."{01}Good luck finding the meaning!{EL}
+
+POINTER=80CCC;196;00798
+DATA=871DF;00797;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
+JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
+ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+
+POINTER=80CCC;160;007C6
+DATA=871DF;007C5;A2 90 E6 91 E3 02 C9 8E 63 BC C0 03 D2 D3 02 06 8C A9 C2 B6 AF C3 C5 A1 04 00 BF DA C6 A4 B5 BF D7 B8 95 F3 90 CE C9 89 42 BC 8F EA 8F 8A A6 8E A6 04 00 BC C3 B2 D9 D7 BC B2 95 B6 8F CD 06 B1 AF C0 DD 10 A1 01 00 81 77 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 40 40 91 BD 02 B8 C9 96 BD 04 00 A6 88 F9 D0 8D 9E DD 13 B2 AF C0 96 82 C9 8A 43 88 E6 40 40 01 00 BB CF D6 B4 D9 8D B0 06 90 6C 97 A2 97 A3 DA C0 91 E5 B7 C5 90 58 C9 04 00 92 86 A6 A4 8D 73 B7 8F EA A6 8C A9 8E B8 AF C0 C9 B6 A4 95 59 B2 91 B1 04 00 B9 C3 B2 D9 A1 01 00 8D A1 CA 92 4E D3 8B DF 8A F1 D9 BA C4 C9 C5 B2 04 00 BF C9 90 58 C9 89 9C 90 5B B8 C6 89 F6 BC B8 8B 50 B8 94 4C C9 8A E1 06 04 00 90 F6 D1 81 78 40 40 90 E6 91 E3 CA 8A B4 8F 9D 93 49 10 AF C0 DD 10 C5 A3 7C 
+JPN=「先代の残したメモが見つかってな。{NL4}{00}それに、おそらく宝石の隠し場所を示{NL4}{00}しているらしい文章があったんだ。{01}{00}『ドゥームトライアングル……多くの命{NL4}{00}を飲み込んでいった魔の海域……{01}{00}さまよえる魂が人里離れた大きな森の{NL4}{00}中を、行き場を見失ったのか、漂い続{NL4}{00}けている。{01}{00}今は誰も近寄ることのない{NL4}{00}その森の奥深くに怪しく輝く猫の眼が{NL4}{00}潜む』……先代は感傷的だったんだな」{EL}
+ENG=I found this memo left by my{NL4}predecessor that probably indicates{NL4}where the jewels are hidden.{01}"The Doom Triangle...{NL4}the magical sea that swallowed up{NL4}many lives...{01}A wandering soul has lost its way{NL4}in a large secluded forest{NL4}and continues to drift.{01}In the depths of the forest,{NL4}where no one approaches,{NL4}lies a shining cat's eye."{01}My predecessor was sentimental.{EL}
+

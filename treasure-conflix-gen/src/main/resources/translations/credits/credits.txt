@@ -1,0 +1,17 @@
+Concept Design{NL2}Shinichiro Okaniwa{NL2}{00}
+Story{NL2}Keidai Eto{NL2}{00}
+Main Program{NL2}Koji Sugimoto{NL2}{00}
+Main Graphics{NL2}Yasuyuki Motone{NL2}{00}
+Music Composer{NL2}Junya Nakano{NL2}{00}
+Visual Design{NL2}Yusuke Naora{NL2}{00}
+Enemy Sequence{NL2}Toshiaki Suzuki{NL2}{00}
+Enemy Graphics{NL2}Shinichiro Hamasaka{NL2}{00}
+Event Program{NL2}Toshio Endo{NL2}{00}
+Character Graphics{NL2}Masaaki Hayashi{NL2}{00}
+World Map Graphics{NL2}Akane Haruki{NL2}{00}
+Parameters{NL2}Noritaka Okazaki{NL2}{00}
+Auction Program{NL2}Takemi Matsumoto{NL2}{00}
+Sound Effect{NL2}Eiji Nakamura{NL2}{00}
+Sound Program{NL2}Minoru Akao{NL2}{00}
+Publicity{NL2}Koji Yamashita{NL2}Katsunobu Iida{NL2}{00}
+Special Thanks{NL2}Norimasa Hanada{NL2}Hirokatsu Sasaki{NL2}{00}
