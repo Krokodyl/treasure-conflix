@@ -1,3 +1,99 @@
+############# DEMO ###################
+x7405		A9 C0   (Bank)
+
+Pointer table
+x7622-7631		32 76 33 76 97 76 4D 77 B9 77 F7 76 15 78 7F 78
+				0     1     2     4     5     3     6     7
+				
+7633	1	Voice
+7697	2	Loud
+76F7	3	Rag
+774D	4	Melk
+77B9	5	Aleph
+7815	6	Gilmore
+787F	7	Red Spade
+
+x7633-78EE	
+
+　　　　　　　　　　ヴォイス{NL2}{NL2}
+若いが腕利きのトレジャー・ハンター{NL2}
+伝説の秘宝を全て見つけだすのが目標{00}
+
+                    Voice{NL2}{NL2}
+A young but skilled treasure hunter{NL2}
+His goal: all the legendary treasures{00}
+
+　　　　　　　　　　ラウド{NL2}{NL2}
+ベテランのトレジャー・ハンター{NL2}
+ヴォイスの兄貴分だが、最近押され気味{00}
+
+                    Loud{NL2}{NL2}
+Veteran treasure hunter{NL2}
+Voice's senior, now on the ropes{00}
+
+　　　　　　　　　　ラグ{NL2}{NL2}
+海底の宝を引き上げるサルベージ船の船長{NL2}
+頼り甲斐のある海の男{00}
+
+　　　　　　　　　　メルク{NL2}{NL2}
+レイズルタウンのハンガーを仕切っている{NL2}
+飛空艇の改造で彼女の右に出るものはいない{00}
+
+
+　　　　　　　　　　アレフ{NL2}{NL2}
+メルクの下で働くメカニック{NL2}
+いつの日か自分のハンガーを持つのが夢{00}
+
+　　　　　　　　　　ギルモア{NL2}{NL2}
+雲の扉と呼ばれる、古代の秘宝を探している{NL2}
+この星の人間ではなく職業などは不明{00}
+
+　　　　　　　　　　レッド・スペイド{NL2}{NL2}
+空賊団を率いて一般の船を襲撃している{NL2}
+大空では、誰よりも速く、誰よりも強く{00}
+
+data 			81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 94 83 48 83 43 83 58 2F 2F 8E E1 82 A2 82 AA 98 72 97 98 82 AB 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 93 60 90 E0 82 CC 94 E9 95 F3 82 F0 91 53 82 C4 8C A9 82 C2 82 AF 82 BE 82 B7 82 CC 82 AA 96 DA 95 57 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 89 83 45 83 68 2F 2F 83 78 83 65 83 89 83 93 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 83 94 83 48 83 43 83 58 82 CC 8C 5A 8B 4D 95 AA 82 BE 82 AA 81 41 8D C5 8B DF 89 9F 82 B3 82 EA 8B 43 96 A1 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 89 83 4F 2F 2F 8A 43 92 EA 82 CC 95 F3 82 F0 88 F8 82 AB 8F E3 82 B0 82 E9 83 54 83 8B 83 78 81 5B 83 57 91 44 82 CC 91 44 92 B7 2F 97 8A 82 E8 8D 62 94 E3 82 CC 82 A0 82 E9 8A 43 82 CC 92 6A 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 81 83 8B 83 4E 2F 2F 83 8C 83 43 83 59 83 8B 83 5E 83 45 83 93 82 CC 83 6E 83 93 83 4B 81 5B 82 F0 8E 64 90 D8 82 C1 82 C4 82 A2 82 E9 2F 94 F2 8B F3 92 F8 82 CC 89 FC 91 A2 82 C5 94 DE 8F 97 82 CC 89 45 82 C9 8F 6F 82 E9 82 E0 82 CC 82 CD 82 A2 82 C8 82 A2 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 41 83 8C 83 74 2F 2F 83 81 83 8B 83 4E 82 CC 89 BA 82 C5 93 AD 82 AD 83 81 83 4A 83 6A 83 62 83 4E 2F 82 A2 82 C2 82 CC 93 FA 82 A9 8E A9 95 AA 82 CC 83 6E 83 93 83 4B 81 5B 82 F0 8E 9D 82 C2 82 CC 82 AA 96 B2 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 4D 83 8B 83 82 83 41 2F 2F 89 5F 82 CC 94 E0 82 C6 8C C4 82 CE 82 EA 82 E9 81 41 8C C3 91 E3 82 CC 94 E9 95 F3 82 F0 92 54 82 B5 82 C4 82 A2 82 E9 2F 82 B1 82 CC 90 AF 82 CC 90 6C 8A D4 82 C5 82 CD 82 C8 82 AD 90 45 8B C6 82 C8 82 C7 82 CD 95 73 96 BE 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 8C 83 62 83 68 81 45 83 58 83 79 83 43 83 68 2F 2F 8B F3 91 AF 92 63 82 F0 97 A6 82 A2 82 C4 88 EA 94 CA 82 CC 91 44 82 F0 8F 50 8C 82 82 B5 82 C4 82 A2 82 E9 2F 91 E5 8B F3 82 C5 82 CD 81 41 92 4E 82 E6 82 E8 82 E0 91 AC 82 AD 81 41 92 4E 82 E6 82 E8 82 E0 8B AD 82 AD 00
+
+x78EF		81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 6F 83 86 83 45 2F 2F 83 56 83 87 83 62 83 76 82 CC 83 57 83 57 83 42 81 42 82 C7 82 B1 82 C9 82 C5 82 E0 82 A2 82 E9 83 49 83 62 83 54 83 93 2F 82 56 82 51 8D CE 81 40 92 6A 90 AB 81 40 96 A2 8D A5 00
+
+############# TRANSLATIONS 101 ###################
+The pointers are loaded into 7F4000
+The texts are loaded into 7F001
+Which is why there is a +1 between the data offset and the pointer value
+The pointer offset can be found by playing with the breakpoints:
+BP:		C10509
+		C1050D
+
+Some pointers are not separate compressed file but clear in the rom:
+$C1/13EA AF 30 69 C1 LDA $C16930[$C1:6930]   A:00E0 X:2000 Y:000F P:eNvMxdiZC
+$C1/13EE 8D 3A 1C    STA $1C3A  [$00:1C3A]   A:00C7 X:2000 Y:000F P:eNvMxdizC
+$C1/13F1 AF 31 69 C1 LDA $C16931[$C1:6931]   A:00C7 X:2000 Y:000F P:eNvMxdizC
+$C1/13F5 8D 3B 1C    STA $1C3B  [$00:1C3B]   A:0028 X:2000 Y:000F P:envMxdizC
+
+Melk Shop		Loaded in 7FD900
+Data	x84905
+		x915
+$C1/3A37 A2 16 09    LDX #$0916              A:0046 X:0060 Y:00F0 P:envMxdizc
+...
+$C1/4656 69 00 D9    ADC #$D900              A:0916 X:0916 Y:00F0 P:envmxdizc
+$C1/4659 8D 3A 1C    STA $1C3A  [$00:1C3A]   A:E216 X:0916 Y:00F0 P:eNvmxdizc
+
+
+x7E1D9A		Money (2 bytes)
+01 00	= 100 credits
+10 00	= 1600 credits
+00 01	= 25600 credits
+00 50	= 2048000 credits
+ff ff	= 6553500 credits
+
+
+Treasure texts pointers are loaded in 7FE400
+$C1/49E5 BF 06 83 C9 LDA $C98306,x[$C9:840A] A:00E0 X:0104 Y:0000 P:eNvmxdiZc
+$C1/49E9 18          CLC                     A:054E X:0104 Y:0000 P:envmxdizc
+$C1/49EA 69 00 E4    ADC #$E400              A:054E X:0104 Y:0000 P:envmxdizc
+$C1/49ED 8D 3A 1C    STA $1C3A  [$00:1C3A]   A:E94E X:0104 Y:0000 P:eNvmxdizc
+
+
 ############# TEXT WIDTH ###################
 Dialog: 35 chars (18 double chars)
 Location: 17 chars
@@ -5,6 +101,146 @@ Location: 17 chars
 BP:		C10509
 		C1050D
 MEM:	7F4000
+
+{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
+{NL4}{NL4}{00}{00}{00}{00}Yes{00}{00}{00}{00}{00}{00}{00}No{EL}
+ENG=Are you here to mod your airship?{NL4}{NL4}       YES            NO{EL}
+ENG=Tango: Hey, will you listen to me?{NL4}{NL4}       YES            NO{EL}
+
+
+{NL4}{NL4}       YES            NO{EL}
+ENG=A map to the [Elixir of Life].{NL4}Price: 500. Do you take it?{NL4}       YES            NO{EL}
+ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+
+空賊団の襲撃		Sky Pirates Attack
+92 63 82 CC 8F 50 8C 82
+############# AUCTION LINES ###################
+6 Calls
+1 Pass
+1 Question (annoyed?)
+1 Provocation
+2 Come-backs
+1 Give up
+1 Tough call
+1 I will pay
+1 No need (Losing bid?)
+1 Need (Winning bid?)
+1 Winning line
+1 Thanks
+1 Unexpected win
+1 Eager to win
+1 Questions the odd of winning
+1 Second guessing
+4 Calls
+1 Suprised by new bidder
+
+############# SPRITES MERCK SHOP ###################
+7A600-7B0FD		xAFD into x3100
+
+
+Pointer table that needs to be moved a little: x7B100
+OR
+Pull back x7A600	(to be tested)
+
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B100] A:0000 X:0000 Y:0020 P:envmxdIZc
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B106] A:0006 X:0006 Y:0020 P:envmxdIzc
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B10C] A:000C X:000C Y:0020 P:envmxdIzc
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B110] A:0010 X:0010 Y:0020 P:envmxdIzc
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B10A] A:000A X:000A Y:0020 P:envmxdIzc
+$C1/23CA BF 00 B1 C7 LDA $C7B100,x[$C7:B10A] A:000A X:000A Y:0020 P:envmxdIzc
+
+$C0/55E1 A2 00 A6    LDX #$A600              A:FFFF X:4F01 Y:CF01 P:envmxdIZC
+$C0/55E4 8E 30 1C    STX $1C30  [$00:1C30]   A:FFFF X:A600 Y:CF01 P:eNvmxdIzC
+$C0/55E7 A9 C7 00    LDA #$00C7              A:FFFF X:A600 Y:CF01 P:eNvmxdIzC
+$C0/55EA 8D 32 1C    STA $1C32  [$00:1C32]   A:00C7 X:A600 Y:CF01 P:envmxdIzC
+
+7A600 -> 7A5C0
+############# SINGLE BYTE CODES 7F MODE ###################
+20= !"#$§&'()§+,-.§
+30=0123456789:;<=>?
+40=@ABCDEFGHIJKLMNO
+50=PQRSTUVWXYZ[¥]^-
+60= abcdefghijklmno
+70=pqrstuvwxyz{§}_§
+
+ !"#$§&'()§+,-.§0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^- abcdefghijklmnopqrstuvwxyz{§}_§
+
+############# SINGLE BYTE CODES ###################
+02=Hiragana
+03=Katakana
+06=ガギグゲゴザジズゼゾ
+10=ダヂヅデドバビブベボパピプペポヴ
+21=!
+28=(
+29=)
+30=0123456789
+3F=?
+40=…ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯ
+50=ＰＱＲＳＴＵＶＷＸＹＺ
+60= ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏ 
+70=ｐｑｒｓｔｕｖｗｘｙｚ
+A0= 。「」、・ヲァィゥェォャュョッ
+B0=ーアイウエオカキクケコサシスセソ
+C0=タチツテトナニヌネノハヒフヘホマ
+D0=ミムメモヤユヨラリルレロワン
+
+ビゲ
+16 09
+83 72 83 51
+Ｈｉｄｄｅｎ
+オッケー = 	83 49 83 62 83 50 81 5B 
+			B5 AF B9 B0
+####################
+CEC-E6A
+$C0/0A41 A9 EC 0C    LDA #$0CEC              A:0380 X:0000 Y:0005 P:envmxdizC
+$C0/0A44 8D 37 01    STA $0137  [$00:0137]   A:0CEC X:0000 Y:0005 P:envmxdizC
+
+CEC -> C700
+
+　空賊団の襲撃！！ {TAB}{00}
+　ＳＴＡＧＥ 1{NL2}　制限時間　５００秒{NL2}　空賊団を全部倒しちゃえ{TAB}{00}
+　防御兵器作動！ {TAB}{00}
+　ＳＴＡＧＥ 2{NL2}　制限時間　５００秒{NL2}　ボスを倒せ{TAB}{00}
+　海底ステージ{TAB}{00}
+　ＳＴＡＧＥ 3{NL2}　制限時間　５００秒{NL2}　敵ぜんぶやっつけろ〜{TAB}{00}
+　雲海ステージ{TAB}{00}
+　ＳＴＡＧＥ 4{NL2}　制限時間　５００秒{NL2}　酔うぞ{TAB}{00}
+　最終ステージ{TAB}{00}
+　ＳＴＡＧＥ 5{NL2}　{NL2} 悪い奴倒せって感じ{TAB}{00}
+ ボーナスステージ１{TAB}{00}
+ ボーナスステージ２{TAB}{00}
+ ボーナスステージ３{TAB}{00}
+ 
+1	Sky Pirates		CEC		xA42	EC 0C
+2	Stage 1			D01		xA48	01 0D
+3					D3A		xA65	3A 0D
+4					D4D		xA6B	4D 0D
+5					D7A		xA97	7A 0D
+6					D8A		xA9D	8A 0D
+7					DC1		xACB	C1 0D
+8					DD1		xAD1	D1 0D
+9					DFA		xB70	FA 0D
+10					E0A		xB79	0A 0E
+11					E2C		xBF7	2C 0E
+12					E41		xBFC	41 0E
+13					E56		xC15	56 0E
+ 
+############# 95B7 POINTERS ###################
+Save menu
+6EC5
+6EEB	A2 F0 51	51F0	9F0		Start of File 1 line
+6B28	A2 E6 51	51E6	9E6		00:00:00	(on Save Menu line)
+6B52	A2 04 52	5204	A04		12:34:55	(File 1)
+6B6A	A2 21 52	5221	A21		00:00:00	(File 2)
+6B82	A2 3E 52	523E	A3E		00:00:00	(File 3)
+6B9A	A2 5B 52	525B	A5B		99:99:99	(File 4)
+6EE2	8F 64 52	5264	A64		offset to place 00 in lieu of 2F
+
+x6FAA	A2 AB 52	52AB	AAB		Start of the section
+x6B4C	A2 D4 52	52D4	AD4		00:00:00
+6B64								00:00:00
+6B7C								00:00:00
+6B94								00:00:00
 
 ############# 95B7 DATA ###################
 Code?			000-91C
@@ -30,8 +266,8 @@ Manual
 Equipment		170F-186F	5F0F	x6C2B (A0 0F 5F)
 Equipment list	1870-1ADB	6070	x702B (A9 70 60)
 Introduction	1ADC-1D87	62DC	x7C24 (A2 DC 62 8E 3A 1C)
-Location list	1D88-1E53	6588	Used by debug mode???
-Code?			1E54-		6654	x7FC0 (A0 54 66)
+Location list	1D88-1E53	6588	
+Code?			1E54-		6654	x7FC0 (A0 54 66)		$C0/7FB2 A0 54 66    LDY #$6654
 
 
 Save menu
@@ -76,13 +312,13 @@ Debug mode		261B-26E1	6E1B	x87B5 (A0 1B 6E)
 
 x1E54	B3 6C 66 B4 FE 66 B5 90 67 B6 22 68 B7 B4 68 A3 46 69 A8 88 69 00
 
-666C	1E6C
-66FE	1EFE
-6790	1F90
-6822	2022
-68B4	20B4
-6946	2146
-6988	2188
+666C	1E6C	+18
+66FE	1EFE	+AA
+6790	1F90	+13C
+6822	2022	+1CE
+68B4	20B4	+260
+6946	2146	+2F2
+6988	2188	+334
 
 x21CA-21EE	code
 
@@ -238,11 +474,14 @@ x1ADC-1D87
  　　　  サルベージ船		{00}
  　　ナビゲーション　オフ	{00}
 
+x1D88		81 40 81 40 81 40 83 8C 83 43 83 59 83 8B 83 5E 83 45 83 93 00
+　　　レイズルタウン			{00}
+
 x8068		DF 65 26 66 B2 65 9D 65 13 66 FC 65 C6 65 88 65 3B 66
 			1DDF  1E26  1DB2  1D9D  1E13  1DFC  1DC6  1D88  1E3B
 			5     8     3     2     7     6     4     1     9
 
-    Razzle Town{00}
+    Raizeltown{00}
     Landos Base{00}
     Kazusa Base{00}
     Fort Fatras{00}
@@ -533,28 +772,6 @@ AAA4F
 AAA78
 AE4C4
 
-############# SINGLE BYTE CODES ###################
-02=Hiragana
-03=Katakana
-06=ガギグゲゴザジズゼゾ
-10=ダヂヅデドバビブベボパピプペポヴ
-21=!
-28=(
-29=)
-30=0123456789
-3F=?
-40=…ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯ
-50=ＰＱＲＳＴＵＶＷＸＹＺ
-60= ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏ 
-70=ｐｑｒｓｔｕｖｗｘｙｚ
-A0= 。「」、・ヲァィゥェォャュョッ
-B0=ーアイウエオカキクケコサシスセソ
-C0=タチツテトナニヌネノハヒフヘホマ
-D0=ミムメモヤユヨラリルレロワン
-
-ビゲ
-16 09
-83 72 83 51
 
 ############# NAMES ###################
 
