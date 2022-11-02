@@ -22,10 +22,13 @@ public class ShiftJIS {
         SPECIAL_CODES.put("NL2", new byte[]{(byte)0x2F});
         SPECIAL_CODES.put("NL4", new byte[]{(byte)0x04});
         SPECIAL_CODES.put("TAB", new byte[]{(byte)0x2A});
+        SPECIAL_CODES.put("SP", new byte[]{(byte)0x81, 0x40});
         SPECIAL_CODES.put("7B", new byte[]{(byte)0x7B});
         SPECIAL_CODES.put("EL", new byte[]{(byte)0x7C});
         SPECIAL_CODES.put("WP", new byte[]{(byte)0x05});
+        SPECIAL_CODES.put("*", new byte[]{0x02,(byte)0x85,0x49,0x7F});
         SPECIAL_CODES.put("20", new byte[]{(byte)0x20});
+        SPECIAL_CODES.put("23", new byte[]{(byte)0x23});
         SPECIAL_CODES.put("30", new byte[]{(byte)0x30});
         SPECIAL_CODES.put("31", new byte[]{(byte)0x31});
         SPECIAL_CODES.put("32", new byte[]{(byte)0x32});
@@ -34,6 +37,7 @@ public class ShiftJIS {
         SPECIAL_CODES.put("35", new byte[]{(byte)0x35});
         SPECIAL_CODES.put("39", new byte[]{(byte)0x39});
         SPECIAL_CODES.put("3A", new byte[]{(byte)0x3A});
+        SPECIAL_CODES.put("7F", new byte[]{(byte)0x7F});
         SPECIAL_CODES.put("→", new byte[]{(byte)0x81, (byte)0xA8});
         SPECIAL_CODES.put("←", new byte[]{(byte)0x81, (byte)0xA9});
         SPECIAL_CODES.put("↑", new byte[]{(byte)0x81, (byte)0xAA});
@@ -58,9 +62,24 @@ public class ShiftJIS {
                 (byte) 0x81, (byte) 0x40,
                 (byte) 0x81, (byte) 0x40
         });
+        SPECIAL_CODES.put("20-3", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
         SPECIAL_CODES.put("20-4", new byte[]{
                 (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
         });
+        SPECIAL_CODES.put("EQ-LM", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        SPECIAL_CODES.put("EQ-RM", new byte[]{
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20,
+                (byte) 0x20, (byte) 0x20, (byte) 0x20
+        });
+        
         SPECIAL_CODES.put("20-7", new byte[]{
                 (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20, (byte) 0x20
         });
@@ -112,8 +131,8 @@ public class ShiftJIS {
 
 
     static String latin = " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^– abcdefghijklmnopqrstuvwxyz{|}_";
+    static String latin7F = " !\"#$§&\'()§+,-.§0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^- abcdefghijklmnopqrstuvwxyz{§}_§";
 
-    
     static Map<Integer, String> SINGLE_CODES;
 
     static {
@@ -270,18 +289,26 @@ public class ShiftJIS {
                 }
             }
             else {
-                byte[] code = getCode(c);
+                byte[] code = getCodeSingle(c);
                 if (c=='　') code = new byte[]{(byte) 0x81, 0x40};
+                //if (c=='　') code = new byte[]{(byte) 0x20};
                 result = ArrayUtils.addAll(result, code);
             }
         }
+        result = ArrayUtils.addAll(new byte[]{0x7F}, result);
         return result;
     }
-    
+
     private static byte[] getCode(char c) {
         int i = latin.indexOf(c + "");
         i = i + x("3F");
         return new byte[]{(byte) 0x85, (byte) i};
+    }
+
+    private static byte[] getCodeSingle(char c) {
+        int i = latin7F.indexOf(c + "");
+        i = i + x("20");
+        return new byte[]{(byte) i};
     }
 
     public static String hiragana(String katakanaString)

@@ -47,13 +47,13 @@ public class MenuReader {
         System.out.println(id++);
         menu = new Menu(offsetData, readMenuFile("translations/menus/02-save-menu.txt"));
         menu.addPointer(x("6EC5"), offsetData);
-        menu.addPointer(x("6EEB"), offsetData+x("25"));
+        menu.addPointer(x("6EEB"), offsetData+x("1D"));
         int extraBytes = 6;
-        menu.addPointer(x("6B28"), offsetData+x("15")+extraBytes);
-        menu.addPointer(x("6B52"), offsetData+x("33")+extraBytes+4);
-        menu.addPointer(x("6B6A"), offsetData+x("50")+extraBytes+8);
-        menu.addPointer(x("6B82"), offsetData+x("6D")+extraBytes+12);
-        menu.addPointer(x("6B9A"), offsetData+x("8A")+extraBytes+16);
+        menu.addPointer(x("6B28"), offsetData+x("13"));
+        menu.addPointer(x("6B52"), offsetData+x("2F"));
+        menu.addPointer(x("6B6A"), offsetData+x("4A"));
+        menu.addPointer(x("6B82"), offsetData+x("65"));
+        menu.addPointer(x("6B9A"), offsetData+x("80"));
         
         menu.addPointer(x("6EE2"), offsetData+menu.getData().length-1);
         
@@ -64,10 +64,10 @@ public class MenuReader {
         menu = new Menu(offsetData, readMenuFile("translations/menus/03-load-menu.txt"));
         menu.addPointer(x("6FAA"), offsetData);
         extraBytes = 4;
-        menu.addPointer(x("6B4C"), offsetData+x("29")+extraBytes+4);
-        menu.addPointer(x("6B64"), offsetData+x("46")+extraBytes+8);
-        menu.addPointer(x("6B7C"), offsetData+x("63")+extraBytes+12);
-        menu.addPointer(x("6B94"), offsetData+x("80")+extraBytes+16);
+        menu.addPointer(x("6B4C"), offsetData+x("23"));
+        menu.addPointer(x("6B64"), offsetData+x("3E"));
+        menu.addPointer(x("6B7C"), offsetData+x("59"));
+        menu.addPointer(x("6B94"), offsetData+x("74"));
         offsetData += menu.getData().length;
         menus.add(menu);
 
@@ -170,16 +170,16 @@ public class MenuReader {
         System.out.println(id++);
         menu = new Menu(offsetData, readMenuFile("translations/menus/14-equipment.txt"));
         menu.addPointer(x("6C2B"), equipmentOffset-4);
-        menu.addPointer(x("6FD5"), equipmentOffset-4+x("14")+4);
-        menu.addPointer(x("6FDF"), equipmentOffset-4+x("3B")+8+3);
-        menu.addPointer(x("6FE9"), equipmentOffset-4+x("63")-1+12+3+4);
-        menu.addPointer(x("6FF3"), equipmentOffset-4+x("89")+16+3+4+4);
-        menu.addPointer(x("7004"), equipmentOffset-4+x("B1")+22+3+4+4);
+        menu.addPointer(x("6FD5"), equipmentOffset-4+x("16"));
+        menu.addPointer(x("6FDF"), equipmentOffset-4+x("3D"));
+        menu.addPointer(x("6FE9"), equipmentOffset-4+x("64"));
+        menu.addPointer(x("6FF3"), equipmentOffset-4+x("8B"));
+        menu.addPointer(x("7004"), equipmentOffset-4+x("B3"));
         offsetData += menu.getData().length;
         menus.add(menu);
 
         System.out.println(id++);
-        menu = new Menu(offsetData, readMenuFile("translations/menus/15-equipment-list.txt"));
+        menu = new Menu(offsetData, readMenuFile("translations/menus/15-equipment-list.txt", true));
         menu.addPointer(x("702B"), offsetData);
         offsetData += menu.getData().length;
         menus.add(menu);
@@ -191,35 +191,35 @@ public class MenuReader {
         menus.add(menu);
 
         System.out.println(id++);
-        menu = new Menu(offsetData, readMenuFile("translations/menus/17-locations.txt"));
+        menu = new Menu(offsetData, readMenuFile("translations/menus/17-locations.txt", true));
         String name = "";
         int nameLength = 0;
         int nameLength2 = 21;
         // 8067 because there is no op-code preceding 8068
         menu.addPointer(x("8067")+14, offsetData);
-        name = "    Razzle Town";
-        nameLength += name.length()*2+1;
+        name = "       Razzle Town";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+6, offsetData+nameLength);
-        name = "    Landos Base";
-        nameLength += name.length()*2+1;
+        name = "       Landos Base";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+4, offsetData+nameLength);
-        name = "    Kazusa Base";
-        nameLength += name.length()*2+1;
+        name = "       Kazusa Base";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+12, offsetData+nameLength);
-        name = "    Fort Fatras";
-        nameLength += name.length()*2+1;
+        name = "       Fort Fatras";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067"), offsetData+nameLength);
         name = "  Peppermint Junktown";
-        nameLength += name.length()*2+1;
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+10, offsetData+nameLength);
-        name = "    Elder Village";
-        nameLength += name.length()*2+1;
+        name = "     Ancient Village";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+8, offsetData+nameLength);
-        name = "    Cloud Temple";
-        nameLength += name.length()*2+1;
+        name = "       Cloud Temple";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+2, offsetData+nameLength);
-        name = "    Salvage Ship";
-        nameLength += name.length()*2+1;
+        name = "       Salvage Ship";
+        nameLength += name.length()+2;
         menu.addPointer(x("8067")+16, offsetData+nameLength);
         offsetData += menu.getData().length;
         menus.add(menu);
@@ -256,6 +256,16 @@ public class MenuReader {
         offsetData += codePointers.length;
         menus.add(menu);
         
+        /*
+        Filler before code
+         */
+        int size = x("1E6C")-offsetData;
+        byte[] filler = new byte[size];
+        System.out.println(id++);
+        menu = new Menu(offsetData, filler);
+        offsetData += menu.getData().length;
+        menus.add(menu);
+        
         System.out.println(id++);
         menu = new Menu(offsetData, readMenuFileData("src/main/resources/translations/menus/99-code.data"));
         offsetData += menu.getData().length;
@@ -279,18 +289,24 @@ public class MenuReader {
         }
         return bytes;
     }
-    
     public byte[] readMenuFile(String file) {
+        return readMenuFile(file, false);
+    }
+    
+    public byte[] readMenuFile(String file, boolean prefixAllLines) {
         byte[] bytes = new byte[0];
+        String fullString = "";
         try {
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(
                             Objects.requireNonNull(Conflix.class.getClassLoader().getResourceAsStream(file)), StandardCharsets.UTF_8));
             String line = br.readLine();
             while (line!=null) {
-                bytes = ArrayUtils.addAll(bytes, ShiftJIS.convertEnglishToBytes(line));
+                fullString += line;
                 line = br.readLine();
+                if (line!=null && prefixAllLines) line = "{7F}"+line;
             }
+            bytes = ArrayUtils.addAll(bytes, ShiftJIS.convertEnglishToBytes(fullString));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -315,7 +331,7 @@ public class MenuReader {
         for (byte b : bytes) {
             data[offset++] = b;
         }
-        data[x("7032")+1] = 0x13; 
+        //data[x("7032")+1] = 0x13; 
 
     }
 

@@ -1,10 +1,15 @@
 package services;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Translation {
     
     String pointerFile = "";
-    int pointerOffset;
-    int pointerValue;
+    //int pointerOffset;
+    //int pointerValue;
+    Set<Pointer> pointers = new HashSet<>();
+    boolean globalPointer = false;
     
     String dataFile = "";
     int dataOffset;
@@ -19,22 +24,6 @@ public class Translation {
 
     public void setPointerFile(String pointerFile) {
         this.pointerFile = pointerFile;
-    }
-
-    public int getPointerOffset() {
-        return pointerOffset;
-    }
-
-    public void setPointerOffset(int pointerOffset) {
-        this.pointerOffset = pointerOffset;
-    }
-
-    public int getPointerValue() {
-        return pointerValue;
-    }
-
-    public void setPointerValue(int pointerValue) {
-        this.pointerValue = pointerValue;
     }
 
     public String getDataFile() {
@@ -75,5 +64,32 @@ public class Translation {
 
     public void setEnglish(String english) {
         this.english = english;
+    }
+
+    public boolean isGlobalPointer() {
+        return globalPointer;
+    }
+
+    public void setGlobalPointer(boolean globalPointer) {
+        this.globalPointer = globalPointer;
+    }
+
+    public Set<Pointer> getPointers() {
+        return pointers;
+    }
+
+    public void addPointer(Pointer pointer) {
+        this.pointers.add(pointer);
+    }
+
+    @Override
+    public String toString() {
+        return "Translation{" +
+                "pointerFile='" + pointerFile + '\'' +
+                ", globalPointer=" + globalPointer +
+                ", dataFile='" + dataFile + '\'' +
+                ", dataOffset=" + dataOffset +
+                ", english='" + english + '\'' +
+                '}';
     }
 }

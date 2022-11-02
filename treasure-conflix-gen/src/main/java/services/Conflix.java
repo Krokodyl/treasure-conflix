@@ -10,6 +10,8 @@ import services.lz.LzDecompressor;
 import services.lz.REPEAT_ALGORITHM;
 import services.menu.WideName;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -25,23 +27,93 @@ public class Conflix {
 
     static byte[] dataBios;
     static byte[] data;
+    static byte[] dataBS;
+    static byte[] dataEng;
     
     static Map<Integer, Integer> dataFilePointerFileMap = new HashMap<>();
     
     static {
+        // Razzle Town - Office
         dataFilePointerFileMap.put(x("85131"),x("80100"));
+        // Razzle Town - Lobby
         dataFilePointerFileMap.put(x("85B89"),x("80470"));
+        // Razzle Town - Melk's Hangar
         dataFilePointerFileMap.put(x("860A5"),x("8066B"));
+
+        // Bridge
         dataFilePointerFileMap.put(x("8A5AB"),x("81B99"));
+        // Bridge - End
+        dataFilePointerFileMap.put(x("8C421"),x("828DB"));
+
+        
+        
+        //Landos Base - Lobby
+        dataFilePointerFileMap.put(x("86BA2"),x("80A72"));
+        //Landos Base - Auction Hall
+        dataFilePointerFileMap.put(x("8AE2B"),x("82749"));
+        //Landos Base - Hunters Office
+        dataFilePointerFileMap.put(x("8666D"),x("80826"));
+        
+        // Melk's Shop
+        dataFilePointerFileMap.put(x("84905"),x("80100"));
+        
+        // East Forest Treasure / Golden Brooch
+        dataFilePointerFileMap.put(x("8AE04"),x("826B8"));
+        
+        // Treasure descriptions - pointer offset ignored
+        dataFilePointerFileMap.put(x("84100"),x("99999"));
+
+        // Peppermint Junktown - Lobby
+        dataFilePointerFileMap.put(x("88AE2"),x("81681"));
+        // Peppermint Junktown - Hangar
+        dataFilePointerFileMap.put(x("890E7"),x("818E7"));
+        // Peppermint Junktown - Office
+        dataFilePointerFileMap.put(x("88507"),x("81458"));
+        
+        // Kazusa Base - Lobby
+        dataFilePointerFileMap.put(x("87876"),x("80EFD"));
+        // Kazusa Base - Office
+        dataFilePointerFileMap.put(x("871DF"),x("80CCC"));
+
+        // Fort Fatras - Lobby
+        dataFilePointerFileMap.put(x("8809C"),x("81290"));
+        // Fort Fatras - Office
+        dataFilePointerFileMap.put(x("87CAE"),x("810AD"));
+
+        // Cloud Temple
+        dataFilePointerFileMap.put(x("8A151"),x("822A1"));
+
+        // Ancient Village
+        dataFilePointerFileMap.put(x("89A1A"),x("819E3"));
+
+        // Salvage Ship
+        dataFilePointerFileMap.put(x("8934B"),x("8202D"));
+        // Salvage Ship - Hangar
+        dataFilePointerFileMap.put(x("8987B"),x("821C9"));
+
+        // Sunken Ship 1 - Treasure
+        dataFilePointerFileMap.put(x("8AD80"),x("824ED"));
+        // Sunken Ship 1 - Empty
+        dataFilePointerFileMap.put(x("8ADE5"),x("82633"));
+        // Sunken Ship 1 - 
+        dataFilePointerFileMap.put(x("8ADA7"),x("82587"));
+
+
+        // Altar
+        dataFilePointerFileMap.put(x("8A473"),x("823C4"));
         
     }
     
     public static void main(String[] args) {
+        String romEng = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - SNES - extended.sfc";
         String rom = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (Japan) - SNES - extended.sfc";
+        String romBS = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (Japan) - BS - not extended.sfc";
         String bios = "D:\\git\\treasure-conflix\\tools\\BS-X BIOS (English) [No DRM] [2016 v1.3].sfc";
         try {
             data = Files.readAllBytes(new File(rom).toPath());
+            dataBS = Files.readAllBytes(new File(romBS).toPath());
             dataBios = Files.readAllBytes(new File(bios).toPath());
+            dataEng = Files.readAllBytes(new File(romEng).toPath());
         } catch (IOException ex) {
             Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -63,6 +135,15 @@ public class Conflix {
         System.out.println("Decompressed data :\t\t"+myDecomp);
         System.out.println(decompOrig.equals(myDecomp));
         System.out.println(StringUtils.difference(decompOrig, myDecomp));
+        
+        
+        boolean restore = false;
+        
+        if (restore) {
+            lzDecompressor.decompressData(dataEng, x("7A5C0"));
+            return;
+        }
+        
         /*
         LzCompressor lzCompressor = new LzCompressor();
         try {
@@ -84,14 +165,14 @@ public class Conflix {
         
         /*lzDecompressor = new LzDecompressor();
         lzDecompressor.decompressData(data, x("B173E"), null);*/
-        lzDecompressor = new LzDecompressor();
-        lzDecompressor.decompressData(data, x("B05CB"), null);
+        /*lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("B05CB"), null);*/
         /*lzDecompressor = new LzDecompressor();
         lzDecompressor.decompressData(data, x("B06AB"), null);*/
-        lzDecompressor = new LzDecompressor();
+        /*lzDecompressor = new LzDecompressor();
         lzDecompressor.decompressData(data, x("AAA4F"), null);
         lzDecompressor = new LzDecompressor();
-        lzDecompressor.decompressData(data, x("95B7"), null);
+        lzDecompressor.decompressData(data, x("95B7"), null);*/
         /*lzDecompressor = new LzDecompressor();
         lzDecompressor.decompressData(data, x("AAA78"), null);
         lzDecompressor = new LzDecompressor();
@@ -149,22 +230,22 @@ public class Conflix {
         SpriteReader.saveSatellaviewCharacterSprite(sprite, file);*/
 
         
-        System.out.println(bytesToHex(ShiftJIS.convertJapaneseToBytes("のハンガー")));
+        //System.out.println(bytesToHex(ShiftJIS.convertJapaneseToBytes("のハンガー")));
 
         String s = "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 94 83 48 83 43 83 58 2F 2F 8E E1 82 A2 82 AA 98 72 97 98 82 AB 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 93 60 90 E0 82 CC 94 E9 95 F3 82 F0 91 53 82 C4 8C A9 82 C2 82 AF 82 BE 82 B7 82 CC 82 AA 96 DA 95 57 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 89 83 45 83 68 2F 2F 83 78 83 65 83 89 83 93 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 83 94 83 48 83 43 83 58 82 CC 8C 5A 8B 4D 95 AA 82 BE 82 AA 81 41 8D C5 8B DF 89 9F 82 B3 82 EA 8B";
         s = "95 F3 95 A8";
         //System.out.println(ShiftJIS.convertBytesToJapanese(hexStringToByteArray(s.split(" "))));
         
-        String english = "{SP-20}Voice{NL}{NL}A young but skilled treasure hunter{NL}His goal: the legendary treasures{EL}";
+        /*String english = "{SP-20}Voice{NL}{NL}A young but skilled treasure hunter{NL}His goal: the legendary treasures{EL}";
         System.out.println(english);
         System.out.println(bytesToHex(ShiftJIS.convertEnglishToBytes(english)));
         english = "Razzle Town";
         System.out.println(english);
-        System.out.println(bytesToHex(ShiftJIS.convertEnglishToBytes(english)));
+        System.out.println(bytesToHex(ShiftJIS.convertEnglishToBytes(english)));*/
 
         
 
-        String eng85131 = "CA DD C0 B0 A5 B5 CC A8 BD 7C CC A8 AF BC AD A2 1F AB B2 BD A1 02 CF C0 94 F2 18 D9 D6 B3 04 00 C6 C5 AF C0 C9 B6 A1 D6 B6 AF C0 C5 A1 04 00 0C AC B1 A4 03 B5 DA 02 D3 8B 43 8D 87 B2 A6 93 FC DA C5 B2 C4 C5 A1 01 00 94 F2 8B F3 92 F8 D3 95 F3 D3 91 81 B2 D3 C9 C9 8F 9F C1 10 B6 D7 C5 A3 7C B8 B2 AF B8 A2 8F EE 95 F1 02 06 B1 D9 C9 CA B2 B2 06 A4 8B E0 A6 04 00 95 A5 DC C5 B2 C4 B2 B9 C5 B2 C9 06 8C 99 10 D6 C5 A1 04 00 BF DA 13 8C A9 C2 B9 D7 DA C5 B6 AF C0 93 FA C6 AC 40 40 01 00 CF A4 03 B5 DA 02 CA 8F EE 95 F1 A6 8E E8 C6 93 FC DA C0 D7 A4 CE C4 04 00 DD 14 C9 8F EA 8D 87 A4 95 F3 A6 8C A9 C2 B9 10 BD 0E A1 04 00 BF DA 06 03 B5 DA 02 C9 03 1C D7 B2 14 02 BB A3 7C A2 02 D6 B5 A4 03 1F AB B2 BD 21 7B 30 04 00 CA DD C0 B0 A5 B5 CC A8 BD 02 C6 8A E7 A6 8F 6F BD C9 CA 04 00 8B 76 BC 17 D8 0C AC C5 B2 B6 A1 7C 00 02 C1 AF A4 8C 69 8B 43 C9 88 AB BF B3 C5 03 C2 D7 02 BC D4 06 AF C3 A1 7B 10 04 00 CF A4 91 44 06 96 B3 B2 DD 0C AC C5 40 40 7B 10 04 00 8F 43 97 9D C6 8F 6F BC C3 A4 D3 B3 A4 8F 5C 93 FA C6 C5 D9 B6 A1 7C 00 02 D4 AF 1A D8 A4 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 CA 04 00 94 F2 8B F3 92 F8 C6 8F E6 AF C3 A4 8B F3 C6 8F E3 06 AF C3 C5 B2 C4 04 00 90 B6 8B 43 06 96 B3 B8 C5 AF C1 CF B3 D0 C0 B2 10 C5 A1 7B 10 7C 00 02 BC B6 C0 06 C5 B2 A4 7B 10 04 00 8C 69 8B 43 C9 97 C7 B8 C5 D9 98 62 A6 95 B7 B6 BE C3 D4 D9 B6 A1 7B 30 04 00 03 B5 CF B4 02 C9 94 F2 8B F3 92 F8 10 B9 14 C5 40 40 7C 00 40 40 8E 64 8F E3 02 06 AF C3 D9 D0 C0 B2 10 0F A1 7B 10 04 00 03 CA AF CA AF CA 21 00 CA DD 06 B0 02 C6 8D 73 AF C3 D0 C5 A1 04 00 03 D2 D9 B8 02 06 91 D2 AF C3 D9 CA 0D 10 A3 7C A2 91 81 02 B8 CF C0 95 F3 95 A8 A6 D0 C2 B9 C3 A4 BA BA C6 04 00 8E 9D AF C3 BA B2 D6 A1 7B 10 04 00 8D 82 B8 94 83 AF C3 D4 D9 B6 D7 C5 A3 7C A2 02 DC BD DA D9 C4 BA DB 10 AF C0 A3 7C A2 D7 B3 14 02 B6 D7 93 60 8C BE 06 B1 AF C0 0F A1 04 00 03 D7 DD 14 BD 18 B0 BD 02 C6 97 88 C3 97 7E BC B2 BF B3 10 A1 04 00 C5 DD 13 D3 8B F3 91 AF C6 91 44 A6 97 8E C4 BB DA C0 D7 BC B2 A1 7C 00 D7 DD 14 BD 18 B0 BD 02 C9 8F EA 8F 8A 3F 05 00 96 59 DA C0 C9 B6 3F 00 BC AF B6 D8 BC DB D6 21 04 00 BA BA C9 90 5E 96 6B 0C AC C5 B2 B6 A3 7C A2 02 CE D7 A4 91 81 B8 03 CA DD 06 B0 02 CD 8D 73 AF C3 D0 C5 A3 7C A2 95 F3 02 A6 94 84 D8 C0 B2 C9 B6 B2 3F 04 00 8F EE 95 F1 06 97 7E BC B2 C9 B6 B2 3F A3 04 00 00 00 00 95 F3 00 00 00 00 00 00 00 8F EE 95 F1 7C A2 95 F3 02 A6 D0 C2 B9 C0 D7 04 00 00 00 CF C0 BA BA C6 8E 9D AF C3 BA B2 D6 A3 7C A2 40 40 7B 20 8E 63 94 4F 02 10 06 04 00 03 B5 CF B4 02 BB DD 06 8B 81 D2 C3 D9 D6 B3 C5 8F EE 95 F1 CA 04 00 96 B3 B2 C5 A3 7C A2 02 B5 8B E0 06 C0 D8 C5 B2 D6 A3 7C A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 02 BF DA 0C AC A4 06 DD 15 AF C3 92 54 BC C3 D0 C5 A1 04 00 8C A9 C2 B9 C0 D7 BA BA C6 8E 9D AF C3 97 88 C3 B8 DA D6 A3 7C A2 02 BF B3 B6 A4 8F EE 95 F1 06 97 7E BC B8 C5 AF C0 D7 04 00 8B E0 A6 C0 D2 C3 A4 CF C0 BA BA C6 97 88 C5 A3 7C A2 81 79 8D 95 8E 58 8C E8 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 8B E0 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 8B E2 02 C9 90 43 91 E4 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 35 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 31 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 31 30 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 90 5F 95 B6 8B CA 8E A2 81 7A 02 C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 32 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 8A 43 8A DD 90 FC 02 A6 93 8C C6 8D 73 AF C0 8F 8A C6 91 E5 B7 C5 90 58 06 B1 04 00 D9 10 DB 3F 00 81 79 8D 95 8E 58 8C E8 C9 94 AF 8F FC D8 81 7A 06 B1 C9 04 00 90 58 C9 14 BA B6 C6 89 42 BB DA C3 B2 D9 D7 BC B2 0F A3 7C A2 81 77 8B E0 02 C9 94 AF 8F FC D8 CA 04 00 00 00 C8 0C DA C0 98 72 C9 95 74 B9 8D AA C6 40 40 81 78 04 00 95 AA B6 AF C3 B2 D9 C9 CA BA DA 10 B9 10 A3 7C A2 02 BA C9 8A 58 C6 0D AF C4 8F 5A DD 13 B2 C0 03 0C B2 02 BB DD 06 04 00 8D C5 8B DF B8 C0 15 AF C3 C5 A1 88 E2 8C BE C4 BC C3 BF C9 91 A7 04 00 8E 71 C6 95 F3 C9 B1 D8 B6 A6 8B B3 B4 C0 DD 10 A1 01 00 C4 BA DB 06 BF C9 91 A7 8E 71 CA 90 5E 96 CA 96 DA C5 93 7A 13 C5 A1 04 00 BA DD C5 B2 B2 89 C1 8C B8 C5 90 AF CA 8C 99 10 C4 B6 C7 B6 BC 04 00 C3 91 BC C9 90 AF C6 8D 73 AF C1 CF AF C0 A1 01 00 10 06 A4 8F 6F C3 8D 73 B8 91 4F C6 A4 03 DC BC 02 06 C5 DD C4 B6 04 00 88 E2 8C BE A6 95 B7 B7 8F 6F BC C0 C9 BB A1 04 00 BF C9 88 E2 8C BE CA BA B3 10 A1 01 00 81 77 8A 43 C9 89 E0 06 90 B0 DA C0 C5 D7 15 A4 96 A6 C9 90 E6 92 5B C6 04 00 97 A7 AF C3 BF C9 8C FC BA B3 A6 C5 06 D2 D6 40 04 00 8A D4 8B DF C6 91 E5 B7 C5 93 87 06 A4 BF C9 8C FC BA B3 C6 8F AC BB 01 00 C5 93 87 06 8C A9 B4 D6 B3 A1 BF BC C3 BF C9 90 5E AF BD 08 04 00 CA D9 B6 90 E6 C6 A4 B6 BD B6 C6 8F AC BB B8 93 87 06 8C A9 B4 04 00 D9 CA 0D 10 A1 BF C9 93 87 C6 95 F3 95 A8 A6 89 42 BC C0 A1 81 78 01 00 B2 B2 B6 A4 BF C9 03 0C B2 02 BB DD CA 0D AF C4 BA C9 8A 58 04 00 C6 8F 5A DD 13 C0 DD 10 0F A3 7C A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C D7 B3 14 A2 1F AB B2 BD A1 02 14 B3 D4 D7 81 79 89 5F C9 94 E0 81 7A 04 00 CA CF 10 8C C3 91 E3 96 AF 06 8E 9D AF C3 B2 D9 D7 BC B2 A1 04 00 01 00 BA C9 90 AF C9 14 BA B6 C6 A4 CF 10 8C C3 91 E3 96 AF 06 89 42 DA 04 00 8F 5A DD 13 B2 D9 8F EA 8F 8A 06 B1 D9 D7 BC B2 DD 10 A1 04 00 01 00 BF C9 8F EA 8F 8A C6 C2 B2 C3 CA A4 BA DA B6 D7 92 B2 18 D9 04 00 97 5C 92 E8 10 A1 03 B5 CF B4 02 D3 90 53 93 96 C0 D8 06 B1 DA 15 A4 04 00 B1 C0 AF C3 D0 C3 B8 DA A3 7C 07 D9 D3 B1 A2 8C C3 91 E3 96 AF 02 06 8E 9D AF C3 B2 D9 C9 C5 D7 04 00 BF C9 8C C3 91 E3 96 AF B6 D7 40 40 04 00 94 83 AF C3 B1 09 DA 15 B2 B2 C9 10 D6 A3 7C 07 D9 D3 B1 A2 1F AB B2 BD 02 B8 DD A1 04 00 BF C9 8C C3 91 E3 96 AF C9 89 42 DA 97 A2 C4 B2 B3 C9 A6 91 81 B8 04 00 8C A9 C2 B9 C3 B8 DA C0 CF B4 A3 7C D7 B3 14 A2 88 E2 95 F3 02 C6 8F DA BC B2 90 6C 95 A8 B6 A4 8C C3 91 E3 95 B6 96 BE 04 00 C6 8F DA BC B2 90 6C 95 A8 C5 D7 89 BD B6 92 6D AF C3 B2 D9 B6 D3 04 00 BC DA C5 B2 C5 A3 7C D7 B3 14 A2 1F AB B2 BD 21 00 02 DC B6 AF C0 0F 21 00 05 00 8C C3 91 E3 96 AF C9 89 42 DA 97 A2 CA 03 CC AB B0 C4 CC A7 C4 D7 BD 04 00 02 C9 90 BC C9 03 0C AC DD 08 D9 02 C9 92 86 10 21 01 00 40 40 89 BD A4 92 6D AF C3 C0 3F 7C 00 40 40 1F AB B2 BD A4 7B 20 02 BF DA A6 8C BE DC C5 B2 C9 06 04 00 97 46 8F EE AF C3 D3 DD 10 DB A1 01 00 40 40 0C AC B1 A4 BA C9 BA C4 D3 92 6D AF C3 D9 B6 D3 04 00 BC DA C5 B2 C5 A1 89 42 DA 97 A2 C6 CA 91 CE 8B F3 96 68 8C E4 C9 88 D7 04 00 C9 8C C3 91 E3 95 BA 8A ED 06 B1 D9 AF C3 BA C4 D3 40 40 01 00 92 6D D7 C5 B2 3F 00 BF B3 B6 A4 BF DA C5 D7 8B 43 A6 04 00 C2 B9 DB D6 A1 91 95 94 F5 A6 90 AE B4 C3 B6 D7 8D 73 AF C0 04 00 95 FB 06 B2 B2 A3 7C D7 B3 14 A2 1F AB B2 BD A4 04 00 40 40 7B 20 8B 43 02 A6 C2 B9 DB D6 A3 7C D7 B3 14 A2 02 BF C9 8C C3 91 E3 C9 96 AF C9 89 42 DA 97 A2 13 A4 98 62 A6 04 00 95 B7 B2 C3 B7 C3 B8 DA A3 7C D7 B3 14 A2 02 BF B3 B6 A4 93 90 CF DA C3 B2 C0 C9 B6 40 40 05 00 BF DA C5 D7 97 A0 C9 8F EE 95 F1 C6 8F DA BC B2 90 6C 8A D4 C6 04 00 90 71 C8 C0 95 FB 06 B2 B2 C5 40 40 40 40 A3 7C D7 B3 14 A2 1D 1A D0 DD C4 02 C6 B2 D9 A4 03 B7 B0 DD 02 C4 04 00 B2 B3 92 6A C6 95 B7 B2 C3 D0 D9 C4 B2 B2 A1 04 00 93 90 95 69 A6 88 B5 AF C3 8F A4 94 84 A6 BC C3 B2 D9 93 7A 10 A1 01 00 BA C9 90 AF 13 93 90 CF DA C0 95 A8 C9 91 E5 94 BC CA 93 7A C9 8F 8A A6 04 00 92 CA AF C3 B2 B8 D7 BC B2 A1 81 79 89 5F C9 94 E0 81 7A C6 C2 B2 04 00 C3 D3 89 BD B6 92 6D AF C3 B2 D9 10 DB B3 A3 7C 07 D9 D3 B1 A2 93 90 02 CF DA C3 B2 C0 C9 C5 D7 98 62 06 91 81 B2 A1 04 00 8C BB 8D DD C9 8F 8A 97 4C 8E D2 B6 D7 A4 94 83 B2 8E E6 D9 C5 D8 04 00 D3 D7 B3 C5 D8 BD DA 15 B2 B2 A1 01 00 8C C3 91 E3 96 AF C5 14 C4 B2 B3 94 79 D6 D8 CA A4 D6 CE 14 8C F0 04 00 8F C2 BC D4 BD B2 A1 40 40 C5 C6 BC DB 93 90 95 69 C5 DD 10 04 00 B6 D7 8F 8A 97 4C 8E D2 A6 8C A9 C2 B9 BB B4 BD DA 15 40 40 A3 7C D7 B3 14 A2 CC B3 40 40 8D A1 93 78 02 CA 8A 43 B6 3F 04 00 BC B6 D3 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 02 C4 B7 C0 A1 05 00 D6 D8 C6 D6 AF C3 40 40 7C 00 40 40 02 BF B3 10 A4 7B 20 03 D7 08 91 44 92 B7 02 10 21 00 03 D7 08 91 44 92 B7 04 00 02 C9 03 BB D9 18 B0 0C 91 44 02 06 03 14 A9 B0 D1 C4 D7 B2 B1 DD 04 00 08 D9 02 13 88 F8 B7 8F E3 09 A6 8E 6E D2 D9 AF C3 B2 B3 89 5C 10 A1 01 00 94 DE C6 8B A6 97 CD BC C3 D3 D7 B4 15 B2 B2 A1 90 CC A4 90 A2 98 62 04 00 C6 C5 AF C0 8E 96 06 B1 D9 06 A4 94 DE CA B2 B2 92 6A 10 B6 04 00 D7 A4 95 4B 0D 97 CD C6 C5 AF C3 B8 DA D9 CA 0D 10 A1 7C 00 40 40 02 BF DA CA BF DA C4 BC C3 40 40 05 00 03 07 D9 D3 B1 8E 81 02 C9 BA C4 C5 DD 10 06 03 B5 CF B4 02 C9 91 44 04 00 C6 8F E6 BE C3 8D 73 AF C3 B8 DA C5 B2 B6 3F 01 00 D3 B3 03 DB 16 B0 02 13 91 D2 AF C3 B2 D9 CA 0D 10 A1 04 00 96 7B 90 6C C9 8A F3 96 5D 13 D3 B1 D9 B6 D7 C5 A1 01 00 BF C9 8A D4 A4 03 B5 DA 02 CA C1 AE AF C4 94 DE C6 C2 B2 C3 04 00 92 B2 18 C3 D0 C0 B2 DD 10 A1 14 B3 D3 C0 10 C9 03 BA DA 04 00 B8 C0 B0 02 C4 CA 8E 76 B4 C5 B8 C3 C5 A1 01 00 94 DE C9 8C BE 97 74 D4 91 D4 93 78 C6 CA 8B 43 C6 C5 D9 8F 8A 06 B1 D9 A1 04 00 C5 C6 B6 A6 8A E9 DD 13 B2 D9 D6 B3 C5 8A B4 0C 06 04 00 BD D9 DD 10 D6 A3 7C D7 B3 14 A2 1F AB B2 BD A4 97 8A 02 D1 A1 03 07 D9 D3 B1 8E 81 02 A6 04 00 8F E6 BE C3 A4 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 02 C9 04 00 03 D7 08 91 44 92 B7 02 C9 8F 8A C6 8C FC B6 AF C3 B8 DA A1 01 00 BF C9 8A D4 A4 03 B5 DA 02 CA 94 DE C9 8E 96 A6 13 B7 D9 10 B9 04 00 92 B2 18 C3 D0 D9 A3 7C D7 B3 14 A2 40 40 02 BF B3 B6 A1 94 F2 8B F3 92 F8 A6 8A 43 C6 90 F6 DA 04 00 D9 D6 B3 C6 89 FC 91 A2 BC C0 C9 B6 3F 00 0C AC A4 C2 B2 04 00 13 C6 8A 43 C9 92 86 C9 95 F3 D3 8C A9 C2 B9 C1 CF B4 D6 A3 7C";
+        /*String eng85131 = "CA DD C0 B0 A5 B5 CC A8 BD 7C CC A8 AF BC AD A2 1F AB B2 BD A1 02 CF C0 94 F2 18 D9 D6 B3 04 00 C6 C5 AF C0 C9 B6 A1 D6 B6 AF C0 C5 A1 04 00 0C AC B1 A4 03 B5 DA 02 D3 8B 43 8D 87 B2 A6 93 FC DA C5 B2 C4 C5 A1 01 00 94 F2 8B F3 92 F8 D3 95 F3 D3 91 81 B2 D3 C9 C9 8F 9F C1 10 B6 D7 C5 A3 7C B8 B2 AF B8 A2 8F EE 95 F1 02 06 B1 D9 C9 CA B2 B2 06 A4 8B E0 A6 04 00 95 A5 DC C5 B2 C4 B2 B9 C5 B2 C9 06 8C 99 10 D6 C5 A1 04 00 BF DA 13 8C A9 C2 B9 D7 DA C5 B6 AF C0 93 FA C6 AC 40 40 01 00 CF A4 03 B5 DA 02 CA 8F EE 95 F1 A6 8E E8 C6 93 FC DA C0 D7 A4 CE C4 04 00 DD 14 C9 8F EA 8D 87 A4 95 F3 A6 8C A9 C2 B9 10 BD 0E A1 04 00 BF DA 06 03 B5 DA 02 C9 03 1C D7 B2 14 02 BB A3 7C A2 02 D6 B5 A4 03 1F AB B2 BD 21 7B 30 04 00 CA DD C0 B0 A5 B5 CC A8 BD 02 C6 8A E7 A6 8F 6F BD C9 CA 04 00 8B 76 BC 17 D8 0C AC C5 B2 B6 A1 7C 00 02 C1 AF A4 8C 69 8B 43 C9 88 AB BF B3 C5 03 C2 D7 02 BC D4 06 AF C3 A1 7B 10 04 00 CF A4 91 44 06 96 B3 B2 DD 0C AC C5 40 40 7B 10 04 00 8F 43 97 9D C6 8F 6F BC C3 A4 D3 B3 A4 8F 5C 93 FA C6 C5 D9 B6 A1 7C 00 02 D4 AF 1A D8 A4 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 CA 04 00 94 F2 8B F3 92 F8 C6 8F E6 AF C3 A4 8B F3 C6 8F E3 06 AF C3 C5 B2 C4 04 00 90 B6 8B 43 06 96 B3 B8 C5 AF C1 CF B3 D0 C0 B2 10 C5 A1 7B 10 7C 00 02 BC B6 C0 06 C5 B2 A4 7B 10 04 00 8C 69 8B 43 C9 97 C7 B8 C5 D9 98 62 A6 95 B7 B6 BE C3 D4 D9 B6 A1 7B 30 04 00 03 B5 CF B4 02 C9 94 F2 8B F3 92 F8 10 B9 14 C5 40 40 7C 00 40 40 8E 64 8F E3 02 06 AF C3 D9 D0 C0 B2 10 0F A1 7B 10 04 00 03 CA AF CA AF CA 21 00 CA DD 06 B0 02 C6 8D 73 AF C3 D0 C5 A1 04 00 03 D2 D9 B8 02 06 91 D2 AF C3 D9 CA 0D 10 A3 7C A2 91 81 02 B8 CF C0 95 F3 95 A8 A6 D0 C2 B9 C3 A4 BA BA C6 04 00 8E 9D AF C3 BA B2 D6 A1 7B 10 04 00 8D 82 B8 94 83 AF C3 D4 D9 B6 D7 C5 A3 7C A2 02 DC BD DA D9 C4 BA DB 10 AF C0 A3 7C A2 D7 B3 14 02 B6 D7 93 60 8C BE 06 B1 AF C0 0F A1 04 00 03 D7 DD 14 BD 18 B0 BD 02 C6 97 88 C3 97 7E BC B2 BF B3 10 A1 04 00 C5 DD 13 D3 8B F3 91 AF C6 91 44 A6 97 8E C4 BB DA C0 D7 BC B2 A1 7C 00 D7 DD 14 BD 18 B0 BD 02 C9 8F EA 8F 8A 3F 05 00 96 59 DA C0 C9 B6 3F 00 BC AF B6 D8 BC DB D6 21 04 00 BA BA C9 90 5E 96 6B 0C AC C5 B2 B6 A3 7C A2 02 CE D7 A4 91 81 B8 03 CA DD 06 B0 02 CD 8D 73 AF C3 D0 C5 A3 7C A2 95 F3 02 A6 94 84 D8 C0 B2 C9 B6 B2 3F 04 00 8F EE 95 F1 06 97 7E BC B2 C9 B6 B2 3F A3 04 00 00 00 00 95 F3 00 00 00 00 00 00 00 8F EE 95 F1 7C A2 95 F3 02 A6 D0 C2 B9 C0 D7 04 00 00 00 CF C0 BA BA C6 8E 9D AF C3 BA B2 D6 A3 7C A2 40 40 7B 20 8E 63 94 4F 02 10 06 04 00 03 B5 CF B4 02 BB DD 06 8B 81 D2 C3 D9 D6 B3 C5 8F EE 95 F1 CA 04 00 96 B3 B2 C5 A3 7C A2 02 B5 8B E0 06 C0 D8 C5 B2 D6 A3 7C A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 02 BF DA 0C AC A4 06 DD 15 AF C3 92 54 BC C3 D0 C5 A1 04 00 8C A9 C2 B9 C0 D7 BA BA C6 8E 9D AF C3 97 88 C3 B8 DA D6 A3 7C A2 02 BF B3 B6 A4 8F EE 95 F1 06 97 7E BC B8 C5 AF C0 D7 04 00 8B E0 A6 C0 D2 C3 A4 CF C0 BA BA C6 97 88 C5 A3 7C A2 81 79 8D 95 8E 58 8C E8 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 8B E0 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 8B E2 02 C9 90 43 91 E4 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 35 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 31 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 92 6C 92 69 7F 31 30 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 81 79 90 5F 95 B6 8B CA 8E A2 81 7A 02 C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 32 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C A2 8A 43 8A DD 90 FC 02 A6 93 8C C6 8D 73 AF C0 8F 8A C6 91 E5 B7 C5 90 58 06 B1 04 00 D9 10 DB 3F 00 81 79 8D 95 8E 58 8C E8 C9 94 AF 8F FC D8 81 7A 06 B1 C9 04 00 90 58 C9 14 BA B6 C6 89 42 BB DA C3 B2 D9 D7 BC B2 0F A3 7C A2 81 77 8B E0 02 C9 94 AF 8F FC D8 CA 04 00 00 00 C8 0C DA C0 98 72 C9 95 74 B9 8D AA C6 40 40 81 78 04 00 95 AA B6 AF C3 B2 D9 C9 CA BA DA 10 B9 10 A3 7C A2 02 BA C9 8A 58 C6 0D AF C4 8F 5A DD 13 B2 C0 03 0C B2 02 BB DD 06 04 00 8D C5 8B DF B8 C0 15 AF C3 C5 A1 88 E2 8C BE C4 BC C3 BF C9 91 A7 04 00 8E 71 C6 95 F3 C9 B1 D8 B6 A6 8B B3 B4 C0 DD 10 A1 01 00 C4 BA DB 06 BF C9 91 A7 8E 71 CA 90 5E 96 CA 96 DA C5 93 7A 13 C5 A1 04 00 BA DD C5 B2 B2 89 C1 8C B8 C5 90 AF CA 8C 99 10 C4 B6 C7 B6 BC 04 00 C3 91 BC C9 90 AF C6 8D 73 AF C1 CF AF C0 A1 01 00 10 06 A4 8F 6F C3 8D 73 B8 91 4F C6 A4 03 DC BC 02 06 C5 DD C4 B6 04 00 88 E2 8C BE A6 95 B7 B7 8F 6F BC C0 C9 BB A1 04 00 BF C9 88 E2 8C BE CA BA B3 10 A1 01 00 81 77 8A 43 C9 89 E0 06 90 B0 DA C0 C5 D7 15 A4 96 A6 C9 90 E6 92 5B C6 04 00 97 A7 AF C3 BF C9 8C FC BA B3 A6 C5 06 D2 D6 40 04 00 8A D4 8B DF C6 91 E5 B7 C5 93 87 06 A4 BF C9 8C FC BA B3 C6 8F AC BB 01 00 C5 93 87 06 8C A9 B4 D6 B3 A1 BF BC C3 BF C9 90 5E AF BD 08 04 00 CA D9 B6 90 E6 C6 A4 B6 BD B6 C6 8F AC BB B8 93 87 06 8C A9 B4 04 00 D9 CA 0D 10 A1 BF C9 93 87 C6 95 F3 95 A8 A6 89 42 BC C0 A1 81 78 01 00 B2 B2 B6 A4 BF C9 03 0C B2 02 BB DD CA 0D AF C4 BA C9 8A 58 04 00 C6 8F 5A DD 13 C0 DD 10 0F A3 7C A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C D7 B3 14 A2 1F AB B2 BD A1 02 14 B3 D4 D7 81 79 89 5F C9 94 E0 81 7A 04 00 CA CF 10 8C C3 91 E3 96 AF 06 8E 9D AF C3 B2 D9 D7 BC B2 A1 04 00 01 00 BA C9 90 AF C9 14 BA B6 C6 A4 CF 10 8C C3 91 E3 96 AF 06 89 42 DA 04 00 8F 5A DD 13 B2 D9 8F EA 8F 8A 06 B1 D9 D7 BC B2 DD 10 A1 04 00 01 00 BF C9 8F EA 8F 8A C6 C2 B2 C3 CA A4 BA DA B6 D7 92 B2 18 D9 04 00 97 5C 92 E8 10 A1 03 B5 CF B4 02 D3 90 53 93 96 C0 D8 06 B1 DA 15 A4 04 00 B1 C0 AF C3 D0 C3 B8 DA A3 7C 07 D9 D3 B1 A2 8C C3 91 E3 96 AF 02 06 8E 9D AF C3 B2 D9 C9 C5 D7 04 00 BF C9 8C C3 91 E3 96 AF B6 D7 40 40 04 00 94 83 AF C3 B1 09 DA 15 B2 B2 C9 10 D6 A3 7C 07 D9 D3 B1 A2 1F AB B2 BD 02 B8 DD A1 04 00 BF C9 8C C3 91 E3 96 AF C9 89 42 DA 97 A2 C4 B2 B3 C9 A6 91 81 B8 04 00 8C A9 C2 B9 C3 B8 DA C0 CF B4 A3 7C D7 B3 14 A2 88 E2 95 F3 02 C6 8F DA BC B2 90 6C 95 A8 B6 A4 8C C3 91 E3 95 B6 96 BE 04 00 C6 8F DA BC B2 90 6C 95 A8 C5 D7 89 BD B6 92 6D AF C3 B2 D9 B6 D3 04 00 BC DA C5 B2 C5 A3 7C D7 B3 14 A2 1F AB B2 BD 21 00 02 DC B6 AF C0 0F 21 00 05 00 8C C3 91 E3 96 AF C9 89 42 DA 97 A2 CA 03 CC AB B0 C4 CC A7 C4 D7 BD 04 00 02 C9 90 BC C9 03 0C AC DD 08 D9 02 C9 92 86 10 21 01 00 40 40 89 BD A4 92 6D AF C3 C0 3F 7C 00 40 40 1F AB B2 BD A4 7B 20 02 BF DA A6 8C BE DC C5 B2 C9 06 04 00 97 46 8F EE AF C3 D3 DD 10 DB A1 01 00 40 40 0C AC B1 A4 BA C9 BA C4 D3 92 6D AF C3 D9 B6 D3 04 00 BC DA C5 B2 C5 A1 89 42 DA 97 A2 C6 CA 91 CE 8B F3 96 68 8C E4 C9 88 D7 04 00 C9 8C C3 91 E3 95 BA 8A ED 06 B1 D9 AF C3 BA C4 D3 40 40 01 00 92 6D D7 C5 B2 3F 00 BF B3 B6 A4 BF DA C5 D7 8B 43 A6 04 00 C2 B9 DB D6 A1 91 95 94 F5 A6 90 AE B4 C3 B6 D7 8D 73 AF C0 04 00 95 FB 06 B2 B2 A3 7C D7 B3 14 A2 1F AB B2 BD A4 04 00 40 40 7B 20 8B 43 02 A6 C2 B9 DB D6 A3 7C D7 B3 14 A2 02 BF C9 8C C3 91 E3 C9 96 AF C9 89 42 DA 97 A2 13 A4 98 62 A6 04 00 95 B7 B2 C3 B7 C3 B8 DA A3 7C D7 B3 14 A2 02 BF B3 B6 A4 93 90 CF DA C3 B2 C0 C9 B6 40 40 05 00 BF DA C5 D7 97 A0 C9 8F EE 95 F1 C6 8F DA BC B2 90 6C 8A D4 C6 04 00 90 71 C8 C0 95 FB 06 B2 B2 C5 40 40 40 40 A3 7C D7 B3 14 A2 1D 1A D0 DD C4 02 C6 B2 D9 A4 03 B7 B0 DD 02 C4 04 00 B2 B3 92 6A C6 95 B7 B2 C3 D0 D9 C4 B2 B2 A1 04 00 93 90 95 69 A6 88 B5 AF C3 8F A4 94 84 A6 BC C3 B2 D9 93 7A 10 A1 01 00 BA C9 90 AF 13 93 90 CF DA C0 95 A8 C9 91 E5 94 BC CA 93 7A C9 8F 8A A6 04 00 92 CA AF C3 B2 B8 D7 BC B2 A1 81 79 89 5F C9 94 E0 81 7A C6 C2 B2 04 00 C3 D3 89 BD B6 92 6D AF C3 B2 D9 10 DB B3 A3 7C 07 D9 D3 B1 A2 93 90 02 CF DA C3 B2 C0 C9 C5 D7 98 62 06 91 81 B2 A1 04 00 8C BB 8D DD C9 8F 8A 97 4C 8E D2 B6 D7 A4 94 83 B2 8E E6 D9 C5 D8 04 00 D3 D7 B3 C5 D8 BD DA 15 B2 B2 A1 01 00 8C C3 91 E3 96 AF C5 14 C4 B2 B3 94 79 D6 D8 CA A4 D6 CE 14 8C F0 04 00 8F C2 BC D4 BD B2 A1 40 40 C5 C6 BC DB 93 90 95 69 C5 DD 10 04 00 B6 D7 8F 8A 97 4C 8E D2 A6 8C A9 C2 B9 BB B4 BD DA 15 40 40 A3 7C D7 B3 14 A2 CC B3 40 40 8D A1 93 78 02 CA 8A 43 B6 3F 04 00 BC B6 D3 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 02 C4 B7 C0 A1 05 00 D6 D8 C6 D6 AF C3 40 40 7C 00 40 40 02 BF B3 10 A4 7B 20 03 D7 08 91 44 92 B7 02 10 21 00 03 D7 08 91 44 92 B7 04 00 02 C9 03 BB D9 18 B0 0C 91 44 02 06 03 14 A9 B0 D1 C4 D7 B2 B1 DD 04 00 08 D9 02 13 88 F8 B7 8F E3 09 A6 8E 6E D2 D9 AF C3 B2 B3 89 5C 10 A1 01 00 94 DE C6 8B A6 97 CD BC C3 D3 D7 B4 15 B2 B2 A1 90 CC A4 90 A2 98 62 04 00 C6 C5 AF C0 8E 96 06 B1 D9 06 A4 94 DE CA B2 B2 92 6A 10 B6 04 00 D7 A4 95 4B 0D 97 CD C6 C5 AF C3 B8 DA D9 CA 0D 10 A1 7C 00 40 40 02 BF DA CA BF DA C4 BC C3 40 40 05 00 03 07 D9 D3 B1 8E 81 02 C9 BA C4 C5 DD 10 06 03 B5 CF B4 02 C9 91 44 04 00 C6 8F E6 BE C3 8D 73 AF C3 B8 DA C5 B2 B6 3F 01 00 D3 B3 03 DB 16 B0 02 13 91 D2 AF C3 B2 D9 CA 0D 10 A1 04 00 96 7B 90 6C C9 8A F3 96 5D 13 D3 B1 D9 B6 D7 C5 A1 01 00 BF C9 8A D4 A4 03 B5 DA 02 CA C1 AE AF C4 94 DE C6 C2 B2 C3 04 00 92 B2 18 C3 D0 C0 B2 DD 10 A1 14 B3 D3 C0 10 C9 03 BA DA 04 00 B8 C0 B0 02 C4 CA 8E 76 B4 C5 B8 C3 C5 A1 01 00 94 DE C9 8C BE 97 74 D4 91 D4 93 78 C6 CA 8B 43 C6 C5 D9 8F 8A 06 B1 D9 A1 04 00 C5 C6 B6 A6 8A E9 DD 13 B2 D9 D6 B3 C5 8A B4 0C 06 04 00 BD D9 DD 10 D6 A3 7C D7 B3 14 A2 1F AB B2 BD A4 97 8A 02 D1 A1 03 07 D9 D3 B1 8E 81 02 A6 04 00 8F E6 BE C3 A4 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 02 C9 04 00 03 D7 08 91 44 92 B7 02 C9 8F 8A C6 8C FC B6 AF C3 B8 DA A1 01 00 BF C9 8A D4 A4 03 B5 DA 02 CA 94 DE C9 8E 96 A6 13 B7 D9 10 B9 04 00 92 B2 18 C3 D0 D9 A3 7C D7 B3 14 A2 40 40 02 BF B3 B6 A1 94 F2 8B F3 92 F8 A6 8A 43 C6 90 F6 DA 04 00 D9 D6 B3 C6 89 FC 91 A2 BC C0 C9 B6 3F 00 0C AC A4 C2 B2 04 00 13 C6 8A 43 C9 92 86 C9 95 F3 D3 8C A9 C2 B9 C1 CF B4 D6 A3 7C";
         LzCompressor lzCompressor = new LzCompressor();
         try {
             byte[] compressData = lzCompressor.compressData(hexStringToByteArray(eng85131.split(" ")), false);
@@ -172,13 +253,13 @@ public class Conflix {
             System.out.println("My compressed data :\t"+myComp);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         //decompressDataFiles(data);
         //decompressPointerFiles(data);
 
-        String dataFile = "85131";
-        String pointerFile = "80100";
+        /*String dataFile = "85131";
+        String pointerFile = "80100";*/
         
         generateEmptyTranslationFiles();
         PointerTable tableData1 = new PointerTable(
@@ -197,9 +278,13 @@ public class Conflix {
         tablePointer1.setType(PointerTableType.POINTER);
         loadPointers(tableData1);
         loadPointers(tablePointer1);
+        printTable(tableData1);
+        //checkTranslationPointers(tableData1);
         generateEnglishFiles(tableData1);
         writeEnglishFiles(data, tableData1);
         writeEnglishFiles(data, tablePointer1);
+        writeEnglishFiles(dataBS, tableData1);
+        writeEnglishFiles(dataBS, tablePointer1);
 
         s = "81 40 81 40 81 40 81 40 81 40 81 40 83 74 83 48 81 5B 83 67 81 45 83 74 83 40 83 67 83 89 83 58";
         System.out.println("s="+ShiftJIS.convertBytesToJapanese(hexStringToByteArray(s.split(" "))));
@@ -209,20 +294,50 @@ public class Conflix {
         menuReader.compressMenu();
         menuReader.writeMenu(data);
         menuReader.writeMenuPointers(data);
+        menuReader.writeMenu(dataBS);
+        menuReader.writeMenuPointers(dataBS);
 
         String a[] = new String[] {
                 "81 40 81 40 81 40 81 40 81 40 83 57 83 83 83 93 83 4E 83 5E 83 45 83 93 81 40 83 79 83 70 83 7E 83 93 83 67",
                 "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 8C C3 91 E3 96 AF 82 CC 89 42 82 EA 97 A2",
                 "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 89 5F 82 CC 90 5F 93 61",
-                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 54 83 8B 83 78 81 5B 83 57 91 44"
+                "81 40 8B F3 91 AF 92 63 82 CC 8F 50 8C 82 81 49 81 49 20 2A 00 81 40 53 54 41 47 45 20 31 2F 81 40 90 A7 8C C0 8E 9E 8A D4 81 40 82 54 82 4F 82 4F 95 62 2F 81 40 8B F3 91 AF 92 63 82 F0 91 53 95 94 93 7C 82 B5 82 BF 82 E1 82 A6 2A 00 81 40 96 68 8C E4 95 BA 8A ED 8D EC 93 AE 81 49 20 2A 00 81 40 53 54 41 47 45 20 32 2F 81 40 90 A7 8C C0 8E 9E 8A D4 81 40 82 54 82 4F 82 4F 95 62 2F 81 40 83 7B 83 58 82 F0 93 7C 82 B9 2A 00 81 40 8A 43 92 EA 83 58 83 65 81 5B 83 57 2A 00 81 40 53 54 41 47 45 20 33 2F 81 40 90 A7 8C C0 8E 9E 8A D4 81 40 82 54 82 4F 82 4F 95 62 2F 81 40 93 47 82 BA 82 F1 82 D4 82 E2 82 C1 82 C2 82 AF 82 EB 81 60 2A 00 81 40 89 5F 8A 43 83 58 83 65 81 5B 83 57 2A 00 81 40 53 54 41 47 45 20 34 2F 81 40 90 A7 8C C0 8E 9E 8A D4 81 40 82 54 82 4F 82 4F 95 62 2F 81 40 90 8C 82 A4 82 BC 2A 00 81 40 8D C5 8F 49 83 58 83 65 81 5B 83 57 2A 00 81 40 53 54 41 47 45 20 35 2F 81 40 2F 20 88 AB 82 A2 93 7A 93 7C 82 B9 82 C1 82 C4 8A B4 82 B6 2A 00 20 83 7B 81 5B 83 69 83 58 83 58 83 65 81 5B 83 57 82 50 2A 00 20 83 7B 81 5B 83 69 83 58 83 58 83 65 81 5B 83 57 82 51 2A 00 20 83 7B 81 5B 83 69 83 58 83 58 83 65 81 5B 83 57 82 52 2A 00",
+                "2A 81 63 81 63 81 63 2A 8F 6F 92 BC 82 B5 81 63 81 63 2A 82 BE 82 C8 81 63 81 63 81 63 00 43 4F 4E 43 45 50 54 20 44 45 53 49 47 4E 2F 89 AA 92 EB 20 90 5E 88 EA 98 59 2F 00 53 54 4F 52 59 2F 8D 5D 93 A1 20 8C 6A 91 E5 2F 00 4D 41 49 4E 20 50 52 4F 47 52 41 4D 2F 90 99 96 7B 20 8D 5F 93 F1 2F 00 4D 41 49 4E 20 47 52 41 50 48 49 43 53 2F 96 7B 8D AA 20 8D 4E 94 56 2F 00 4D 55 53 49 43 20 43 4F 4D 50 4F 53 45 2F 92 87 96 EC 20 8F 87 96 E7 2F 00 56 49 53 55 41 4C 20 44 45 53 49 47 4E 2F 92 BC 97 C7 20 97 4C 97 53 2F 00 45 4E 45 4D 59 20 53 45 51 55 45 4E 43 45 2F 97 E9 96 D8 20 95 71 8F CD 2F 00 45 4E 45 4D 59 20 47 52 41 50 48 49 43 53 2F 95 6C 8D E2 20 90 5E 88 EA 98 59 2F 00 45 56 45 4E 54 20 50 52 4F 47 52 41 4D 2F 89 93 93 A1 20 97 98 92 6A 2F 00 43 48 41 52 41 43 54 45 52 20 47 52 41 50 48 49 43 53 2F 97 D1 20 90 5E 8D B2 8F 48 2F 00 57 4F 52 4C 44 4D 41 50 20 47 52 41 50 48 49 43 2F 8F 74 96 D8 20 82 A0 82 A9 82 CB 2F 00 50 41 52 41 4D 45 54 45 52 20 4D 41 4B 49 4E 47 2F 89 AA 8D E8 20 97 E7 8B 4D 2F 00 41 55 43 54 49 4F 4E 20 50 52 4F 47 52 41 4D 2F 8F BC 96 7B 20 8A 78 94 FC 2F 00 53 4F 55 4E 44 20 45 46 46 45 43 54 2F 92 86 91 BA 20 89 68 8E A1 2F 2F 53 4F 55 4E 44 20 50 52 4F 47 52 41 4D 2F 90 D4 94 F6 20 8E C0 2F 00 50 55 42 4C 49 43 49 54 59 2F 8E 52 89 BA 20 8D 4F 93 F1 2F 94 D1 93 63 20 8D 8E 90 4D 2F 2F 53 50 45 43 49 41 4C 20 54 48 41 4E 4B 53 2F 89 D4 93 63 20 8C 9B 8F B9 2F 8D B2 81 58 96 D8 20 97 6D 8F 9F 2F 00",
+                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 6F 83 86 83 45 2F 2F 83 56 83 87 83 62 83 76 82 CC 83 57 83 57 83 42 81 42 82 C7 82 B1 82 C9 82 C5 82 E0 82 A2 82 E9 83 49 83 62 83 54 83 93 2F 82 56 82 51 8D CE 81 40 92 6A 90 AB 81 40 96 A2 8D A5 00",
+                "81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 94 83 48 83 43 83 58 2F 2F 8E E1 82 A2 82 AA 98 72 97 98 82 AB 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 93 60 90 E0 82 CC 94 E9 95 F3 82 F0 91 53 82 C4 8C A9 82 C2 82 AF 82 BE 82 B7 82 CC 82 AA 96 DA 95 57 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 89 83 45 83 68 2F 2F 83 78 83 65 83 89 83 93 82 CC 83 67 83 8C 83 57 83 83 81 5B 81 45 83 6E 83 93 83 5E 81 5B 2F 83 94 83 48 83 43 83 58 82 CC 8C 5A 8B 4D 95 AA 82 BE 82 AA 81 41 8D C5 8B DF 89 9F 82 B3 82 EA 8B 43 96 A1 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 89 83 4F 2F 2F 8A 43 92 EA 82 CC 95 F3 82 F0 88 F8 82 AB 8F E3 82 B0 82 E9 83 54 83 8B 83 78 81 5B 83 57 91 44 82 CC 91 44 92 B7 2F 97 8A 82 E8 8D 62 94 E3 82 CC 82 A0 82 E9 8A 43 82 CC 92 6A 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 81 83 8B 83 4E 2F 2F 83 8C 83 43 83 59 83 8B 83 5E 83 45 83 93 82 CC 83 6E 83 93 83 4B 81 5B 82 F0 8E 64 90 D8 82 C1 82 C4 82 A2 82 E9 2F 94 F2 8B F3 92 F8 82 CC 89 FC 91 A2 82 C5 94 DE 8F 97 82 CC 89 45 82 C9 8F 6F 82 E9 82 E0 82 CC 82 CD 82 A2 82 C8 82 A2 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 41 83 8C 83 74 2F 2F 83 81 83 8B 83 4E 82 CC 89 BA 82 C5 93 AD 82 AD 83 81 83 4A 83 6A 83 62 83 4E 2F 82 A2 82 C2 82 CC 93 FA 82 A9 8E A9 95 AA 82 CC 83 6E 83 93 83 4B 81 5B 82 F0 8E 9D 82 C2 82 CC 82 AA 96 B2 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 4D 83 8B 83 82 83 41 2F 2F 89 5F 82 CC 94 E0 82 C6 8C C4 82 CE 82 EA 82 E9 81 41 8C C3 91 E3 82 CC 94 E9 95 F3 82 F0 92 54 82 B5 82 C4 82 A2 82 E9 2F 82 B1 82 CC 90 AF 82 CC 90 6C 8A D4 82 C5 82 CD 82 C8 82 AD 90 45 8B C6 82 C8 82 C7 82 CD 95 73 96 BE 00 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 83 8C 83 62 83 68 81 45 83 58 83 79 83 43 83 68 2F 2F 8B F3 91 AF 92 63 82 F0 97 A6 82 A2 82 C4 88 EA 94 CA 82 CC 91 44 82 F0 8F 50 8C 82 82 B5 82 C4 82 A2 82 E9 2F 91 E5 8B F3 82 C5 82 CD 81 41 92 4E 82 E6 82 E8 82 E0 91 AC 82 AD 81 41 92 4E 82 E6 82 E8 82 E0 8B AD 82 AD 00",
+                "4D 0A A2 0A BD 0A 71 0A 81 40 8B F3 91 AF 92 63 82 CC 8F 50 8C 82 81 49 81 49 20 2A 00",
+                "5B 44 6F 6A 69 6E 20 41 72 6D 6F 72 5D 04 41 72 6D 6F 72 20 69 6D 62 75 65 64 20 77 69 74 68 20 74 68 65 20 70 6F 77 65 72 20 6F 66 20 74 68 65 04 45 61 72 74 68 20 74 68 61 74 20 70 72 6F 74 65 63 74 73 20 66 72 6F 6D 20 65 6E 65 6D 69 65 73 2E 7C 7F"
         };
+        int l = 1;
         for (String b:a) {
-            System.out.println(
+            System.out.println((l++)+" "+
                     ShiftJIS.convertBytesToJapanese(hexStringToByteArray(b.split(" "))));
         }
 
-        writeTownNames(data);
+        String japanese = "し……だな………";
+        System.out.println(japanese + " = " + bytesToHex(ShiftJIS.convertJapaneseToBytes(japanese)));
         
+        String english = "Shinichiro Okaba";
+        System.out.println(english + " = " + bytesToHex(ShiftJIS.convertEnglishToBytes(english)));
+
+
+        writeTownNames(data);
+        writeTownNames(dataBS);
+
+        writeDemoTexts(data);
+        writeDemoTexts(dataBS);
+        writeCombatMessages(data);
+        writeCombatMessages(dataBS);
+
+        writeRomName(data);
+        writeRomName(dataBS);
+
+        writeBytes(data, new byte[]{01, (byte) 0xE6}, x("12329"));
+        writeBytes(data, new byte[]{00, (byte) 0xE6}, x("149EB"));
+        writeBytes(dataBS, new byte[]{01, (byte) 0xE6}, x("12329"));
+        writeBytes(dataBS, new byte[]{00, (byte) 0xE6}, x("149EB"));
+        
+        compareSizes();
         /*String[] wideTownNames = new String[] {
             "　　　　　　Ｒａｚｚｌｅ　Ｔｏｗｎ",
             "　　　　　　Ｌａｎｄｏｓ　Ｂａｓｅ",
@@ -239,21 +354,199 @@ public class Conflix {
                     bytesToHex(ShiftJIS.convertJapaneseToBytes(town))
                     ));
         }*/
+
+        SpriteReader spriteReader = new SpriteReader();
+        try {
+            spriteReader.generateSpriteShopList();
+            writeDataFile(data, "src/main/resources/data/7A600.data", x("7A5C0"));
+            writeDataFile(dataBS, "src/main/resources/data/7A600.data", x("7A5C0"));
+            byte[] shopListCode = new byte[]{
+                    (byte) 0xA2, (byte) 0xC0, (byte) 0xA5, (byte) 0x8E, 0x30, 0x1C, (byte) 0xA9, (byte) 0xC7, 0x00, (byte) 0x8D, 32, 0x1C
+            };
+            writeBytes(data, shopListCode, x("55E1"));
+            writeBytes(dataBS, shopListCode, x("55E1"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        /*lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("B0616"), "src/main/resources/gen/mem/B0616.data", false);
+        lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("A0380"), "src/main/resources/gen/mem/A0380.data", false);
+        lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("A0345"), "src/main/resources/gen/mem/A0345.data", false);
+        lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("A03A8"), "src/main/resources/gen/mem/A03A8.data", false);
+*/
         
+        System.out.println("Jpn Trans Count: "+translationCount);
+        System.out.println("Eng Trans Count: "+translationEngCount);
+
+        extractTreasureIcons("D:\\git\\treasure-conflix\\sprites\\treasure icons", "D:\\git\\treasure-conflix\\sprites\\treasure icons\\out");
         
         DataWriter.saveData("D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - SNES - extended.sfc", data);
+        DataWriter.saveData("D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - BS - normal.sfc", dataBS);
+    }
+
+    private static void compareSizes() {
+        File folder = new File("D:\\git\\treasure-conflix\\treasure-conflix-gen\\src\\main\\resources\\translations\\japanese\\data-files");
+        File[] listOfFiles = folder.listFiles();
+        List<File> files = Arrays.asList(listOfFiles);
+        Collections.sort(files);
+        int row=0;
+        int col=0;
+        int count = 1;
+        for (File file : files) {
+            if (file.isFile()) {
+                String name = file.getName();
+                File english = new File("D:\\git\\treasure-conflix\\treasure-conflix-gen\\src\\main\\resources\\translations\\english\\data-files\\"+name);
+                System.out.println("File "+name+"\t\t"+h(english.length()-file.length()));
+            }
+        }
+    }
+
+    public static void extractTreasureIcons(String input, String output) {
+        File folder = new File(input);
+        File[] listOfFiles = folder.listFiles();
+        List<File> files = Arrays.asList(listOfFiles);
+        Collections.sort(files);
+        int row=0;
+        int col=0;
+        int count = 1;
+        for (File file : files) {
+            if (file.isFile()) {
+                try {
+                    BufferedImage image = ImageIO.read(file);
+                    BufferedImage icon = image.getSubimage(col * 16, row * 16, 16, 16);
+                    String name = Integer.toString((count++));
+                    if (name.length()==1) name = "0"+name;
+                    ImageIO.write(icon, "png", new File(output+"/"+name+".png"));
+                    col++;
+                    if (col==8) {
+                        col=0;
+                        row++;
+                    }
+                    /*for (int row=0;row<4;row++) {
+                        for (int col=0;col<8;col++) {
+                            BufferedImage icon = image.getSubimage(col * 16, row * 16, 16, 16);
+                            ImageIO.write(icon, "png", new File(output+"/"+(count++)+".png"));
+                        }
+                    }*/
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    private static void writeRomName(byte[] data) {
+        String s = "54 52 45 41 53 55 52 45 20 43 4F 4E 46 4C 49 58";
+        byte[] bytes = hexStringToByteArray(s.split(" "));
+        writeBytes(data, bytes, x("FFC0"));
+    }
+
+    private static void printTable(PointerTable table) {
+        for (Map.Entry<Integer, PointerEntry> e : table.pointers.entrySet()) {
+            PointerEntry p = e.getValue();
+            int value = p.getValue();
+            
+            String dataFile = h(value);
+            byte[] bytes = new byte[0];
+            try {
+                bytes = Files.readAllBytes(new File(String.format("src/main/resources/translations/japanese/data-files/%s.data", dataFile)).toPath());
+            } catch (IOException ex) {
+                Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            System.out.println(dataFile+"\t"+bytesToHex(bytes));
+            System.out.println(dataFile+"\t"+ShiftJIS.convertBytesToJapanese(bytes));
+        }
+
+    }
+
+    /**
+     * Line : max 40 chars (optimial : 37)
+     */
+    public static void writeDemoTexts(byte[] data) {
+        int offset = x("7633");
+        int index = 0;
+        byte[] res = new byte[0];
+        byte[] pointers = new byte[14];
+        List<String> lines = new ArrayList<>();
+        lines.add("                    Voice{NL2}{NL2}" +
+                "A young but skilled treasure hunter{NL2}" +
+                "His goal: all the legendary treasures{00}");
+        lines.add("                    Loud{NL2}{NL2}" +
+                "Veteran treasure hunter{NL2}" +
+                "Voice's senior, now on the ropes{00}");
+        lines.add("                    Melk{NL2}{NL2}" +
+                "Runs the workshop in Razzle Town{NL2}" +
+                "Second to none in airship modding{00}");
+        lines.add("                    Aleph{NL2}{NL2}" +
+                "Mechanic working for Melk{NL2}" +
+                "Dreams of having his own workshop{00}");
+        lines.add("                    Rag{NL2}{NL2}" +
+                "Captain of a salvage ship{NL2}" +
+                "Trustworthy seaman{00}");
+        lines.add("                    Gilmore{NL2}{NL2}" +
+                "Outsider whose occupation is unknown{NL2}" +
+                "Seeks a treasure called the Cloud Gate{00}");
+        lines.add("                    Red Spade{NL2}{NL2}" +
+                "Leader of the sky pirates{NL2}" +
+                "The fastest and strongest pilot{00}");
+        System.out.println("DEMO TEXTS");
+        int i = 0;
+        for (String line:lines) {
+            pointers[i++] = getPointerByte(offset, ByteType.LEFT);
+            pointers[i++] = getPointerByte(offset, ByteType.RIGHT);
+            byte[] bytes = ShiftJIS.convertEnglishToBytes(line);
+            System.out.println(h(offset)+"\t"+h(index)+"\t\t"+Utils.bytesToHex(bytes));
+            res = ArrayUtils.addAll(res, bytes);
+            offset += bytes.length;
+            index += bytes.length;
+        }
+        /*System.out.println("demo p"+"\t\t"+Utils.bytesToHex(pointers));
+        System.out.println("demo"+"\t\t"+Utils.bytesToHex(res));*/
+        writeBytes(data, res, x("7633"));
+        writeBytes(data, pointers, x("7624"));
+    }
+
+    public static void writeCombatMessages(byte[] data) {
+        int offsetDataStart = x("C700");
+        Map<Integer, String> pointersLines = new TreeMap<>();
+        pointersLines.put(x("A42"), "Sky Pirates Attack!{TAB}{25}");
+        pointersLines.put(x("A48"), "STAGE 1{25}Time Limit  500s{25}Defeat all the sky pirates!{TAB}{00}");
+        pointersLines.put(x("A65"), "Defensive Weapon Activated!{TAB}{25}");
+        pointersLines.put(x("A6B"), "STAGE 2{25}Time Limit  500s{25}Defeat the boss!{TAB}{00}");
+        pointersLines.put(x("A97"), "Underwater{TAB}{25}");
+        pointersLines.put(x("A9D"), "STAGE 3{25}Time Limit  500s{25}Defeat all the enemies!{TAB}{00}");
+        pointersLines.put(x("ACB"), "Sea of Clouds{TAB}{25}");
+        pointersLines.put(x("AD1"), "STAGE 4{25}Time Limit  500s{25}Defeat the boss!{TAB}{00}");
+        pointersLines.put(x("B70"), "Final Stage{TAB}{25}");
+        pointersLines.put(x("B79"), "STAGE 5{25}Time Limit  500s{25}Defeat the boss!{TAB}{00}");
+        pointersLines.put(x("BF7"), "Bonus Stage 1{TAB}{00}");
+        pointersLines.put(x("BFC"), "Bonus Stage 2{TAB}{00}");
+        pointersLines.put(x("C15"), "Bonus Stage 3{TAB}{00}");
+        int offset = offsetDataStart;
+        for (Map.Entry<Integer, String> e : pointersLines.entrySet()) {
+            Integer pointer = e.getKey();
+            String english = e.getValue();
+            byte[] bytes = ShiftJIS.convertEnglishToBytes(english);
+            writePointer(pointer, offset);
+            writeBytes(data, bytes, offset);
+            offset+=bytes.length;
+        }
     }
     
     public static void writeTownNames(byte[] data) {
         List<WideName> wideNames = new ArrayList<>();
         int offsetDataStart = x("D000");
         int offsetCodeStart = x("357E");
-        wideNames.add(new WideName("　　　　　　Ｒａｚｚｌｅ　Ｔｏｗｎ", x("D000"), x("357E"), new byte[]{1,0,0x24}));
+        wideNames.add(new WideName("　　　　　　Ｒａｉｚｅｌｔｏｗｎ", x("D000"), x("357E"), new byte[]{1,0,0x24}));
         wideNames.add(new WideName("　　　　　　Ｌａｎｄｏｓ　Ｂａｓｅ", x("D000"), x("357E"), new byte[]{4,0,0x25}));
         wideNames.add(new WideName("　　　　　　Ｋａｚｕｓａ　Ｂａｓｅ", x("D000"), x("357E"), new byte[]{6,0,0x26}));
         wideNames.add(new WideName("　　　　　　Ｆｏｒｔ　Ｆａｔｒａｓ", x("D000"), x("357E"), new byte[]{8,0,0x27}));
         wideNames.add(new WideName("　　Ｐｅｐｐｅｒｍｉｎｔ　Ｊｕｎｋｔｏｗｎ", x("D000"), x("357E"), new byte[]{0xA,0,0x28}));
-        wideNames.add(new WideName("　　　　　Ｅｌｄｅｒ　Ｖｉｌｌａｇｅ", x("D000"), x("357E"), new byte[]{0xC,0,0x29}));
+        wideNames.add(new WideName("　　　　  Ｈｉｄｄｅｎ　Ｖｉｌｌａｇｅ", x("D000"), x("357E"), new byte[]{0xC,0,0x29}));
         wideNames.add(new WideName("　　　　　　Ｃｌｏｕｄ　Ｔｅｍｐｌｅ", x("D000"), x("357E"), new byte[]{0x10,0,0x2B}));
         wideNames.add(new WideName("　　　　　　Ｓａｌｖａｇｅ　Ｓｈｉｐ", x("D000"), x("357E"), new byte[]{0x0E,0,0x2A}));
         int offsetData = offsetDataStart;
@@ -352,6 +645,7 @@ public class Conflix {
 
     public static byte[] loadPointerFile(int offset) {
         String file = h(offset);
+        if (offset == x("99999")) return new byte[0];
         try {
             return Files.readAllBytes(new File(String.format("src/main/resources/translations/japanese/pointer-files/%s.data", file)).toPath());
         } catch (IOException ex) {
@@ -359,7 +653,64 @@ public class Conflix {
         }
         return null;
     }
-    
+
+    public static void checkTranslationPointers(PointerTable table) {
+        byte[] tableData;
+        for (Map.Entry<Integer, PointerEntry> e : table.pointers.entrySet()) {
+            PointerEntry p = e.getValue();
+            int value = p.getValue();
+            tableData = new byte[0];
+            byte[] pointerFile = null;
+            String pointerFileName = "";
+            if (dataFilePointerFileMap.containsKey(value)) {
+                int pf = dataFilePointerFileMap.get(value);
+                pointerFile = loadPointerFile(pf);
+                pointerFileName = h(pf);
+            }
+            int offsetTranslation = 0;
+            Map<Integer, Translation> translationMap = loadTranslations(value);
+            if (translationMap==null) continue;
+            HashSet<Integer> readPointers = new HashSet<>();
+            for (Map.Entry<Integer, Translation> f : translationMap.entrySet()) {
+                Translation translation = f.getValue();
+                byte[] dataValue = translation.getDataValue();
+                String english = translation.getEnglish();
+                if (english!=null && !english.isEmpty()) {
+                    dataValue = ShiftJIS.convertEnglishToBytes(english);
+                }
+                tableData = ArrayUtils.addAll(tableData, dataValue);
+                
+                for (Pointer pointer : translation.getPointers()) {
+                    int pointerOffset = pointer.getOffset();
+                    int pointerValue = pointer.getValue();
+                    if (translation.isGlobalPointer() && offsetTranslation>0 && pointerOffset >0) {
+                        //writePointer(pointerOffset,offsetTranslation+1);
+                        int readValue = readPointer(data, pointerOffset);
+                        if (readPointers.contains(pointerValue))
+                            System.out.println("pointerOffset="+h(pointerOffset)+" read="+h(readValue)+" off="+h(pointerValue));
+                        else readPointers.add(pointerValue);
+                    } else if (offsetTranslation>0 && pointerOffset >0 && pointerFile!=null) {
+                        int readValue = readPointer(pointerFile, pointerOffset);
+                        if (readPointers.contains(pointerValue))
+                            System.out.println("pointerOffset="+h(pointerOffset)+" read="+h(readValue)+" off="+h(pointerValue));
+                        else readPointers.add(pointerValue);
+                    /*pointerFile[pointerOffset] = (byte) (((offsetTranslation+1) % 256) & 0xFF);
+                    pointerFile[pointerOffset + 1] = (byte) ((offsetTranslation+1) / 256);*/
+                    }
+                }
+
+                
+                offsetTranslation += dataValue.length;
+            }
+        }
+    }
+
+    private static int readPointer(byte[] bytes, int pointerOffset) {
+        byte a = bytes[pointerOffset];
+        byte b = bytes[pointerOffset+1];
+        return ((b & 0xFF) * 0x100) + (a & 0xFF);
+    }
+
     public static void generateEnglishFiles(PointerTable table) {
         byte[] tableData;
         for (Map.Entry<Integer, PointerEntry> e : table.pointers.entrySet()) {
@@ -384,9 +735,21 @@ public class Conflix {
                     dataValue = ShiftJIS.convertEnglishToBytes(english);
                 }
                 tableData = ArrayUtils.addAll(tableData, dataValue);
-                if (offsetTranslation>0 && translation.getPointerOffset()>0 && pointerFile!=null) {
-                    pointerFile[translation.getPointerOffset()] = (byte) (((offsetTranslation+1) % 256) & 0xFF);
-                    pointerFile[translation.getPointerOffset() + 1] = (byte) ((offsetTranslation+1) / 256);
+                /*int pointerOffset = translation.getPointerOffset();
+                if (translation.isGlobalPointer() && offsetTranslation>0 && pointerOffset >0) {
+                    writePointer(pointerOffset,offsetTranslation+1);
+                } else if (offsetTranslation>0 && pointerOffset >0 && pointerFile!=null) {
+                    pointerFile[pointerOffset] = (byte) (((offsetTranslation+1) % 256) & 0xFF);
+                    pointerFile[pointerOffset + 1] = (byte) ((offsetTranslation+1) / 256);
+                }*/
+                for (Pointer pointer : translation.getPointers()) {
+                    int pointerOffset = pointer.getOffset();
+                    if (translation.isGlobalPointer() && offsetTranslation>0 && pointerOffset >0) {
+                        writePointer(pointerOffset,offsetTranslation+1);
+                    } else if (offsetTranslation>0 && pointerOffset >0 && pointerFile!=null) {
+                        pointerFile[pointerOffset] = (byte) (((offsetTranslation+1) % 256) & 0xFF);
+                        pointerFile[pointerOffset + 1] = (byte) ((offsetTranslation+1) / 256);
+                    }
                 }
                 offsetTranslation += dataValue.length;
             }
@@ -400,6 +763,9 @@ public class Conflix {
             }
         }
     }
+
+    static int translationCount = 0;
+    static int translationEngCount = 0;
     
     static Map<Integer, Translation> loadTranslations(int offset) {
         System.out.println("Loading Translations for "+h(offset));
@@ -415,6 +781,8 @@ public class Conflix {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        int jpnCount = 0;
+        int engCount = 0;
         Translation t = new Translation();
         while (line != null) {
             if (line.contains("=")) {
@@ -423,8 +791,14 @@ public class Conflix {
                     if (split[0].equals(Constants.TRANSLATION_FILE_POINTER)) {
                         String[] pointer = split[1].split(";");
                         t.setPointerFile(pointer[0]);
-                        if (pointer[1].length()>0) t.setPointerOffset(x(pointer[1]));
-                        t.setPointerValue(x(pointer[2]));
+                        if (pointer[1].length()>0) {
+                            //t.setPointerOffset(x(pointer[1]));
+                            //t.setPointerValue(x(pointer[2]));
+                            t.addPointer(new Pointer(x(pointer[1]), x(pointer[2])));
+                        }
+                        if (pointer.length>=4) {
+                            t.setGlobalPointer(pointer[3].equals("GLOBAL"));
+                        }
                     }
                     if (split[0].equals(Constants.TRANSLATION_FILE_DATA)) {
                         String[] data = split[1].split(";");
@@ -434,9 +808,18 @@ public class Conflix {
                     }
                     if (split[0].equals(Constants.TRANSLATION_FILE_JPN)) {
                         t.setJapanese(split[1]);
+                        translationCount++;
+                        jpnCount++;
                     }
                     if (split[0].equals(Constants.TRANSLATION_FILE_ENG)) {
-                        if (split.length>1 && split[1].length()>0) t.setEnglish(split[1]);
+                        if (split.length>1 && split[1].length()>0) {
+                            t.setEnglish(split[1]);
+                            translationEngCount++;
+                            engCount++;
+                        }
+                        if (translationMap.containsKey(t.getDataOffset())) {
+                            System.err.println(t);
+                        }
                         translationMap.put(t.getDataOffset(), t);
                         t = new Translation();
                     }
@@ -448,6 +831,7 @@ public class Conflix {
                 e.printStackTrace();
             }
         }
+        System.out.println("Trans Count "+file+" "+engCount+"/"+jpnCount);
         return translationMap;
     }
     
@@ -464,12 +848,23 @@ public class Conflix {
                 Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
             }
             int offset = 0;
+            int offsetAuction = x("988FE");
+            String option = "";
             while (offset<bytes.length) {
                 int dataOffset = offset;
                 int pointerValue = dataOffset+1;
                 byte[] dataValue = ShiftJIS.readUntilEndOfLine(bytes, offset);
                 String japanese = ShiftJIS.convertBytesToJapanese(dataValue);
-                String out = Constants.TRANSLATION_FILE_POINTER+"="+pointerFile+";;"+h(pointerValue);
+                String offsetAuctionString = "";
+                if (dataFile.equals("8AE2B") && pointerValue<=x("28A6")) {
+                    if (offsetAuction==x("98AB6")) offsetAuction += 2;
+                    if (offsetAuction==x("98AD4")) offsetAuction += 4;
+                    if (offsetAuction==x("98B18")) offsetAuction += 16;
+                    offsetAuctionString = h(offsetAuction);
+                    offsetAuction+=2;
+                    option = ";GLOBAL";
+                } else option = "";
+                String out = Constants.TRANSLATION_FILE_POINTER+"="+pointerFile+";"+offsetAuctionString+";"+h(pointerValue) + option;
                 if (pw!=null) pw.write(out+"\n");
                 System.out.println(out);
 
@@ -495,8 +890,6 @@ public class Conflix {
                 pw.close();
             }
         }
-
-        
     }
 
     public static void decompressDataFiles(byte[] data) {
@@ -726,5 +1119,25 @@ public class Conflix {
         return true;
     }
     
+    public static void writePointer(int pointerOffset, int value) {
+        data[pointerOffset] = (byte) (((value) % 256) & 0xFF);
+        data[pointerOffset + 1] = (byte) ((value) / 256);
+        dataBS[pointerOffset] = (byte) (((value) % 256) & 0xFF);
+        dataBS[pointerOffset + 1] = (byte) ((value) / 256);
+    }
     
+    public static void writeDataFile(byte[] data, String file, int offset) {
+        try {
+            byte[] bytes = Files.readAllBytes(new File(file).toPath());
+            writeBytes(data, bytes, offset);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void writeBytes(byte[] data, byte[] bytes, int offset) {
+        for (byte b : bytes) {
+            data[offset++]=b;
+        }
+    }
 }

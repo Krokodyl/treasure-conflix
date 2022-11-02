@@ -28,7 +28,7 @@ public class LzDecompressor {
     }
 
     public void decompressData(byte[] input, int start) {
-        decompressData(input, start, "src/main/resources/gen/mem/80000/" + h(start) + ".data");
+        decompressData(input, start, "src/main/resources/gen/decomp/" + h(start) + ".data");
     }
     
     public void decompressData(byte[] input, int start, String output) {
