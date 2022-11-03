@@ -197,7 +197,7 @@ public class MenuReader {
         int nameLength2 = 21;
         // 8067 because there is no op-code preceding 8068
         menu.addPointer(x("8067")+14, offsetData);
-        name = "       Razzle Town";
+        name = "       Raizeltown";
         nameLength += name.length()+2;
         menu.addPointer(x("8067")+6, offsetData+nameLength);
         name = "       Landos Base";
@@ -212,7 +212,7 @@ public class MenuReader {
         name = "  Peppermint Junktown";
         nameLength += name.length()+2;
         menu.addPointer(x("8067")+10, offsetData+nameLength);
-        name = "     Ancient Village";
+        name = "      Hidden Village";
         nameLength += name.length()+2;
         menu.addPointer(x("8067")+8, offsetData+nameLength);
         name = "       Cloud Temple";

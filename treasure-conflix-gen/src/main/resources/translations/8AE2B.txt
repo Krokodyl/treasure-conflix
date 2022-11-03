@@ -441,7 +441,7 @@ ENG=Orios: {*}mumbles{*}{NL4}I can't back down now...{NL4}...{23}00.{EL}
 POINTER=82749;989AE;00CB5;GLOBAL
 DATA=8AE2B;00CB4;B5 D7 B2 B5 BD A2 02 BF B3 B6 40 40 04 00 B2 D4 A4 8C A9 91 97 D9 C4 BC D6 B3 A3 7C 
 JPN=オライオス「そうか……{NL4}{00}いや、見送るとしよう」{EL}
-ENG=Orios: I see...no, I pass.{EL}
+ENG=Orios: Well...no, I pass.{EL}
 
 POINTER=82749;989B0;00CD1;GLOBAL
 DATA=8AE2B;00CD0;B5 D7 B2 B5 BD A2 02 B3 D1 40 40 04 00 BF DB BF DB 8C 88 CF D8 B6 A3 7C 
@@ -1111,7 +1111,7 @@ ENG=Host: Time is running out.{NL4}Hurry up!{EL}
 POINTER=82749;98ABC;01DC5;GLOBAL
 DATA=8AE2B;01DC4;8E 69 89 EF 8E D2 A2 8E 63 02 D8 8E 9E 8A D4 D3 B1 C4 DC 0D B6 A1 04 00 14 B3 13 BD B6 3F A3 7C 
 JPN=司会者「残り時間もあとわずか。{NL4}{00}どうですか?」{EL}
-ENG=Host: Only a few hours left.{EL}
+ENG=Host: Only a few minutes left.{EL}
 
 POINTER=82749;98ABE;01DE5;GLOBAL
 DATA=8AE2B;01DE4;8E 69 89 EF 8E D2 A2 90 A7 8C C0 8E 9E 8A D4 02 B2 AF 1A B2 13 BD A1 04 00 BA BA D7 13 92 F7 D2 90 D8 D7 BE C3 92 B8 B7 CF BD 21 A3 7C 
@@ -1421,7 +1421,7 @@ ENG=The next item up for auction is{NL4}          [Silver Vessel]{EL}
 POINTER=82749;98B4C;026D6;GLOBAL
 DATA=8AE2B;026D5;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 93 56 8E 67 C9 8B 7C 96 EE 81 7A 10 21 7C 
 JPN={00}さあ、こんどの出しものは{NL4}{00}{00}{00}【天使の弓矢】だ!{EL}
-ENG=The next item up for auction is{NL4}      [Angel's Bow and Arrow]{EL}
+ENG=The next item up for auction is{NL4}           [Angel's Bow]{EL}
 
 POINTER=82749;98B4E;026F9;GLOBAL
 DATA=8AE2B;026F8;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 96 A3 98 66 C9 8E 77 97 D6 81 7A 10 21 7C 
@@ -1466,17 +1466,17 @@ ENG=The next item up for auction is{NL4}       [Black Coral Hairpin]{EL}
 POINTER=82749;98B5E;02816;GLOBAL
 DATA=8AE2B;02815;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 8C C3 91 E3 C9 92 CA 89 DD 81 7A 10 21 7C 
 JPN={00}さあ、こんどの出しものは{NL4}{00}{00}{00}【古代の通貨】だ!{EL}
-ENG=The next item up for auction is{NL4}          [Ancient Coins]{EL}
+ENG=The next item up for auction is{NL4}          [Ancient Coin]{EL}
 
 POINTER=82749;98B60;02839;GLOBAL
 DATA=8AE2B;02838;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 8C C3 91 E3 89 A4 92 A9 C9 95 F3 8A A5 81 7A 10 21 7C 
 JPN={00}さあ、こんどの出しものは{NL4}{00}{00}{00}【古代王朝の宝冠】だ!{EL}
-ENG=The next item up for auction is{NL4}          [Ancient Crown]{EL}
+ENG=The next item up for auction is{NL4}           [Royal Crown]{EL}
 
 POINTER=82749;98B62;02860;GLOBAL
 DATA=8AE2B;0285F;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 94 92 96 50 C9 C2 D9 07 81 7A 10 21 7C 
 JPN={00}さあ、こんどの出しものは{NL4}{00}{00}{00}【白鳳のつるぎ】だ!{EL}
-ENG=The next item up for auction is{NL4}          [Hakuho Sword]{EL}
+ENG=The next item up for auction is{NL4}          [Divine Sword]{EL}
 
 POINTER=82749;98B64;02882;GLOBAL
 DATA=8AE2B;02881;00 02 BB B1 A4 BA DD 14 C9 8F 6F BC D3 C9 CA 04 00 00 00 81 79 03 10 B2 D4 02 C9 8E 77 97 D6 81 7A 10 21 7C 
@@ -1543,7 +1543,7 @@ DATA=8AE2B;02994;00 02 BF DA 13 CA 8F 6F 95 69 C5 BB D9 D3 C9 A6 04 00 B5 8C 88 
 JPN={00}それでは出品なさるものを{NL4}{00}お決めください……{EL}
 ENG=Please decide what you would like{NL4}to sell.{EL}
 
-POINTER=82749;;029B2
+POINTER=82749;4E;029B2
 DATA=8AE2B;029B1;8D 95 95 9E A2 40 40 02 BF DA 13 CA 7F 23 30 30 02 A6 04 00 B5 8E F3 B9 8E E6 D8 89 BA BB B2 A1 CF C0 C9 B5 89 7A BC A6 04 00 B5 91 D2 C1 BC C3 B5 D8 CF BD 40 40 A3 7C 
 JPN=黒服「……それでは{7F}{23}00を{NL4}{00}お受け取り下さい。またのお越しを{NL4}{00}お待ちしております……」{EL}
 ENG=Assistant: Please accept {23}00.{NL4}We look forward to welcoming{NL4}you back.{EL}

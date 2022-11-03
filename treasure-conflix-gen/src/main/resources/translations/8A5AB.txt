@@ -1,7 +1,7 @@
 POINTER=81B99;;00001
 DATA=8A5AB;00000;00 00 17 D8 AF 0C 7C 
 JPN={00}{00}ブリッジ{EL}
-ENG=      Bridge{EL}
+ENG=Bridge{EL}
 
 POINTER=81B99;230;00008
 DATA=8A5AB;00007;04 00 00 00 00 91 4F 95 FB 02 C6 95 90 91 95 91 44 92 63 21 7C 
@@ -32,7 +32,7 @@ ENG={NL4}      You have no treasures.{EL}
 POINTER=81B99;27E;0008B
 DATA=8A5AB;0008A;00 00 00 00 91 80 8F 63 02 C6 96 DF D8 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}操縦に戻りますか?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG= Would you like to take the wheel?{NL4}{NL4}       YES            NO{EL}
+ENG= Would you like to take the helm?{NL4}{NL4}       YES            NO{EL}
 
 POINTER=81B99;253;000AD
 DATA=8A5AB;000AC;00 00 00 00 94 F2 02 16 97 A7 C1 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
@@ -178,7 +178,7 @@ ENG=Loud: Look Voice!{NL4}Something's going on outside.{NL4}Is that the power of
 POINTER=81B99;418;0080A
 DATA=8A5AB;00809;D7 B3 14 A2 D4 15 B2 02 0F 21 04 00 03 1F AB B2 BD 21 00 91 81 02 B8 91 80 91 C7 97 D6 A6 88 AC D9 DD 10 21 04 00 BA C9 CF CF 0C AC D4 D7 DA C1 CF B3 21 A3 7C 
 JPN=ラウド「ヤバイぞ!{NL4}{00}ヴォイス!{00}早く操舵輪を握るんだ!{NL4}{00}このままじゃやられちまう!」{EL}
-ENG=Loud: This is crazy! Voice!{NL4}Grab the wheel quickly or{NL4}we're going to get killed!{EL}
+ENG=Loud: This is crazy! Voice!{NL4}Take the helm quickly or{NL4}we're going to get killed!{EL}
 
 POINTER=81B99;296;0083F
 DATA=8A5AB;0083E;D7 B3 14 A2 1F AB B2 BD 21 04 00 B5 CF B4 02 C6 96 BD A6 B1 0D B9 D9 0E 21 A3 7C 

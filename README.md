@@ -47,25 +47,76 @@ Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 
 # Credits
 
-Role | Name
+Role | Name | -
+--- | ---  | ---
+Concept Design | 岡庭 真一郎 | Shinichiro Okaniwa
+Story | 江藤 桂大 | Keita Etō
+Main Program | 杉本 浩二 | Koji Sugimoto
+Main Graphics | 本根 康之 | Yasuyuki Honne
+Music Composer | 仲野 順也 | Junya Nakano
+Visual Design | 直良 有祐 | Yusuke Naora
+Enemy Sequence | 鈴木 敏章 | Toshiaki Suzuki
+Enemy Graphics | 浜坂 真一郎 | Shinichiro Hamasaka
+Event Program | 遠藤 利男 | Toshio Endo
+Character Graphics | 林 真佐秋 | Masāki Hayashi 
+World Map Graphics | 春木 あかね | Akane Haruki
+Parameters | 岡崎 礼貴 | Hiroyoshi Okazaki
+Auction Program | 松本 岳美 | Takemi Matsumoto
+Sound Effect | 中村 栄治 | Eiji Nakamura
+Sound Program | 赤尾 実 | Minoru Akao
+Publicity | 山下 弘二 <br/> 飯田 克信 | Koji Yamashita<br/>Katsunobu Iida
+Special Thanks | 花田 憲昌 <br/> 佐々木 洋勝 | Norimasa Hanada<br/>Hirokatsu Sasaki
+
+# Translations
+
+Data | File
 --- | --- 
-Concept Design | 岡庭 真一郎
-Story | 江藤 桂大
-Main Program | 杉本 浩二
-Main Graphics | 本根 康之
-Music Composer | 仲野 順也
-Visual Design | 直良 有祐
-Enemy Sequence | 鈴木 敏章
-Enemy Graphics | 浜坂 真一郎
-Event Program | 遠藤 利男
-Character Graphics | 林 真佐秋
-Worldmap Graphics | 春木 あかね
-Parameters | 岡崎 礼貴
-Auction Program | 松本 岳美
-Sound Effect | 中村 栄治
-Sound Program | 赤尾 実
-Publicity | 山下 弘二 <br/> 飯田 克信
-Special Thanks | 花田 憲昌 <br/> 佐々木 洋勝
+Bridge Menu | [translations/menus/14-equipment.txt](/treasure-conflix-gen/src/main/resources/translations/menus/14-equipment.txt)
+Save Menu | [translations/menus/14-equipment.txt](/treasure-conflix-gen/src/main/resources/translations/menus/14-equipment.txt)
+Load Menu | [translations/menus/14-equipment.txt](/treasure-conflix-gen/src/main/resources/translations/menus/14-equipment.txt)
+Free Space Menu | [translations/menus/14-equipment.txt](/treasure-conflix-gen/src/main/resources/translations/menus/14-equipment.txt)
+Manual Flight Menu | [translations/menus/05-manual-map-1.txt](/treasure-conflix-gen/src/main/resources/translations/menus/05-manual-map-1.txt)<br/>[translations/menus/05-manual-map-2.txt](/treasure-conflix-gen/src/main/resources/translations/menus/05-manual-map-2.txt)
+Manual Combat Menu | [translations/menus/07-manual-combat-1.txt](/treasure-conflix-gen/src/main/resources/translations/menus/07-manual-combat-1.txt)<br/>[translations/menus/08-manual-combat-2.txt](/treasure-conflix-gen/src/main/resources/translations/menus/08-manual-combat-2.txt)<br/>[translations/menus/09-manual-combat-3.txt](/treasure-conflix-gen/src/main/resources/translations/menus/09-manual-combat-3.txt)
+Manual Town Menu | [translations/menus/10-manual-town-1.txt](/treasure-conflix-gen/src/main/resources/translations/menus/10-manual-town-1.txt)<br/>[translations/menus/11-manual-town-2.txt](/treasure-conflix-gen/src/main/resources/translations/menus/11-manual-town-2.txt)<br/>[translations/menus/12-manual-town-3.txt](/treasure-conflix-gen/src/main/resources/translations/menus/12-manual-town-3.txt)<br/>[translations/menus/13-manual-town-4.txt](/treasure-conflix-gen/src/main/resources/translations/menus/13-manual-town-4.txt)
+Equipment Menu | [translations/menus/14-equipment.txt](/treasure-conflix-gen/src/main/resources/translations/menus/14-equipment.txt)
+Equipment List | [translations/menus/15-equipment-list.txt](/treasure-conflix-gen/src/main/resources/translations/menus/15-equipment-list.txt)
+Introduction | [translations/menus/16-introduction.txt](/treasure-conflix-gen/src/main/resources/translations/menus/16-introduction.txt)
+GPS Town Names | [translations/menus/17-locations.txt](/treasure-conflix-gen/src/main/resources/translations/menus/17-locations.txt)
+
+Restrictions:
+Menu : Max length 43 characters (no margin).
+Equipment names : Max length 19 characters.
+GPS Town Names: The length of each hardcoded in MenuReader.java (to be improved).
+
+Screen | File
+--- | --- 
+Raizeltown | [85B89.txt](treasure-conflix-gen/src/main/resources/translations/85B89.txt)
+Raizeltown (Office) | [85131.txt](treasure-conflix-gen/src/main/resources/translations/85131.txt)
+Melk's Workshop | [860A5.txt](treasure-conflix-gen/src/main/resources/translations/860A5.txt)
+Melk's Workshop Menu<br/>Equipment List | [84905.txt](treasure-conflix-gen/src/main/resources/translations/84905.txt)
+Bridge | [8A5AB.txt](treasure-conflix-gen/src/main/resources/translations/8A5AB.txt)
+Bridge (endgame) | [8C421.txt](treasure-conflix-gen/src/main/resources/translations/8C421.txt)
+Landos Base | [86BA2.txt](treasure-conflix-gen/src/main/resources/translations/86BA2.txt)
+Landos Base (Office) | [8666D.txt](treasure-conflix-gen/src/main/resources/translations/8666D.txt)
+Shady Auction Hall | [8AE2B.txt](treasure-conflix-gen/src/main/resources/translations/8AE2B.txt)
+Treasure List<br/>Auction<br/>Bones | [84100.txt](treasure-conflix-gen/src/main/resources/translations/84100.txt)
+Kazusa Base | [87876.txt](treasure-conflix-gen/src/main/resources/translations/87876.txt)
+Kazusa Base (Office) | [871DF.txt](treasure-conflix-gen/src/main/resources/translations/871DF.txt)
+Peppermint | [88AE2.txt](treasure-conflix-gen/src/main/resources/translations/88AE2.txt)
+Peppermint (Office) | [88507.txt](treasure-conflix-gen/src/main/resources/translations/88507.txt)
+Serge's Workshop | [890E7.txt](treasure-conflix-gen/src/main/resources/translations/890E7.txt)
+Fort Fatras | [8809C.txt](treasure-conflix-gen/src/main/resources/translations/8809C.txt)
+Fort Fatras (Office) | [87CAE.txt](treasure-conflix-gen/src/main/resources/translations/87CAE.txt)
+Sunken Ship 1 | [8AD80.txt](treasure-conflix-gen/src/main/resources/translations/8AD80.txt)
+Sunken Ship 2 | [8ADA7.txt](treasure-conflix-gen/src/main/resources/translations/8ADA7.txt)
+Sunken Ship 3 | [8ADE5.txt](treasure-conflix-gen/src/main/resources/translations/8ADE5.txt)
+Inside a cave | [8AE04.txt](treasure-conflix-gen/src/main/resources/translations/8AE04.txt)
+Hidden Village | [89A1A.txt](treasure-conflix-gen/src/main/resources/translations/89A1A.txt)
+Salvage Ship | [8934B.txt](treasure-conflix-gen/src/main/resources/translations/8934B.txt)
+Rag's Workshop | [8987B.txt](treasure-conflix-gen/src/main/resources/translations/8987B.txt)
+Cloud Temple | [8A151.txt](treasure-conflix-gen/src/main/resources/translations/8A151.txt)
+Conqueror's Altar | [8A473.txt](treasure-conflix-gen/src/main/resources/translations/8A473.txt)
+
 
 # Unused data
 

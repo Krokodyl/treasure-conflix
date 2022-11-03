@@ -3,7 +3,7 @@
        Kazusa Base{00}
        Fort Fatras{00}
   Peppermint Junktown{00}
-     Ancient Village{00}
+      Hidden Village{00}
        Cloud Temple{00}
        Salvage Ship{00}
-  Turn off navigation{00}
+   Turn off navigation{00}

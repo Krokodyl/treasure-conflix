@@ -328,14 +328,25 @@ public class Conflix {
         writeDemoTexts(dataBS);
         writeCombatMessages(data);
         writeCombatMessages(dataBS);
+        writeEnding(data);
+        writeEnding(dataBS);
 
         writeRomName(data);
         writeRomName(dataBS);
 
+        /*
+            x84905	decompressed to		7FD900		(Equipment List + modding menu)
+            x84100	decompressed to		7FE400		(Treasure list + some auction texts)	
+
+            e400-d900 = b00
+            84905 decompressed is C43 (x143 too big = 323 chars)
+         */
         writeBytes(data, new byte[]{01, (byte) 0xE6}, x("12329"));
         writeBytes(data, new byte[]{00, (byte) 0xE6}, x("149EB"));
+        writeBytes(data, new byte[]{00, (byte) 0xE6}, x("14623"));
         writeBytes(dataBS, new byte[]{01, (byte) 0xE6}, x("12329"));
         writeBytes(dataBS, new byte[]{00, (byte) 0xE6}, x("149EB"));
+        writeBytes(dataBS, new byte[]{00, (byte) 0xE6}, x("14623"));
         
         compareSizes();
         /*String[] wideTownNames = new String[] {
@@ -510,6 +521,46 @@ public class Conflix {
         writeBytes(data, pointers, x("7624"));
     }
 
+    public static void writeEnding(byte[] data) {
+        int offsetData = x("91CF");
+        String line = "{TAB}Anyway...{TAB}let's start over...{TAB}{00}";
+        writeBytes(data, ShiftJIS.convertEnglishToBytes(line), offsetData);
+        
+        offsetData = x("C900");
+        int offsetPointer = x("914D");
+        String file = "translations/credits/credits.txt";
+        try {
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(
+                            Objects.requireNonNull(Conflix.class.getClassLoader().getResourceAsStream(file)), StandardCharsets.UTF_8));
+            line = br.readLine();
+            while (line!=null) {
+                line = "{7F}"+line;
+                byte[] bytes = ShiftJIS.convertEnglishToBytes(line);
+                writeBytes(data, bytes, offsetData);
+                writePointer(offsetPointer, offsetData);
+                offsetData+=bytes.length;
+                offsetPointer+=8;
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        offsetData = x("914F");
+        byte[] cols = new byte[]{
+                (byte) 0xE0, (byte) 0xD0, (byte) 0xD0,
+                (byte) 0xF8, (byte) 0xF8, (byte) 0xF8,
+                (byte) 0xA0, (byte) 0xA0, (byte) 0xA0,
+                (byte) 0xC8, (byte) 0xC8, (byte) 0xC8,
+                0x70,0x70,0x70,
+        };
+        for (byte b : cols) {
+            data[offsetData] = b;
+            offsetData+=8;
+        }
+
+    }
+
     public static void writeCombatMessages(byte[] data) {
         int offsetDataStart = x("C700");
         Map<Integer, String> pointersLines = new TreeMap<>();
@@ -521,7 +572,7 @@ public class Conflix {
         pointersLines.put(x("A9D"), "STAGE 3{25}Time Limit  500s{25}Defeat all the enemies!{TAB}{00}");
         pointersLines.put(x("ACB"), "Sea of Clouds{TAB}{25}");
         pointersLines.put(x("AD1"), "STAGE 4{25}Time Limit  500s{25}Defeat the boss!{TAB}{00}");
-        pointersLines.put(x("B70"), "Final Stage{TAB}{25}");
+        pointersLines.put(x("B73"), "Final Stage{TAB}{25}");
         pointersLines.put(x("B79"), "STAGE 5{25}Time Limit  500s{25}Defeat the boss!{TAB}{00}");
         pointersLines.put(x("BF7"), "Bonus Stage 1{TAB}{00}");
         pointersLines.put(x("BFC"), "Bonus Stage 2{TAB}{00}");

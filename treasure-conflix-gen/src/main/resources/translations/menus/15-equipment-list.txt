@@ -1,31 +1,31 @@
 Sky Life 7001      
-EquipmentB123456789
-EquipmentC123456789
-EquipmentD123456789
-EquipmentE123456789
-EquipmentF123456789
-EquipmentG123456789
-EquipmentH123456789
+Protector Pro      
+Hyper Shield       
+VT Titanium        
+Gargoyle           
+Carbide HX999      
+Crystal Guard      
+Omega Monster      
 Sky Life R30       
-EquipmentJ123456789
-EquipmentK123456789
-EquipmentL123456789
+Rotation EX        
+Smooth Roller      
+Hyper Skipper      
 Sky Life Mute 2000 
-EquipmentN123456789
-EquipmentO123456789
-EquipmentP123456789
-EquipmentQ123456789
-EquipmentR123456789
-EquipmentS123456789
-EquipmentT123456789
+Speedster X        
+GT Dash            
+Bernard Engine     
+Hercules           
+Sonic Racer        
+GT Dash mk2        
+Satelyx 95         
 Midair SP          
-EquipmentV123456789
-EquipmentW123456789
-EquipmentX123456789
-EquipmentY123456789
-EquipmentZ123456789
+Blaster            
+Volcano            
+Assault Shot       
+Ruin Weapon        
+Melk's Dream       
 Bomb (Red)         
-Equipment2123456789
-Equipment3123456789
-Equipment4123456789
-Equipment5123456789
+Bomb EX (Yellow)   
+Recover Coat (Blue)
+Recover Coat (Red) 
+Recover Coat (Gold)

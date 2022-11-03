@@ -21,7 +21,7 @@ ENG=Loud: Voice...did you hear that?{WP}It sounds like there's something{NL4}out
 POINTER=823C4;49;00077
 DATA=8A473;00076;00 40 40 02 C6 BC C3 8A AE 91 53 C5 D9 94 65 8E D2 C9 97 CD A6 A4 04 00 BF C9 8E F4 94 9B A6 89 F0 B7 BC 89 E4 C6 8E F6 B9 C0 CF B4 21 A3 7C 
 JPN={00}……にして完全なる覇者の力を、{NL4}{00}その呪縛を解きし我に授けたまえ!」{EL}
-ENG=Release the curse and give me the power of the perfect conqueror!
+ENG=Gilmore:...Break the spell and{NL4}bestow upon me the power of{NL4}the Conqueror!{EL}
 
 POINTER=823C4;66;000A6
 DATA=8A473;000A5;07 D9 D3 B1 A2 DC CA CA CA CA AF 21 04 00 92 78 02 B6 AF C0 0C AC C5 B2 B6 C8 A1 7B 20 04 00 C0 AF C0 8D A1 A4 95 95 88 F3 CA 89 F0 B6 DA C0 C9 10 D6 21 7C 

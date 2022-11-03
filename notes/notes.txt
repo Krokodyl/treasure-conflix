@@ -219,7 +219,7 @@ CEC -> C700
 6					D8A		xA9D	8A 0D
 7					DC1		xACB	C1 0D
 8					DD1		xAD1	D1 0D
-9					DFA		xB70	FA 0D
+9					DFA		xB73	FA 0D
 10					E0A		xB79	0A 0E
 11					E2C		xBF7	2C 0E
 12					E41		xBFC	41 0E
