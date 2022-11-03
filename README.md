@@ -1,43 +1,96 @@
-# treasure-conflix
-English Patch for Treasure Conflix
+# Treasure Conflix - English
+
+![00](screenshots\00.png)
+
+English translation for the Satellaview (SNES/Super Famicom) game トレジャーコンフリクス (Treasure Conflix) released in 1996 by Squaresoft.<br/>
+The game mixes RPG elements with some airship fights in mode 7.<br/>
+Most of the focus is on talking with NPCs and solving riddles trying to find the locations of treasures.
+
+# English patch
+
+### BPS Patch beta
+BPS patch (beta): [patch](patch)
+
+### Target ROM
+It applies to the following ROM :<br/>
+File: BS Treasure Conflix (Japan).sfc<br/>
+No-Intro: Super Nintendo Entertainment System (v. 20210222-050638)<br/>
+File/ROM SHA-1: EAECEB99FE7CAEDB01C2E137669CB05AEFB60944<br/>
+File/ROM CRC32: 57A070E2<br/>
+File size	1048576 ($100000)
+
+# Screenshots
+
+Japanese | English
+------------ | -------------
+![image 01](screenshots\japanese\01.png) | ![image 01](screenshots\english\01.png)
+![image 03](screenshots\japanese\03.png) | ![image 03](screenshots\english\03.png)
+![image 04](screenshots\japanese\04.png) | ![image 04](screenshots\english\04.png)
+![image 05](screenshots\japanese\05.png) | ![image 05](screenshots\english\05.png)
+![image 06](screenshots\japanese\06.png) | ![image 06](screenshots\english\06.png)
+![image 07](screenshots\japanese\07.png) | ![image 07](screenshots\english\07.png)
+![image 08](screenshots\japanese\08.png) | ![image 08](screenshots\english\08.png)
+![image 09](screenshots\japanese\09.png) | ![image 09](screenshots\english\09.png)
+![image 10](screenshots\japanese\10.png) | ![image 10](screenshots\english\10.png)
+![image 11](screenshots\japanese\11.png) | ![image 11](screenshots\english\11.png)
+![image 12](screenshots\japanese\12.png) | ![image 12](screenshots\english\12.png)
+![image 13](screenshots\japanese\13.png) | ![image 13](screenshots\english\13.png)
+![image 14](screenshots\japanese\14.png) | ![image 14](screenshots\english\14.png)
+![image 15](screenshots\japanese\15.png) | ![image 15](screenshots\english\15.png)
+![image 16](screenshots\japanese\16.png) | ![image 16](screenshots\english\16.png)
+![image 17](screenshots\japanese\17.png) | ![image 17](screenshots\english\17.png)
+![image 18](screenshots\japanese\18.png) | ![image 18](screenshots\english\18.png)
+![image 19](screenshots\japanese\19.png) | ![image 19](screenshots\english\19.png)
+![image 20](screenshots\japanese\20.png) | ![image 20](screenshots\english\20.png)
+![image 21](screenshots\japanese\21.png) | ![image 21](screenshots\english\21.png)
+![image 22](screenshots\japanese\22.png) | ![image 22](screenshots\english\22.png)
+![image 23](screenshots\japanese\23.png) | ![image 23](screenshots\english\23.png)
+![image 24](screenshots\japanese\24.png) | ![image 24](screenshots\english\24.png)
+![image 30](screenshots\japanese\30.png) | ![image 30](screenshots\english\30.png)
+![image 31](screenshots\japanese\31.png) | ![image 31](screenshots\english\31.png)
+![image 32](screenshots\japanese\32.png) | ![image 32](screenshots\english\32.png)
+![image 33](screenshots\japanese\33.png) | ![image 33](screenshots\english\33.png)
+![image 34](screenshots\japanese\34.png) | ![image 34](screenshots\english\34.png)
+![image 35](screenshots\japanese\35.png) | ![image 35](screenshots\english\35.png)
+![image 36](screenshots\japanese\36.png) | ![image 36](screenshots\english\36.png)
 
 
 # Treasure list
 
 Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 --- | --- | --- | --- | --- | --- | ---
-01 | ![01](/screenshots/treasure-icons/01.png) | 不老不死の仙薬		| Stage 2 | Elixir of Life | Map in Landos Base
-02 | ![02](/screenshots/treasure-icons/02.png) | 神文玉爾			| Stage 2 | Imperial Seal | Map in Raizeltown
-03 | ![02](/screenshots/treasure-icons/03.png) | ドラゴンシールド	| Stage 2 | Dragon Shield | Map in Kazusa Base
-04 | ![02](/screenshots/treasure-icons/04.png) | 大地神の鎧			| Stage 2 | Dojin Armor | Map in Peppermint
-05 | ![02](/screenshots/treasure-icons/05.png) | サファイアの冠		| Stage 3 | Sapphire Crown | Map in Landos Base
-06 | ![02](/screenshots/treasure-icons/06.png) | 呪縛の魔鏡			| Stage 2 | Cursed Mirror | Map in Fort Fatras
-07 | ![02](/screenshots/treasure-icons/07.png) | 太陽の指輪			| Stage 2 | Sun Ring | Map in Peppermint
-08 | ![02](/screenshots/treasure-icons/08.png) | 金の聖杯			| Stage 3 | Golden Chalice | Map in Peppermint
-09 | ![02](/screenshots/treasure-icons/09.png) | 女神の像			| Stage 2 | Goddess Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
-10 | ![02](/screenshots/treasure-icons/10.png) | 金塊				| Stage 2 | Gold Bars | From Keane in Peppermint | "There's a mountain range outside of Landos Base.  Gold is hidden in one of the valleys."
-11 | ![02](/screenshots/treasure-icons/11.png) | Ａ゛キャッツアイ	| Stage 2 | Cat's Eye | Kazusa Office | "The Doom Triangle... the magical sea that swallowed up many lives...  A wandering soul has lost its way in a large secluded forest and continues to drift.  In the depths of the forest, where no one approaches, lies a shining cat's eye."
-12 | ![02](/screenshots/treasure-icons/12.png) | 白金の飾り灯篭		| Stage 2 | Platinum Lantern | From Fish in Fort Fatras | "A platinum lantern is buried in one of its four legs."
-13 | ![02](/screenshots/treasure-icons/13.png) | 邪神の彫像			| Stage 2 | Evil God Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
-14 | ![02](/screenshots/treasure-icons/14.png) | アメジストの腕輪	| Stage 2 | Amethyst Bracelet | Kazusa Base Office | "The bracelet is torn in the valley of the mountains."
-15 | ![02](/screenshots/treasure-icons/15.png) | ルビーの指輪		| Stage 2 | Ruby Ring | From Silva in Peppermint | "The ruby ring is a gift to the parents island, not the grandparents or grandchildren."
-16 | ![02](/screenshots/treasure-icons/16.png) | エメラルドの指輪	| Stage 2 | Emerald Ring | Fort Fatras Office | "Where the trees cross, the emerald shines."
-17 | ![02](/screenshots/treasure-icons/17.png) | 月光に光る石		| Stage 2 | Moonlight Stone | Landos Base Office | "On a barren island, stones shine in the moonlight."
-18 | ![02](/screenshots/treasure-icons/18.png) | 銀の祭器			| Stage 1 | Silver Vessel | Kazusa Base Office | "There is a large mountain northwest of Kazusa Base.  In a clearing in the nearby woods, an ancient festival was held.  The silver ceremonial vessel that was used is still lost in that forest."
-19 | ![02](/screenshots/treasure-icons/19.png) | 天使の弓矢			| Stage 2 | Angel's Bow | Fort Fatras Office | "An angel shoots an arrow at the spring that heals the burning pain of the throat.  The traveler falls asleep in the tree shade.”
-20 | ![02](/screenshots/treasure-icons/20.png) | 魅惑の指輪			| Stage 2 | Enchanted Ring | Kazusa Base | "On the road to sneak up on the angry sea god, the ring shines on a cape."
-21 | ![02](/screenshots/treasure-icons/21.png) | 銀の燭台			| Stage 2 | Silver Candelabra | Raizeltown Office | "When the sea haze clears, stand at the tip of the cape and look in the distance,  there is a large island nearby and a small island beyond.  Straight ahead is another island where I hid the treasure."  
-22 | ![02](/screenshots/treasure-icons/22.png) | 古代宗教経典		| Stage 2 | Ancient Scriptures | Fort Fatras Office | "...that was lost in the northern canyon."
-23 | ![02](/screenshots/treasure-icons/23.png) | 三つ目人のどくろ	| Stage 2 | Three-Eyed Skull | Peppermint | "Three-Eyed Skulls on Triplets Island."
-24 | ![02](/screenshots/treasure-icons/24.png) | 金の髪飾り			| Stage 2 | Golden Barrette | Raizeltown Office | "The Golden Barrette is located at the base of the twisted arm."
-25 | ![02](/screenshots/treasure-icons/25.png) | 真珠の首飾り		| Stage 1 | Pearl Necklace | Peppermint Office |
-26 | ![02](/screenshots/treasure-icons/26.png) | 正史戦記			| Stage 1 | War Chronicle | Landos Base Office
-27 | ![02](/screenshots/treasure-icons/27.png) | 黒珊瑚の首飾り		| Stage 1 | Black Coral Hairpin | Raizeltown Office | "There's a forest on the east coast. The Black Coral Hairpin is hidden somewhere there."
-28 | ![02](/screenshots/treasure-icons/28.png) | 古代の通貨			| Stage 2 | Ancient Coin | Landos Base | "In a forest, between twin mountains surrounded by green..."
-29 | ![02](/screenshots/treasure-icons/29.png) | 古代王朝の宝冠		| Stage 2 | Royal Crown | Underwater in the Doom Triangle
-30 | ![02](/screenshots/treasure-icons/30.png) | 白鳳のつるぎ		| Stage 2 | Divine Sword | Underwater in the Doom Triangle
-31 | ![02](/screenshots/treasure-icons/31.png) | ダイヤの指輪		| Stage 2 | Diamond Ring | Underwater in the Doom Triangle
-32 | ![32](/screenshots/treasure-icons/32.png) | 金の腕輪			| Stage 2 | Gold Bracelet | Underwater in the Doom Triangle
+01 | ![01](screenshots\treasure-icons\01.png) | 不老不死の仙薬		| Stage 2 | Elixir of Life | Map in Landos Base
+02 | ![02](screenshots\treasure-icons\02.png) | 神文玉爾			| Stage 2 | Imperial Seal | Map in Raizeltown
+03 | ![02](screenshots\treasure-icons\03.png) | ドラゴンシールド	| Stage 2 | Dragon Shield | Map in Kazusa Base
+04 | ![02](screenshots\treasure-icons\04.png) | 大地神の鎧			| Stage 2 | Dojin Armor | Map in Peppermint
+05 | ![02](screenshots\treasure-icons\05.png) | サファイアの冠		| Stage 3 | Sapphire Crown | Map in Landos Base
+06 | ![02](screenshots\treasure-icons\06.png) | 呪縛の魔鏡			| Stage 2 | Cursed Mirror | Map in Fort Fatras
+07 | ![02](screenshots\treasure-icons\07.png) | 太陽の指輪			| Stage 2 | Sun Ring | Map in Peppermint
+08 | ![02](screenshots\treasure-icons\08.png) | 金の聖杯			| Stage 3 | Golden Chalice | Map in Peppermint
+09 | ![02](screenshots\treasure-icons\09.png) | 女神の像			| Stage 2 | Goddess Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
+10 | ![02](screenshots\treasure-icons\10.png) | 金塊				| Stage 2 | Gold Bars | From Keane in Peppermint | "There's a mountain range outside of Landos Base.  Gold is hidden in one of the valleys."
+11 | ![02](screenshots\treasure-icons\11.png) | Ａ゛キャッツアイ	| Stage 2 | Cat's Eye | Kazusa Office | "The Doom Triangle... the magical sea that swallowed up many lives...  A wandering soul has lost its way in a large secluded forest and continues to drift.  In the depths of the forest, where no one approaches, lies a shining cat's eye."
+12 | ![02](screenshots\treasure-icons\12.png) | 白金の飾り灯篭		| Stage 2 | Platinum Lantern | From Fish in Fort Fatras | "A platinum lantern is buried in one of its four legs."
+13 | ![02](screenshots\treasure-icons\13.png) | 邪神の彫像			| Stage 2 | Evil God Statue | From Nasca in the Cloud Temple | "Sacred inland sea, look at the surface from the southeast, it looks like a face in profile.  Hide despair in the eyes and hope behind the nose..."
+14 | ![02](screenshots\treasure-icons\14.png) | アメジストの腕輪	| Stage 2 | Amethyst Bracelet | Kazusa Base Office | "The bracelet is torn in the valley of the mountains."
+15 | ![02](screenshots\treasure-icons\15.png) | ルビーの指輪		| Stage 2 | Ruby Ring | From Silva in Peppermint | "The ruby ring is a gift to the parents island, not the grandparents or grandchildren."
+16 | ![02](screenshots\treasure-icons\16.png) | エメラルドの指輪	| Stage 2 | Emerald Ring | Fort Fatras Office | "Where the trees cross, the emerald shines."
+17 | ![02](screenshots\treasure-icons\17.png) | 月光に光る石		| Stage 2 | Moonlight Stone | Landos Base Office | "On a barren island, stones shine in the moonlight."
+18 | ![02](screenshots\treasure-icons\18.png) | 銀の祭器			| Stage 1 | Silver Vessel | Kazusa Base Office | "There is a large mountain northwest of Kazusa Base.  In a clearing in the nearby woods, an ancient festival was held.  The silver ceremonial vessel that was used is still lost in that forest."
+19 | ![02](screenshots\treasure-icons\19.png) | 天使の弓矢			| Stage 2 | Angel's Bow | Fort Fatras Office | "An angel shoots an arrow at the spring that heals the burning pain of the throat.  The traveler falls asleep in the tree shade.”
+20 | ![02](screenshots\treasure-icons\20.png) | 魅惑の指輪			| Stage 2 | Enchanted Ring | Kazusa Base | "On the road to sneak up on the angry sea god, the ring shines on a cape."
+21 | ![02](screenshots\treasure-icons\21.png) | 銀の燭台			| Stage 2 | Silver Candelabra | Raizeltown Office | "When the sea haze clears, stand at the tip of the cape and look in the distance,  there is a large island nearby and a small island beyond.  Straight ahead is another island where I hid the treasure."  
+22 | ![02](screenshots\treasure-icons\22.png) | 古代宗教経典		| Stage 2 | Ancient Scriptures | Fort Fatras Office | "...that was lost in the northern canyon."
+23 | ![02](screenshots\treasure-icons\23.png) | 三つ目人のどくろ	| Stage 2 | Three-Eyed Skull | Peppermint | "Three-Eyed Skulls on Triplets Island."
+24 | ![02](screenshots\treasure-icons\24.png) | 金の髪飾り			| Stage 2 | Golden Barrette | Raizeltown Office | "The Golden Barrette is located at the base of the twisted arm."
+25 | ![02](screenshots\treasure-icons\25.png) | 真珠の首飾り		| Stage 1 | Pearl Necklace | Peppermint Office |
+26 | ![02](screenshots\treasure-icons\26.png) | 正史戦記			| Stage 1 | War Chronicle | Landos Base Office
+27 | ![02](screenshots\treasure-icons\27.png) | 黒珊瑚の首飾り		| Stage 1 | Black Coral Hairpin | Raizeltown Office | "There's a forest on the east coast. The Black Coral Hairpin is hidden somewhere there."
+28 | ![02](screenshots\treasure-icons\28.png) | 古代の通貨			| Stage 2 | Ancient Coin | Landos Base | "In a forest, between twin mountains surrounded by green..."
+29 | ![02](screenshots\treasure-icons\29.png) | 古代王朝の宝冠		| Stage 2 | Royal Crown | Underwater in the Doom Triangle
+30 | ![02](screenshots\treasure-icons\30.png) | 白鳳のつるぎ		| Stage 2 | Divine Sword | Underwater in the Doom Triangle
+31 | ![02](screenshots\treasure-icons\31.png) | ダイヤの指輪		| Stage 2 | Diamond Ring | Underwater in the Doom Triangle
+32 | ![32](screenshots\treasure-icons\32.png) | 金の腕輪			| Stage 2 | Gold Bracelet | Underwater in the Doom Triangle
 
 # Treasure map
 
@@ -83,11 +136,6 @@ Equipment List | [translations/menus/15-equipment-list.txt](/treasure-conflix-ge
 Introduction | [translations/menus/16-introduction.txt](/treasure-conflix-gen/src/main/resources/translations/menus/16-introduction.txt)
 GPS Town Names | [translations/menus/17-locations.txt](/treasure-conflix-gen/src/main/resources/translations/menus/17-locations.txt)
 
-Restrictions:
-Menu : Max length 43 characters (no margin).
-Equipment names : Max length 19 characters.
-GPS Town Names: The length of each hardcoded in MenuReader.java (to be improved).
-
 Screen | File
 --- | --- 
 Raizeltown | [85B89.txt](treasure-conflix-gen/src/main/resources/translations/85B89.txt)
@@ -117,9 +165,48 @@ Rag's Workshop | [8987B.txt](treasure-conflix-gen/src/main/resources/translation
 Cloud Temple | [8A151.txt](treasure-conflix-gen/src/main/resources/translations/8A151.txt)
 Conqueror's Altar | [8A473.txt](treasure-conflix-gen/src/main/resources/translations/8A473.txt)
 
+Restrictions:
+Menu : Max length 43 characters (no margin).<br/>
+Equipment names : Max length 19 characters.<br/>
+GPS Town Names: The length of each hardcoded in MenuReader.java (to be improved).<br/>
+Dialog: 35 chars (18 double chars)<br/>
+Location: Max length: 17 chars<br/>
+
+Special Code | Bytes | Display in English
+--- | --- | ---
+{7F} | [0x7F] | Switch mode to halfwidth/latin (ABCDEF...)
+{02} | [0x02] | Switch mode to hiragana/kanji/latin wide (ＡＢＣＤＥＦ…)
+{03} | [0x03] | Switch mode to katakana/kanji
+{00} | [0x00] | Space
+{NL} | [0x2F] | Line break
+{NL2} | [0x2F] | Line break
+{NL4} | [0x04] | Line break
+{TAB} | [0x2A] | Tabulation
+{SP} | [0x81, 0x40] | Wide space
+{7B} | [0x7B] | Pause during dialog timed on the following byte (e.g. {7B}{20}, {7B}{30})
+{EL} | [0x7C] | End of line
+{WP} | [0x05] | Waiting for player input during dialog
+{*} | [0x02,0x85,0x49,0x7F] | * (Necessary cause the halfwidth alphabet has no *)
+{→} | [0x81, 0xA8] | → Right arrow
+{←} | [0x81, 0xA9] | ← Left arrow
+{↑} | [0x81, 0xAA] | ↑ Up arrow
+{↓} | [0x81, 0xAB] | ↓ Down arrow
+{20} | [0x20] | Space
+
+Any other hexadecimal value in {} will be written as a byte of the same value.
+
+## Missing translations / Bugs
+
+Text | Files | Comment
+--- | --- | ---
+「前に一度、教えたのにまた聞きたいの<br/>か? 金は取らないが……」<br/>    ＹＥＳ     ＮＯ | 87CAE<br/>871DF<br/>8666D<br/>85131<br/>88507 | This line is present in the 5 offices data.<br/>No pointer found for any of them.
+そうか、情報が欲しくなったら<br/> 金をためて、またここに来な | data: 85131<br/>pointers: 80100 | Possible global pointer 7188 (A9 DE 03)
+ラウド「ヴォイス! わかったぞ!  古代民の隠れ里はフォートファトラス<br/> の西のジャングルの中だ!<br/><br/> ……何、知ってた? | data: 85131<br/>pointers: 80100 | Two pointers (99 08) in 316 and 325
+制御不能! | data: 8C421<br/>pointers: 828DB | No pointer found.
 
 # Unused data
 
+### Character
 When you're idle on the title screen, you get a demo reel presenting all the characters.<br/>
 In the data, there is an extra character called Bayu, absent from the game:
 
@@ -132,8 +219,22 @@ Japanese | English
 
 Offset: 78EF-7946
 
+### Combat messages
+In the game, there are 5 battles, referred to as "stages".<br/>
+They are fights against various enemies in a mode-7 view.<br/>
+In the game code, there are several messages displayed at the beginning of each stage but the japanese version only shows the first one.<br/>
+I don't know if it's a bug introduced in the emulated version or original.<br/>
+The missing messages are meant to show the stage number, the time limit and the objective.<br/>
+
+Japanese | English
+--- | ---
+![01](screenshots\combat\japanese\01.png) | ![01](screenshots\combat\english\01.png)<br/>![02](screenshots\combat\english\02.png)<br/>![03](screenshots\combat\english\03.png)<br/>![04](screenshots\combat\english\04.png)
+
+
 # Memory Mapping
 
+Not exhaustive.<br/>
+I only needed that to break down the game data.<br/>
 
 Offset | Content | Comment
 --- | --- | ---
