@@ -1,0 +1,36 @@
+01 | 不老不死の仙薬		| B2 | Elixir of Life | Map in Landos Base
+02 | 神文玉爾			| B2 | Imperial Seal | Map in Raizeltown
+03 | ドラゴンシールド	| B2 | Dragon Shield | Map in Kazusa Base
+04 | 大地神の鎧			| B2 | Dojin Armor | Map in Peppermint
+05 | サファイアの冠		| B3 | Sapphire Crown | Map in Landos Base
+06 | 呪縛の魔鏡			| B2 | Cursed Mirror | Map in Fort Fatras | 
+07 | 太陽の指輪			| B2 | Sun Ring | Map in Peppermint
+08 | 金の聖杯			| B3 | Golden Chalice | Map in Peppermint
+09 | 女神の像			| B2 | Goddess Statue | Nasca in the Cloud Temple | "Sacred inland sea, look at the{NL4}surface from the southeast,{NL4}it looks like a face in profile.{01}Hide despair in the eyes{NL4}and hope behind the nose..."
+10 | 金塊				| B2 | Gold Bars | Clue from Keane in Peppermint | There's a mountain range outside{NL4}of Landos Base.{01}Gold is hidden in one of the{NL4}valleys.{EL}
+11 | Ａ゛キャッツアイ	| B2 | Cat's Eye | Kazusa Office | I found this memo left by my{NL4}predecessor that probably indicates{NL4}where the jewels are hidden.{01}"The Doom Triangle...{NL4}the magical sea that swallowed up{NL4}many lives...{01}A wandering soul has lost its way{NL4}in a large secluded forest{NL4}and continues to drift.{01}In the depths of the forest,{NL4}where no one approaches,{NL4}lies a shining cat's eye."{01}My predecessor was sentimental.{EL}
+12 | 白金の飾り灯篭		| B2 | Platinum Lantern | Fish in Fort Fatras | "A platinum lantern is buried{NL4}in one of its four legs."
+13 | 邪神の彫像			| B2 | Evil God Statue | Nasca in the Cloud Temple | "Sacred inland sea, look at the{NL4}surface from the southeast,{NL4}it looks like a face in profile.{01}Hide despair in the eyes{NL4}and hope behind the nose..."
+14 | アメジストの腕輪	| B2 | Amethyst Bracelet | Kazusa Base Office | "The bracelet is torn in the{NL4}valley of the mountains."
+15 | ルビーの指輪		| B2 | Ruby Ring | Clue from Silva in Peppermint | The ruby ring is a gift{NL4}to the parents island, not the{NL4}grandparents or grandchildren."
+16 | エメラルドの指輪	| B2 | Emerald Ring | Fort Fatras Office | "Where the trees cross,{NL4}the emerald shines."
+17 | 月光に光る石		| B2 | Moonlight Stone | Landos Base Office | "On a barren island, stones shine{NL4}in the moonlight."
+18 | 銀の祭器			| B1 | Silver Vessel | Informant: Kazusa Base - Office Clerk | "There is a large mountain{NL4}northwest of Kazusa Base.{01}In a clearing in the nearby woods,{NL4}an ancient festival was held.{01}The silver ceremonial vessel that{NL4}was used is still lost in that{NL4}forest."{EL}
+19 | 天使の弓矢			| B2 | Angel's Bow | Fort Fatras Office | "An angel shoots an arrow at the{NL4}spring that heals the burning{NL4}pain of the throat.{01}The traveler falls asleep{NL4}in the tree shade.”
+20 | 魅惑の指輪			| B2 | Enchanted Ring | Kazusa Base | "On the road to sneak up on the{NL4}angry sea god, the ring shines{NL4}on a cape."
+21 | 銀の燭台			| B2 | Silver Candelabra | Informant: Raizeltown - Office Clerk | An old man, who had lived in this{NL4}town for a long time,{NL4}recently died.{01}In his will, he told his son where{NL4}the treasure was.{01}But the son, being a serious man{NL4}tired of the nonchalance here,{NL4}moved to another planet.{01}Before he left, I managed to get{NL4}the will.{NL4}Here it is:{01}“When the sea haze clears,{NL4}stand at the tip of the cape{NL4}and look in the distance,{01}there is a large island nearby{NL4}and a small island beyond.{01}Straight ahead is another island{NL4}where I hid the treasure."{01}
+22 | 古代宗教経典		| B2 | Ancient Scriptures | Informant: Fort Fatras - Office Clerk | "...that was lost in the northern{NL4}canyon."{NL4}That's all the document says.{EL}
+23 | 三つ目人のどくろ	| B2 | Three-Eyed Skull | Peppermint | These words were written in some{NL4}ruins:{01}"Three-Eyed Skulls on Triplets{NL4}Island."{NL4}Find the island of the triplets.{EL}
+24 | 金の髪飾り			| B2 | Golden Barrette | Informant: Raizeltown - Office Clerk | The [Golden Barrette] is located at the base of the twisted arm." That's all I know.
+25 | 真珠の首飾り		| B1 | Pearl Necklace | Informant: Peppermint Junktown - Office Clerk | 
+26 | 正史戦記			| B1 | War Chronicle | Informant: Landos Base - Office Clerk
+27 | 黒珊瑚の首飾り		| B1 | Black Coral Hairpin | Informant: Raizeltown - Office Clerk | There's a forest on the east coast. The [Black Coral Hairpin] is hidden somewhere there.
+28 | 古代の通貨			| B2 | Ancient Coin | Landos Base - Free | It says: "In a forest, between twin{NL4}mountains surrounded by green..."{NL4}What does it mean?{EL}
+29 | 古代王朝の宝冠		| B2 | Royal Crown | Underwater in the Doom Triangle
+30 | 白鳳のつるぎ		| B2 | Divine Sword | Underwater in the Doom Triangle
+31 | ダイヤの指輪		| B2 | Diamond Ring | Underwater in the Doom Triangle
+32 | 金の腕輪			| B2 | Gold Bracelet | Underwater in the Doom Triangle
+
+
+Legendary treasures
+雲の扉				|    | Cloud Gate

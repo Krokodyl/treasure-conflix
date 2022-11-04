@@ -1,0 +1,85 @@
+Center the Location names
+Translations:
+- rooms
+- intro
+- save screen
+- load screen
+
+Check save file when no space available
+
+Check what "send message" in the manual means.
+
+Check the demo texts
+
+BUGS
+- The word "File 4" changes after saving.
+- Last Manual Town needs margins
+- Description broken:
+	Elixir of Life
+	Dojin Armor
+DATA=85131;00B2D
+	03
+	02
+
+Rewrite:
+- The line about Loud ship taken down 
+- Change Host name
+
+
+
+
+The treasure Black Coral Hairpin (黒珊瑚の髪飾り) is refered to as Black Coral Necklace(黒珊瑚の首飾り) at the end of the auction.
+髪飾り = Hair Ornament
+首飾り = Necklace (although 首 can mean Head )
+
+
+FIX FOR THE TEXT OVERWRITE
+x84905	decompressed to		7FD900		(Equipment List + modding menu)
+x84100	decompressed to		7FE400		(Treasure list + some auction texts)	
+
+e400-d900 = b00
+84905 decompressed is C43 (x143 too big = 323 chars)
+7FE401
+$C1/2328 A9 01 E4    LDA #$E401              A:00C8 X:0000 Y:0005 P:envmxdIzc
+$C1/232B 8D 34 1C    STA $1C34  [$00:1C34]   A:E401 X:0000 Y:0005 P:eNvmxdIzc
+
+$C1/49EA 69 00 E4    ADC #$E400              A:0001 X:0000 Y:0000 P:envmxdizc
+$C1/49ED 8D 3A 1C    STA $1C3A  [$00:1C3A]   A:E401 X:0000 Y:0000 P:eNvmxdizc
+
+CHECK WHERE THIS IS DECOMP
+File 84100.data		00343		7FE400		
+File 84905.data		001A3
+File 85131.data		00598		7F0000
+File 85B89.data		002B2		7F0000
+File 860A5.data		0029D		7F0000
+File 8666D.data		00360
+File 86BA2.data		00389
+File 871DF.data		00449
+File 87876.data		00233
+File 87CAE.data		0028F
+File 8809C.data		0026B
+File 88507.data		003AF
+File 88AE2.data		00395
+File 890E7.data		0015C
+File 8934B.data		00201
+File 8987B.data		00084
+File 89A1A.data		00363
+File 8A151.data		001B8
+File 8A473.data		000B3
+File 8A5AB.data		00529		7F0000
+File 8AD80.data		0000E
+File 8ADA7.data		00017
+File 8ADE5.data		0000D
+File 8AE04.data		0000D
+File 8AE2B.data		00F81
+File 8C421.data		000A9
+
+
+Okay		5			5
+Hey			5			5
+Armor		6			6
+40*3					120
+23						23
+[]			31*2		62
+
+TOTAL					221

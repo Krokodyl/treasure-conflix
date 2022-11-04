@@ -1,0 +1,45 @@
+ＣＯＮＣＥＰＴ ＤＥＳＩＧＮ{NL2}岡庭 真一郎{NL2}{00}ＳＴＯＲＹ{NL2}江藤 桂大{NL2}{00}ＭＡＩＮ ＰＲＯＧＲＡＭ{NL2}杉本 浩二{NL2}{00}ＭＡＩＮ ＧＲＡＰＨＩＣＳ{NL2}本根 康之{NL2}{00}ＭＵＳＩＣ ＣＯＭＰＯＳＥ{NL2}仲野 順也{NL2}{00}ＶＩＳＵＡＬ ＤＥＳＩＧＮ{NL2}直良 有祐{NL2}{00}ＥＮＥＭＹ ＳＥＱＵＥＮＣＥ{NL2}鈴木 敏章{NL2}{00}ＥＮＥＭＹ ＧＲＡＰＨＩＣＳ{NL2}浜坂 真一郎{NL2}{00}ＥＶＥＮＴ ＰＲＯＧＲＡＭ{NL2}遠藤 利男{NL2}{00}ＣＨＡＲＡＣＴＥＲ ＧＲＡＰＨＩＣＳ{NL2}林 真佐秋{NL2}{00}ＷＯＲＬＤＭＡＰ ＧＲＡＰＨＩＣ{NL2}春木 あかね{NL2}{00}ＰＡＲＡＭＥＴＥＲ ＭＡＫＩＮＧ{NL2}岡崎 礼貴{NL2}{00}ＡＵＣＴＩＯＮ ＰＲＯＧＲＡＭ{NL2}松本 岳美{NL2}{00}ＳＯＵＮＤ ＥＦＦＥＣＴ{NL2}中村 栄治{NL2}{NL2}ＳＯＵＮＤ ＰＲＯＧＲＡＭ{NL2}赤尾 実{NL2}{00}ＰＵＢＬＩＣＩＴＹ{NL2}山下 弘二{NL2}飯田 克信{NL2}{NL2}ＳＰＥＣＩＡＬ ＴＨＡＮＫＳ{NL2}花田 憲昌{NL2}佐々木 洋勝{NL2}{00}
+
+Concept Design{NL2}岡庭 真一郎{NL2}{00}
+Story{NL2}江藤 桂大{NL2}{00}
+Main Program{NL2}杉本 浩二{NL2}{00}
+Main Graphics{NL2}本根 康之{NL2}{00}
+Music Composer{NL2}仲野 順也{NL2}{00}
+Visual Design{NL2}直良 有祐{NL2}{00}
+Enemy Sequence{NL2}鈴木 敏章{NL2}{00}
+Enemy Graphics{NL2}浜坂 真一郎{NL2}{00}
+Event Program{NL2}遠藤 利男{NL2}{00}
+Character Graphics{NL2}林 真佐秋{NL2}{00}
+Worldmap Graphics{NL2}春木 あかね{NL2}{00}
+Parameters{NL2}岡崎 礼貴{NL2}{00}
+Auction Program{NL2}松本 岳美{NL2}{00}
+Sound Effect{NL2}中村 栄治{NL2}{00}
+Sound Program{NL2}赤尾 実{NL2}{00}
+Publicity{NL2}山下 弘二{NL2}飯田 克信{NL2}{00}
+Special Thanks{NL2}花田 憲昌{NL2}佐々木 洋勝{NL2}{00}
+
+x914D
++8
+...
+x91C5
+
+Concept Design{NL2}Shinichiro Okaniwa{NL2}{00}
+Story{NL2}Keidai Eto{NL2}{00}
+Main Program{NL2}Koji Sugimoto{NL2}{00}
+Main Graphics{NL2}Yasuyuki Motone{NL2}{00}
+Music Composer{NL2}Junya Nakano{NL2}{00}
+Visual Design{NL2}Yusuke Naora{NL2}{00}
+Enemy Sequence{NL2}Toshiaki Suzuki{NL2}{00}
+Enemy Graphics{NL2}Shinichiro Hamasaka{NL2}{00}
+Event Program{NL2}Toshio Endo{NL2}{00}
+Character Graphics{NL2}Masaaki Hayashi{NL2}{00}
+Worldmap Graphics{NL2}Akane Haruki{NL2}{00}
+Parameters{NL2}Hiroyoshi Okazaki{NL2}{00}
+Auction Program{NL2}Takemi Matsumoto{NL2}{00}
+Sound Effect{NL2}Eiji Nakamura{NL2}{00}
+Sound Program{NL2}Minoru Akao{NL2}{00}
+Publicity{NL2}Koji Yamashita{NL2}Katsunobu Iida{NL2}{00}
+Special Thanks{NL2}Norimasa Hanada{NL2}Hirokatsu Sasaki{NL2}{00}
+
+
+Parameters		岡崎 礼貴		Hiroyoshi Okazaki

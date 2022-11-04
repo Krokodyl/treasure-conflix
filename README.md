@@ -9,8 +9,10 @@ Most of the focus is on talking with NPCs and solving riddles trying to find the
 # English patch
 
 ### BPS Patch beta
-BPS patch (beta): [patch](patch)
-Soon available on romhacking.net
+
+November 2022: Work in progress<br/>
+BPS patch (beta): [Download here](patch)<br/>
+Soon available on romhacking.net<br/>
 
 ### Target ROM
 It applies to the following ROM :<br/>
@@ -98,6 +100,23 @@ Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 <img src="/screenshots/treasure-maps/minimap.png" alt="map" width="50%"/><br/>
 <img src="/screenshots/treasure-maps/gps-01.png" alt="map" width="50%"/>
 <img src="/screenshots/treasure-maps/gps-02.png" alt="map" width="50%"/>
+
+# Auction
+
+Japanese | Name | Description
+--- | ---  | ---
+ケイヤー | Kayer  | Male, 58<br/>A strong-willed old man.<br/>His flashy gown shows his wealth.<br/>He is a wealthy merchant who made a huge fortune in his lifetime, but is now (formally) retired, leaving his children to take over his business.<br/>He now spends his savings on collecting treasures, which is his main purpose in life.<br/>One of his hobbies is to raise his voice at auctions.<br/>He is one of the richest auctioneers in Japan.<br/>His taste is rather normal.<br/>
+セフマン | Sefman  | Male, 67<br/>He is an old man who seems to have lost his energy.<br/>He wears expensive-looking but plain-colored clothes.<br/>He is a collector who loves money.<br/>A landowner of a vast farmland.<br/>He shows an unusual obsession with gold treasures and has no interest in anything else.<br/>However, he is a bit fragile.<br/>Even during the auction, he lacks vision in his actions and is very careless.<br/>
+ロゼルグ | Rozergue | Male, 33<br/>Blonde hair and dressed like a gentleman.<br/>He comes from an aristocratic family and is rich by birth.<br/>He is very sarcastic and does not mind making fun of others.<br/>He is fond of saying, "Oh, well..." and " Huh...".<br/>He has about the same level of wealth as anyone else.<br/>His hobbies are also normal, but he seems to be attracted to weird things.<br/>
+オライオス | Orios | Male, 46<br/>He has black hair and a black beard and is dressed like a gentleman.<br/>He is a descendant of a prominent samurai family.<br/>He is polite, firm, and has a refreshing personality.<br/>He has a hobby of collecting antiques, and is particularly interested in objects of historical value.<br/>He does not have much money.<br/>
+ビアンヌ | Viane | Female, 26<br/>She is dressed in a gaudy colored dress.<br/>She is the concubine of a wealthy merchant. She is high-minded and self-centered.<br/>She does not care about others.<br/>She loves jewelry.<br/>She is quick to burst into laughter.<br/>Although her financial resources are supposed to be lower than those of other auctioneers, she always pushes herself too hard and plays hardball.<br/>
+ジェシュア | Jeshua | Female, 37<br/>She wears a normal colored dress.<br/>She is from the inner palace of a famous family and has a modest personality.<br/>She is modest and is not rude to others.<br/>She is interested in objects of mysterious value.<br/>In fact, she is a dreamer and a bit dangerous.<br/>She is casually wealthy.<br/>
+ボーンズ | Bones | Male, 48<br/>He is also an event character (a very important character).<br/>He wears a unique robe.<br/>He is very interested in objects of historical value and has little interest in anything else.<br/>He is a bit indecisive despite his wealth.<br/>
+バビール | Babil | Male, age unknown<br/>Wears extremely suspicious colored robes.<br/>Mysterious person of unknown address, occupation, age, and identity.<br/>He appears infrequently.<br/>When you think he was silent, he suddenly raises the amount of money overwhelmingly and leaves with the treasure in his hand, leaving the people around him dumbfounded.<br/>
+
+The description of the auctioneers was revealed in a BS broadcast of ゲーム虎の大穴スペシャル in Feb 1996.<br/>
+Source: [https://ameblo.jp/satebo/entry-12735967487.html](https://ameblo.jp/satebo/entry-12735967487.html)
+
 
 # Credits
 

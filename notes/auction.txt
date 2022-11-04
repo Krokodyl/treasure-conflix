@@ -1,0 +1,58 @@
+*hmph*		Laughs at someone
+
+
+############# AUCTION LINES ###################
+27 TOTAL
+
+		Babil		Bones
+
+1		Raise		Raise
+2		Raise		Raise
+3		Raise		Raise
+4		Raise		Raise
+5		Raise		Raise
+6		Raise		Raise
+7		Silence
+8		Silence
+9		Silence
+10		Silence		Insult
+11		Silence		Comeback
+12		Silence		Pass
+13		Silence
+14		Silence
+15		Silence
+16		Silence		Sefman:Gold
+17		Silence
+18		Silence
+19		Silence
+20		Silence
+21		Silence
+22		Silence		Unhappy
+23		Raise		Raise
+24		Raise		Raise
+25		Raise		Raise
+26		Raise		Raise
+27		Raise		Babil Reaction
+
+6 Calls
+16 silence
+5 calls
+
+6 Calls
+1 Pass
+1 Question (annoyed?)
+1 Provocation
+2 Come-backs
+1 Give up
+1 Tough call
+1 I will pay
+1 No need (Losing bid?)
+1 Need (Winning bid?)
+1 Winning line
+1 Thanks
+1 Unexpected win
+1 Eager to win
+1 Questions the odd of winning
+1 Second guessing
+4 Calls
+1 Suprised by new bidder
