@@ -10,6 +10,7 @@ Most of the focus is on talking with NPCs and solving riddles trying to find the
 
 ### BPS Patch beta
 BPS patch (beta): [patch](patch)
+Soon available on romhacking.net
 
 ### Target ROM
 It applies to the following ROM :<br/>
@@ -228,7 +229,7 @@ The missing messages are meant to show the stage number, the time limit and the 
 
 Japanese | English
 --- | ---
-![01](screenshots\combat\japanese\01.png) | ![01](screenshots\combat\english\01.png)<br/>![02](screenshots\combat\english\02.png)<br/>![03](screenshots\combat\english\03.png)<br/>![04](screenshots\combat\english\04.png)
+![01](screenshots/combat/japanese/01.png) | ![01](screenshots/combat/english/01.png)<br/>![02](screenshots/combat/english/02.png)<br/>![03](screenshots/combat/english/03.png)<br/>![04](screenshots/combat/english/04.png)
 
 
 # Memory Mapping
