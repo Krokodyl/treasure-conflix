@@ -104,6 +104,7 @@ JPN=メルク「あ゜っ、残念!{NL4}{00}悪いけど割引の話は無しね
 ENG=Melk: Ah, too bad!{NL4}I can't give you a discount.{NL4}Enjoy the ride though.{01}Come and I'll remodel it into{NL4}an even stronger airship.{EL}
 
 POINTER=8066B;9B;0068E
+POINTER=8066B;AE;0068E
 DATA=860A5;0068D;B1 DA CC A2 DD 81 60 05 00 02 C5 DD C3 D5 B3 B6 C5 40 40 05 00 03 B3 DD A4 02 B2 BF 06 BC B2 DD 10 C5 A3 7C 
 JPN=アレフ「ン〜{WP}{00}なんてゆうかな……{WP}{00}ウン、いそがしいんだな」{EL}
 ENG=Aleph: Hmm...{WP}How should I put it...{WP}I'm busy.{EL}
