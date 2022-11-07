@@ -11,16 +11,26 @@ Most of the focus is on talking with NPCs and solving riddles trying to find the
 ### BPS Patch beta
 
 November 2022: Work in progress<br/>
-BPS patch (beta): [Download here](patch)<br/>
 Soon available on romhacking.net<br/>
 
-### Target ROM
-It applies to the following ROM :<br/>
-File: BS Treasure Conflix (Japan).sfc<br/>
-No-Intro: Super Nintendo Entertainment System (v. 20210222-050638)<br/>
+### Patch for ROM (CRC32 F50FB0B7)
+
+BPS patch (beta): [Download](patch/header)<br/>
+
+File SHA-1: D3E963B55F69D9855B7973775C3657FCCBB8ED88
+File CRC32: 5F374D96
+ROM SHA-1: DFF1D22D662FED96F45AC3E722C79C93469CA421
+ROM CRC32: F50FB0B7
+
+### Patch for ROM (CRC32 57A070E2)
+
+BPS patch (beta): [Download](patch/headerless)<br/>
+
 File/ROM SHA-1: EAECEB99FE7CAEDB01C2E137669CB05AEFB60944<br/>
 File/ROM CRC32: 57A070E2<br/>
 File size	1048576 ($100000)
+
+
 
 # Screenshots
 
