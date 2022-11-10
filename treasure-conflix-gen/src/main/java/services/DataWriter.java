@@ -8,6 +8,7 @@ import java.util.logging.Logger;
 public class DataWriter {
 
     public static void saveData(String romOutput, byte[] data) {
+        System.out.println("Saving data : "+romOutput);
         FileOutputStream stream = null;
         try {
             stream = new FileOutputStream(romOutput);
