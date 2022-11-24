@@ -77,8 +77,8 @@ Id | Icon | Japanese | Unlocked<br/>after | Name | Clue/Map location | Clue
 22 | ![02](screenshots/treasure-icons/22.png) | 古代宗教経典		| Stage 2 | Ancient Scriptures | Fort Fatras Office | "...that was lost in the northern canyon."
 23 | ![02](screenshots/treasure-icons/23.png) | 三つ目人のどくろ	| Stage 2 | Three-Eyed Skull | Peppermint | "Three-Eyed Skulls on Triplets Island."
 24 | ![02](screenshots/treasure-icons/24.png) | 金の髪飾り			| Stage 2 | Golden Barrette | Raizeltown Office | "The Golden Barrette is located at the base of the twisted arm."
-25 | ![02](screenshots/treasure-icons/25.png) | 真珠の首飾り		| Stage 1 | Pearl Necklace | Peppermint Office |
-26 | ![02](screenshots/treasure-icons/26.png) | 正史戦記			| Stage 1 | War Chronicle | Landos Base Office
+25 | ![02](screenshots/treasure-icons/25.png) | 真珠の首飾り		| Stage 1 | Pearl Necklace | Peppermint Office | "Seven pieces of the necklace fell and sank into the ocean. From seven, count down to four, there is hidden the pearly offspring."
+26 | ![02](screenshots/treasure-icons/26.png) | 正史戦記			| Stage 1 | War Chronicle | Landos Base Office | In the Grand Sierra Mountains, which stretch to the north of here, there is an enclosed valley known as the Hermit's Grove. The rumor says a valuable history book is hidden there.
 27 | ![02](screenshots/treasure-icons/27.png) | 黒珊瑚の首飾り		| Stage 1 | Black Coral Hairpin | Raizeltown Office | "There's a forest on the east coast. The Black Coral Hairpin is hidden somewhere there."
 28 | ![02](screenshots/treasure-icons/28.png) | 古代の通貨			| Stage 2 | Ancient Coin | Landos Base | "In a forest, between twin mountains surrounded by green..."
 29 | ![02](screenshots/treasure-icons/29.png) | 古代王朝の宝冠		| Stage 2 | Royal Crown | Underwater in the Doom Triangle
