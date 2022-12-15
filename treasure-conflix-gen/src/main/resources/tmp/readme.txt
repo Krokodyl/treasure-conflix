@@ -1,6 +1,6 @@
 ### Patch for ROM (CRC32 57A070E2)
 
-BPS patch (beta v2): [Download](BS Treasure Conflix (English) beta v2.zip)<br/>
+BPS patch (beta v2): BS Treasure Conflix (English) beta v2.zip<br/>
 
 File/ROM SHA-1: EAECEB99FE7CAEDB01C2E137669CB05AEFB60944<br/>
 File/ROM CRC32: 57A070E2<br/>
