@@ -201,7 +201,7 @@ ENG=Map to the [Golden Chalice]{NL4}Quite strange.{NL4}Press A to unfold it.{EL}
 POINTER=99999;142FC;00878;GLOBAL
 DATA=84100;00877;A2 7F 23 30 30 02 13 94 83 B2 8E E6 DB B3 A1 04 00 B2 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「{7F}{23}00で買い取ろう。{NL4}{00}いいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=I'll take it for {23}00.{NL4}Are you sure?{NL4}       YES            NO{EL}
+ENG=I'll take it for {23}00.{NL4}Are you sure?{NL4}{YES/NO}{EL}
 
 POINTER=99999;1430F;0089F;GLOBAL
 DATA=84100;0089E;A2 02 D6 AF BC AC A4 8E E6 88 F8 90 AC 97 A7 10 A3 7C 
@@ -211,12 +211,12 @@ ENG=Okay. Done deal.{EL}
 POINTER=99999;1434D;008B1;GLOBAL
 DATA=84100;008B0;A2 8D A1 93 FA 02 CA A4 94 84 D9 C9 A6 D4 D2 C3 B5 B8 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「今日は、売るのをやめておくかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Are you done selling treasures?{NL4}{NL4}       YES            NO{EL}
+ENG=Are you done selling treasures?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=99999;142E9;008D8;GLOBAL
 DATA=84100;008D7;A2 02 B3 B0 DD A4 BF DA CA B3 C1 13 CA 94 83 B2 8E E6 AF C3 D3 04 00 8E 64 95 FB 06 C5 B2 C5 A1 A3 7C 
 JPN=「う゜ん、それはうちでは買い取っても{NL4}{00}仕方がないな。」{EL}
-ENG=I can't help but buy it.{EL}
+ENG=I can't buy that.{EL}
 
 POINTER=99999;143FF;008FA;GLOBAL
 DATA=84100;008F9;19 B0 DD 0D A2 02 BF DD C5 D3 C9 C6 8B BB 96 A1 CA C5 B2 C8 A1 04 00 DC C0 BC 06 8B 81 D2 C3 B2 D9 C9 CA 88 E2 95 F3 89 BF 92 6C C9 8D 82 04 00 B2 95 F3 C5 DD 10 D6 A3 7C 
@@ -224,9 +224,10 @@ JPN=ボーンズ「そんなものに興味はないね。{NL4}{00}わたしが�
 ENG=Bones: I'm not interested{NL4}in that.{NL4}I'm looking for high value relics.{EL}
 
 POINTER=99999;14413;00933;GLOBAL
+POINTER=99999;143E1;00933;GLOBAL
 DATA=84100;00932;19 B0 DD 0D A2 91 BC 02 C6 DC C0 BC C9 8B 81 D2 C3 B2 D9 D6 B3 04 00 C5 95 A8 CA 8E 9D AF C3 C5 B2 C9 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=ボーンズ「他にわたしの求めているよう{NL4}{00}な物は持ってないのかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Bones: Do you have anything else{NL4}that I'm looking for?{NL4}       YES            NO{EL}
+ENG=Bones: Is it all you have to show{NL4}me?{NL4}{YES/NO}{EL}
 
 POINTER=99999;14433;00969;GLOBAL
 DATA=84100;00968;19 B0 DD 0D A2 8A 6D 02 B6 C6 88 E2 95 F3 C4 BC C3 C9 89 BF 92 6C CA B1 04 00 D9 06 A4 BA C9 B8 D7 B2 C9 95 A8 0C AC 89 42 DA 97 A2 C9 8F EE 04 00 95 F1 CA 8B B3 B4 D7 DA C5 B2 C8 A3 7C 
@@ -236,9 +237,10 @@ ENG=Bones: That's certainly a valuable{NL4}relic but not worth the location of{N
 POINTER=99999;14390;009A7;GLOBAL
 DATA=84100;009A6;19 B0 DD 0D A2 02 D6 BC A4 7F 23 30 30 02 13 94 83 B2 8E E6 DB B3 A1 04 00 B2 B2 B6 C8 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=ボーンズ「よし、{7F}{23}00で買い取ろう。{NL4}{00}いいかね?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Bones: I'll buy it for {23}00.{NL4}Is that okay?{NL4}       YES            NO{EL}
+ENG=Bones: I'll buy it for {23}00.{NL4}Is that okay?{NL4}{YES/NO}{EL}
 
 POINTER=99999;14476;009D6;GLOBAL
+POINTER=99999;143A3;009D6;GLOBAL
 DATA=84100;009D5;19 B0 DD 0D A2 02 D6 BC A4 8E E6 88 F8 90 AC 97 A7 10 A3 7C 
 JPN=ボーンズ「よし、取引成立だ」{EL}
 ENG=Bones: Okay, done deal.{EL}
@@ -246,12 +248,12 @@ ENG=Bones: Okay, done deal.{EL}
 POINTER=99999;144E8;009EA;GLOBAL
 DATA=84100;009E9;A2 02 BA C1 D7 A6 8F 6F 95 69 C5 BB B2 CF BD B6 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「こちらを出品なさいますか?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want to put it up for sale?{NL4}{NL4}       YES            NO{EL}
+ENG=Do you want to put it up for sale?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=99999;14519;00A0D;GLOBAL
 DATA=84100;00A0C;A2 8D A1 93 FA 02 CA 8F 6F 95 69 A6 8E E6 D8 D4 D2 CF BD B6 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「今日は出品を取りやめますか?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Are you done with the auction?{NL4}{NL4}       YES            NO{EL}
+ENG=Are you done with the auction?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=99999;14511;00A34;GLOBAL
 DATA=84100;00A33;A2 8A 6D 02 B6 C6 B3 B9 C0 CF DC D8 CF BC C0 A1 04 00 BF DA 13 CA 8F 80 94 F5 06 C4 C4 C9 B2 CF BD CF 13 04 00 8F AD 81 58 B5 91 D2 C1 B8 10 BB B2 40 40 7C 

@@ -21,7 +21,7 @@ ENG=Rag: The sky is nice, but so is{NL4}the ocean. It is also deep.{NL4}You'll f
 POINTER=8202D;14B;0017A
 DATA=8934B;00179;D7 08 A2 95 F3 02 A6 8C A9 C2 B9 C0 C5 D7 04 00 00 00 00 00 03 B5 DA 02 06 88 F8 B7 C4 AF C3 D4 D9 0F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=ラグ「宝を見つけたなら{NL4}{00}{00}{00}{00}{00}オレが引きとってやるぞ」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Rag: Do you have treasures to sell?{NL4}{NL4}       YES            NO{EL}
+ENG=Rag: Do you have treasures to sell?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=8202D;157;001AD
 DATA=8934B;001AC;D7 08 A2 95 F3 02 A6 D0 C2 B9 C0 D7 04 00 00 00 00 00 00 00 BA BA C6 8E 9D AF C3 97 88 B2 D6 A3 7C 

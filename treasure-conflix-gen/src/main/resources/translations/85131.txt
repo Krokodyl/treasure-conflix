@@ -21,7 +21,7 @@ ENG=Hey Voice!{7B}{30}{NL4}It's been a while since you've come{NL4}in the Hunter
 POINTER=80100;BA;00112
 DATA=85131;00111;00 02 C1 AF A4 8C 69 8B 43 C9 88 AB BF B3 C5 03 C2 D7 02 BC D4 06 AF C3 A1 7B 10 04 00 CF A4 91 44 06 96 B3 B2 DD 0C AC C5 40 40 7B 10 04 00 8F 43 97 9D C6 8F 6F BC C3 A4 D3 B3 A4 8F 5C 93 FA C6 C5 D9 B6 A1 7C 
 JPN={00}ちっ、景気の悪そうなツラしやがって。{7B}{10}{NL4}{00}ま、船が無いんじゃな……{7B}{10}{NL4}{00}修理に出して、もう、十日になるか。{EL}
-ENG=The economy is pretty bad.{7B}{10}{NL4}Well, you don't have a ship...{7B}{10}{NL4}{01}It's been 10 days since I've sent{NL4}in your ship for repairs.{EL}
+ENG=The economy is pretty bad.{7B}{10}{NL4}Even more so without a ship...{7B}{10}{NL4}{01}It's been 10 days since I've sent{NL4}in your ship for repairs.{EL}
 
 POINTER=80100;BF;00158
 DATA=85131;00157;00 02 D4 AF 1A D8 A4 03 C4 DA 0C AC B0 A5 CA DD C0 B0 02 CA 04 00 94 F2 8B F3 92 F8 C6 8F E6 AF C3 A4 8B F3 C6 8F E3 06 AF C3 C5 B2 C4 04 00 90 B6 8B 43 06 96 B3 B8 C5 AF C1 CF B3 D0 C0 B2 10 C5 A1 7B 10 7C 
@@ -31,7 +31,7 @@ ENG=After all, treasure hunters need to{NL4}fly their airship to keep their{NL4}
 POINTER=80100;C4;0019D
 DATA=85131;0019C;00 02 BC B6 C0 06 C5 B2 A4 7B 10 04 00 8C 69 8B 43 C9 97 C7 B8 C5 D9 98 62 A6 95 B7 B6 BE C3 D4 D9 B6 A1 7B 30 04 00 03 B5 CF B4 02 C9 94 F2 8B F3 92 F8 10 B9 14 C5 40 40 7C 
 JPN={00}しかたがない、{7B}{10}{NL4}{00}景気の良くなる話を聞かせてやるか。{7B}{30}{NL4}{00}オマエの飛空艇だけどな……{EL}
-ENG=The economy can only get better.{7B}{40}{NL4}About your ship...{EL}
+ENG=I have news that will help your{NL4}economic situation.{7B}{40}{NL4}It's about your ship...{EL}
 
 POINTER=80100;C9;001D7
 DATA=85131;001D6;00 40 40 8E 64 8F E3 02 06 AF C3 D9 D0 C0 B2 10 0F A1 7B 10 04 00 03 CA AF CA AF CA 21 00 CA DD 06 B0 02 C6 8D 73 AF C3 D0 C5 A1 04 00 03 D2 D9 B8 02 06 91 D2 AF C3 D9 CA 0D 10 A3 7C 
@@ -88,7 +88,7 @@ POINTER=80100;1DE;00360
 POINTER=80100;21A;00360
 DATA=85131;0035F;A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「憶えたかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Did you take notes?{NL4}{NL4}       YES            NO{EL}
+ENG=Did you take notes?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80100;;0037B
 DATA=85131;0037A;A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
@@ -108,37 +108,37 @@ ENG=
 POINTER=80100;1F4;00404
 DATA=85131;00403;A2 81 79 8D 95 8E 58 8C E8 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【黒珊瑚の髪飾り】の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about the{NL4}[Black Coral Hairpin]?{NL4}       YES            NO{EL}
+ENG=Do you want intel about the{NL4}[Black Coral Hairpin]?{NL4}{YES/NO}{EL}
 
 POINTER=80100;1B8;0043B
 DATA=85131;0043A;A2 81 79 8B E0 02 C9 94 AF 8F FC D8 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【金の髪飾り】の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about the{NL4}[Golden Barrette]?{NL4}       YES            NO{EL}
+ENG=Do you want intel about the{NL4}[Golden Barrette]?{NL4}{YES/NO}{EL}
 
 POINTER=80100;17C;0046E
 DATA=85131;0046D;A2 81 79 8B E2 02 C9 90 43 91 E4 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【銀の燭台】の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about the{NL4}[Silver Candelabra]?{NL4}       YES            NO{EL}
+ENG=Do you want intel about the{NL4}[Silver Candelabra]?{NL4}{YES/NO}{EL}
 
 POINTER=80100;1FF;004A0
 DATA=85131;0049F;A2 92 6C 92 69 7F 35 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「値段{7F}500だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=The price is 500. Is that okay?{NL4}{NL4}       YES            NO{EL}
+ENG=The price is 500. Is that okay?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80100;1C3;004C4
 DATA=85131;004C3;A2 92 6C 92 69 7F 31 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「値段{7F}100だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=The price is 100. Is that okay?{NL4}{NL4}       YES            NO{EL}
+ENG=The price is 100. Is that okay?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80100;187;004E8
 DATA=85131;004E7;A2 92 6C 92 69 7F 31 30 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「値段{7F}1000だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=The price is 1000. Is that okay?{NL4}{NL4}       YES            NO{EL}
+ENG=The price is 1000. Is that okay?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80100;14F;0050D
 DATA=85131;0050C;A2 81 79 90 5F 95 B6 8B CA 8E A2 81 7A 02 C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 32 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【神文玉爾】の地図があるぞ。{NL4}{00}値段{7F}2000でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=A map to the [Imperial Seal].{NL4}Price: 2000. Do you take it?{NL4}       YES            NO{EL}
+ENG=A map to the [Imperial Seal].{NL4}Price: 2000. Do you take it?{NL4}{YES/NO}{EL}
 
 POINTER=80100;215;00548
 DATA=85131;00547;A2 8A 43 8A DD 90 FC 02 A6 93 8C C6 8D 73 AF C0 8F 8A C6 91 E5 B7 C5 90 58 06 B1 04 00 D9 10 DB 3F 00 81 79 8D 95 8E 58 8C E8 C9 94 AF 8F FC D8 81 7A 06 B1 C9 04 00 90 58 C9 14 BA B6 C6 89 42 BB DA C3 B2 D9 D7 BC B2 0F A3 7C 
@@ -221,6 +221,7 @@ JPN=ラウド「フウ……今度は海か?{NL4}{00}しかもドゥームトラ
 ENG=Loud: In the sea?{NL4}And the Doom Triangle?{WP}Of all places...{EL}
 
 POINTER=80100;380;00B2E
+POINTER=80100;39B;00B2E
 DATA=85131;00B2D;00 40 40 02 BF B3 10 A4 7B 20 03 D7 08 91 44 92 B7 02 10 21 00 03 D7 08 91 44 92 B7 04 00 02 C9 03 BB D9 18 B0 0C 91 44 02 06 03 14 A9 B0 D1 C4 D7 B2 B1 DD 04 00 08 D9 02 13 88 F8 B7 8F E3 09 A6 8E 6E D2 D9 AF C3 B2 B3 89 5C 10 A1 01 00 94 DE C6 8B A6 97 CD BC C3 D3 D7 B4 15 B2 B2 A1 90 CC A4 90 A2 98 62 04 00 C6 C5 AF C0 8E 96 06 B1 D9 06 A4 94 DE CA B2 B2 92 6A 10 B6 04 00 D7 A4 95 4B 0D 97 CD C6 C5 AF C3 B8 DA D9 CA 0D 10 A1 7C 
 JPN={00}……そうだ、{7B}{20}ラグ船長だ!{00}ラグ船長{NL4}{00}のサルベージ船がドゥームトライアン{NL4}{00}グルで引き上げを始めるっていう噂だ。{01}{00}彼に協力してもらえばいい。昔、世話{NL4}{00}になった事があるが、彼はいい男だか{NL4}{00}ら、必ず力になってくれるはずだ。{EL}
 ENG=...That's right, Captain Rag!{NL4}He has a salvage ship.{01}I heard he's started operating{NL4}in the Doom Triangle.{01}He's a great guy.{NL4}A long time ago, he would always{NL4}get me out of trouble.{01}I'm sure he'll help you out.{EL}

@@ -26,7 +26,7 @@ ENG=Toto: I've made new equipment.{NL4}A radar that detects enemy bullets{NL4}an
 POINTER=818E7;9B;00161
 DATA=890E7;00160;00 02 14 C1 D7 B6 88 EA C2 A6 91 95 94 F5 BB BE C3 B1 09 D9 D6 A1 04 00 8D A1 A4 91 95 94 F5 BD D9 B6 B2 3F 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}どちらか一つを装備させてあげるよ。{NL4}{00}今、装備するかい?{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want one of the two?{NL4}{NL4}       YES            NO{EL}
+ENG=Do you want one of the two?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=818E7;BF;00195
 DATA=890E7;00194;00 DA B0 10 B0 02 C6 BD D9 B6 B2 3F 04 00 92 65 C6 BD D9 B6 B2 3F A3 04 00 00 00 00 03 DA B0 10 B0 00 00 00 00 92 65 7C 
@@ -46,7 +46,7 @@ ENG=Toto: How do you like it?{NL4}Combat should be easier.{EL}
 POINTER=818E7;AB;0020B
 DATA=890E7;0020A;C4 B0 C4 A2 91 95 94 F5 02 BD D9 8B 43 C6 C5 AF C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=トート「装備する気になったかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Toto: Interested in new equipment?{NL4}{NL4}       YES            NO{EL}
+ENG=Toto: Interested in new equipment?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=818E7;CA;00231
 POINTER=818E7;E0;00231

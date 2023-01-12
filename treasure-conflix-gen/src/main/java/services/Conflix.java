@@ -24,8 +24,12 @@ public class Conflix {
     
     static byte[] data;
 
-    private final static String INPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (Japan).sfc";
-    private final static String OUTPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (English).sfc";
+    
+    private final static String INPUT_ROM = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (Japan) - SNES - extended.sfc";
+    private final static String OUTPUT_ROM = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - SNES - extended.sfc";
+    
+    //private final static String INPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (Japan).sfc";
+    //private final static String OUTPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (English).sfc";
     
     static Map<Integer, Integer> dataFilePointerFileMap = new HashMap<>();
     
@@ -170,7 +174,12 @@ public class Conflix {
 
         System.out.println("Jpn Translation Count: "+translationCount);
         System.out.println("Eng Translation Count: "+translationEngCount);
-
+        
+        LzDecompressor lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("A0018"));
+        lzDecompressor = new LzDecompressor();
+        lzDecompressor.decompressData(data, x("B0616"));
+        
         //DataWriter.saveData("D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (English) - SNES - extended.sfc", data);
         DataWriter.saveData(OUTPUT_ROM, data);
     }

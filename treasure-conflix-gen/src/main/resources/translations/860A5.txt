@@ -31,7 +31,7 @@ ENG=Melk: Voice!{NL4}I've been waiting for you!{EL}
 POINTER=8066B;14A;001E6
 DATA=860A5;001E5;00 94 F2 8B F3 92 F8 02 C9 89 FC 91 A2 C6 97 88 C0 C9 C8 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}飛空艇の改造に来たのね?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Are you here to mod your airship?{NL4}{NL4}       YES            NO{EL}
+ENG=Are you here to mod your airship?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=8066B;171;0020C
 DATA=860A5;0020B;00 02 BF B3 A1 B5 8B E0 06 C0 CF AF C0 D7 04 00 CF C0 97 88 C3 C8 21 7C 
@@ -76,12 +76,12 @@ ENG=Whew, that was a tough job!{NL4}You've spent a lot of money today.{01}It was
 POINTER=8066B;185;00469
 DATA=860A5;00468;00 02 14 B3 3F 00 03 C1 AC DA DD 0C 02 BC C3 D0 C5 B2 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}どう?{00}チャレンジしてみない?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want to try it?{NL4}{NL4}       YES            NO{EL}
+ENG=Do you want to try it?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=8066B;18B;0048D
 DATA=860A5;0048C;00 02 BF B3 BA C5 B8 AF C1 AC 21 04 00 8F 6F BC C0 93 BE 93 5F C9 95 AA BB AF B7 C9 89 FC 91 A2 C9 04 00 92 6C 92 69 A6 8A 84 D8 88 F8 B2 C3 B1 09 D9 D6 21 01 00 0C AC B1 BA C9 03 BA DD C4 DB B0 D7 B0 02 A6 88 AC AF C3 21 04 00 8F 80 94 F5 CA B2 B2 3F 01 00 03 D9 B0 D9 02 CA 8A C8 92 50 A4 89 A9 90 46 C9 03 C0 B0 09 AF C4 02 A6 04 00 8F 87 94 D4 C6 8E E6 AF C3 B2 B8 10 B9 D6 A1 04 00 06 DD 15 AF C3 8D 82 B2 03 C0 B2 D1 02 A6 92 40 B7 8F 6F BC C3 C8 A1 01 00 BF DA 13 CA A2 03 15 B0 C1 AC D9 06 B0 D9 A3 A4 04 00 00 00 00 7B 20 09 B0 D1 04 00 00 00 00 00 00 00 00 7B 20 BD C0 B0 C4 21 21 A3 7C 
 JPN={00}そうこなくっちゃ!{NL4}{00}出した得点の分さっきの改造の{NL4}{00}値段を割り引いてあげるよ!{01}{00}じゃあこのコントローラーを握って!{NL4}{00}準備はいい?{01}{00}ルールは簡単、黄色のターゲットを{NL4}{00}順番に取っていくだけよ。{NL4}{00}がんばって高いタイムを叩き出してね。{01}{00}それでは「バーチャルガール」、{NL4}{00}{00}{00}{00}{7B}{20}ゲーム{NL4}{00}{00}{00}{00}{00}{00}{00}{00}{7B}{20}スタート!!」{EL}
-ENG=That's the spirit!{NL4}I'll give you a discount on your{NL4}previous bill based on your score!{01}Grab this controller!{NL4}Are you ready?{01}The rule is simple: take the yellow{NL4}targets in order.{NL4}Do your best to hit a high time.{01}"Virtual Girl"{NL4}              ...Game...{NL4}			            ...Start!{EL}
+ENG=That's the spirit!{NL4}I'll give you a discount on your{NL4}previous bill based on your score!{01}Grab this controller!{NL4}Are you ready?{01}The rule is simple: take the yellow{NL4}targets in order.{NL4}Do your best to hit a high time.{01}[Virtual Girl]{WP}{NL4}              ...Game...{WP}{NL4}                     ...Start!{EL}
 
 POINTER=8066B;1A7;00554
 DATA=860A5;00553;00 02 C5 B1 DD 10 A4 C2 CF DD C5 B2 C9 A1 05 00 40 40 03 1F AB B2 BD 02 D3 96 5A BC B2 C9 C8 A1 7C 

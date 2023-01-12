@@ -129,7 +129,6 @@ public class ShiftJIS {
         
     }
 
-
     static String latin = " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^– abcdefghijklmnopqrstuvwxyz{|}_";
     static String latin7F = " !\"#$§&\'()§+,-.§0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^- abcdefghijklmnopqrstuvwxyz{§}_§";
 
@@ -162,6 +161,9 @@ public class ShiftJIS {
             "ーアイウエオカキクケコサシスセソ" +
             "タチツテトナニヌネノハヒフヘホマ" +
             "ミムメモヤユヨラリルレロワン";
+    
+    static String YES_NO_CODE_IN = "{YES/NO}";
+    static String YES_NO_CODE_OUT = "       {02}YES{7F}         {02}NO{7F}";
     
     public static byte[] convertJapaneseToBytes(String japanese) {
         return japanese.getBytes( Charset.forName("SHIFT-JIS"));
@@ -265,6 +267,7 @@ public class ShiftJIS {
     }
     
     public static byte[] convertEnglishToBytes(String english) {
+        english = english.replace(YES_NO_CODE_IN, YES_NO_CODE_OUT);
         byte[] result = new byte[0];
         boolean specialCode = false;
         String specialCodeValue = "";

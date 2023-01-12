@@ -1,3 +1,37 @@
+Buggy texts:
+-Ms Jeshua not Mr												ok
+
+Loud text about the defense system										https://youtu.be/Ym8KYxv9Grc?t=2440
+
+Melk texts bugs for the bonus stage 
+First Bones text												ok
+Loud text about Rag												ok		https://youtu.be/Ym8KYxv9Grc?t=5816
+Text when trying to sell a map (I can't help but buy it)		ok
+"The Altar of the Conquer"										ok
+
+Angel's Bow Auction
+
+opening bid 	2000
+Rozergue		2200
+Sefman			3200
+Viane			4200
+R				4400
+
+Golden Barrette
+2000
+Jeshua		2100
+Bones		2200
+Kayer		3200
+Jeshua		3400
+Kayer		3500
+Jeshua		3600
+K			4600
+J			4800
+K			5000
+
+
+
+
 Center the Location names
 Translations:
 - rooms
@@ -83,3 +117,15 @@ Armor		6			6
 []			31*2		62
 
 TOTAL					221
+
+
+
+walkthrough
+
+- Go to Landos Base
+- Stage 1
+- Land in Landos Base
+- Talk to Loud in Landos Base Office
+- Talk to Gilmore in Landos Base Lobby
+- Go to Raizeltown Office
+- Talk with Loud and Gilmore

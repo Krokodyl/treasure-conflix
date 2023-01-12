@@ -6,7 +6,7 @@ ENG=Hunters Office{EL}
 POINTER=80826;1CF;0000B
 DATA=8666D;0000A;D0 AD B0 C4 A2 02 C5 DD B6 A4 B3 CF B2 98 62 CA C5 B2 D3 C9 04 00 B6 C5 B1 3F 00 C0 10 13 95 F3 C9 92 6E 90 7D 06 8E E8 C6 93 FC D9 04 00 C4 B6 A4 8B F4 91 52 90 56 BC B2 88 E2 90 D5 A6 8C A9 C2 B9 D9 C4 B6 A3 7C 
 JPN=ミュート「なんか、うまい話はないもの{NL4}{00}かなあ?{00}ただで宝の地図が手に入る{NL4}{00}とか、偶然新しい遺跡を見つけるとか」{EL}
-ENG=Mute: Isn't it too good to be true?{NL4}You can get a treasure map for free{NL4}or discover new ruins by chance.{EL}
+ENG=Mute: I'd like to catch a break!{NL4}Like getting a free treasure map{NL4}or discovering new ruins by chance.{EL}
 
 POINTER=80826;1F6;00052
 DATA=8666D;00051;1E D9 B6 A2 02 D4 B1 A4 91 4F C6 89 EF AF C0 D6 C5 A1 04 00 03 B5 DA 02 CA A4 D6 B3 D4 B8 95 F3 92 54 BC C6 95 9C 8B 41 10 D6 A1 01 00 BA C9 95 D3 D8 C6 D6 A4 90 CC C9 93 90 91 AF C9 89 42 BC C0 95 F3 04 00 06 96 B0 AF C3 D9 D7 BC B2 DD 10 D6 A1 04 00 90 E2 91 CE A4 8C A9 C2 B9 C3 D4 D9 0E A3 7C 
@@ -31,12 +31,12 @@ ENG=Loud: Voice! You're here!{WP}Thank you!{01}Listen, I took a job to find a{NL
 POINTER=80826;235;0022B
 DATA=8666D;0022A;00 02 14 B3 10 A4 8B 76 BC 17 D8 C6 88 EA 8F 8F C6 D4 AF C3 D0 C5 04 00 B2 B6 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}どうだ、久しぶりに一緒にやってみな{NL4}{00}いか?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Let's work together like old times,{NL4}what do you say?{NL4}       YES            NO{EL}
+ENG=Let's work together like old times,{NL4}what do you say?{NL4}{YES/NO}{EL}
 
 POINTER=80826;26E;00257
 DATA=8666D;00256;D7 B3 14 A2 02 D4 D9 8B 43 C6 C5 AF C3 B8 DA C0 C9 B6 3F A3 04 00 04 00 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=ラウド「やる気になってくれたのか?」{NL4}{00}{NL4}{00}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Loud: Are you up for it?{NL4}{NL4}       YES            NO{EL}
+ENG=Loud: Are you up for it?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80826;269;0027E
 DATA=8666D;0027D;D7 B3 14 A2 40 40 02 BF B3 B6 A4 B2 B7 C5 D8 10 B6 D7 C5 A1 04 00 8F AD BC 8D 6C B4 C3 D0 C3 8B 43 06 95 CF DC AF C0 D7 04 00 00 00 00 00 00 00 00 00 00 00 00 00 8C BE AF C3 B8 DA A3 7C 
@@ -73,7 +73,7 @@ POINTER=80826;167;00379
 POINTER=80826;190;00379
 DATA=8666D;00378;A2 89 AF 02 B4 C0 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「憶えたかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Did you write that down?{NL4}{NL4}       YES            NO{EL}
+ENG=Did you write that down?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80826;;00394
 DATA=8666D;00393;A2 91 4F 02 C6 88 EA 93 78 A4 8B B3 B4 C0 C9 C6 CF C0 95 B7 B7 C0 B2 C9 04 00 B6 3F 00 8B E0 CA 8E E6 D7 C5 B2 06 40 40 A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
@@ -88,7 +88,7 @@ ENG=Try your best to find it.{NL4}Bring it here when you do.{EL}
 POINTER=80826;17D;003F7
 DATA=8666D;003F6;A2 02 C5 DD 10 B6 DC B6 D7 C5 B2 95 A8 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「なんだかわからない物の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=I have some obscure intel.{NL4}Do you want it?{NL4}       YES            NO{EL}
+ENG=I have some obscure intel.{NL4}Do you want it?{NL4}{YES/NO}{EL}
 
 POINTER=80826;188;00429
 DATA=8666D;00428;A2 92 6C 92 69 7F 31 30 30 02 13 40 40 7B 30 04 00 D4 D2 C0 21 00 03 C0 10 02 C6 BC C4 BA B3 21 A3 7C 
@@ -98,32 +98,32 @@ ENG=The price is 100...{7B}{30}{NL4}For you, it's free!{EL}
 POINTER=80826;141;0044B
 DATA=8666D;0044A;A2 8C C3 91 E3 02 C9 97 F0 8E 6A 8F 91 C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「古代の歴史書の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about the{NL4}[War Chronicle]?{NL4}       YES            NO{EL}
+ENG=Do you want intel about the{NL4}[War Chronicle]?{NL4}{YES/NO}{EL}
 
 POINTER=80826;14C;0047D
 DATA=8666D;0047C;A2 92 6C 92 69 7F 32 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「値段{7F}200だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=The price is 200. Is that okay?{NL4}{NL4}       YES            NO{EL}
+ENG=The price is 200. Is that okay?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80826;114;004A1
 DATA=8666D;004A0;A2 81 79 95 73 98 56 95 73 8E 80 02 C9 90 E5 96 F2 81 7A C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 35 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【不老不死の仙薬】の地図があるぞ。{NL4}{00}値段{7F}500でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=A map to the [Elixir of Life].{NL4}Price: 500. Do you take it?{NL4}       YES            NO{EL}
+ENG=A map to the [Elixir of Life].{NL4}Price: 500. Do you take it?{NL4}{YES/NO}{EL}
 
 POINTER=80826;D3;004E0
 DATA=8666D;004DF;A2 81 79 8C 8E 8C F5 02 C6 8C F5 D9 90 CE 81 7A C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【月光に光る石】の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about the{NL4}[Moonlight Stone]?{NL4}       YES            NO{EL}
+ENG=Do you want intel about the{NL4}[Moonlight Stone]?{NL4}{YES/NO}{EL}
 
 POINTER=80826;DE;00515
 DATA=8666D;00514;A2 92 6C 92 69 7F 31 30 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「値段{7F}1000だけどいいかい?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=The price is 1000. Is that okay?{NL4}{NL4}       YES            NO{EL}
+ENG=The price is 1000. Is that okay?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80826;A6;0053A
 DATA=8666D;00539;A2 81 79 BB CC A7 B2 B1 02 C9 8A A5 81 7A C9 92 6E 90 7D 06 B1 D9 0F A1 04 00 92 6C 92 69 7F 31 30 30 30 02 13 14 B3 10 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「【サファイアの冠】の地図があるぞ。{NL4}{00}値段{7F}1000でどうだい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=A map to the [Sapphire Crown].{NL4}Price: 1000. Do you take it?{NL4}       YES            NO{EL}
+ENG=A map to the [Sapphire Crown].{NL4}Price: 1000. Do you take it?{NL4}{YES/NO}{EL}
 
 POINTER=80826;18B;00575
 DATA=8666D;00574;A2 95 B6 8C A3 02 C6 CA 81 77 97 CE 8A 67 06 D9 91 E5 92 6E C9 91 6F 8E 71 C9 8E 52 A4 04 00 BF C9 8A D4 C9 90 58 C6 40 40 81 78 C4 8F 91 B6 DA C3 B2 D9 04 00 B2 AF C0 B2 89 BD 06 B1 D9 DD 10 DB B3 C5 3F A3 7C 

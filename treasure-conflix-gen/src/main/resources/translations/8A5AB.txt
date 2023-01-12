@@ -22,7 +22,7 @@ POINTER=81B99;23F;00049
 POINTER=81B99;271;00049
 DATA=8A5AB;00048;00 00 00 00 90 ED 93 AC 02 C6 93 FC D8 CF BD 04 00 00 8F 80 94 F5 CA D6 DB BC B2 13 BD B6 3F 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}戦闘に入ります{NL4}{00}{00}準備はよろしいですか?{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=          Entering combat{NL4}          Are you ready?{NL4}       YES            NO{EL}
+ENG=          Entering combat{NL4}          Are you ready?{NL4}{YES/NO}{EL}
 
 POINTER=81B99;2C6;00078
 DATA=8A5AB;00077;04 00 00 00 00 95 F3 95 A8 02 A6 8E 9D AF C3 B2 C5 B2 7C 
@@ -32,18 +32,18 @@ ENG={NL4}      You have no treasures.{EL}
 POINTER=81B99;27E;0008B
 DATA=8A5AB;0008A;00 00 00 00 91 80 8F 63 02 C6 96 DF D8 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}操縦に戻りますか?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG= Would you like to take the helm?{NL4}{NL4}       YES            NO{EL}
+ENG= Would you like to take the helm?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=81B99;253;000AD
 DATA=8A5AB;000AC;00 00 00 00 94 F2 02 16 97 A7 C1 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}飛び立ちますか?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=    Would you like to take off?{NL4}{NL4}       YES            NO{EL}
+ENG=    Would you like to take off?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=81B99;269;000CD
 POINTER=81B99;284;000CD
 DATA=8A5AB;000CC;00 00 00 00 92 6E 8F E3 02 C6 96 DF D8 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}地上に戻りますか?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=    Would you like to lift off?{NL4}{NL4}       YES            NO{EL}
+ENG=    Would you like to lift off?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=81B99;2F8;000EF
 DATA=8A5AB;000EE;07 D9 D3 B1 A2 91 81 02 B8 81 79 89 5F C9 94 E0 81 7A A6 D0 C2 B9 C3 04 00 B8 DA C0 CF B4 A1 BF BC C0 D7 A4 8E 63 D8 C9 8B E0 8A 7A D3 04 00 95 A5 AF C3 B1 09 D6 B3 A3 7C 
@@ -68,12 +68,12 @@ ENG=Loud: Hurry to the Cloud Temple!{NL4}That Gilmore jerk is in the clouds{NL4}
 POINTER=81B99;356;001C6
 DATA=8A5AB;001C5;D7 B3 14 A2 8C FC 02 BA B3 C6 95 82 B6 DD 13 D9 C9 06 94 65 8E D2 C9 04 00 8D D5 92 64 10 C5 A1 CF 10 A4 03 B6 B0 14 02 C9 95 95 88 F3 CA 89 F0 B6 04 00 DA C3 C5 B2 D0 C0 B2 10 06 40 40 7C 
 JPN=ラウド「向こうに浮かんでるのが覇者の{NL4}{00}祭壇だな。まだ、カードの封印は解か{NL4}{00}れてないみたいだが……{EL}
-ENG=Loud: The Altar of the Conquer{NL4}is floating over there.{01}It seems that the seal on the card{NL4}has not been broken yet...{EL}
+ENG=Loud: The Altar of the Conqueror{NL4}is floating over there.{01}It seems that the seal on the card{NL4}has not been broken yet...{EL}
 
 POINTER=81B99;359;00205
 DATA=8A5AB;00204;00 02 14 B3 BD D9 3F 00 88 EA 93 78 03 CA DD 06 B0 02 C6 96 DF AF C3 04 00 91 95 94 F5 A6 90 AE B4 D9 B6 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}どうする?{00}一度ハンガーに戻って{NL4}{00}装備を整えるか?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want to go back to the{NL4}workshop and get equipped?{NL4}       YES            NO{EL}
+ENG=Do you want to go back to the{NL4}workshop and get equipped?{NL4}{YES/NO}{EL}
 
 POINTER=81B99;35F;0023A
 DATA=8A5AB;00239;D7 B3 14 A2 02 0C AC B1 A4 B1 DA C6 CA 8B DF 12 B6 C5 B2 D6 04 00 B3 C6 BC C3 A4 88 F8 B7 95 D4 BF B3 0E A3 7C 
@@ -138,7 +138,7 @@ ENG=UP to move forwards.{NL4}DOWN to move backwards.{NL4}Y to go up. B to go dow
 POINTER=81B99;8A;0064C
 DATA=8A5AB;0064B;00 02 DD 81 60 A4 89 AF B4 C3 B8 DA C0 B6 C5 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}ん〜、憶えてくれたかな?」{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Did you understand?{NL4}{NL4}       YES            NO{EL}
+ENG=Did you understand?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=81B99;118;0066E
 DATA=8A5AB;0066D;B1 DA CC A2 02 BC AE B3 06 C5 B2 C5 A1 04 00 96 5A BC B2 B6 D7 91 81 B8 89 AF B4 C3 97 7E BC B2 DD 10 C5 A1 7C 
