@@ -8,10 +8,18 @@ Most of the focus is on talking with NPCs and solving riddles trying to find the
 
 # English patch
 
-### BPS Patch beta
+### BPS Patch
 
-November 2022: Work in progress<br/>
+-- January 2023 --\
+Patch file v1.0 is available here : [BS Treasure Conflix (English) 1.0.zip](/patch/BS%20Treasure%20Conflix%20(English)%201.0.zip)
+
 Soon available on romhacking.net<br/>
+
+It applies to the following ROM :\
+File: BS Treasure Conflix\
+No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
+ROM SHA-1: DFF1D22D662FED96F45AC3E722C79C93469CA421\
+ROM CRC32: F50FB0B7\
 
 # Screenshots
 
