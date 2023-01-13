@@ -21,9 +21,9 @@ No-Intro: Super Nintendo Entertainment System (v. 20180813-062835)\
 ROM SHA-1: DFF1D22D662FED96F45AC3E722C79C93469CA421\
 ROM CRC32: F50FB0B7\
 
-# Disclaimer
+## Disclaimer
 
-![image 01](../warning.png)
+<img src="https://raw.githubusercontent.com/Krokodyl/Krokodyl/main/warning.png" />
 
 # Screenshots
 
