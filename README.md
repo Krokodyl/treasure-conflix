@@ -6,6 +6,15 @@ English translation for the Satellaview (SNES/Super Famicom) game トレジャ�
 The game mixes RPG elements with some airship fights in mode 7.<br/>
 Most of the focus is on talking with NPCs and solving riddles trying to find the locations of treasures.
 
+### Tips for your first playthrough<br/>
+- You can use L and R in conjunction with the D-pad to turn faster while in combat.<br/>
+- You can only find a treasure after you've been given the clue or the map for that treasure.<br/>
+- Treasure maps can be opened from the treasure chest on the bridge.<br/>
+- Selecting a city on the navigation map will add a red arrow on the compass to that location.<br/>
+  You can remove the arrow by selecting "turn off navigation" on the same map.<br/>
+  (This GPS feature is not really useful anyway, as the world is not that big)<br/>
+- If you don't know what to do to proceed in the story, go talk to Loud.<br/>
+
 # English patch
 
 ### BPS Patch
