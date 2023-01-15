@@ -32,6 +32,8 @@ ROM CRC32: F50FB0B7\
 
 Tested with the following Satellaview bios: BS-X BIOS (English) [No DRM] [2016 v1.3]
 
+More info about the Satellaview:  [https://project.satellaview.org/downloads.htm](https://project.satellaview.org/downloads.htm)<br/>
+
 ## Disclaimer
 
 <img src="https://raw.githubusercontent.com/Krokodyl/Krokodyl/main/warning.png" />
