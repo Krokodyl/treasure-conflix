@@ -254,4 +254,18 @@ public class Utils {
         if (type==ByteType.LEFT) return (byte) (((offset) % 256) & 0xFF);
         return (byte) ((offset) / 256);
     }
+
+    /**
+     * Parses a space separated hexadecimal representation of a byte array
+     * @param hexValues
+     * @return
+     */
+    public static byte[] parseHex(String hexValues) {
+        String[] s1 = hexValues.split(" ");
+        byte[] bytes = new byte[s1.length];
+        for (int i = 0; i < s1.length; i++) {
+            bytes[i] = (byte) (Integer.parseInt(s1[i],16) & 0xFF);
+        }
+        return bytes;
+    }
 }

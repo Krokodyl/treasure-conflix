@@ -1,5 +1,6 @@
 package services;
 
+import entities.Palette2bpp;
 import entities.Sprite;
 import enums.ByteType;
 import enums.PointerTableType;
@@ -24,12 +25,9 @@ public class Conflix {
     
     static byte[] data;
 
-    
-    private final static String INPUT_ROM = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (Japan) - SNES - extended.sfc";
-    private final static String OUTPUT_ROM = "D:\\git\\treasure-conflix\\roms\\work\\BS Treasure Conflix (English) - SNES - extended.sfc";
-    
-    //private final static String INPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (Japan).sfc";
-    //private final static String OUTPUT_ROM = "D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (English).sfc";
+
+    private final static String INPUT_ROM = "D:\\emulation\\git\\treasure-conflix\\roms\\input\\BS Treasure Conflix (J) (1).smc";
+    private final static String OUTPUT_ROM = "D:\\emulation\\git\\treasure-conflix\\roms\\output\\BS Treasure Conflix (English).sfc";
     
     static Map<Integer, Integer> dataFilePointerFileMap = new HashMap<>();
     
@@ -114,7 +112,9 @@ public class Conflix {
             Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        generateEmptyTranslationFiles();
+        addExtendedLatinSupport();
+        
+        //generateEmptyTranslationFiles();
         PointerTable tableData1 = new PointerTable(
                 x("84000"),
                 x("84033"),
@@ -175,13 +175,43 @@ public class Conflix {
         System.out.println("Jpn Translation Count: "+translationCount);
         System.out.println("Eng Translation Count: "+translationEngCount);
         
-        LzDecompressor lzDecompressor = new LzDecompressor();
+        /*LzDecompressor lzDecompressor = new LzDecompressor();
         lzDecompressor.decompressData(data, x("A0018"));
         lzDecompressor = new LzDecompressor();
-        lzDecompressor.decompressData(data, x("B0616"));
+        lzDecompressor.decompressData(data, x("B0616"));*/
+
+        //generateSatellaviewCharacterSprites(0x48000);
+        
         
         //DataWriter.saveData("D:\\git\\treasure-conflix\\roms\\patch\\BS Treasure Conflix (English) - SNES - extended.sfc", data);
         DataWriter.saveData(OUTPUT_ROM, data);
+    }
+
+    /**
+     * EXTENDED-LATIN
+     * 
+     */
+    private static void addExtendedLatinSupport() {
+        writeBytes(data, Utils.parseHex("22 00 FA C1"), 0x5B5B);
+        writeBytes(data, Utils.parseHex("A5 5C C9 D0 B8 10 07 C2 20 B7 5C 85 F0 6B C2 10 E2 20 A5 5E C9 C1 D0 07 C2 20 B7 5C 85 F0 6B 18 C2 10 E2 20 A9 C1 85 5E C2 20 A5 5C 69 80 41 85 5C C2 20 B7 5C 85 F0 6B"), 0x1FA00);
+
+        String extendedLatin = "ÀÇÉÈÊËÎÏÔÙÛÜàâçéèêëîïôùûü";
+
+        ShiftJIS.initializeExtendedLatin(extendedLatin, 0xA4);
+        
+        int characterOffset = 0x1FA50;
+        for (int i=1;i<=25;i++) {
+            byte[] bytes = new byte[0];
+            try {
+                bytes = new SpriteReader().loadImage2bpp("src/main/resources/sprites/extended-latin/french"+i+".png", new Palette2bpp("/palettes/extended-latin.png"));
+                //System.out.println(Utils.bytesToHex(bytes));
+                byte[] convert2bppTo1bpp = SpriteReader.convert2bppTo1bpp(bytes);
+                writeBytes(data, convert2bppTo1bpp, characterOffset);
+                characterOffset += convert2bppTo1bpp.length;
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private static void compareSizes() {
@@ -260,7 +290,7 @@ public class Conflix {
     }
 
     /**
-     * Line : max 40 chars (optimial : 37)
+     * Line : max 40 chars (optimal : 37)
      */
     public static void writeDemoTexts(byte[] data) {
         int offset = x("7633");

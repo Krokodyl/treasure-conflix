@@ -59,7 +59,7 @@ POINTER=81290;166;00321
 POINTER=81290;18B;00321
 DATA=8809C;00320;00 8F EA 8F 8A 3F 00 92 6D 02 AF C3 B2 D9 C4 D3 21 04 00 40 40 7B 20 8B B3 B4 C3 D4 AF C3 D3 B2 B2 06 40 40 05 00 8F F0 8C 8F 06 B1 D9 A1 01 00 DC C0 BC CA 88 E2 95 F3 A6 8F 57 D2 C3 B2 D9 DD 10 A1 04 00 03 B7 D0 02 06 89 BD B6 89 BF 92 6C C9 B1 D9 88 E2 95 F3 A6 8E 9D AF C3 04 00 97 88 C0 D7 A4 BF DA C4 8C F0 8A B7 C6 8B B3 B4 C3 D4 DB B3 A3 7C 
 JPN={00}場所?{00}知っているとも!{NL4}{00}……{7B}{20}教えてやってもいいが……{WP}{00}条件がある。{01}{00}わたしは遺宝を集めているんだ。{NL4}{00}キミが何か価値のある遺宝を持って{NL4}{00}来たら、それと交換に教えてやろう」{EL}
-ENG=Where is it? I know that!{NL4}...{7B}{20}I'll tell you...{WP}under a condition.{01}I collect relics.{NL4}Bring me some treasure of value,{NL4} and I'll tell you the location.{EL}
+ENG=Where is it? I know that!{NL4}...{7B}{20}I'll tell you...{WP}under a condition.{01}I collect relics.{NL4}Bring me some treasure of value,{NL4}and I'll tell you the location.{EL}
 
 POINTER=81290;1DC;00395
 DATA=8809C;00394;19 B0 DD 0D A2 02 BF DA 13 CA 96 F1 91 A9 14 B5 D8 C6 A4 04 00 89 42 DA 97 A2 C9 88 CA 92 75 A6 8B B3 B4 D6 B3 A1 05 00 8E C0 CA BA BA C9 BD 08 8B DF B8 C6 B1 D9 DD 10 D6 A1 01 00 BA BA C9 96 6B 90 BC C6 8D 4C 06 D9 03 0C AC DD 08 D9 02 C9 92 86 C9 04 00 B1 D9 8F EA 8F 8A 10 A1 8F DA BC B2 8F EA 8F 8A CA 92 6D D7 C5 B2 06 04 00 C8 A1 8A E6 92 A3 AF C3 92 54 BC C3 D0 C0 CF B4 A3 7C 
@@ -74,10 +74,10 @@ ENG=Nasca: Buying and selling important{NL4}archaeological information is{NL4}ou
 POINTER=81290;1AD;00460
 DATA=8809C;0045F;19 B0 DD 0D A2 89 42 02 DA 97 A2 CA 8C A9 C2 B6 AF C0 B6 C8 A1 BA 04 00 BA C9 90 BC C9 03 0C AC DD 08 D9 02 C9 92 86 10 D6 A1 8C BE B2 96 59 04 00 DA C3 B2 C0 06 8B F3 B6 D7 8B DF 12 B8 C9 CA 8A EB 8C AF 10 D6 A3 7C 
 JPN=ボーンズ「隠れ里は見つかったかね。こ{NL4}{00}この西のジャングルの中だよ。言い忘{NL4}{00}れていたが空から近づくのは危険だよ」{EL}
-ENG=Bones: Did you find the hidden{NL4}village?{NL4}It's in the jungle west of here.{01}I forgot to mention that it's{NL4}dangerous to approach from the sky.{EL}
+ENG=Bones: Did you find the hidden{NL4}village? It's in the jungle,{NL4}northwest of here.{01}I forgot to mention that it's{NL4}dangerous to approach from the sky.{EL}
 
 POINTER=81290;1B9;004A8
 DATA=8809C;004A7;19 B0 DD 0D A2 02 C5 C6 21 00 89 42 DA 97 A2 C6 81 79 89 5F C9 94 E0 81 7A 04 00 06 B1 AF C0 C9 B6 C8 21 3F 04 00 B1 DA CA 8E C0 8D DD BC C5 B2 C4 8E 76 AF C3 B2 C0 06 40 40 01 00 8C A9 C2 B9 C0 D7 90 A5 94 F1 DC C0 BC C6 94 84 AF C3 B8 DA 21 04 00 8B E0 CA B2 B8 D7 13 D3 8F 6F BD 0F A3 7C 
 JPN=ボーンズ「なに!{00}隠れ里に【雲の扉】{NL4}{00}があったのかね!?{NL4}{00}あれは実在しないと思っていたが……{01}{00}見つけたら是非わたしに売ってくれ!{NL4}{00}金はいくらでも出すぞ」{EL}
-ENG=Bones: What! There was a{NL4}Clout Gate in the hidden{NL4}village!?{01}I thought it didn't exist...{NL4}If you find it, sell it to me!{NL4}I'll pay you any amount of money.{EL}
+ENG=Bones: What! There was a{NL4}Cloud Gate in the hidden{NL4}village!?{01}I thought it didn't exist...{NL4}If you find it, sell it to me!{NL4}I'll pay you any amount of money.{EL}
 

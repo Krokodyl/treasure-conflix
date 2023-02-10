@@ -132,6 +132,14 @@ public class ShiftJIS {
     static String latin = " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^– abcdefghijklmnopqrstuvwxyz{|}_";
     static String latin7F = " !\"#$§&\'()§+,-.§0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[¥]^- abcdefghijklmnopqrstuvwxyz{§}_§";
 
+    static String extendedLatin = "";
+    static int extendedLatinStart;
+
+    public static void initializeExtendedLatin(String characters, int startValue) {
+        extendedLatin = characters;
+        extendedLatinStart = startValue;
+    }
+    
     static Map<Integer, String> SINGLE_CODES;
 
     static {
@@ -292,14 +300,23 @@ public class ShiftJIS {
                 }
             }
             else {
-                byte[] code = getCodeSingle(c);
-                if (c=='　') code = new byte[]{(byte) 0x81, 0x40};
-                //if (c=='　') code = new byte[]{(byte) 0x20};
+                byte[] code = null;
+                if (isExtendedLatin(c)) {
+                    code = getCodeExtendedLatin(c);
+                }
+                else {
+                    code = getCodeSingle(c);
+                    if (c == '　') code = new byte[]{(byte) 0x81, 0x40};
+                }
                 result = ArrayUtils.addAll(result, code);
             }
         }
         result = ArrayUtils.addAll(new byte[]{0x7F}, result);
         return result;
+    }
+    
+    public static boolean isExtendedLatin(char c) {
+        return extendedLatin.contains(""+c);
     }
 
     private static byte[] getCode(char c) {
@@ -312,6 +329,12 @@ public class ShiftJIS {
         int i = latin7F.indexOf(c + "");
         i = i + x("20");
         return new byte[]{(byte) i};
+    }
+
+    private static byte[] getCodeExtendedLatin(char c) {
+        int i = extendedLatin.indexOf(c + "");
+        i = i + extendedLatinStart;
+        return new byte[]{(byte)0x85, (byte) i};
     }
 
     public static String hiragana(String katakanaString)

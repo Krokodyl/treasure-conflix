@@ -114,6 +114,53 @@ public class SpriteReader {
         return sb.toString();
     }
 
+    public byte[] loadImage2bpp(String file, Palette palette) {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        try {
+            image = ImageIO.read(new File(file));
+        } catch (IOException e) {
+
+        }
+        boolean stop = false;
+        int tileX = 0, tileY = 0, x = 0, y = 0;
+        while (tileY++<image.getHeight()/8) {
+            tileX=0;
+            while (tileX++<image.getWidth()/8) {
+                y=0;
+                while (y++<8) {
+                    x=0;
+                    int encodedLine = 0;
+                    while (x++<8) {
+                        int rgb = image.getRGB(((tileX - 1) * 8 + (x - 1)), ((tileY - 1) * 8 + (y - 1)));
+                        if (rgb==0) {
+                            stop = true;
+                            break;
+                        }
+                        String color = Utils.getColorAsHex(rgb).toLowerCase();
+                        FontColor fontColor = palette.getFontColor(color);
+                        int mask = fontColor.getMask();
+                        mask = mask >> (x-1);
+                        encodedLine = encodedLine | mask;
+                    }
+                    if (stop) break;
+                    int leftByte = encodedLine >> 8;
+                    int rightByte = encodedLine & 0x00FF;
+                    outputStream.write(leftByte);
+                    outputStream.write(rightByte);
+                    String hex = Utils.toHexString(leftByte, 2)+" "+Utils.toHexString(rightByte,2);
+                    byteArrayOutputStream.write(leftByte);
+                    byteArrayOutputStream.write(rightByte);
+                    //sb.append(hex.replaceAll(" ",""));
+                    //System.out.print(hex+" ");
+                }
+                if (stop) break;
+                //System.out.println();
+            }
+            if (stop) break;
+        }
+        return byteArrayOutputStream.toByteArray();
+    }
+
     public String loadFontImage4bpp(String file, Palette palette) {
         StringBuffer sb = new StringBuffer();
         byte[] output = new byte[0];
@@ -236,7 +283,7 @@ public class SpriteReader {
     
     public static void saveSatellaviewCharacterSprite(Sprite sprite, String file) {
         try {
-            BufferedImage image = getImage(sprite, new Palette2bpp("/palettes/satellaview.png"));
+            BufferedImage image = getImage(sprite, new Palette2bpp("/palettes/extended-latin.png"));
             ImageIO.write(image, "png", new File(file));
         } catch (IOException e) {
             e.printStackTrace();
@@ -255,31 +302,47 @@ public class SpriteReader {
         bytes = ArrayUtils.addAll(leadingZeros, bytes);
         return bytes;
     }
-    
+
     public static byte[] convert1bppTo2bpp(byte[] bytes) {
         byte[] result = new byte[bytes.length*2];
         for (int i = 0, bytesLength = bytes.length; i < bytesLength; i = i + 2) {
             byte a = bytes[i];
             byte b = bytes[i+1];
-            
-            /*byte a1 = (byte) (a << 1);
-            if ((b & 0xFF)>=0x80) a1++;
-            byte a2 = a;
-            byte b1 = (byte) ((b & 0x7F) << 1);
-            byte b2 = b;*/
-            
+
             byte a1 = a;
             byte a2 = (byte) (a >> 1);
             if ((b & 0xFF)>=0x80) a2++;
             byte b2 = (byte) ((b & 0x7F) << 1);
             byte b1 = b;
-            
+
             int shift = (i/16)*16;
-            
+
             result[shift+i] = a1;
             result[shift+i+1] = a2;
             result[shift+i+16] = b1;
             result[shift+i+1+16] = b2;
+        }
+        return result;
+    }
+
+    public static byte[] convert2bppTo1bpp(byte[] bytes) {
+        byte[] result = new byte[24];
+        int rIndex = 0;
+        int index = 8;
+        while (index < 16) {
+            if (index%2!=0) {
+                result[rIndex++] = 0;
+            } else
+            result[rIndex++] = bytes[index];
+            index++;
+        }
+        index = 32;
+        while (index < 32+16) {
+            if (index%2!=0) {
+                result[rIndex++] = 0;
+            } else
+                result[rIndex++] = bytes[index];
+            index++;
         }
         return result;
     }

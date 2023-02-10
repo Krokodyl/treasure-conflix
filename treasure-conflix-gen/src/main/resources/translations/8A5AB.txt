@@ -30,6 +30,7 @@ JPN={NL4}{00}{00}{00}{00}宝物を持っていない{EL}
 ENG={NL4}      You have no treasures.{EL}
 
 POINTER=81B99;27E;0008B
+POINTER=81B99;28E;0008B
 DATA=8A5AB;0008A;00 00 00 00 91 80 8F 63 02 C6 96 DF D8 CF BD B6 3F 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN={00}{00}{00}{00}操縦に戻りますか?{NL4}{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
 ENG= Would you like to take the helm?{NL4}{NL4}{YES/NO}{EL}

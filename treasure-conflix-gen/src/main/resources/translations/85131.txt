@@ -51,7 +51,7 @@ ENG=I almost forgot!{EL}
 POINTER=80100;107;00252
 DATA=85131;00251;A2 D7 B3 14 02 B6 D7 93 60 8C BE 06 B1 AF C0 0F A1 04 00 03 D7 DD 14 BD 18 B0 BD 02 C6 97 88 C3 97 7E BC B2 BF B3 10 A1 04 00 C5 DD 13 D3 8B F3 91 AF C6 91 44 A6 97 8E C4 BB DA C0 D7 BC B2 A1 7C 
 JPN=「ラウドから伝言があったぞ。{NL4}{00}ランドスベースに来て欲しいそうだ。{NL4}{00}なんでも空賊に船を落とされたらしい。{EL}
-ENG=I got a message from Loud.{NL4}He wants you to go to Landos Base.{NL4}{7B}{20}{01}It seems that his ship was taken{NL4}down by sky pirates.{EL}
+ENG=I got a message from Loud.{NL4}They're waiting for you in{NL4}Landos Base.{01}It seems that their ship was taken{NL4}down by sky pirates.{EL}
 
 POINTER=80100;10A;00293
 DATA=85131;00292;00 D7 DD 14 BD 18 B0 BD 02 C9 8F EA 8F 8A 3F 05 00 96 59 DA C0 C9 B6 3F 00 BC AF B6 D8 BC DB D6 21 04 00 BA BA C9 90 5E 96 6B 0C AC C5 B2 B6 A3 7C 
