@@ -19,6 +19,12 @@ Most of the focus is on talking with NPCs and solving riddles trying to find the
 
 ### BPS Patch
 
+-- February 2023 --\
+Patch file v1.1 is available here : [BS Treasure Conflix (English) 1.1.zip](/patch/1.1/BS%20Treasure%20Conflix%20(English)%201.1.zip)<br/>
+- Fixes some typos
+- Rephrases some clues
+- Adds support for extended latin for other languages
+
 -- January 2023 --\
 Patch file v1.0 is available here : [BS Treasure Conflix (English) 1.0.zip](/patch/BS%20Treasure%20Conflix%20(English)%201.0.zip)<br/>
 
