@@ -27,7 +27,7 @@ public class Conflix {
 
 
     private final static String INPUT_ROM = "D:\\emulation\\git\\treasure-conflix\\roms\\input\\BS Treasure Conflix (J) (1).smc";
-    private final static String OUTPUT_ROM = "D:\\emulation\\git\\treasure-conflix\\roms\\output\\BS Treasure Conflix (English).sfc";
+    private final static String OUTPUT_ROM = "D:\\emulation\\git\\treasure-conflix\\roms\\output\\BS Treasure Conflix (English) 1.1.sfc";
     
     static Map<Integer, Integer> dataFilePointerFileMap = new HashMap<>();
     
@@ -112,7 +112,8 @@ public class Conflix {
             Logger.getLogger(Conflix.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        addExtendedLatinSupport();
+        // Commented out for the English patch
+        //addExtendedLatinSupport();
         
         //generateEmptyTranslationFiles();
         PointerTable tableData1 = new PointerTable(
@@ -195,12 +196,13 @@ public class Conflix {
         writeBytes(data, Utils.parseHex("22 00 FA C1"), 0x5B5B);
         writeBytes(data, Utils.parseHex("A5 5C C9 D0 B8 10 07 C2 20 B7 5C 85 F0 6B C2 10 E2 20 A5 5E C9 C1 D0 07 C2 20 B7 5C 85 F0 6B 18 C2 10 E2 20 A9 C1 85 5E C2 20 A5 5C 69 80 41 85 5C C2 20 B7 5C 85 F0 6B"), 0x1FA00);
 
-        String extendedLatin = "ÀÇÉÈÊËÎÏÔÙÛÜàâçéèêëîïôùûü";
-
-        ShiftJIS.initializeExtendedLatin(extendedLatin, 0xA4);
+        //String extendedLatin = "ÀÇÉÈÊËÎÏÔÙÛÜàâçéèêëîïôùûü";
+        String frenchLatin = "ÀÇÉÊÎÔàâçéèêîïôùû"; // Unused ÈËÏÙÛÜëü
+        
+        ShiftJIS.initializeExtendedLatin(frenchLatin, 0xA4);
         
         int characterOffset = 0x1FA50;
-        for (int i=1;i<=25;i++) {
+        for (int i=1;i<=17;i++) {
             byte[] bytes = new byte[0];
             try {
                 bytes = new SpriteReader().loadImage2bpp("src/main/resources/sprites/extended-latin/french"+i+".png", new Palette2bpp("/palettes/extended-latin.png"));

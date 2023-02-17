@@ -113,7 +113,7 @@ ENG="...that was lost in the northern{NL4}canyon."{NL4}That's all the document s
 POINTER=810AD;175;004A8
 DATA=87CAE;004A7;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 
 POINTER=810AD;13F;004D6
 DATA=87CAE;004D5;A2 81 77 8E F7 81 58 02 C9 8C F0 8D B7 BD D9 C4 BA DB 13 A4 03 B4 D2 D7 D9 04 00 14 02 CA 8B 50 B8 81 78 8A C8 92 50 10 DB 3F A3 7C 

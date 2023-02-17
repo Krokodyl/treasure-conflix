@@ -104,7 +104,7 @@ ENG=I have the [Dragon Shield] map.{NL4}Do you want to buy it for 1200?{NL4}{YES
 POINTER=80CCC;13F;005BE
 DATA=871DF;005BD;A2 02 C5 C6 B6 C9 95 F3 90 CE C9 8F EE 95 F1 06 B1 D9 0F A1 04 00 95 B7 B7 C0 B2 B6 B2 3F A3 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
 JPN=「なにかの宝石の情報があるぞ。{NL4}{00}聞きたいかい?」{NL4}{00}{00}{00}{00}ＹＥＳ{00}{00}{00}{00}{00}ＮＯ{EL}
-ENG=Do you want intel about some gems?{NL4}{NL4}{YES/NO}{EL}
+ENG=Do you want intel about a gem?{NL4}{NL4}{YES/NO}{EL}
 
 POINTER=80CCC;230;005ED
 DATA=871DF;005EC;A2 92 6C 92 69 7F 38 30 30 02 10 B9 14 B2 B2 B6 B2 3F A3 04 04 00 00 00 00 59 45 53 00 00 00 00 00 4E 4F 7C 
@@ -134,7 +134,7 @@ ENG="There is a large mountain{NL4}northwest of Kazusa Base.{01}In a clearing in
 POINTER=80CCC;20A;006F0
 DATA=871DF;006EF;A2 81 77 40 40 02 BF C9 98 72 97 D6 CA 88 F8 B7 97 F4 B6 DA C0 8E 52 C9 92 4A 04 00 8A D4 C6 81 78 8C C3 95 B6 8F 91 C9 BA C9 95 94 95 AA 10 B9 8C A9 C2 B6 AF 04 00 C0 DD 10 06 40 40 CF A4 92 54 BC C3 D0 C5 A3 7C 
 JPN=「『……その腕輪は引き裂かれた山の谷{NL4}{00}間に』古文書のこの部分だけ見つかっ{NL4}{00}たんだが……ま、探してみな」{EL}
-ENG="The bracelet is torn in the{NL4}valley of the mountains."{01}I only found this page of the{NL4}manuscript.{NL4}Go look for it.{EL}
+ENG="The bracelet is in the valley{NL4}of the fractured mountain."{01}I only found this page of the{NL4}manuscript.{NL4}Go look for it.{EL}
 
 POINTER=80CCC;1CE;00737
 DATA=871DF;00736;A2 02 C1 AE AF C4 93 EF BC B2 B6 D3 BC DA C5 B2 0F A1 04 81 77 93 7B D8 BC 8A 43 C9 90 5F C6 8C E3 DB B6 D7 94 45 16 8A F1 D9 88 D7 C9 04 00 8A 43 C9 93 B9 A4 8D C7 06 DD C4 BD D9 98 72 C6 8E 77 97 D6 06 8C F5 D9 81 78 01 00 8A E6 92 A3 AF C3 A4 88 D3 96 A1 A6 8C A9 C2 B9 D9 DD 10 C5 A3 7C 
@@ -144,10 +144,10 @@ ENG=It might be a little difficult.{01}"On the road to sneak up on the{NL4}angry
 POINTER=80CCC;196;00798
 DATA=871DF;00797;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 
 POINTER=80CCC;160;007C6
 DATA=871DF;007C5;A2 90 E6 91 E3 02 C9 8E 63 BC C0 03 D2 D3 02 06 8C A9 C2 B6 AF C3 C5 A1 04 00 BF DA C6 A4 B5 BF D7 B8 95 F3 90 CE C9 89 42 BC 8F EA 8F 8A A6 8E A6 04 00 BC C3 B2 D9 D7 BC B2 95 B6 8F CD 06 B1 AF C0 DD 10 A1 01 00 81 77 03 14 A9 B0 D1 C4 D7 B2 B1 DD 08 D9 40 40 91 BD 02 B8 C9 96 BD 04 00 A6 88 F9 D0 8D 9E DD 13 B2 AF C0 96 82 C9 8A 43 88 E6 40 40 01 00 BB CF D6 B4 D9 8D B0 06 90 6C 97 A2 97 A3 DA C0 91 E5 B7 C5 90 58 C9 04 00 92 86 A6 A4 8D 73 B7 8F EA A6 8C A9 8E B8 AF C0 C9 B6 A4 95 59 B2 91 B1 04 00 B9 C3 B2 D9 A1 01 00 8D A1 CA 92 4E D3 8B DF 8A F1 D9 BA C4 C9 C5 B2 04 00 BF C9 90 58 C9 89 9C 90 5B B8 C6 89 F6 BC B8 8B 50 B8 94 4C C9 8A E1 06 04 00 90 F6 D1 81 78 40 40 90 E6 91 E3 CA 8A B4 8F 9D 93 49 10 AF C0 DD 10 C5 A3 7C 
 JPN=「先代の残したメモが見つかってな。{NL4}{00}それに、おそらく宝石の隠し場所を示{NL4}{00}しているらしい文章があったんだ。{01}{00}『ドゥームトライアングル……多くの命{NL4}{00}を飲み込んでいった魔の海域……{01}{00}さまよえる魂が人里離れた大きな森の{NL4}{00}中を、行き場を見失ったのか、漂い続{NL4}{00}けている。{01}{00}今は誰も近寄ることのない{NL4}{00}その森の奥深くに怪しく輝く猫の眼が{NL4}{00}潜む』……先代は感傷的だったんだな」{EL}
-ENG=I found this memo left by my{NL4}predecessor that probably indicates{NL4}where the jewels are hidden.{01}"The Doom Triangle...{NL4}the magical sea that swallowed up{NL4}many lives...{01}A wandering soul has lost its way{NL4}in a large secluded forest{NL4}and continues to drift.{01}In the depths of the forest,{NL4}where no one approaches,{NL4}lies a shining cat's eye."{01}My predecessor was sentimental.{EL}
+ENG=I found this memo left by my{NL4}predecessor that probably indicates{NL4}where the gem is hidden.{01}"The Doom Triangle...{NL4}the magical sea that swallowed up{NL4}many lives...{01}A wandering soul has lost its way{NL4}in a large secluded forest{NL4}and continues to drift.{01}In the depths of the forest,{NL4}where no one approaches,{NL4}lies a shining cat's eye."{01}My predecessor was sentimental.{EL}
 

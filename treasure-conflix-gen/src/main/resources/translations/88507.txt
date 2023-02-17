@@ -163,10 +163,10 @@ ENG=These words were written in some{NL4}ruins:{01}"Three-Eyed Skulls on Triplet
 POINTER=81458;F8;00725
 DATA=88507;00724;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 
 POINTER=81458;C6;00753
 DATA=88507;00752;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 

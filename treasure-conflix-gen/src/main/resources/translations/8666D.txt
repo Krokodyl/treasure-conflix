@@ -138,7 +138,7 @@ ENG=In the Grand Sierra Mountains,{NL4}which stretch to the north of here,{NL4}t
 POINTER=80826;12A;00614
 DATA=8666D;00613;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 
 POINTER=80826;F4;00642
 DATA=8666D;00641;A2 81 77 97 CE 8F AD 02 C5 B7 93 87 CA A4 8C 8E 8C F5 C6 90 CE 06 8C F5 D9 81 78 04 00 C4 B2 B3 BA C4 10 A1 8A C8 92 50 10 DB A1 03 B5 DA 02 13 D3 04 00 8F EA 8F 8A C9 8C A9 93 96 06 C2 B8 A3 7C 
@@ -148,5 +148,5 @@ ENG=The rumor says:{NL4}"On a barren island, stones shine{NL4}in the moonlight."
 POINTER=80826;BC;00683
 DATA=8666D;00682;A2 02 CE D7 D6 A1 94 F2 8B F3 92 F8 C9 03 BA B8 1B AF C4 02 13 8D 4C 09 C3 04 00 8E 97 C0 D6 B3 C5 92 6E 8C 60 A6 92 54 BC C3 D0 C5 A3 7C 
 JPN=「ほらよ。飛空艇のコクピットで広げて{NL4}{00}似たような地形を探してみな」{EL}
-ENG=Here you go.{NL4}Try to find the location by{NL4}watching the landscape from above.{EL}
+ENG=Here is the map.{NL4}Open it in your ship and look for{NL4}a similar landscape from above.{EL}
 
